@@ -6,14 +6,14 @@
     "preloader": {
         "enabled": true,
         "title": "React <b>Portfolio</b>",
-        "subtitle": "by Ryan Balieiro"
+        "subtitle": "by Thomas Butler"
     },
 
     "profile": {
-        "name": "Mark Choi",
+        "name": "Thomas Butler",
         "stylizedName": "<strong>Mark **Choi**</strong>",
         "logoUrl": "images/svg/logo.svg",
-        "profilePictureUrl": "images/pictures/avatar.jpg",
+        "profilePictureUrl": "images/pictures/me.jpeg",
 
         "locales": {
             "en": {"role": "Web Developer"},
