@@ -5,372 +5,51 @@
             "title_long_prefix": "Explore",
             "title_long": "My **Skill Set**"
         },
-
         "es": {
             "title": "Habilidades",
             "title_long_prefix": "Explora",
             "title_long": "Mis **Habilidades**"
         },
-
         "fr": {
             "title": "Capacités",
             "title_long_prefix": "Explorez",
             "title_long": "Mes **Compétences**"
         },
-
         "ko": {
             "title": "스킬",
             "title_long_prefix": "이것은 내",
             "title_long": "**스킬**입니다"
         }
     },
-
     "articles": [
         {
-            "id": "capabilities",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-table-columns",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
-                        },
-                        "es": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
-                        "fr": {
-                            "title": "Conception de **sites web**",
-                            "text": "Je peux donner vie à vos meilleures idées !"
-                        },
-                        "ko": {
-                            "title": "**웹사이트** 디자인",
-                            "text": "당신의 최고의 아이디어를 실현시킬 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "fr": {
-                            "title": "Gestion de **bases de données**",
-                            "text": "Je peux gérer vos données efficacement !"
-                        },
-                        "ko": {
-                            "title": "**데이터베이스** 관리",
-                            "text": "데이터를 효과적으로 처리할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-mobile-screen-button",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**App** creation",
-                            "text": "I can make creative and innovative apps!"
-                        },
-                        "es": {
-                            "title": "Creación de **aplicaciones**",
-                            "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
-                        "fr": {
-                            "title": "Création d'**applications**",
-                            "text": "Je peux créer des applications créatives et innovantes !"
-                        },
-                        "ko": {
-                            "title": "**앱** 제작",
-                            "text": "창의적이고 혁신적인 앱을 만들 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-window-restore",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "REST **APIs**",
-                            "text": "I can build API services!"
-                        },
-                        "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
-                        "fr": {
-                            "title": "APIs **REST**",
-                            "text": "Je peux créer des services API !"
-                        },
-                        "ko": {
-                            "title": "REST **API**",
-                            "text": "API 서비스를 구축할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
-                        }
-                    }
-                }
-            ]
-
-        },
-
-        {
-            "id": "backend_programming",
+            "id": "technical_proficiencies",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Backend"}
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-node-js",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/15/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Node.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Java 11+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "08/30/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "10/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MySQL",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-docker",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "04/15/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "07/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "value": 50,
-                    "dates": {
-                        "start": "05/20/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-git",
-                        "faColors": {"bg": "#F05032", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Git",
-                            "info": null
-                        }
-                    }
+                "en": {
+                    "title": "Technical Proficiencies",
+                    "info": "A comprehensive overview of my technical expertise and proficiencies."
                 }
-            ]
-        },
-
-        {
-            "id": "front_end_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Frontend"}
             },
-
             "items": [
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-html5",
-                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#E34F26",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 100,
+                    "value": 95,
                     "dates": {
-                        "start": "09/01/2018"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
                             "title": "HTML5",
-                            "info": null
+                            "info": "Adept at creating semantic, accessible, and SEO-friendly markup. I've been crafting websites with clean, valid HTML5 for the past 3 years, ensuring optimal structure and performance."
                         }
                     }
                 },
@@ -378,16 +57,19 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-css3",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                        "faColors": {
+                            "bg": "#1572B6",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 65,
+                    "value": 90,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
                             "title": "CSS3",
-                            "info": null
+                            "info": "Skilled in responsive design, animations, and CSS preprocessors like SASS. I've spent 3 years honing my CSS skills, creating visually appealing and responsive designs that adapt seamlessly to any device."
                         }
                     }
                 },
@@ -395,209 +77,1056 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "info": null
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
                         }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
                     "value": 95,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "React",
-                            "info": null
+                            "title": "JavaScript",
+                            "info": "Proficient in ES6+, asynchronous programming, and popular frameworks like React. With 3 years of JavaScript experience, I'm comfortable building interactive and dynamic web applications."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
+                        "fa": "fa-brands fa-python",
+                        "faColors": {
+                            "bg": "#306998",
+                            "fill": "#EEE"
+                        }
                     },
-                    "value": 40,
+                    "value": 85,
                     "dates": {
-                        "start": "08/30/2023"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Vue.js",
-                            "info": null
+                            "title": "Python",
+                            "info": "Experienced in data analysis, web scraping, and frameworks like Django and Flask. I've been using Python for 3 years to develop a variety of applications, from data analysis scripts to web applications."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                        "fa": "fa-brands fa-git",
+                        "faColors": {
+                            "bg": "#F05032",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 98,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": "Adept at version control, branching strategies, and collaborative development workflows. I've been using Git for 3 years to manage code and collaborate with other developers."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {
+                            "bg": "#339933",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": "Capable of building scalable backend services and RESTful APIs with Express.js. I've been using Node.js for 3 years to build backend services and APIs."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-microsoft",
+                        "faColors": {
+                            "bg": "#00A4EF",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C# & .NET",
+                            "info": "Proficient in developing robust backend systems and desktop applications. I've been using C# and .NET for 3 years to build a variety of applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-network-wired",
+                        "faColors": {
+                            "bg": "#000000",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Networking",
+                            "info": "Well-versed in network protocols, subnetting, and system configuration. I've been working with networks for 3 years, configuring systems and troubleshooting issues."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-cloud-upload-alt",
+                        "faColors": {
+                            "bg": "#4285F4",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Deployment",
+                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brain",
+                        "faColors": {
+                            "bg": "#9C27B0",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI & Machine Learning",
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI model deployment. I've been exploring AI and machine learning for 3 years, experimenting with different algorithms and models."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-comment-dots",
+                        "faColors": {
+                            "bg": "#03A9F4",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Prompting",
+                            "info": "Skilled in crafting effective prompts for large language models like GPT and Claude. I've been crafting prompts for 3 years, learning how to get the best results from these models."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-image",
+                        "faColors": {
+                            "bg": "#795548",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MidJourney",
+                            "info": "Experienced in leveraging AI for generating unique and captivating visual assets. I've been using MidJourney for 3 years to create a variety of images and designs."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-gamepad",
+                        "faColors": {
+                            "bg": "#607D8B",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Game Development",
+                            "info": "Proficient with Unity and Unreal Engine for creating immersive gaming experiences. I've been developing games for 3 years, using both Unity and Unreal Engine."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-database",
+                        "faColors": {
+                            "bg": "#2196F3",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": 90,
                     "dates": {
-                        "start": "02/10/2021"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Bootstrap",
-                            "info": null
+                            "title": "Database Management",
+                            "info": "Skilled in SQL, database design, and optimisation techniques. I've been managing databases for 3 years, designing and optimising them for performance."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-exchange-alt",
+                        "faColors": {
+                            "bg": "#FF9800",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "API Development",
+                            "info": "Experienced in designing and implementing RESTful and GraphQL APIs. I've been developing APIs for 3 years, using both REST and GraphQL."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-video",
+                        "faColors": {
+                            "bg": "#9E9E9E",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Runway ML",
+                            "info": "Experienced in generating custom AI video assets. I've been using Runway ML to create unique video content."
                         }
                     }
                 }
             ]
         },
-
         {
-            "id": "languages",
+            "id": "professional_services",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
+                "en": {
+                    "title": "Professional Services",
+                    "info": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
+                }
             },
-
             "items": [
                 {
                     "icon": {
-                        "img": "images/flags/uk.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "img": null,
+                        "fa": "fa-laptop-code",
+                        "faColors": {
+                            "bg": "#00BCD4",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
-                            "title": "English",
-                            "info": "Native speaker with excellent communication and writing skills.",
-                            "tags": ["Native"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
-                        },
-                        "fr": {
-                            "title": "Anglais",
-                            "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "tags": ["Natif"]
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-                            "tags": ["모국어"]
+                            "title": "Website Development",
+                            "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         }
                     }
                 },
-
                 {
                     "icon": {
-                        "img": "images/flags/fr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "img": null,
+                        "fa": "fa-robot",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
-                            "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
-                            "tags": ["Fluent"]
-                        },
-                        "es": {
-                            "title": "Francés",
-                            "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
-                        },
-                        "fr": {
-                            "title": "Français",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
-                        },
-                        "ko": {
-                            "title": "프랑스어",
-                            "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
-                            "tags": ["유창"]
+                            "title": "AI Integration",
+                            "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         }
                     }
                 },
-
                 {
                     "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "img": null,
+                        "fa": "fa-mobile-alt",
+                        "faColors": {
+                            "bg": "#3F51B5",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "tags": ["중급"]
+                            "title": "Mobile Applications",
+                            "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         }
                     }
                 },
-
                 {
                     "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
+                        "img": null,
+                        "fa": "fa-gamepad",
+                        "faColors": {
+                            "bg": "#795548",
+                            "fill": "#EEE"
+                        }
                     },
                     "value": null,
-                    "dates": { "start": null },
+                    "dates": {
+                        "start": null
+                    },
                     "locales": {
                         "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
+                            "title": "Game Development",
+                            "info": "2D and 3D game development for mobile, web, and desktop platforms. I bring your game ideas to life with immersive and engaging gameplay."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-palette",
+                        "faColors": {
+                            "bg": "#9C27B0",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Digital Design",
+                            "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-search",
+                        "faColors": {
+                            "bg": "#FF5722",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SEO Services",
+                            "info": "Website optimisation and digital marketing to increase your online presence. I help you rank higher in search results and attract more organic traffic."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-lightbulb",
+                        "faColors": {
+                            "bg": "#FFC107",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tech Consultation",
+                            "info": "Professional advice and training for your technical projects and team. I provide expert guidance to help you make informed decisions and achieve your goals."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-server",
+                        "faColors": {
+                            "bg": "#607D8B",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Hosting Services",
+                            "info": "Secure, reliable website hosting with ongoing technical support. I ensure your website is always online and performing at its best."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-tools",
+                        "faColors": {
+                            "bg": "#795548",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Custom Projects",
+                            "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "core_expertise",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "--| Core Expertise |--"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-code",
+                        "faColors": {
+                            "bg": "#009688",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full-Stack Development",
+                            "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-robot",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Integration",
+                            "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-paint-brush",
+                        "faColors": {
+                            "bg": "#673AB7",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "UI/UX Design",
+                            "info": "Creating intuitive and engaging user experiences with modern design principles. I design interfaces that are both beautiful and easy to use."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-python",
+                        "faColors": {
+                            "bg": "#FFEB3B",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python Development",
+                            "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-database",
+                        "faColors": {
+                            "bg": "#3F51B5",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Database Management",
+                            "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "advanced_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Advanced Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5/CSS3",
+                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript React Node.js",
+                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C#/.NET",
+                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind HubSpot/HUBL WordPress/PHP",
+                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IOS/Web Apps",
+                            "info": "Capable of developing applications for both iOS and web platforms."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Integration",
+                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ai_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "AI Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DeepSeek ChatGPT Claude Midjourney",
+                            "info": "Experienced in using various AI platforms for different purposes."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GPT Creation Chatbots ML AI LLM Models",
+                            "info": "Knowledgeable in creating and deploying various AI models and chatbots."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Solutions API",
+                            "info": "Capable of developing AI-powered solutions and integrating them with APIs."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "design_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "UI/UX Design Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Figma Adobe XD",
+                            "info": "Proficient in using industry-standard design tools for UI/UX design."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mobile First Wireframes",
+                            "info": "Experienced in designing mobile-first interfaces and creating wireframes."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Galileo Pen & Paper",
+                            "info": "Skilled in using traditional methods for brainstorming and prototyping."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "python_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Python Development Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Django Flask",
+                            "info": "Proficient in using popular Python frameworks for web development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Analysis",
+                            "info": "Experienced in using Python for data analysis and visualisation."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PyGame PyScript",
+                            "info": "Skilled in using Python for game development and scripting."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Anaconda TensorFlow PyTorch MatPlotLib",
+                            "info": "Knowledgeable in using various Python libraries for scientific computing and machine learning."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "database_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Database Management Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB PostgreSQL MySQL Oracle Supabase",
+                            "info": "Proficient in managing various database systems."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Excel",
+                            "info": "Skilled in using Excel for data analysis and management."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cloud_skills",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Cloud Computing Skills"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AWS Azure Docker IIS Cisco Bamboo",
+                            "info": "Experienced in using various cloud platforms and tools."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cloud Solutions",
+                            "info": "Capable of developing and managing cloud-based solutions."
                         }
                     }
                 }
