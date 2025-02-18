@@ -6,21 +6,18 @@
             "title_long_prefix": "Take a look at my",
             "title_long": "Recent **Updates**"
         },
-
         "es": {
             "title": "Vida Reciente",
             "title_menu": "Actualizaciones",
             "title_long_prefix": "Consulta mis",
             "title_long": "Actualizaciones **Recientes**"
         },
-
         "fr": {
             "title": "Vie Récente",
             "title_menu": "Mises à Jour",
             "title_long_prefix": "Découvrez mes",
             "title_long": "Dernières **Mises à Jour**"
         },
-
         "ko": {
             "title": "최근의 삶",
             "title_menu": "업데이트",
@@ -28,62 +25,110 @@
             "title_long": "**업데이트**를 확인해 보세요"
         }
     },
-
     "articles": [
         {
             "id": "fun_facts",
             "component": "ArticleServices",
             "config": {},
             "locales": {},
-
             "items": [
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-tablet-screen-button",
+                        "fa": "fa-solid fa-coffee",
                         "faColors": null
                     },
                     "locales": {
                         "en": {
-                            "title": "03",
-                            "info": "Apps published"
+                            "title": "10,000+",
+                            "info": "coffees drank"
                         },
                         "es": {
-                            "title": "03",
-                            "info": "Aplicaciones publicadas"
+                            "title": "10,000",
+                            "info": "cafés consumidos"
                         },
                         "fr": {
-                            "title": "03",
-                            "info": "Applications publiées"
+                            "title": "10,000",
+                            "info": "cafés bus"
                         },
                         "ko": {
-                            "title": "03",
-                            "info": "출시된 앱"
+                            "title": "10,000",
+                            "info": "마신 커피"
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-star",
+                        "fa": "fa-solid fa-robot",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "150+",
+                            "info": "AI models built"
+                        },
+                        "es": {
+                            "title": "150",
+                            "info": "modelos de IA construidos"
+                        },
+                        "fr": {
+                            "title": "150",
+                            "info": "modèles IA construits"
+                        },
+                        "ko": {
+                            "title": "150",
+                            "info": "제작한 AI 모델"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-brain",
                         "faColors": null
                     },
                     "locales": {
                         "en": {
                             "title": "100+",
-                            "info": "Stars on GitHub"
+                            "info": "custom GPTs built"
                         },
                         "es": {
                             "title": "100+",
-                            "info": "Estrellas en GitHub"
+                            "info": "GPTs personalizados creados"
                         },
                         "fr": {
                             "title": "100+",
-                            "info": "Étoiles sur GitHub"
+                            "info": "GPTs personnalisés construits"
                         },
                         "ko": {
                             "title": "100+",
-                            "info": "GitHub 별"
+                            "info": "커스텀 GPT 제작"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cubes",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "4000+",
+                            "info": "AI asset creations"
+                        },
+                        "es": {
+                            "title": "4000",
+                            "info": "creaciones de recursos AI"
+                        },
+                        "fr": {
+                            "title": "4000",
+                            "info": "créations d'actifs IA"
+                        },
+                        "ko": {
+                            "title": "4000",
+                            "info": "AI 에셋 생성"
                         }
                     }
                 },
@@ -95,20 +140,45 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "12",
-                            "info": "Countries visited"
+                            "title": "36",
+                            "info": "countries visited"
                         },
                         "es": {
-                            "title": "12",
-                            "info": "Países visitados"
+                            "title": "36",
+                            "info": "países visitados"
                         },
                         "fr": {
-                            "title": "12",
-                            "info": "Pays visités"
+                            "title": "36",
+                            "info": "pays visités"
                         },
                         "ko": {
-                            "title": "12",
+                            "title": "36",
                             "info": "방문한 나라"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "6",
+                            "info": "websites published"
+                        },
+                        "es": {
+                            "title": "6",
+                            "info": "sitios web publicados"
+                        },
+                        "fr": {
+                            "title": "6",
+                            "info": "sites web publiés"
+                        },
+                        "ko": {
+                            "title": "6",
+                            "info": "웹사이트 공개"
                         }
                     }
                 },
@@ -120,168 +190,83 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "07",
-                            "info": "Open-source projects"
+                            "title": "2",
+                            "info": "open source projects"
                         },
                         "es": {
-                            "title": "07",
-                            "info": "Proyectos de código abierto"
+                            "title": "2",
+                            "info": "proyectos de código abierto"
                         },
                         "fr": {
-                            "title": "07",
-                            "info": "Projets open-source"
+                            "title": "2",
+                            "info": "projets open source"
                         },
                         "ko": {
-                            "title": "07",
+                            "title": "2",
                             "info": "오픈 소스 프로젝트"
                         }
                     }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-coffee",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "20,000",
-                            "info": "Coffees consumed"
-                        },
-                        "es": {
-                            "title": "20,000",
-                            "info": "Cafés consumidos"
-                        },
-                        "fr": {
-                            "title": "20,000",
-                            "info": "Cafés consommés"
-                        },
-                        "ko": {
-                            "title": "20,000",
-                            "info": "마신 커피"
-                        }
-                    }
                 }
-
             ]
         },
-
         {
             "id": "updates",
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Quick **Facts**" },
-                "es": { "title": "Feed de **Noticias**" },
-                "fr": { "title": "Fil d'**Actualités**" },
-                "ko": { "title": "**뉴스** 피드" }
+                "en": { "title": "Updates" },
+                "es": { "title": "Actualizaciones" },
+                "fr": { "title": "Mises à Jour" },
+                "ko": { "title": "업데이트" }
             },
-
             "items": [
                 {
                     "dates": {
-                        "start": "09/01/2022",
+                        "start": "01/01/2023",
                         "end": null
                     },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Relocated to **California!**",
-                            "text": "Successfully transitioned to California to explore new career opportunities in the tech industry, leveraging the vibrant local ecosystem to enhance my professional growth."
+                            "title": "Created Personal Portfolio Website & Launched Matrix Arcade Games",
+                            "text": "Created Personal Portfolio Website (2023)\nLaunched Matrix Arcade Games\nCreated and founded AiTomatic (model currently in prototype)\nRevamped website\n\nCreated this website to showcase commercial projects and practice using a new tech stack. Unlike the portfolio site which was from scratch, this website is forked from - ryan github -"
                         },
                         "es": {
-                            "title": "¡Me mudé a **California!**",
-                            "text": "Transición exitosa a California para explorar nuevas oportunidades profesionales en la industria tecnológica, aprovechando el vibrante ecosistema local para mejorar mi crecimiento profesional."
+                            "title": "Created Personal Portfolio Website & Launched Matrix Arcade Games",
+                            "text": "Created Personal Portfolio Website (2023)\nLaunched Matrix Arcade Games\nCreated and founded AiTomatic (model currently in prototype)\nRevamped website\n\nCreated this website to showcase commercial projects and practice using a new tech stack. Unlike the portfolio site which was from scratch, this website is forked from - ryan github -"
                         },
                         "fr": {
-                            "title": "Déménagement en **Californie !**",
-                            "text": "Transition réussie en Californie pour explorer de nouvelles opportunités de carrière dans l'industrie technologique, tirant parti de l'écosystème local dynamique pour améliorer ma croissance professionnelle."
+                            "title": "Created Personal Portfolio Website & Launched Matrix Arcade Games",
+                            "text": "Created Personal Portfolio Website (2023)\nLaunched Matrix Arcade Games\nCreated and founded AiTomatic (model currently in prototype)\nRevamped website\n\nCreated this website to showcase commercial projects and practice using a new tech stack. Unlike the portfolio site which was from scratch, this website is forked from - ryan github -"
                         },
                         "ko": {
-                            "title": "**캘리포니아로 이사했습니다!**",
-                            "text": "기술 산업의 새로운 직업 기회를 탐색하기 위해 캘리포니아로 성공적으로 이주하였으며, 지역 생태계를 활용하여 전문성을 향상시키고 있습니다."
+                            "title": "Created Personal Portfolio Website & Launched Matrix Arcade Games",
+                            "text": "Created Personal Portfolio Website (2023)\nLaunched Matrix Arcade Games\nCreated and founded AiTomatic (model currently in prototype)\nRevamped website\n\nCreated this website to showcase commercial projects and practice using a new tech stack. Unlike the portfolio site which was from scratch, this website is forked from - ryan github -"
                         }
                     }
                 },
-
                 {
                     "dates": {
-                        "start": "05/12/2023",
-                        "end": null
-                    },
-                    "links": [
-                        {"string": "see_more", "href": "https://youtube.com"}
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "Started my own **YouTube channel**!",
-                            "text": "Launched a YouTube channel focused on programming tutorials, sharing insights and techniques on various technologies, and engaging with a community of aspiring developers."
-                        },
-                        "es": {
-                            "title": "¡Inicié mi propio **canal de YouTube!**",
-                            "text": "Lancé un canal de YouTube enfocado en tutoriales de programación, compartiendo ideas y técnicas sobre diversas tecnologías, y participando en una comunidad de desarrolladores aspirantes."
-                        },
-                        "fr": {
-                            "title": "Création de ma propre **chaîne YouTube** !",
-                            "text": "Lancement d'une chaîne YouTube axée sur des tutoriels de programmation, partageant des idées et des techniques sur diverses technologies, et interagissant avec une communauté de développeurs en herbe."
-                        },
-                        "ko": {
-                            "title": "자신의 **유튜브 채널을** 시작했습니다!",
-                            "text": "프로그래밍 튜토리얼에 초점을 맞춘 유튜브 채널을 시작하여 다양한 기술에 대한 통찰력과 기법을 공유하고, 개발자 지망생 커뮤니티와 소통하고 있습니다."
-                        }
-                    }
-                },
-
-                {
-                    "dates": {
-                        "start": "11/05/2024",
+                        "start": "02/18/2025",
                         "end": null
                     },
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Working on a new **mobile project**!",
-                            "text": "Currently developing a mobile application that integrates innovative features and user-friendly design, aimed at enhancing user experience and addressing specific market needs."
+                            "title": "Future Updates",
+                            "text": "Design / tech stack overhaul for personal portfolio\nUpdating commercial site with more content\nBugfixes and extra games + mobile mode for Matrix Arcade\nAiTomatic model creator full demo with DeepSeek AI at its core"
                         },
                         "es": {
-                            "title": "¡Trabajando en un nuevo **proyecto móvil**!",
-                            "text": "Actualmente desarrollando una aplicación móvil que integra características innovadoras y un diseño fácil de usar, con el objetivo de mejorar la experiencia del usuario y atender necesidades específicas del mercado."
+                            "title": "Future Updates",
+                            "text": "Design / tech stack overhaul for personal portfolio\nUpdating commercial site with more content\nBugfixes and extra games + mobile mode for Matrix Arcade\nAiTomatic model creator full demo with DeepSeek AI at its core"
                         },
                         "fr": {
-                            "title": "Travail sur un nouveau **projet mobile** !",
-                            "text": "Actuellement en train de développer une application mobile qui intègre des fonctionnalités innovantes et un design convivial, visant à améliorer l'expérience utilisateur et à répondre à des besoins spécifiques du marché."
+                            "title": "Future Updates",
+                            "text": "Design / tech stack overhaul for personal portfolio\nUpdating commercial site with more content\nBugfixes and extra games + mobile mode for Matrix Arcade\nAiTomatic model creator full demo with DeepSeek AI at its core"
                         },
                         "ko": {
-                            "title": "새 **모바일 프로젝트** 작업 중!",
-                            "text": "혁신적인 기능과 사용자 친화적인 디자인을 통합한 모바일 애플리케이션을 현재 개발 중이며, 사용자 경험을 향상하고 특정 시장의 요구를 충족하는 것을 목표로 하고 있습니다."
-                        }
-                    }
-                },
-
-                {
-                    "dates": {
-                        "start": "12/12/2024",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_more", "href": "https://thomasjbutler.me" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "Launched my **personal website**!",
-                            "text": "Created a personal website to showcase my projects, share my journey in programming, and provide resources for fellow developers."
-                        },
-                        "es": {
-                            "title": "¡Lancé mi **sitio web personal**!",
-                            "text": "Creé un sitio web personal para mostrar mis proyectos, compartir mi trayectoria en programación y proporcionar recursos para otros desarrolladores."
-                        },
-                        "fr": {
-                            "title": "Lancement de mon **site web personnel** !",
-                            "text": "Création d'un site web personnel pour présenter mes projets, partager mon parcours en programmation et fournir des ressources pour d'autres développeurs."
-                        },
-                        "ko": {
-                            "title": "**개인 웹사이트**를 시작했습니다!",
-                            "text": "내 프로젝트를 소개하고 프로그래밍 여정을 공유하며 다른 개발자들을 위한 리소스를 제공하기 위해 개인 웹사이트를 만들었습니다."
+                            "title": "Future Updates",
+                            "text": "Design / tech stack overhaul for personal portfolio\nUpdating commercial site with more content\nBugfixes and extra games + mobile mode for Matrix Arcade\nAiTomatic model creator full demo with DeepSeek AI at its core"
                         }
                     }
                 }
