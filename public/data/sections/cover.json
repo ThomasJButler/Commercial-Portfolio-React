@@ -57,6 +57,17 @@
                     }
                 },
                 {
+                    "value": "Personal Portfolio",
+                    "links": [
+                        {"href": "https://thomasjbutler.github.io"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
                     "value": "@thomasjbutler",
                     "links": [
                         {"href": "https://github.com/thomasjbutler"}
