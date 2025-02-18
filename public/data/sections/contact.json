@@ -55,9 +55,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+44 7903352059",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:+44 7903352059"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "dev@thomasjbutler.me",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:dev@thomasjbutler.me"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +89,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@thomasjbutleruk",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/thomasbutleruk/"}
                     ],
                     "icon": {
                         "img": null,
@@ -104,39 +104,39 @@
                 },
 
                 {
-                    "value": "Mark Choi",
+                    "value": "Thomas Butler",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://github.com/ThomasJButler"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-facebook",
+                        "fa": "fa-brands fa-github",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Facebook"}
+                        "en": {"title": "GitHub"}
                     }
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@thomasbutler",
                     "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://codepen.io/thomasbutler"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-instagram",
+                        "fa": "fa-brands fa-codepen",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Instagram"}
+                        "en": {"title": "CodePen"}
                     }
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "Prototype",
                     "links": [
-                        {"href": "https://tiktok.com"}
+                        {"href": "https://aitomatic.co.uk/"}
                     ],
                     "icon": {
                         "img": null,
@@ -144,7 +144,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "TikTok"}
+                        "en": {"title": "AiTomatic"}
                     }
                 }
             ]

@@ -1,0 +1,162 @@
+{
+    "locales": {
+        "en": {
+            "title": "Personal Portfolio",
+            "title_menu": "Personal Portfolio",
+            "title_long_prefix": "Showcasing",
+            "title_long": "My Journey in Web Development So Far"
+        },
+        "es": {
+            "title": "Portafolio Personal",
+            "title_menu": "Portafolio",
+            "title_long_prefix": "Mostrando",
+            "title_long": "Mi viaje de 1 año en desarrollo web"
+        },
+        "fr": {
+            "title": "Portfolio Personnel",
+            "title_menu": "Portfolio",
+            "title_long_prefix": "Présentation de",
+            "title_long": "Mon année de développement web"
+        },
+        "ko": {
+            "title": "개인 포트폴리오",
+            "title_menu": "포트폴리오",
+            "title_long_prefix": "보여드립니다",
+            "title_long": "1년간의 웹 개발 여정"
+        }
+    },
+    "articles": [
+        {
+            "id": "personal_portfolio",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "My Personal Portfolio",
+                    "text": "Welcome to my personal portfolio, built from scratch over a year using HTML, CSS, and JavaScript. Here you'll experience my very own showcase featuring The Matrix Arcade – an immersive mini games arcade with a Matrix theme – and AiTomatic, a prototype platform for creating AI models. This portfolio reflects my dedication to learning, design, and development.",
+                    "info": "Journey of Growth So Far",
+                    "advert": "I invite you to explore my work. Click the button below to enter personal portfolio."
+                },
+                "es": {
+                    "title": "Mi Portafolio Personal",
+                    "text": "¡Bienvenido a mi portafolio personal, construido desde cero durante un año con HTML, CSS y JavaScript! Aquí encontrarás una muestra de mi trabajo, que incluye The Matrix Arcade – una arcade de minijuegos con temática Matrix – y AiTomatic, un prototipo para la creación de modelos de IA. Este portafolio refleja mi dedicación al aprendizaje, al diseño y al desarrollo.",
+                    "info": "Un Viaje de 1 Año de Crecimiento",
+                    "advert": "Te invito a explorar mi trabajo. Haz clic en el botón a continuación para entrar al portafolio personal."
+                },
+                "fr": {
+                    "title": "Mon Portefeuille Personnel",
+                    "text": "Bienvenue dans mon portefeuille personnel, réalisé de A à Z pendant une année avec HTML, CSS et JavaScript ! Découvrez ma vitrine incluant The Matrix Arcade – une arcade de mini-jeux sur le thème Matrix – et AiTomatic, un prototype de plateforme de création de modèles IA. Ce portfolio reflète ma passion pour l'apprentissage, le design et le développement.",
+                    "info": "Une Année de Croissance",
+                    "advert": "Je vous invite à découvrir mon travail. Cliquez sur le bouton ci-dessous pour accéder au portfolio personnel."
+                },
+                "ko": {
+                    "title": "개인 포트폴리오",
+                    "text": "HTML, CSS, JavaScript로 1년 동안 직접 만든 개인 포트폴리오에 오신 것을 환영합니다! 이 포트폴리오에서는 매트릭스 테마의 미니 게임 아케이드인 The Matrix Arcade와 AI 모델 제작 플랫폼 프로토타입인 AiTomatic을 만나보실 수 있습니다. 이 작업은 학습과 개발에 대한 제 열정을 반영합니다.",
+                    "info": "1년간의 성장 여정",
+                    "advert": "작업물을 살펴보세요. 아래 버튼을 눌러 개인 포트폴리오로 이동하세요."
+                }
+            },
+            "items": [
+                {
+                    "dates": {
+                        "start": "01/01/2024",
+                        "end": null
+                    },
+                    "links": [
+                        {
+                            "string": "Personal Portfolio",
+                            "href": "https://thomasjbutler.github.io/",
+                            "icon": "fa-solid fa-user"
+                        },
+                        {
+                            "string": "LinkedIn",
+                            "href": "https://www.linkedin.com/in/yourprofile",
+                            "icon": "fa-brands fa-linkedin"
+                        },
+                        {
+                            "string": "GitHub",
+                            "href": "https://github.com/yourprofile",
+                            "icon": "fa-brands fa-github"
+                        },
+                        {
+                            "string": "CodePen",
+                            "href": "https://codepen.io/yourprofile",
+                            "icon": "fa-brands fa-codepen"
+                        }
+                    ],
+                    "screenshots": [
+                        "/images/screenshots/personal1.jpg",
+                        "/images/screenshots/personal2.jpg",
+                        "/images/screenshots/personal3.jpg",
+                        "/images/screenshots/personal4.jpg",
+                        "/images/screenshots/personal5.jpg"
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "Explore My Work",
+                            "info": "The Matrix Arcade & AiTomatic",
+                            "text": "Experience the Matrix-themed mini games arcade and explore the AiTomatic platform prototype, both developed during my year-long journey in web development."
+                        },
+                        "es": {
+                            "title": "Explora Mi Trabajo",
+                            "info": "The Matrix Arcade & AiTomatic",
+                            "text": "Experimenta la arcade de minijuegos con temática Matrix y explora el prototipo de la plataforma AiTomatic, desarrollados durante mi viaje de un año en desarrollo web."
+                        },
+                        "fr": {
+                            "title": "Découvrez Mon Travail",
+                            "info": "The Matrix Arcade & AiTomatic",
+                            "text": "Découvrez l'arcade de mini-jeux sur le thème Matrix et explorez le prototype de la plateforme AiTomatic, développés lors de mon année de développement web."
+                        },
+                        "ko": {
+                            "title": "작업 살펴보기",
+                            "info": "The Matrix Arcade & AiTomatic",
+                            "text": "매트릭스 테마의 미니 게임 아케이드를 체험하고, 1년간의 개발 여정에서 탄생한 AiTomatic 플랫폼의 프로토타입도 만나보세요."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "version_timetravel",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Version Timetravel",
+                    "text": "Check different versions of the project over time.",
+                    "info": "Explore historical versions",
+                    "advert": "Visit Version Timetravel."
+                },
+                "es": {
+                    "title": "Version Timetravel",
+                    "text": "Consulta las diferentes versiones del proyecto a lo largo del tiempo.",
+                    "info": "Explora versiones históricas",
+                    "advert": "Visita Version Timetravel."
+                },
+                "fr": {
+                    "title": "Version Timetravel",
+                    "text": "Consultez les différentes versions du projet au fil du temps.",
+                    "info": "Explorez les versions historiques",
+                    "advert": "Visitez Version Timetravel."
+                },
+                "ko": {
+                    "title": "버전 타임트래블",
+                    "text": "시간에 따른 프로젝트의 다양한 버전을 확인하세요.",
+                    "info": "역사적 버전 탐색",
+                    "advert": "버전 타임트래블 방문하기."
+                }
+            },
+            "items": [
+                {
+                    "links": [
+                        {
+                            "string": "Version Timetravel",
+                            "href": "https://uiverse.io/",
+                            "icon": "fa-solid fa-clock"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

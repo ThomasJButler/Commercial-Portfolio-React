@@ -36,10 +36,10 @@
         },
 
         {
-            "id": "achievements",
+            "id": "personal-portfolio",
             "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
+            "jsonPath": "/data/sections/personal-portfolio.json",
+            "faIcon": "fa-solid fa-user"
         },
 
         {
