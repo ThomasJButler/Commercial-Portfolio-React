@@ -104,17 +104,17 @@
                 },
 
                 {
-                    "value": "Mark Choi",
+                    "value": "Thomas Butler",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://github.com/ThomasJButler"}
                     ],
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-facebook",
+                        "fa": "fa-brands fa-github",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "Facebook"}
+                        "en": {"title": "GitHub"}
                     }
                 },
 

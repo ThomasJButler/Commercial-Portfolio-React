@@ -260,11 +260,11 @@
 
                 {
                     "dates": {
-                        "start": "12/12/2024",
+                        "start": "17/02/2025",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_more", "href": "https://ryanbalieiro.github.io/react-portfolio-template/" }
+                        { "string": "see_more", "href": "https://thomasjbutler.me" }
                     ],
                     "locales": {
                         "en": {

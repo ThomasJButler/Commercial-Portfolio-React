@@ -476,7 +476,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/flags/en.png",
+                        "img": "images/flags/uk.png",
                         "fa": null,
                         "faColors": { "bg": null, "fill": null }
                     },
