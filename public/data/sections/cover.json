@@ -68,7 +68,7 @@
                     }
                 },
                 {
-                    "value": "@thomasjbutler",
+                    "value": "GitHub",
                     "links": [
                         {"href": "https://github.com/thomasjbutler"}
                     ],
@@ -115,7 +115,7 @@
             "component": "ArticleTestimonials",
             "config": {},
             "locales": {
-                "en": {"title": "What Client's **might say**"},
+                "en": {"title": "What clients **might say**"},
                 "es": {"title": "Testimonios de **clientes**"},
                 "fr": {"title": "Témoignages de **clients**"},
                 "ko": {"title": "**고객** 추천사"}

@@ -5,18 +5,18 @@
 
     "preloader": {
         "enabled": true,
-        "title": "React <b>Portfolio</b>",
+        "title": "<b> Commercial React Portfolio</b>",
         "subtitle": "by Thomas Butler"
     },
 
     "profile": {
         "name": "Thomas Butler",
-        "stylizedName": "<strong>Mark **Choi**</strong>",
+        "stylizedName": "<strong>Thomas **Butler**</strong>",
         "logoUrl": "images/svg/logo.svg",
         "profilePictureUrl": "images/pictures/me.jpeg",
 
         "locales": {
-            "en": {"role": "Web Developer"},
+            "en": {"role": "Full-Stack Web Developer"},
             "es": {"role": "Desarrollador Web"},
             "fr": {"role": "Développeur Web"},
             "ko": {"role": "웹 개발자"}
