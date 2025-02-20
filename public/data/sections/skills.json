@@ -162,14 +162,14 @@
                             "fill": "#EEE"
                         }
                     },
-                    "value": 85,
+                    "value": 75,
                     "dates": {
                         "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Game Development",
-                            "info": "Proficient with Unity and Unreal Engine for creating immersive gaming experiences."
+                            "title": "Web3",
+                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
                         }
                     }
                 }
@@ -272,7 +272,7 @@
                         "img": null,
                         "fa": "fa-gamepad",
                         "faColors": {
-                            "bg": "#795548",
+                            "bg": "#FFFF00",
                             "fill": "#EEE"
                         }
                     },
@@ -282,8 +282,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Game Development",
-                            "info": "2D and 3D game development for mobile, web, and desktop platforms. I bring your game ideas to life with immersive and engaging gameplay."
+                            "title": "Web3 & Blockchain Solutions",
+                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         }
                     }
                 },

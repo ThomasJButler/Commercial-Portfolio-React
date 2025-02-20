@@ -35,12 +35,6 @@
             "faIcon": "fa-solid fa-folder-open"
         },
 
-        {
-            "id": "personal-portfolio",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/personal-portfolio.json",
-            "faIcon": "fa-solid fa-user"
-        },
 
         {
             "id": "updates",
