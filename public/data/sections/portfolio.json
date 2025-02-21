@@ -57,21 +57,21 @@
       ],
       "items": [
         {
-          "id": "portfolio1",
-          "img": "images/pictures/fuelius.jpg",
-          "title": "Merseyrail",
+          "id": "msbankarena",
+          "img": "images/pictures/msbankarena.png",
+          "title": "M&S Bank Arena",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/fuelius.jpg",
+            "img": "images/pictures/msbankarena.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://merseyrail.com",
+              "href": "https://www.mandsbankarena.com/",
               "label": "Visit Site"
             },
             {
@@ -85,39 +85,35 @@
             "screenshots": {
               "modalEnabled": true,
               "aspectRatio": null,
-              "images": [
-                "images/pictures/fuelius.jpg",
-                "images/pictures/gc.png"
-              ],
+              "images": [],
               "placeholderImages": [
-                "images/pictures/fuelius.jpg",
-                "images/pictures/gc.png"
+                "images/pictures/placeholder1.png"
               ]
             }
           },
           "locales": {
             "en": {
-              "title": "Merseyrail",
-              "text": "A short project summary for Merseyrail. Click the modal to browse screenshots."
+              "title": "M&S Bank Arena",
+              "text": "Website development for M&S Bank Arena."
             }
           }
         },
         {
-          "id": "portfolio2",
-          "img": "images/pictures/fuelius.jpg",
-          "title": "Mastermover",
+          "id": "cdw",
+          "img": "images/pictures/cdw.png",
+          "title": "CDW",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/fuelius.jpg",
+            "img": "images/pictures/cdw.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://mastermover.com",
+              "href": "https://www.uk.cdw.com/",
               "label": "Visit Site"
             },
             {
@@ -130,26 +126,64 @@
             "youtubeVideo": null,
             "screenshots": {
               "modalEnabled": true,
-              "aspectRatio": "16:9",
-              "images": [
-                "images/pictures/mastermover-1.png",
-                "images/pictures/mastermover-2.png"
-              ],
+              "aspectRatio": null,
+              "images": [],
               "placeholderImages": [
-                "images/pictures/placeholder1.png",
-                "images/pictures/placeholder2.png"
+                "images/pictures/placeholder1.png"
               ]
             }
           },
           "locales": {
             "en": {
-              "title": "Mastermover",
-              "text": "A brief overview of Mastermover with modal-enabled screenshot gallery."
+              "title": "CDW",
+              "text": "Website development for CDW."
             }
           }
         },
         {
-          "id": "portfolio3",
+          "id": "accliverpool",
+          "img": "images/pictures/accliverpool.png",
+          "title": "ACC Liverpool",
+          "subtitle": "",
+          "tags": [],
+          "categoryId": "webAgency",
+          "icon": {
+            "img": "images/pictures/accliverpool.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.accliverpool.com/",
+              "label": "Visit Site"
+            },
+            {
+              "faIcon": "fa-solid fa-book",
+              "href": "https://notion.link.example",
+              "label": "Notion Write-Up"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "modalEnabled": true,
+              "aspectRatio": null,
+              "images": [],
+              "placeholderImages": [
+                "images/pictures/placeholder1.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "ACC Liverpool",
+              "text": "Website development for ACC Liverpool."
+            }
+          }
+        },
+        {
+          "id": "infotrack",
           "img": "images/pictures/infotrack.png",
           "title": "InfoTrack",
           "subtitle": "",
@@ -163,7 +197,7 @@
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://infotrack.com",
+              "href": "https://www.infotrack.co.uk/",
               "label": "Visit Site"
             },
             {
@@ -186,145 +220,14 @@
           "locales": {
             "en": {
               "title": "InfoTrack",
-              "text": "InfoTrack project summary with integrated website link and modal-enabled screens."
+              "text": "Website development for InfoTrack."
             }
           }
         },
         {
-          "id": "portfolio4",
-          "img": "images/pictures/ms-bank.png",
-          "title": "M&S Bank",
-          "subtitle": "",
-          "tags": [],
-          "categoryId": "webAgency",
-          "icon": {
-            "img": "images/pictures/ms-bank.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "links": [
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://msbank.com",
-              "label": "Visit Site"
-            },
-            {
-              "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
-              "label": "Notion Write-Up"
-            }
-          ],
-          "media": {
-            "youtubeVideo": null,
-            "screenshots": {
-              "modalEnabled": true,
-              "aspectRatio": null,
-              "images": [],
-              "placeholderImages": [
-                "images/pictures/placeholder1.png",
-                "images/pictures/placeholder2.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "M&S Bank",
-              "text": "An overview of the M&S Bank project with modal screenshots."
-            }
-          }
-        },
-        {
-          "id": "portfolio5",
-          "img": "images/pictures/emirates-old-trafford.png",
-          "title": "Emirates Old Trafford",
-          "subtitle": "",
-          "tags": [],
-          "categoryId": "webAgency",
-          "icon": {
-            "img": "images/pictures/emirates-old-trafford.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "links": [
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://emiratesoldtrafford.com",
-              "label": "Visit Site"
-            },
-            {
-              "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
-              "label": "Notion Write-Up"
-            }
-          ],
-          "media": {
-            "youtubeVideo": "https://www.youtube.com/watch?v=example",
-            "screenshots": {
-              "modalEnabled": true,
-              "aspectRatio": null,
-              "images": [],
-              "placeholderImages": [
-                "images/pictures/placeholder1.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "Emirates Old Trafford",
-              "text": "Project summary for Emirates Old Trafford with modal-enabled screenshots."
-            }
-          }
-        },
-        {
-          "id": "portfolio8",
-          "img": "images/pictures/merseyrail.png",
-          "title": "Merseyrail Duplicate 1",
-          "subtitle": "",
-          "tags": [],
-          "categoryId": "webAgency",
-          "icon": {
-            "img": "images/pictures/merseyrail.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "links": [
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://merseyrail.com",
-              "label": "Visit Site"
-            },
-            {
-              "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
-              "label": "Notion Write-Up"
-            }
-          ],
-          "media": {
-            "youtubeVideo": null,
-            "screenshots": {
-              "modalEnabled": true,
-              "aspectRatio": null,
-              "images": [
-                "images/pictures/merseyrail-1.png",
-                "images/pictures/merseyrail-2.png"
-              ],
-              "placeholderImages": [
-                "images/pictures/placeholder1.png",
-                "images/pictures/placeholder2.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "Merseyrail Duplicate 1",
-              "text": "Duplicate entry for Merseyrail to extend file length."
-            }
-          }
-        },
-        {
-          "id": "portfolio9",
+          "id": "mastermover",
           "img": "images/pictures/mastermover.png",
-          "title": "Mastermover Duplicate 1",
+          "title": "MasterMover",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
@@ -336,53 +239,7 @@
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://mastermover.com",
-              "label": "Visit Site"
-            },
-            {
-              "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
-              "label": "Notion Write-Up"
-            }
-          ],
-          "media": {
-            "youtubeVideo": null,
-            "screenshots": {
-              "modalEnabled": true,
-              "aspectRatio": "16:9",
-              "images": [
-                "images/pictures/mastermover-1.png",
-                "images/pictures/mastermover-2.png"
-              ],
-              "placeholderImages": [
-                "images/pictures/placeholder1.png",
-                "images/pictures/placeholder2.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "Mastermover Duplicate 1",
-              "text": "Duplicate entry for Mastermover to extend file length."
-            }
-          }
-        },
-        {
-          "id": "portfolio12",
-          "img": "images/pictures/infotrack.png",
-          "title": "InfoTrack Duplicate 1",
-          "subtitle": "",
-          "tags": [],
-          "categoryId": "webAgency",
-          "icon": {
-            "img": "images/pictures/infotrack.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "links": [
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://infotrack.com",
+              "href": "https://www.mastermover.com/",
               "label": "Visit Site"
             },
             {
@@ -404,27 +261,27 @@
           },
           "locales": {
             "en": {
-              "title": "InfoTrack Duplicate 1",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "MasterMover",
+              "text": "Website development for MasterMover."
             }
           }
         },
         {
-          "id": "portfolio13",
-          "img": "images/pictures/web-agency-1.png",
-          "title": "Web Agency 7",
+          "id": "merseyrail",
+          "img": "images/pictures/merseyrail.png",
+          "title": "Merseyrail",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-1.png",
+            "img": "images/pictures/merseyrail.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency7.com",
+              "href": "https://www.merseyrail.org/",
               "label": "Visit Site"
             },
             {
@@ -446,27 +303,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 7",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Merseyrail",
+              "text": "Website development for Merseyrail."
             }
           }
         },
         {
-          "id": "portfolio14",
-          "img": "images/pictures/web-agency-2.png",
-          "title": "Web Agency 8",
+          "id": "pvc",
+          "img": "images/pictures/pvc.png",
+          "title": "PvCase",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-2.png",
+            "img": "images/pictures/pvc.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency8.com",
+              "href": "https://pvcase.com/",
               "label": "Visit Site"
             },
             {
@@ -488,27 +345,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 8",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "PvCase",
+              "text": "Website development for PvCase."
             }
           }
         },
         {
-          "id": "portfolio15",
-          "img": "images/pictures/web-agency-3.png",
-          "title": "Web Agency 9",
+          "id": "premex",
+          "img": "images/pictures/premex.png",
+          "title": "Premex",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-3.png",
+            "img": "images/pictures/premex.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency9.com",
+              "href": "https://www.premex.com/",
               "label": "Visit Site"
             },
             {
@@ -530,27 +387,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 9",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Premex",
+              "text": "Website development for Premex."
             }
           }
         },
         {
-          "id": "portfolio16",
-          "img": "images/pictures/web-agency-4.png",
-          "title": "Web Agency 10",
+          "id": "fueliusinternal",
+          "img": "images/pictures/fuelius.png",
+          "title": "Fuelius Internal",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-4.png",
+            "img": "images/pictures/fuelius.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency10.com",
+              "href": "https://www.fuelius.com/",
               "label": "Visit Site"
             },
             {
@@ -572,27 +429,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 10",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Fuelius Internal",
+              "text": "Website development for Fuelius Internal."
             }
           }
         },
         {
-          "id": "portfolio17",
-          "img": "images/pictures/web-agency-5.png",
-          "title": "Web Agency 11",
+          "id": "lancashirecricket",
+          "img": "images/pictures/lancashirecricket.png",
+          "title": "Lancashire Cricket",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-5.png",
+            "img": "images/pictures/lancashirecricket.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency11.com",
+              "href": "https://lancashirecricket.co.uk/",
               "label": "Visit Site"
             },
             {
@@ -614,27 +471,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 11",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Lancashire Cricket",
+              "text": "Website development for Lancashire Cricket."
             }
           }
         },
         {
-          "id": "portfolio18",
-          "img": "images/pictures/web-agency-6.png",
-          "title": "Web Agency 12",
+          "id": "orega",
+          "img": "images/pictures/orega.png",
+          "title": "Orega",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-6.png",
+            "img": "images/pictures/orega.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency12.com",
+              "href": "https://www.orega.com/",
               "label": "Visit Site"
             },
             {
@@ -656,27 +513,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 12",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Orega",
+              "text": "Website development for Orega."
             }
           }
         },
         {
-          "id": "portfolio19",
-          "img": "images/pictures/web-agency-7.png",
-          "title": "Web Agency 13",
+          "id": "hewittfertility",
+          "img": "images/pictures/hewittfertility.png",
+          "title": "Hewitt Fertility Center",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-7.png",
+            "img": "images/pictures/hewittfertility.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency13.com",
+              "href": "https://www.hewittfertility.org.uk/",
               "label": "Visit Site"
             },
             {
@@ -698,27 +555,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 13",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "Hewitt Fertility Center",
+              "text": "Website development for Hewitt Fertility Center."
             }
           }
         },
         {
-          "id": "portfolio20",
-          "img": "images/pictures/web-agency-8.png",
-          "title": "Web Agency 14",
+          "id": "aitomatic",
+          "img": "images/pictures/aitomatic.png",
+          "title": "AiTomatic",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/web-agency-8.png",
+            "img": "images/pictures/aitomatic.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency14.com",
+              "href": "https://aitomatic.co.uk/",
               "label": "Visit Site"
             },
             {
@@ -740,27 +597,27 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 14",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "AiTomatic",
+              "text": "Website development for AiTomatic."
             }
           }
         },
         {
-          "id": "portfolio21",
-          "img": "images/pictures/web-agency-9.png",
-          "title": "Web Agency 15",
+          "id": "kcroofing",
+          "img": "images/pictures/kcroofing.png",
+          "title": "KC Roofing and Building",
           "subtitle": "",
           "tags": [],
-          "categoryId": "webAgency",
+          "categoryId": "client",
           "icon": {
-            "img": "images/pictures/web-agency-9.png",
+            "img": "images/pictures/kcroofing.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://webagency15.com",
+              "href": "https://kcroofingandbuilding.co.uk/",
               "label": "Visit Site"
             },
             {
@@ -782,8 +639,176 @@
           },
           "locales": {
             "en": {
-              "title": "Web Agency 15",
-              "text": "Another duplicate for InfoTrack to extend file length."
+              "title": "KC Roofing and Building",
+              "text": "Website for KC Roofing and Building."
+            }
+          }
+        },
+        {
+          "id": "annabelbutlerdesigns",
+          "img": "images/pictures/annabelbutlerdesigns.png",
+          "title": "Annabel Butler Designs",
+          "subtitle": "",
+          "tags": [],
+          "categoryId": "client",
+          "icon": {
+            "img": "images/pictures/annabelbutlerdesigns.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://annabelbutlerdesigns.com/",
+              "label": "Visit Site"
+            },
+            {
+              "faIcon": "fa-solid fa-book",
+              "href": "https://notion.link.example",
+              "label": "Notion Write-Up"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "modalEnabled": true,
+              "aspectRatio": null,
+              "images": [],
+              "placeholderImages": [
+                "images/pictures/placeholder1.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Annabel Butler Designs",
+              "text": "Website for Annabel Butler Designs."
+            }
+          }
+        },
+        {
+          "id": "thomasjbutlergithubio",
+          "img": "images/pictures/thomasjbutlergithubio.png",
+          "title": "Personal Portfolio",
+          "subtitle": "",
+          "tags": [],
+          "categoryId": "personal",
+          "icon": {
+            "img": "images/pictures/thomasjbutlergithubio.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://thomasjbutler.github.io/",
+              "label": "Visit Site"
+            },
+            {
+              "faIcon": "fa-solid fa-book",
+              "href": "https://notion.link.example",
+              "label": "Notion Write-Up"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "modalEnabled": true,
+              "aspectRatio": null,
+              "images": [],
+              "placeholderImages": [
+                "images/pictures/placeholder1.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Personal Portfolio",
+              "text": "Personal portfolio website."
+            }
+          }
+        },
+        {
+          "id": "thomasjbutlerme",
+          "img": "images/pictures/thomasjbutlerme.png",
+          "title": "Commercial Portfolio",
+          "subtitle": "",
+          "tags": [],
+          "categoryId": "personal",
+          "icon": {
+            "img": "images/pictures/thomasjbutlerme.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://thomasjbutler.me/",
+              "label": "Visit Site"
+            },
+            {
+              "faIcon": "fa-solid fa-book",
+              "href": "https://notion.link.example",
+              "label": "Notion Write-Up"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "modalEnabled": true,
+              "aspectRatio": null,
+              "images": [],
+              "placeholderImages": [
+                "images/pictures/placeholder1.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Commercial Portfolio",
+              "text": "Commercial portfolio website."
+            }
+          }
+        },
+        {
+          "id": "matrixarcade",
+          "img": "images/pictures/matrixarcade.png",
+          "title": "Matrix Arcade",
+          "subtitle": "",
+          "tags": [],
+          "categoryId": "personal",
+          "icon": {
+            "img": "images/pictures/matrixarcade.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://matrixarcade.uk/",
+              "label": "Visit Site"
+            },
+            {
+              "faIcon": "fa-solid fa-book",
+              "href": "https://notion.link.example",
+              "label": "Notion Write-Up"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "modalEnabled": true,
+              "aspectRatio": null,
+              "images": [],
+              "placeholderImages": [
+                "images/pictures/placeholder1.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Matrix Arcade",
+              "text": "Personal project: Matrix Arcade."
             }
           }
         }
