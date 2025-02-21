@@ -28,7 +28,7 @@
         "available": true,
 
         "locales": {
-            "en": {"message": "Available for freelance!"},
+            "en": {"message": "Available for full time work!"},
             "es": {"message": "¡Disponible para freelance!"},
             "fr": {"message": "Disponible pour freelance !"},
             "ko": {"message": "프리랜스 가능합니다!"}

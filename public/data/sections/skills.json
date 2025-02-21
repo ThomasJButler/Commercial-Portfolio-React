@@ -48,48 +48,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "HTML5",
-                            "info": "Adept at creating semantic, accessible, and SEO-friendly markup. I've been crafting websites with clean, valid HTML5 for the past 3 years, ensuring optimal structure and performance."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-css3",
-                        "faColors": {
-                            "bg": "#1572B6",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "CSS3",
-                            "info": "Skilled in responsive design, animations, and CSS preprocessors like SASS. I've spent 3 years honing my CSS skills, creating visually appealing and responsive designs that adapt seamlessly to any device."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {
-                            "bg": "#F7DF1E",
-                            "fill": "#111"
-                        }
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript",
-                            "info": "Proficient in ES6+, asynchronous programming, and popular frameworks like React. With 3 years of JavaScript experience, I'm comfortable building interactive and dynamic web applications."
+                            "title": "Web Development",
+                            "info": "Expertise in HTML5, CSS3, and JavaScript for building responsive, interactive, and visually appealing web applications."
                         }
                     }
                 },
@@ -108,8 +68,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Python",
-                            "info": "Experienced in data analysis, web scraping, and frameworks like Django and Flask. I've been using Python for 3 years to develop a variety of applications, from data analysis scripts to web applications."
+                            "title": "Programming & Backend",
+                            "info": "Proficient in Python, Node.js, and C# & .NET for developing robust backend systems and diverse applications."
                         }
                     }
                 },
@@ -128,88 +88,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Git",
-                            "info": "Adept at version control, branching strategies, and collaborative development workflows. I've been using Git for 3 years to manage code and collaborate with other developers."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-node-js",
-                        "faColors": {
-                            "bg": "#339933",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Node.js",
-                            "info": "Capable of building scalable backend services and RESTful APIs with Express.js. I've been using Node.js for 3 years to build backend services and APIs."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-microsoft",
-                        "faColors": {
-                            "bg": "#00A4EF",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 75,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "C# & .NET",
-                            "info": "Proficient in developing robust backend systems and desktop applications. I've been using C# and .NET for 3 years to build a variety of applications."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-network-wired",
-                        "faColors": {
-                            "bg": "#000000",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 70,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Networking",
-                            "info": "Well-versed in network protocols, subnetting, and system configuration. I've been working with networks for 3 years, configuring systems and troubleshooting issues."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-cloud-upload-alt",
-                        "faColors": {
-                            "bg": "#4285F4",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Deployment",
-                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                            "title": "Version Control & API",
+                            "info": "Skilled in Git and API development practices to ensure smooth collaboration and efficient delivery."
                         }
                     }
                 },
@@ -229,67 +109,7 @@
                     "locales": {
                         "en": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI model deployment. I've been exploring AI and machine learning for 3 years, experimenting with different algorithms and models."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-comment-dots",
-                        "faColors": {
-                            "bg": "#03A9F4",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 75,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AI Prompting",
-                            "info": "Skilled in crafting effective prompts for large language models like GPT and Claude. I've been crafting prompts for 3 years, learning how to get the best results from these models."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-image",
-                        "faColors": {
-                            "bg": "#795548",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 70,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MidJourney",
-                            "info": "Experienced in leveraging AI for generating unique and captivating visual assets. I've been using MidJourney for 3 years to create a variety of images and designs."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-gamepad",
-                        "faColors": {
-                            "bg": "#607D8B",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "01/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Game Development",
-                            "info": "Proficient with Unity and Unreal Engine for creating immersive gaming experiences. I've been developing games for 3 years, using both Unity and Unreal Engine."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions."
                         }
                     }
                 },
@@ -309,16 +129,57 @@
                     "locales": {
                         "en": {
                             "title": "Database Management",
-                            "info": "Skilled in SQL, database design, and optimisation techniques. I've been managing databases for 3 years, designing and optimising them for performance."
+                            "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
                         }
                     }
                 },
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-exchange-alt",
+                        "fa": "fa-image",
                         "faColors": {
-                            "bg": "#FF9800",
+                            "bg": "#795548",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 70,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Visuals",
+                            "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-gamepad",
+                        "faColors": {
+                            "bg": "#607D8B",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 75,
+                    "dates": {
+                        "start": "01/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web3",
+                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
+                        }
+                    }
+                }
+                ,
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-cloud-upload-alt",
+                        "faColors": {
+                            "bg": "#FF5722",
                             "fill": "#EEE"
                         }
                     },
@@ -328,35 +189,15 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "API Development",
-                            "info": "Experienced in designing and implementing RESTful and GraphQL APIs. I've been developing APIs for 3 years, using both REST and GraphQL."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-video",
-                        "faColors": {
-                            "bg": "#9E9E9E",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "01/01/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Runway ML",
-                            "info": "Experienced in generating custom AI video assets. I've been using Runway ML to create unique video content."
+                            "title": "Deployment",
+                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
                         }
                     }
                 }
-            ]
-        },
-        {
-            "id": "professional_services",
+    ]
+},
+{
+    "id": "professional_services",
             "component": "ArticleList",
             "config": {},
             "locales": {
@@ -431,7 +272,7 @@
                         "img": null,
                         "fa": "fa-gamepad",
                         "faColors": {
-                            "bg": "#795548",
+                            "bg": "#FFFF00",
                             "fill": "#EEE"
                         }
                     },
@@ -441,8 +282,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Game Development",
-                            "info": "2D and 3D game development for mobile, web, and desktop platforms. I bring your game ideas to life with immersive and engaging gameplay."
+                            "title": "Web3 & Blockchain Solutions",
+                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         }
                     }
                 },
@@ -463,66 +304,6 @@
                         "en": {
                             "title": "Digital Design",
                             "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-search",
-                        "faColors": {
-                            "bg": "#FF5722",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "SEO Services",
-                            "info": "Website optimisation and digital marketing to increase your online presence. I help you rank higher in search results and attract more organic traffic."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-lightbulb",
-                        "faColors": {
-                            "bg": "#FFC107",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Tech Consultation",
-                            "info": "Professional advice and training for your technical projects and team. I provide expert guidance to help you make informed decisions and achieve your goals."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-server",
-                        "faColors": {
-                            "bg": "#607D8B",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Hosting Services",
-                            "info": "Secure, reliable website hosting with ongoing technical support. I ensure your website is always online and performing at its best."
                         }
                     }
                 },
@@ -554,7 +335,7 @@
             "config": {},
             "locales": {
                 "en": {
-                    "title": "--| Core Expertise |--"
+                    "title": "Core Expertise"
                 }
             },
             "items": [
@@ -595,26 +376,6 @@
                         "en": {
                             "title": "AI Integration",
                             "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-paint-brush",
-                        "faColors": {
-                            "bg": "#673AB7",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "UI/UX Design",
-                            "info": "Creating intuitive and engaging user experiences with modern design principles. I design interfaces that are both beautiful and easy to use."
                         }
                     }
                 },
@@ -795,7 +556,9 @@
         {
             "id": "ai_skills",
             "component": "ArticleList",
-            "config": {},
+            "config": {
+                "columns": 2
+            },
             "locales": {
                 "en": {
                     "title": "AI Skills"
@@ -817,8 +580,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "DeepSeek ChatGPT Claude Midjourney",
-                            "info": "Experienced in using various AI platforms for different purposes."
+                            "title": "Data Analysis",
+                            "info": "Experienced in applying data analysis techniques to support AI projects."
                         }
                     }
                 },
@@ -837,8 +600,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "GPT Creation Chatbots ML AI LLM Models",
-                            "info": "Knowledgeable in creating and deploying various AI models and chatbots."
+                            "title": "Anaconda",
+                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
                         }
                     }
                 },
@@ -857,40 +620,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "AI Solutions API",
-                            "info": "Capable of developing AI-powered solutions and integrating them with APIs."
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": "design_skills",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {
-                    "title": "UI/UX Design Skills"
-                }
-            },
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Figma Adobe XD",
-                            "info": "Proficient in using industry-standard design tools for UI/UX design."
+                            "title": "PyTorch",
+                            "info": "Proficient in building deep learning models with PyTorch."
                         }
                     }
                 },
@@ -909,8 +640,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Mobile First Wireframes",
-                            "info": "Experienced in designing mobile-first interfaces and creating wireframes."
+                            "title": "PyGame",
+                            "info": "Skilled in game development with Python and integrating AI features."
                         }
                     }
                 },
@@ -929,8 +660,28 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Galileo Pen & Paper",
-                            "info": "Skilled in using traditional methods for brainstorming and prototyping."
+                            "title": "TensorFlow",
+                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Django & Flask",
+                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
                         }
                     }
                 }
@@ -939,33 +690,15 @@
         {
             "id": "python_skills",
             "component": "ArticleList",
-            "config": {},
+            "config": {
+                "columns": 2
+            },
             "locales": {
                 "en": {
                     "title": "Python Development Skills"
                 }
             },
             "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Django Flask",
-                            "info": "Proficient in using popular Python frameworks for web development."
-                        }
-                    }
-                },
                 {
                     "icon": {
                         "img": null,
@@ -1001,8 +734,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "PyGame PyScript",
-                            "info": "Skilled in using Python for game development and scripting."
+                            "title": "Anaconda",
+                            "info": "Experienced in using Anaconda for managing Python packages and environments."
                         }
                     }
                 },
@@ -1021,40 +754,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Anaconda TensorFlow PyTorch MatPlotLib",
-                            "info": "Knowledgeable in using various Python libraries for scientific computing and machine learning."
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": "database_skills",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {
-                    "title": "Database Management Skills"
-                }
-            },
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB PostgreSQL MySQL Oracle Supabase",
-                            "info": "Proficient in managing various database systems."
+                            "title": "PyTorch",
+                            "info": "Proficient in developing deep learning models with PyTorch."
                         }
                     }
                 },
@@ -1073,40 +774,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Excel",
-                            "info": "Skilled in using Excel for data analysis and management."
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": "cloud_skills",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {
-                    "title": "Cloud Computing Skills"
-                }
-            },
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
-                    "value": null,
-                    "dates": {
-                        "start": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AWS Azure Docker IIS Cisco Bamboo",
-                            "info": "Experienced in using various cloud platforms and tools."
+                            "title": "PyGame",
+                            "info": "Skilled in using PyGame for game development and scripting."
                         }
                     }
                 },
@@ -1125,8 +794,28 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Cloud Solutions",
-                            "info": "Capable of developing and managing cloud-based solutions."
+                            "title": "TensorFlow",
+                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Django & Flask",
+                            "info": "Proficient in using popular Python frameworks for web development."
                         }
                     }
                 }
