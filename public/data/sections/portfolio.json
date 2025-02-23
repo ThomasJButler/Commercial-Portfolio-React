@@ -19,7 +19,19 @@
       "title": "포트폴리오",
       "title_long_prefix": "이것은 내",
       "title_long": "**포트폴리오**입니다"
-    }
+    },
+    "links": [
+      {
+        "faIcon": "fa-solid fa-link",
+        "href": "https://www.notion.so/Portfolio-1b1",
+        "label": "Notion Portfolio"
+      },
+      {
+        "faIcon": "fa-solid fa-book",
+        "href": "https://notion.link.example",
+        "label": "Notion Write-Up"
+      }
+    ]
   },
   "articles": [
     {
@@ -64,7 +76,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/msbankarena.png",
+            "img": "images/pictures/gallery/mandsbank.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -76,7 +88,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de?p=1a11b94bcaea81e29c7efc78ce5e59e9&pm=c",
               "label": "Notion Write-Up"
             }
           ],
@@ -100,13 +112,13 @@
         },
         {
           "id": "cdw",
-          "img": "images/pictures/cdw.png",
+          "img": "images/pictures/gallery/cdw.png",
           "title": "CDW",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/cdw.png",
+            "img": "images/pictures/gallery/cdw.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -118,7 +130,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/CDW-Hero-Banner-Rebrand-1a11b94bcaea8199aeb7e715d1d60486?pvs=74",
               "label": "Notion Write-Up"
             }
           ],
@@ -142,13 +154,13 @@
         },
         {
           "id": "accliverpool",
-          "img": "images/pictures/accliverpool.png",
+          "img": "images/pictures/gallery/acc.png",
           "title": "ACC Liverpool",
           "subtitle": "",
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/accliverpool.png",
+            "img": "images/pictures/gallery/acc.png",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
           },
@@ -160,7 +172,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de?p=1a11b94bcaea81908f68d3626cde882f&pm=c/",
               "label": "Notion Write-Up"
             }
           ],
