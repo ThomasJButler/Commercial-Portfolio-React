@@ -114,7 +114,7 @@ function Preloader({children}) {
             {visible && (
                 <div className={`loader loader-${status === Status.ANIMATING || status === Status.SHOWN ? 'visible' : 'hidden'}`}>
                     <div className={`loader-content text-white`}>
-                        <img src={utils.resolvePath(`/images/svg/spinner.svg`)}
+                        <img src={utils.resolvePath(`/images/svg/pacman.svg`)}
                              onLoad={() => {setDidLoadSvg(true)}}
                              className={`spinner ${spinnerClass}`}
                              alt={`loader`}/>
