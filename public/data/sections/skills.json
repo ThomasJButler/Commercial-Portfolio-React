@@ -109,7 +109,7 @@
                     "locales": {
                         "en": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
                         }
                     }
                 },

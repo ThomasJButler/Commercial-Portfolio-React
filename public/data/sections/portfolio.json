@@ -23,12 +23,12 @@
     "links": [
       {
         "faIcon": "fa-solid fa-link",
-        "href": "https://www.notion.so/Portfolio-1b1",
+        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
         "label": "Notion Portfolio"
       },
       {
         "faIcon": "fa-solid fa-book",
-        "href": "https://notion.link.example",
+        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
         "label": "Notion Write-Up"
       }
     ]
@@ -49,9 +49,9 @@
           }
         },
         {
-          "id": "client",
+          "id": "freelance",
           "locales": {
-            "en": { "singular": "Client", "plural": "Clients" },
+            "en": { "singular": "Freelance", "plural": "Freelance" },
             "es": { "singular": "Cliente", "plural": "Clientes" },
             "fr": { "singular": "Client", "plural": "Clients" },
             "ko": { "singular": "클라이언트", "plural": "클라이언트들" }
@@ -76,8 +76,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/gallery/mandsbank.png",
-            "fa": "",
+            "fa": "fa-regular fa-calendar-days",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -88,7 +87,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de?p=1a11b94bcaea81e29c7efc78ce5e59e9&pm=c",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -118,8 +117,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/gallery/cdw.png",
-            "fa": "",
+            "fa": "fa-regular fa-file-code",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -130,7 +128,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://tombutler.notion.site/CDW-Hero-Banner-Rebrand-1a11b94bcaea8199aeb7e715d1d60486?pvs=74",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -160,8 +158,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/gallery/acc.png",
-            "fa": "",
+            "fa": "fa-regular fa-calendar-days",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -172,7 +169,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de?p=1a11b94bcaea81908f68d3626cde882f&pm=c/",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -202,8 +199,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/infotrack.png",
-            "fa": "",
+            "fa": "fa-solid fa-house",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -214,7 +210,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -244,8 +240,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/mastermover.png",
-            "fa": "",
+            "fa": "fa-solid fa-wrench",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -256,7 +251,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -286,8 +281,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/merseyrail.png",
-            "fa": "",
+            "fa": "fa-solid fa-train",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -298,7 +292,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -328,8 +322,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/pvc.png",
-            "fa": "",
+            "fa": "fa-solid fa-pen-ruler",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -340,7 +333,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -370,19 +363,18 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/premex.png",
-            "fa": "",
+            "fa": "fa-solid fa-paperclip",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://www.premex.com/",
+              "href": "https://www.premexservices.co.uk/",
               "label": "Visit Site"
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -412,8 +404,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/fuelius.png",
-            "fa": "",
+            "fa": "fa-solid fa-cloud",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -424,7 +415,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -454,19 +445,18 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/lancashirecricket.png",
-            "fa": "",
+            "fa": "fa-solid fa-medal",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://lancashirecricket.co.uk/",
+              "href": "https://emiratesoldtrafford.lancashirecricket.co.uk/",
               "label": "Visit Site"
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -496,8 +486,7 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/orega.png",
-            "fa": "",
+            "fa": "fa-solid fa-briefcase",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -508,7 +497,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -538,19 +527,18 @@
           "tags": [],
           "categoryId": "webAgency",
           "icon": {
-            "img": "images/pictures/hewittfertility.png",
-            "fa": "",
+            "fa": "fa-solid fa-stethoscope",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://www.hewittfertility.org.uk/",
+              "href": "https://www.thehewittfertilitycentre.org.uk/",
               "label": "Visit Site"
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -573,57 +561,14 @@
           }
         },
         {
-          "id": "aitomatic",
-          "img": "images/pictures/aitomatic.png",
-          "title": "AiTomatic",
-          "subtitle": "",
-          "tags": [],
-          "categoryId": "webAgency",
-          "icon": {
-            "img": "images/pictures/aitomatic.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "links": [
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://aitomatic.co.uk/",
-              "label": "Visit Site"
-            },
-            {
-              "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
-              "label": "Notion Write-Up"
-            }
-          ],
-          "media": {
-            "youtubeVideo": null,
-            "screenshots": {
-              "modalEnabled": true,
-              "aspectRatio": null,
-              "images": [],
-              "placeholderImages": [
-                "images/pictures/placeholder1.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "AiTomatic",
-              "text": "Website development for AiTomatic."
-            }
-          }
-        },
-        {
           "id": "kcroofing",
           "img": "images/pictures/kcroofing.png",
           "title": "KC Roofing and Building",
           "subtitle": "",
           "tags": [],
-          "categoryId": "client",
+          "categoryId": "freelance",
           "icon": {
-            "img": "images/pictures/kcroofing.png",
-            "fa": "",
+            "fa": "fa-solid fa-hammer",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -634,7 +579,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -662,10 +607,9 @@
           "title": "Annabel Butler Designs",
           "subtitle": "",
           "tags": [],
-          "categoryId": "client",
+          "categoryId": "freelance",
           "icon": {
-            "img": "images/pictures/annabelbutlerdesigns.png",
-            "fa": "",
+            "fa": "fa-solid fa-brush",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -676,7 +620,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -706,8 +650,7 @@
           "tags": [],
           "categoryId": "personal",
           "icon": {
-            "img": "images/pictures/thomasjbutlergithubio.png",
-            "fa": "",
+            "fa": "fa-solid fa-laptop",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
@@ -718,7 +661,7 @@
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -741,26 +684,25 @@
           }
         },
         {
-          "id": "thomasjbutlerme",
-          "img": "images/pictures/thomasjbutlerme.png",
-          "title": "Commercial Portfolio",
+          "id": "aitomatic",
+          "img": "images/pictures/aitomatic.png",
+          "title": "AiTomatic",
           "subtitle": "",
           "tags": [],
           "categoryId": "personal",
           "icon": {
-            "img": "images/pictures/thomasjbutlerme.png",
-            "fa": "",
+            "fa": "fa-solid fa-microchip",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://thomasjbutler.me/",
+              "href": "https://aitomatic.co.uk/",
               "label": "Visit Site"
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
@@ -777,8 +719,8 @@
           },
           "locales": {
             "en": {
-              "title": "Commercial Portfolio",
-              "text": "Commercial portfolio website."
+              "title": "AiTomatic",
+              "text": "Website development for AiTomatic."
             }
           }
         },
@@ -790,19 +732,18 @@
           "tags": [],
           "categoryId": "personal",
           "icon": {
-            "img": "images/pictures/matrixarcade.png",
-            "fa": "",
+            "fa": "fa-solid fa-gamepad",
             "faColors": { "bg": null, "fill": null }
           },
           "links": [
             {
               "faIcon": "fa-solid fa-link",
-              "href": "https://matrixarcade.uk/",
+              "href": "https://the-matrix-arcade.vercel.app/",
               "label": "Visit Site"
             },
             {
               "faIcon": "fa-solid fa-book",
-              "href": "https://notion.link.example",
+              "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
               "label": "Notion Write-Up"
             }
           ],
