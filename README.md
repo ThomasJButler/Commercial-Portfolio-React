@@ -16,7 +16,7 @@ To run this project locally:
 gh repo clone ThomasJButler/Commercial-Portfolio-React
 
 2. **Navigate to the downloaded repository:**  
-cd ThomasJButler/Commercial-Portfolio-React
+cd /Commercial-Portfolio-React
 
 3. **Install project dependencies in package-lock.json:** 
 npm install
