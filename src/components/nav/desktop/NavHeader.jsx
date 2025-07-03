@@ -6,6 +6,13 @@ import {useData} from "/src/providers/DataProvider.jsx"
 import ImageView from "/src/components/generic/ImageView.jsx"
 import StatusBadge from "/src/components/generic/StatusBadge.jsx"
 
+/**
+ * Renders the navigation header with profile picture, status badge, logo, stylized name, and role information.
+ * 
+ * @param {Object} props
+ * @param {boolean} props.shrink - If true, renders the header in a compact style.
+ * @returns {JSX.Element} The navigation header component.
+ */
 function NavHeader({ shrink }) {
     const utils = useUtils()
     const {getTranslation} = useLanguage()
