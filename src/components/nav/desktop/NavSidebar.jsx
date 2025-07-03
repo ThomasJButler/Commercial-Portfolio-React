@@ -13,6 +13,7 @@ import {NavSidebarGroup, NavSidebarGroupItem} from "/src/components/nav/desktop/
 import ThemePicker from "/src/components/widgets/ThemePicker.jsx"
 import CursorToggleButton from "/src/components/widgets/CursorToggleButton.jsx"
 import NavLink from "/src/components/nav/desktop/NavLink.jsx"
+import NavSocialLinks from "/src/components/nav/desktop/NavSocialLinks.jsx"
 import {useWindow} from "/src/providers/WindowProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 
@@ -52,6 +53,7 @@ function NavSidebar() {
                 {isBreakpoint('md') && (
                     <>
                         <NavSidebarLinks shouldShrink={shouldShrink} sections={sections}/>
+                        <NavSocialLinks shrink={shouldShrink}/>
                         <NavSidebarBottomMenu shouldShrink={shouldShrink}/>
                     </>
                 )}
