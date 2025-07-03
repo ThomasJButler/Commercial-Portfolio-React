@@ -7,9 +7,10 @@ function ImageCache({urls}) {
             <div className={`bg-green`} style={{width: '5px', height: '5px'}}/>
             {urls.map((url, key) => (
                 <img key={key}
-                     alt={`cached`}
+                     alt={`Preloaded image ${key + 1}`}
                      src={url}
-                     style={{width: '5px', height: '5px'}}/>
+                     style={{width: '5px', height: '5px'}}
+                     aria-hidden="true"/>
             ))}
         </div>
     )
