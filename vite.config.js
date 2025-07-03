@@ -8,7 +8,8 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        silenceDeprecations: ['mixed-decls'],
+        silenceDeprecations: ['mixed-decls', 'import', 'global-builtin', 'color-functions'],
+        quietDeps: true,
       },
     },
   },
