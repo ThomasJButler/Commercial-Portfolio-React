@@ -35,8 +35,7 @@ function NavHeader({ shrink }) {
         <header className={`nav-header ${shrink ? "nav-header-shrink" : ""}`}>
             <ImageView src={pfpUrl}
                        className={`img-view-avatar`}
-                       alt={`${profile["stylizedName"] ? profile["stylizedName"].replace(/<[^>]*>/g, '') : 'Thomas Butler'} - Profile Picture`}
-                       lazy={false}/>
+                       alt="Profile picture"/>
 
             {statusVisible && (
                 <StatusBadge available={statusAvailable}
@@ -47,7 +46,7 @@ function NavHeader({ shrink }) {
             <div className={`info mt-3 text-center`}>
                 <h1 className={`name h5`}>
                     <ImageView src={logoUrl}
-                               alt={`logo`}
+                               alt=""
                                className={`img-view-logo me-1`}/>
 
                     <span dangerouslySetInnerHTML={{__html:stylizedName}}/>

@@ -1,9 +1,12 @@
 import "./CustomProgressBar.scss"
 import React from 'react'
+import {useScrollAnimation} from "/src/hooks/useScrollAnimation.js"
 
 function CustomProgressBar({now, fillColor}) {
+    const {ref, className} = useScrollAnimation({ threshold: 0.5 })
+    
     return (
-        <div className={`progress`}>
+        <div ref={ref} className={`progress ${className} progress-animate`}>
             <div className="progress-bar"
                  role="progressbar"
                  style={{

@@ -1,0 +1,24 @@
+.mobile-social-links {
+    display: flex;
+    gap: 0.5rem;
+    
+    .mobile-social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px) scale(1.05);
+        }
+        
+        .mobile-social-icon {
+            font-size: 1.25rem;
+        }
+    }
+}

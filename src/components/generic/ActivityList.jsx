@@ -7,6 +7,7 @@ import {useUtils} from "/src/helpers/utils.js"
 import CustomProgressBar from "/src/components/generic/CustomProgressBar.jsx"
 import Expandable from "/src/components/capabilities/Expandable.jsx"
 import "./ActivityList.scss"
+import {useScrollAnimation} from "/src/hooks/useScrollAnimation.js"
 import {useWindow} from "/src/providers/WindowProvider.jsx"
 
 const utils = useUtils()
@@ -15,6 +16,7 @@ function ActivityList({ items, storageId, colClass, maxItems, hideProgressBar, c
     const {currentTimeSpan} = useWindow()
     const [filteredItems, setFilteredItems] = useState([])
     const [renderedAt] = useState(currentTimeSpan)
+    const {ref, className} = useScrollAnimation({ threshold: 0.1 })
 
     const _shouldDisplayAsProgressItem = (item) => {
         return item.progress !== null && item.progress !== undefined && !hideProgressBar
@@ -36,7 +38,7 @@ function ActivityList({ items, storageId, colClass, maxItems, hideProgressBar, c
     }
 
     return (
-        <Row className={`gy-2 gy-md-3`}>
+        <Row ref={ref} className={`gy-2 gy-md-3 ${className} stagger-children`}>
             <Expandable items={items}
                         storageId={storageId}
                         onFilter={setFilteredItems}

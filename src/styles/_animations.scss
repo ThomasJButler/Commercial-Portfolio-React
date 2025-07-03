@@ -1,0 +1,194 @@
+// Scroll-triggered animations
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Base animation class
+.scroll-animated {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Animation variants
+.fade-in {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: fadeIn;
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: fadeInUp;
+    }
+}
+
+.fade-in-left {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: fadeInLeft;
+    }
+}
+
+.fade-in-right {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: fadeInRight;
+    }
+}
+
+.scale-in {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: scaleIn;
+    }
+}
+
+.slide-in-bottom {
+    opacity: 0;
+    
+    &.scroll-animated {
+        animation-name: slideInBottom;
+    }
+}
+
+// Stagger animations for lists
+.stagger-children {
+    > * {
+        opacity: 0;
+        
+        &.scroll-animated {
+            animation-name: fadeInUp;
+            
+            @for $i from 1 through 20 {
+                &:nth-child(#{$i}) {
+                    animation-delay: #{$i * 0.05}s;
+                }
+            }
+        }
+    }
+}
+
+// Hover animations
+.hover-lift {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.hover-scale {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.hover-glow {
+    position: relative;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: inherit;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: -1;
+        filter: blur(20px);
+    }
+    
+    &:hover::before {
+        opacity: 0.5;
+    }
+}
+
+// Progress bar animation
+.progress-animate {
+    .progress-bar {
+        animation: progressFill 1.5s ease-out;
+    }
+}
+
+@keyframes progressFill {
+    from {
+        width: 0;
+    }
+}
