@@ -1,0 +1,59 @@
+@import "/src/styles/extend";
+
+.nav-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid var(--theme-soft-1);
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        background-color: var(--theme-soft-1);
+        color: var(--theme-text-color);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-weight: 500;
+
+        &:hover {
+            background-color: var(--social-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+            .social-icon {
+                transform: scale(1.1);
+            }
+        }
+
+        .social-icon {
+            font-size: 1.25rem;
+            transition: transform 0.3s ease;
+        }
+
+        .social-label {
+            font-size: 0.875rem;
+        }
+    }
+}
+
+.nav-social-links-shrink {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+
+    .social-link {
+        padding: 0.75rem;
+        justify-content: center;
+
+        .social-icon-large {
+            font-size: 1.5rem;
+        }
+    }
+}
