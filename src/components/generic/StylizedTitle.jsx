@@ -1,7 +1,7 @@
 import React from 'react'
 
 function StylizedTitle({text, classList}) {
-    const classes = {tag: 'h4', lineTag: 'eq-h3'}
+    const classes = {tag: 'h3', lineTag: 'eq-h3'}
     const HeadingTag = classes.tag
 
     return (
