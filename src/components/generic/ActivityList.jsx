@@ -84,6 +84,7 @@ function ActivityListItem({item, customStyle, children}) {
                 <CircleAvatar size={1}
                               dynamicSize={true}
                               img={item.img}
+                              alt={item.title || ''}
                               fallbackIcon={item.fallbackIcon}
                               fallbackIconColors={item.fallbackIconColors}/>
             </div>

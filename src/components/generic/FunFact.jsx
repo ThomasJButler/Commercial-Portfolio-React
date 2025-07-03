@@ -19,6 +19,7 @@ function FunFact({ img, fallbackIcon, fallbackIconColors, title, info }) {
             <CircleAvatar size={size}
                           dynamicSize={false}
                           img={img}
+                          alt={title || ''}
                           fallbackIcon={fallbackIcon || 'fa-solid fa-heart'}
                           fallbackIconColors={fallbackIconColors || {
                               bg: utils.getRootSCSSVariable('theme-secondary'),
