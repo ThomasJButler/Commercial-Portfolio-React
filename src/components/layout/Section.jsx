@@ -130,6 +130,11 @@ function Section({ section }) {
     )
 }
 
+/**
+ * Renders the header for a section, displaying a localized title and optional prefix with responsive styling.
+ * 
+ * The header adapts its content and appearance based on the current window breakpoint, using a shorter highlighted title on smaller screens and including a prefix with an icon when available.
+ */
 function SectionHeader({section}) {
     const {getTranslation} = useLanguage()
     const {isBreakpoint} = useWindow()
