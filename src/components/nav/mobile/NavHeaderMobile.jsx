@@ -2,7 +2,7 @@ import "./NavHeaderMobile.scss"
 import React from 'react'
 import {useGlobalState} from "/src/providers/GlobalStateProvider.jsx"
 import {useData} from "/src/providers/DataProvider.jsx"
-import LanguagePicker from "/src/components/widgets/LanguagePicker.jsx"
+// Language picker removed - language switching disabled
 import ThemePicker from "/src/components/widgets/ThemePicker.jsx"
 import NavHeader from "/src/components/nav/desktop/NavHeader.jsx"
 import NavPills from "/src/components/nav/mobile/NavPills.jsx"
@@ -17,9 +17,7 @@ function NavHeaderMobile() {
 
     return (
         <Box nav={true} id={`nav-mobile-top`} className={`nav-mobile-top`}>
-            <div className={`float-top-left`}>
-                <LanguagePicker shrink={true}/>
-            </div>
+            {/* Language picker removed - always uses English */}
 
             <div className={`float-top-right`}>
                 <ThemePicker shrink={true}/>
