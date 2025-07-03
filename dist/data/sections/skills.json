@@ -426,400 +426,400 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-              "en": {
-                "title": "Advanced Skills"
-              }
+                "en": {
+                    "title": "Advanced Skills"
+                }
             },
             "items": [
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#F44336",
-                    "fill": "#EEE"
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5/CSS3",
+                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                        }
+                    }
                 },
-                "value": null,
-                "dates": {
-                  "start": null
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript React Node.js",
+                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                        }
+                    }
                 },
-                "locales": {
-                  "en": {
-                    "title": "HTML5/CSS3",
-                    "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "C#/.NET",
+                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind HubSpot/HUBL WordPress/PHP",
+                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IOS/Web Apps",
+                            "info": "Capable of developing applications for both iOS and web platforms."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Integration",
+                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                        }
+                    }
                 }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#FF9800",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "JavaScript React Node.js",
-                    "info": "Proficient in building dynamic web applications with React and Node.js."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#FFEB3B",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "C#/.NET",
-                    "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#4CAF50",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "Tailwind HubSpot/HUBL WordPress/PHP",
-                    "info": "Skilled in using various frameworks and CMS platforms for web development."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#2196F3",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "IOS/Web Apps",
-                    "info": "Capable of developing applications for both iOS and web platforms."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#9C27B0",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "AI Integration",
-                    "info": "Implementing cutting-edge AI solutions for real-world applications."
-                  }
-                }
-              }
             ]
-          },
+        },
         {
             "id": "ai_skills",
             "component": "ArticleList",
             "config": {
-              "columns": 2
+                "columns": 2
             },
             "locales": {
-              "en": {
-                "title": "AI Skills"
-              }
+                "en": {
+                    "title": "AI Skills"
+                }
             },
             "items": [
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-robot",
-                  "faColors": {
-                    "bg": "#4CAF50",
-                    "fill": "#EEE"
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Analysis",
+                            "info": "Experienced in applying data analysis techniques to support AI projects."
+                        }
+                    }
                 },
-                "value": null,
-                "dates": {
-                  "start": null
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Anaconda",
+                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
+                        }
+                    }
                 },
-                "locales": {
-                  "en": {
-                    "title": "Custom GPT Creation",
-                    "info": "Expertise in building custom GPT models tailored to specific industry requirements."
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PyTorch",
+                            "info": "Proficient in building deep learning models with PyTorch."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PyGame",
+                            "info": "Skilled in game development with Python and integrating AI features."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TensorFlow",
+                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Django & Flask",
+                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
+                        }
+                    }
                 }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-quote-right",
-                  "faColors": {
-                    "bg": "#FF9800",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "Prompt Engineering",
-                    "info": "Skilled in designing effective prompts to optimize AI model responses."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-image",
-                  "faColors": {
-                    "bg": "#9C27B0",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "AI Asset Creation",
-                    "info": "Proficient in using tools like MidJourney, RunwayML, DALL-E, and Sora to generate creative visual assets."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-cogs",
-                  "faColors": {
-                    "bg": "#3F51B5",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "AI Coding Tools & APIs",
-                    "info": "Up-to-date with industry-leading AI coding tools and APIs to streamline development."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-chart-line",
-                  "faColors": {
-                    "bg": "#2196F3",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "AI Model Development",
-                    "info": "Experienced in the full lifecycle of AI model creation, from research and prototyping to deployment."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-robot",
-                  "faColors": {
-                    "bg": "#FF5722",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "AI Integration",
-                    "info": "Implementing cutting-edge AI solutions for real-world applications."
-                  }
-                }
-              }
             ]
-          },
-          {
+        },
+        {
             "id": "python_skills",
             "component": "ArticleList",
             "config": {
-              "columns": 2
+                "columns": 2
             },
             "locales": {
-              "en": {
-                "title": "Python Development Skills"
-              }
+                "en": {
+                    "title": "Python Development Skills"
+                }
             },
             "items": [
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#F44336",
-                    "fill": "#EEE"
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data Analysis",
+                            "info": "Experienced in using Python for data analysis and visualisation."
+                        }
+                    }
                 },
-                "value": null,
-                "dates": {
-                  "start": null
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Anaconda",
+                            "info": "Experienced in using Anaconda for managing Python packages and environments."
+                        }
+                    }
                 },
-                "locales": {
-                  "en": {
-                    "title": "Data Analysis",
-                    "info": "Experienced in using Python for data analysis and visualisation."
-                  }
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PyTorch",
+                            "info": "Proficient in developing deep learning models with PyTorch."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PyGame",
+                            "info": "Skilled in using PyGame for game development and scripting."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TensorFlow",
+                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-check-circle",
+                        "faColors": {
+                            "bg": "#4CAF50",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Django & Flask",
+                            "info": "Proficient in using popular Python frameworks for web development."
+                        }
+                    }
                 }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#FF9800",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "Anaconda",
-                    "info": "Experienced in using Anaconda for managing Python packages and environments."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#FFEB3B",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "PyTorch",
-                    "info": "Proficient in developing deep learning models with PyTorch."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#4CAF50",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "PyGame",
-                    "info": "Skilled in using PyGame for game development and scripting."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#2196F3",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "TensorFlow",
-                    "info": "Experienced in using TensorFlow for machine learning and AI model development."
-                  }
-                }
-              },
-              {
-                "icon": {
-                  "img": null,
-                  "fa": "fa-check-circle",
-                  "faColors": {
-                    "bg": "#9C27B0",
-                    "fill": "#EEE"
-                  }
-                },
-                "value": null,
-                "dates": {
-                  "start": null
-                },
-                "locales": {
-                  "en": {
-                    "title": "Django & Flask",
-                    "info": "Proficient in using popular Python frameworks for web development."
-                  }
-                }
-              }
             ]
-          }
+        }
     ]
 }

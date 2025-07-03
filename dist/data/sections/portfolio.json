@@ -679,7 +679,7 @@
           "locales": {
             "en": {
               "title": "Personal Portfolio",
-              "text": "Website built from scratch with HTML, CSS, JS and Python."
+              "text": "Personal portfolio website."
             }
           }
         },
@@ -720,7 +720,7 @@
           "locales": {
             "en": {
               "title": "AiTomatic",
-              "text": "Live prototype for AiTomatic. Built with Python and Typescript. Currently being developed."
+              "text": "Website development for AiTomatic."
             }
           }
         },
@@ -761,7 +761,7 @@
           "locales": {
             "en": {
               "title": "Matrix Arcade",
-              "text": "Mini Games arcade built with Typescript, Python and React. Showcase of games I created whilst learning."
+              "text": "Personal project: Matrix Arcade."
             }
           }
         }

@@ -6,7 +6,6 @@ import BorderWrap from "/src/components/wrappers/BorderWrap.jsx"
 import Scrollable from "/src/components/capabilities/Scrollable.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 import {useUtils} from "/src/helpers/utils.js"
-import {useScrollAnimation} from "/src/hooks/useScrollAnimation.js"
 
 import ArticleCards from "/src/components/articles/ArticleCards.jsx"
 import ArticleContactForm from "/src/components/articles/ArticleContactForm.jsx"
@@ -134,7 +133,6 @@ function Section({ section }) {
 function SectionHeader({section}) {
     const {getTranslation} = useLanguage()
     const {isBreakpoint} = useWindow()
-    const {ref, isVisible} = useScrollAnimation({ threshold: 0.3 })
 
     let title = utils.parseJsonText(getTranslation(section.content["locales"], "title_long"))
     let prefix = utils.parseJsonText(getTranslation(section.content["locales"], "title_long_prefix", true))
@@ -145,7 +143,7 @@ function SectionHeader({section}) {
     }
 
     return (
-        <div ref={ref} className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`} animate-fade-in-down ${isVisible ? 'animate-visible' : ''}`}>
+        <div className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`}`}>
             {prefix && (
                 <div className={`fw-bold text-muted lead-2 font-family-headings mb-2`}>
                     <FaIcon className={`me-2 opacity-50`} iconName={'fa-solid fa-cubes'}/>
