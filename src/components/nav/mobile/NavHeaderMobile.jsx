@@ -2,8 +2,9 @@ import "./NavHeaderMobile.scss"
 import React from 'react'
 import {useGlobalState} from "/src/providers/GlobalStateProvider.jsx"
 import {useData} from "/src/providers/DataProvider.jsx"
-import LanguagePicker from "/src/components/widgets/LanguagePicker.jsx"
+// Language picker removed - language switching disabled
 import ThemePicker from "/src/components/widgets/ThemePicker.jsx"
+import MobileSocialLinks from "/src/components/nav/mobile/MobileSocialLinks.jsx"
 import NavHeader from "/src/components/nav/desktop/NavHeader.jsx"
 import NavPills from "/src/components/nav/mobile/NavPills.jsx"
 import Box from "/src/components/wrappers/Box.jsx"
@@ -18,7 +19,7 @@ function NavHeaderMobile() {
     return (
         <Box nav={true} id={`nav-mobile-top`} className={`nav-mobile-top`}>
             <div className={`float-top-left`}>
-                <LanguagePicker shrink={true}/>
+                <MobileSocialLinks/>
             </div>
 
             <div className={`float-top-right`}>
