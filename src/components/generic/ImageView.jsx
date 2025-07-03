@@ -1,5 +1,5 @@
 import "./ImageView.scss"
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
 const LoadStatus = {
     LOADING: "loading",
@@ -7,8 +7,10 @@ const LoadStatus = {
     ERROR: "error"
 }
 
-function ImageView({className, src, alt}) {
+function ImageView({className, src, alt, lazy = true, sizes, srcSet}) {
     const [loadStatus, setLoadStatus] = useState(LoadStatus.LOADING)
+    const [isIntersecting, setIsIntersecting] = useState(!lazy)
+    const imgRef = useRef(null)
 
     const _onImageLoaded = () => {
         _setLoadStatus(LoadStatus.LOADED)
@@ -25,6 +27,36 @@ function ImageView({className, src, alt}) {
         setLoadStatus(status)
     }
 
+    useEffect(() => {
+        if (!lazy || !imgRef.current) return;
+
+        // Check if IntersectionObserver is supported
+        if (!('IntersectionObserver' in window)) {
+            // Fallback: load image immediately
+            setIsIntersecting(true);
+            return;
+        }
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsIntersecting(true);
+                    observer.disconnect();
+                }
+            },
+            {
+                rootMargin: '50px',
+                threshold: 0.01
+            }
+        );
+
+        observer.observe(imgRef.current);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, [lazy])
+
     return (
         <div className={`image-view-wrapper ${className}`}>
             {(!src || loadStatus === LoadStatus.LOADING) && (
@@ -34,11 +66,15 @@ function ImageView({className, src, alt}) {
             )}
 
             {src && (
-                <img src={src}
+                <img ref={imgRef}
+                 src={isIntersecting ? src : undefined}
+                 srcSet={isIntersecting ? srcSet : undefined}
+                 sizes={sizes}
                  onLoad={_onImageLoaded}
                  onError={_onImageError}
                  className={`image ${loadStatus === LoadStatus.LOADING ? `invisible position-absolute` : ``}`}
-                 alt={alt}/>
+                 alt={alt || 'Image'}
+                 loading={lazy ? 'lazy' : 'eager'}/>
             )}
         </div>
     )
