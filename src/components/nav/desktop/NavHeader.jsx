@@ -6,6 +6,13 @@ import {useData} from "/src/providers/DataProvider.jsx"
 import ImageView from "/src/components/generic/ImageView.jsx"
 import StatusBadge from "/src/components/generic/StatusBadge.jsx"
 
+/**
+ * Renders the navigation header with profile picture, status badge, logo, stylized name, and role information.
+ * 
+ * @param {Object} props
+ * @param {boolean} props.shrink - If true, renders the header in a compact style.
+ * @returns {JSX.Element} The navigation header component.
+ */
 function NavHeader({ shrink }) {
     const utils = useUtils()
     const {getTranslation} = useLanguage()
@@ -28,7 +35,8 @@ function NavHeader({ shrink }) {
         <header className={`nav-header ${shrink ? "nav-header-shrink" : ""}`}>
             <ImageView src={pfpUrl}
                        className={`img-view-avatar`}
-                       alt={name}/>
+                       alt={`${profile["stylizedName"] ? profile["stylizedName"].replace(/<[^>]*>/g, '') : 'Thomas Butler'} - Profile Picture`}
+                       lazy={false}/>
 
             {statusVisible && (
                 <StatusBadge available={statusAvailable}
@@ -37,13 +45,13 @@ function NavHeader({ shrink }) {
             )}
 
             <div className={`info mt-3 text-center`}>
-                <h5 className={`name`}>
+                <h1 className={`name h5`}>
                     <ImageView src={logoUrl}
                                alt={`logo`}
                                className={`img-view-logo me-1`}/>
 
                     <span dangerouslySetInnerHTML={{__html:stylizedName}}/>
-                </h5>
+                </h1>
 
                 <div className={`role`}>
                     <span>{role}</span>

@@ -130,6 +130,11 @@ function Section({ section }) {
     )
 }
 
+/**
+ * Renders the header for a section, displaying a localized title and optional prefix with responsive styling.
+ * 
+ * The header adapts its content and appearance based on the current window breakpoint, using a shorter highlighted title on smaller screens and including a prefix with an icon when available.
+ */
 function SectionHeader({section}) {
     const {getTranslation} = useLanguage()
     const {isBreakpoint} = useWindow()
@@ -151,7 +156,7 @@ function SectionHeader({section}) {
                 </div>
             )}
 
-            <h3 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0`}
+            <h2 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0 h3`}
                 dangerouslySetInnerHTML={{__html: title}}/>
         </div>
     )

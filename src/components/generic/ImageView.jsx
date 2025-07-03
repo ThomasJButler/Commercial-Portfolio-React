@@ -1,5 +1,5 @@
 import "./ImageView.scss"
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
 const LoadStatus = {
     LOADING: "loading",
@@ -7,8 +7,23 @@ const LoadStatus = {
     ERROR: "error"
 }
 
-function ImageView({className, src, alt}) {
+/**
+ * React component for displaying an image with lazy loading, load status handling, and a loading spinner.
+ *
+ * Renders an image that supports lazy loading using Intersection Observer, displays a spinner while loading, and handles load success or error states. The image source and srcSet are only loaded when the image is near or within the viewport if lazy loading is enabled.
+ *
+ * @param {string} [className] - Additional CSS class names for the wrapper.
+ * @param {string} [src] - The image source URL.
+ * @param {string} [alt] - Alternative text for the image. Defaults to 'Image' if not provided.
+ * @param {boolean} [lazy=true] - Enables lazy loading when true.
+ * @param {string} [sizes] - The sizes attribute for responsive images.
+ * @param {string} [srcSet] - The srcSet attribute for responsive images.
+ * @returns {JSX.Element} The rendered image view component.
+ */
+function ImageView({className, src, alt, lazy = true, sizes, srcSet}) {
     const [loadStatus, setLoadStatus] = useState(LoadStatus.LOADING)
+    const [isIntersecting, setIsIntersecting] = useState(!lazy)
+    const imgRef = useRef(null)
 
     const _onImageLoaded = () => {
         _setLoadStatus(LoadStatus.LOADED)
@@ -25,6 +40,36 @@ function ImageView({className, src, alt}) {
         setLoadStatus(status)
     }
 
+    useEffect(() => {
+        if (!lazy || !imgRef.current) return;
+
+        // Check if IntersectionObserver is supported
+        if (!('IntersectionObserver' in window)) {
+            // Fallback: load image immediately
+            setIsIntersecting(true);
+            return;
+        }
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsIntersecting(true);
+                    observer.disconnect();
+                }
+            },
+            {
+                rootMargin: '50px',
+                threshold: 0.01
+            }
+        );
+
+        observer.observe(imgRef.current);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, [lazy])
+
     return (
         <div className={`image-view-wrapper ${className}`}>
             {(!src || loadStatus === LoadStatus.LOADING) && (
@@ -34,11 +79,15 @@ function ImageView({className, src, alt}) {
             )}
 
             {src && (
-                <img src={src}
+                <img ref={imgRef}
+                 src={isIntersecting ? src : undefined}
+                 srcSet={isIntersecting ? srcSet : undefined}
+                 sizes={sizes}
                  onLoad={_onImageLoaded}
                  onError={_onImageError}
                  className={`image ${loadStatus === LoadStatus.LOADING ? `invisible position-absolute` : ``}`}
-                 alt={alt}/>
+                 alt={alt || 'Image'}
+                 loading={lazy ? 'lazy' : 'eager'}/>
             )}
         </div>
     )
