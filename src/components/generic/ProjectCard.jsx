@@ -26,12 +26,11 @@ function ProjectCard({className, img, fallbackIcon, fallbackIconColors, title, s
     }
 
     return (
-        <Card className={`grid-item hover-lift ${className}`}>
+        <Card className={`grid-item ${className}`}>
             <CardBody>
                 <CircleAvatar size={isBreakpoint('xl') ? 3 : 2}
                               dynamicSize={false}
                               img={img}
-                              alt={title}
                               fallbackIcon={fallbackIcon}
                               fallbackIconColors={fallbackIconColors}/>
 

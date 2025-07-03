@@ -27,7 +27,6 @@ function InfoGridItem({item}) {
                     <CircleAvatar size={isMobileLayout() ? 1 : 2}
                                   dynamicSize={false}
                                   img={item.img}
-                                  alt={item.title || ''}
                                   fallbackIcon={item.faIcon}
                                   fallbackIconColors={item.faIconColors}/>
                 </div>

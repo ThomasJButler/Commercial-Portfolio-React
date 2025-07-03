@@ -40,7 +40,6 @@ function InfoCard({title, text, img, fallbackIcon, fallbackIconColors, dateInter
                     <CircleAvatar size={isBreakpoint('lg') ? 3 : 2}
                                   dynamicSize={false}
                                   img={img}
-                                  alt={title}
                                   fallbackIcon={fallbackIcon}
                                   fallbackIconColors={fallbackIconColors}/>
                 </div>
