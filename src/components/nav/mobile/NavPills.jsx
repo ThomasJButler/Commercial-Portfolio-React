@@ -16,7 +16,8 @@ function NavPills({ sections }) {
         if(isShowingSpinner())
             return false
 
-        if(clickedPillSectionId)
+        const isClickedSectionAvailable = sections.find(s => s.id === clickedPillSectionId)
+        if(clickedPillSectionId && isClickedSectionAvailable)
             return section.id === clickedPillSectionId
 
         return isSectionActive(section.id)
