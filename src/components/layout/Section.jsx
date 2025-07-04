@@ -22,7 +22,6 @@ import {useData} from "/src/providers/DataProvider.jsx"
 import FaIcon from "/src/components/generic/FaIcon.jsx"
 import {useWindow} from "/src/providers/WindowProvider.jsx"
 import {useScheduler} from "/src/helpers/scheduler.js"
-import {useScrollAnimation} from "/src/hooks/useScrollAnimation.js"
 
 const TransitionClasses = {
     HIDDEN: 'section-transition-hidden',
@@ -165,10 +164,9 @@ function SectionHeader({section}) {
 
 function SectionContent({articles}) {
     const shouldAddSpacerAfterTitle = false
-    const {ref, className} = useScrollAnimation({ threshold: 0.05 })
 
     return (
-        <div ref={ref} className={`section-content ${shouldAddSpacerAfterTitle ? 'mt-md-5' : ''} ${className} fade-in-up`}>
+        <div className={`section-content ${shouldAddSpacerAfterTitle ? 'mt-md-5' : ''}`}>
             {articles.map((article, key) => {
                 const Component = ARTICLES[article.component]
                 let mtClass = `mt-4 pt-1 pt-md-3`

@@ -11,17 +11,25 @@ export const LanguageProvider = ({children}) => {
     const strings = getStrings()
     const allLanguages = settings['supportedLanguages'] || []
     const localStorageName = 'language-preferences'
-    const canChangeLanguage = false // Language switching disabled - always use English
+    const canChangeLanguage = allLanguages.length >= 2
 
     const [defaultLanguageId, setDefaultLanguageId] = useState(null)
     const [selectedLanguageId, setSelectedLanguageId] = useState(null)
 
     /** On configurations loaded... **/
     useEffect(() => {
-        // Always use English
-        const englishLanguage = allLanguages.find(language => language.id === 'en') || allLanguages[0]
-        setDefaultLanguageId('en')
-        setSelectedLanguage(englishLanguage)
+        const defaultLanguage = allLanguages.find(language => language.default) || allLanguages[0]
+        setDefaultLanguageId(defaultLanguage.id)
+
+        const localStorageItem = window.localStorage.getItem(localStorageName)
+        const savedLanguage = allLanguages.find(language => language.id === localStorageItem)
+        if(savedLanguage) {
+            setSelectedLanguage(savedLanguage)
+            return
+        }
+
+        const detectedLanguage = allLanguages.find(language => navigator.language.includes(language['id'])) || defaultLanguage
+        setSelectedLanguage(detectedLanguage)
     }, [])
 
     const setSelectedLanguage = (language) => {

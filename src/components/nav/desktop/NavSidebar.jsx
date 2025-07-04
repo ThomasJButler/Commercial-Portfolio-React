@@ -9,11 +9,10 @@ import {useGlobalState} from "/src/providers/GlobalStateProvider.jsx"
 import ToolButton from "/src/components/generic/ToolButton.jsx"
 import NavHeader from "/src/components/nav/desktop/NavHeader.jsx"
 import {NavSidebarGroup, NavSidebarGroupItem} from "/src/components/nav/desktop/NavSidebarGroup"
-// Language picker removed - language switching disabled
+import LanguagePicker from "/src/components/widgets/LanguagePicker.jsx"
 import ThemePicker from "/src/components/widgets/ThemePicker.jsx"
 import CursorToggleButton from "/src/components/widgets/CursorToggleButton.jsx"
 import NavLink from "/src/components/nav/desktop/NavLink.jsx"
-import NavSocialLinks from "/src/components/nav/desktop/NavSocialLinks.jsx"
 import {useWindow} from "/src/providers/WindowProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 
@@ -53,7 +52,6 @@ function NavSidebar() {
                 {isBreakpoint('md') && (
                     <>
                         <NavSidebarLinks shouldShrink={shouldShrink} sections={sections}/>
-                        <NavSocialLinks shrink={shouldShrink}/>
                         <NavSidebarBottomMenu shouldShrink={shouldShrink}/>
                     </>
                 )}
@@ -106,12 +104,15 @@ function NavSidebarLinks({shouldShrink, sections}) {
 }
 
 function NavSidebarBottomMenu({shouldShrink}) {
+    const {canChangeLanguage} = useLanguage()
     const {canChangeTheme} = useTheme()
     const {isAnimatedCursorEnabled} = useFeedbacks()
 
     return (
         <NavSidebarGroup direction={`horizontal`} shrink={shouldShrink}>
-            {/* Language picker removed - always uses English */}
+            <NavSidebarGroupItem visible={canChangeLanguage}>
+                <LanguagePicker shrink={true}/>
+            </NavSidebarGroupItem>
 
             <NavSidebarGroupItem visible={canChangeTheme}>
                 <ThemePicker shrink={true}/>
