@@ -21,6 +21,20 @@ document.addEventListener('DOMContentLoaded', function(event) {
     if(container)
         return
 
+    // Developer Console Message
+    console.log(
+        '%c👋 Hello Developer!',
+        'font-size: 24px; font-weight: bold; color: #4CAF50;'
+    )
+    console.log(
+        '%cWelcome to Tom Butler\'s Portfolio!\n\n' +
+        'Feel free to explore the code and reach out if you have any questions.\n' +
+        '📧 dev@thomasjbutler.me\n' +
+        '🔗 https://github.com/ThomasJButler\n' +
+        '💼 https://www.linkedin.com/in/thomasbutleruk/',
+        'font-size: 14px; color: #666;'
+    )
+
     container = document.getElementById('root')
     createRoot(document.getElementById('root')).render(<App/>)
 })

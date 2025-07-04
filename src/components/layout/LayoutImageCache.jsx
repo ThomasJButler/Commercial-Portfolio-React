@@ -38,7 +38,7 @@ function LayoutImageCache({ profile, settings, sections }) {
                 <img key={key}
                      src={utils.file.resolvePath(src)}
                      className={`cache-image`}
-                     alt={"cache-image"}/>
+                     alt=""/>
             ))}
         </div>
     )

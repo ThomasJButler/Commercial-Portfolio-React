@@ -79,6 +79,7 @@ function ImageViewContainer({ src, alt, visible, loadStatus, onLoad, onError }) 
         <img className={`image-view-img ${visibleClass} ${constants.HTML_CLASSES.imageView} ${constants.HTML_CLASSES.imageView}-${loadStatus}`}
              src={resolvedSrc}
              alt={alt}
+             loading="lazy"
              onLoad={onLoad}
              onError={onError}/>
     )
