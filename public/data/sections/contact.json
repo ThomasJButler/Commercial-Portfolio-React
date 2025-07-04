@@ -42,7 +42,7 @@
 
         {
             "id": "contact_list",
-            "component": "ArticleGrid",
+            "component": "ArticleInfoList",
             "config": {
                 "format": "grid"
             },

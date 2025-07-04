@@ -24,7 +24,7 @@
     "articles": [
         {
             "id": "technical_proficiencies",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {},
             "locales": {
                 "en": {
@@ -198,7 +198,7 @@
 },
 {
     "id": "professional_services",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {},
             "locales": {
                 "en": {
@@ -331,7 +331,7 @@
         },
         {
             "id": "core_expertise",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {},
             "locales": {
                 "en": {
@@ -423,7 +423,7 @@
         },
         {
             "id": "advanced_skills",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {},
             "locales": {
                 "en": {
@@ -555,7 +555,7 @@
         },
         {
             "id": "ai_skills",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {
                 "columns": 2
             },
@@ -689,7 +689,7 @@
         },
         {
             "id": "python_skills",
-            "component": "ArticleList",
+            "component": "ArticleSkills",
             "config": {
                 "columns": 2
             },
