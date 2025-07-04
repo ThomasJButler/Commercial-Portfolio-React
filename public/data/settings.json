@@ -8,7 +8,7 @@
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "Tom <strong>Butler</strong>",
+        "title": "Thomas <strong>Butler</strong>",
         "subtitle": "Full-Stack Developer",
         "logoOffset": {
             "right": 14,
@@ -28,14 +28,9 @@
 
     "supportedLanguages": [
         {
-            "name": "English",
+            "name": "English (UK)",
             "id": "en",
-            "flagUrl": "images/flags/en-us.png"
-        },
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
+            "flagUrl": "images/flags/en-uk.png"
         },
         {
             "name": "Français",
@@ -43,9 +38,14 @@
             "flagUrl": "images/flags/fr.png"
         },
         {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "Русский",
+            "id": "ru",
+            "flagUrl": "images/flags/ru.png"
+        },
+        {
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
         }
     ],
 
@@ -56,9 +56,9 @@
             "dark": true,
             "locales": {
                 "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
                 "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"}
+                "ru": {"name": "Тёмный режим"},
+                "ja": {"name": "ダークモード"}
             }
         },
         {
@@ -67,9 +67,9 @@
             "dark": false,
             "locales": {
                 "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
                 "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"}
+                "ru": {"name": "Светлый режим"},
+                "ja": {"name": "ライトモード"}
             }
         }
     ],

@@ -1,24 +1,27 @@
 {
-    "locales": {
-        "en": {
-            "title": "Education",
-            "title_long_prefix": "This is my",
-            "title_long": "**Educational** Background"
-        },
-        "es": {
-            "title": "Educación",
-            "title_long_prefix": "Esta es mi",
-            "title_long": "**Formación** Educativa"
-        },
-        "fr": {
-            "title": "Éducation",
-            "title_long_prefix": "C'est mon",
-            "title_long": "**Contexte** Éducatif"
-        },
-        "ko": {
-            "title": "교육",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**교육적** 배경"
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Education",
+                "title_short_nav": "Education",
+                "title_long": "**Educational** Background",
+                "title_long_prefix": "This is my"
+            },
+            "es": {
+                "title": "Educación",
+                "title_long": "**Formación** Educativa",
+                "title_long_prefix": "Esta es mi"
+            },
+            "fr": {
+                "title": "Éducation",
+                "title_long": "**Contexte** Éducatif",
+                "title_long_prefix": "C'est mon"
+            },
+            "ko": {
+                "title": "교육",
+                "title_long": "**교육적** 배경",
+                "title_long_prefix": "이것은 내"
+            }
         }
     },
     "articles": [
@@ -416,7 +419,7 @@
                         },
                         "fr": {
                             "title": "Fondements de la Programmation et des Données pour l'IA",
-                            "info": "CodeCademy", 
+                            "info": "CodeCademy",
                             "text": "Actuellement inscrit au cours de Fondements de la Programmation et des Données pour l'IA, axé sur les bases de l'analyse de données et de la programmation.",
                             "tags": []
                         },
@@ -484,7 +487,7 @@
                     "locales": {
                         "en": {
                             "title": "Cisco Packet Tracer",
-                            "info": "Cisco", 
+                            "info": "Cisco",
                             "text": "Completed a course on Cisco Packet Tracer, learning how to simulate network configurations.",
                             "tags": []
                         },

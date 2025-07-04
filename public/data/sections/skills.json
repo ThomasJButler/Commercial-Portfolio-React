@@ -1,24 +1,27 @@
 {
-    "locales": {
-        "en": {
-            "title": "Skills",
-            "title_long_prefix": "Explore",
-            "title_long": "My **Skill Set**"
-        },
-        "es": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
-        },
-        "fr": {
-            "title": "Capacités",
-            "title_long_prefix": "Explorez",
-            "title_long": "Mes **Compétences**"
-        },
-        "ko": {
-            "title": "스킬",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**스킬**입니다"
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Skills",
+                "title_short_nav": "Skills",
+                "title_long": "My **Skill Set**",
+                "title_long_prefix": "Explore"
+            },
+            "es": {
+                "title": "Habilidades",
+                "title_long": "Mis **Habilidades**",
+                "title_long_prefix": "Explora"
+            },
+            "fr": {
+                "title": "Capacités",
+                "title_long": "Mes **Compétences**",
+                "title_long_prefix": "Explorez"
+            },
+            "ko": {
+                "title": "스킬",
+                "title_long": "**스킬**입니다",
+                "title_long_prefix": "이것은 내"
+            }
         }
     },
     "articles": [
@@ -172,8 +175,7 @@
                             "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
                         }
                     }
-                }
-                ,
+                },
                 {
                     "icon": {
                         "img": null,
@@ -194,10 +196,10 @@
                         }
                     }
                 }
-    ]
-},
-{
-    "id": "professional_services",
+            ]
+        },
+        {
+            "id": "professional_services",
             "component": "ArticleSkills",
             "config": {},
             "locales": {

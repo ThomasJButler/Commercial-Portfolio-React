@@ -1,5 +1,5 @@
 {
-    "name": "Tom Butler",
+    "name": "Thomas Butler",
 
     "profilePictureUrl": "images/pictures/me.jpeg",
     "resumePdfUrl": "",
@@ -10,8 +10,8 @@
 
     "locales": {
         "en": {
-            "localized_name": "Tom Butler",
-            "localized_name_stylized": " [[Tom {{Butler}}]]",
+            "localized_name": "Thomas Butler",
+            "localized_name_stylized": " [[Thomas {{Butler}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
                 "Full-Stack Developer",
@@ -20,33 +20,37 @@
                 "Web Developer"
             ]
         },
-        "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
+        "ru": {
+            "localized_name": "Томас Батлер",
+            "localized_name_stylized": " [[Томас {{Батлер}}]]",
+            "status_message_available_for_freelance": "Доступен для фриланса!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+                "Фуллстек разработчик",
+                "Специалист по AI интеграции",
+                "Python разработчик",
+                "Веб-разработчик"
             ]
         },
         "fr": {
+            "localized_name": "Thomas Butler",
+            "localized_name_stylized": " [[Thomas {{Butler}}]]",
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "Développeur Full-Stack",
+                "Spécialiste en intégration IA",
+                "Développeur Python",
+                "Développeur Web"
             ]
         },
-        "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+        "ja": {
+            "localized_name": "トーマス・バトラー",
+            "localized_name_stylized": " [[トーマス {{バトラー}}]]",
+            "status_message_available_for_freelance": "フリーランス可能です！",
             "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
+                "フルスタック開発者",
+                "AI統合スペシャリスト",
+                "Python開発者",
+                "ウェブ開発者"
             ]
         }
     }
