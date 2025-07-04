@@ -1,7 +1,7 @@
 {
-    "name": "Mark Choi",
+    "name": "Tom Butler",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "profilePictureUrl": "images/pictures/me.jpeg",
     "resumePdfUrl": "",
 
     "statusCircleVisible": true,
@@ -10,14 +10,14 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Tom Butler",
+            "localized_name_stylized": " [[Tom {{Butler}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Full-Stack Developer",
+                "AI Integration Specialist",
+                "Python Developer",
+                "Web Developer"
             ]
         },
         "es": {
