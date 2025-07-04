@@ -34,4 +34,10 @@
         user-select: none;
         pointer-events: none;
     }
+    
+    .filter-tab-no-hover:not(.btn-selected):hover,
+    .filter-tab-no-hover:not(.btn-selected):focus {
+        opacity: 0.8;
+        background-color: var(--theme-primary)!important;
+    }
 }
