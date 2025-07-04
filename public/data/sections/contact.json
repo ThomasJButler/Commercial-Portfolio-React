@@ -1,91 +1,69 @@
 {
-    "title": {
-        "locales": {
-            "en": {
-                "title_short": "Contact",
-                "title_short_nav": "Contact",
-                "title_long_prefix": "Don't hesitate to",
-                "title_long": "{{Contact}} Me"
-            },
-            "es": {
-                "title_short": "Contacto",
-                "title_short_nav": "Contacto",
-                "title_long_prefix": "No dudes en",
-                "title_long": "{{Contácta}}me"
-            },
-            "fr": {
-                "title_short": "Contact",
-                "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
-                "title_long": "Me {{Contacter}}"
-            },
-            "ko": {
-                "title_short": "연락처",
-                "title_short_nav": "연락처",
-                "title_long_prefix": "주저하지 말고",
-                "title_long": "{{연락}} 주세요"
-            }
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        },
+
+        "fr": {
+            "title": "Contact",
+            "title_long_prefix": "N'hésitez pas à",
+            "title_long": "Me **Contacter**"
+        },
+
+        "ko": {
+            "title": "연락처",
+            "title_long_prefix": "주저하지 말고",
+            "title_long": "**연락** 주세요"
         }
     },
 
     "articles": [
         {
-            "id": 1,
+            "id": "contact_form",
             "component": "ArticleContactForm",
-            "settings": {
-                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "email_js_service_id": "service_4h8g7vb",
-                "email_js_template_id": "template_react"
-            },
+            "config": {},
             "locales": {
-                "en": {
-                    "contact_thank_you_title": "{{Thanks}} for the contact!",
-                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
-                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
-                    "title": "Send me a {{message}}"
-                },
-                "es": {
-                    "contact_thank_you_title": "{{Gracias}} por el contacto!",
-                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
-                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
-                    "title": "Envíame un {{mensaje}}"
-                },
-                "fr": {
-                    "contact_thank_you_title": "{{Merci}} pour le contact!",
-                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
-                    "title": "Envoyez-moi un {{message}}"
-                },
-                "ko": {
-                    "contact_thank_you_title": "{{감사합니다}}!",
-                    "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
-                    "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
-                    "title": "{{메시지를}} 보내주세요"
-                }
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"},
+                "fr": {"title": "Envoyez-moi un **message**"},
+                "ko": {"title": "**메시지를** 보내주세요"}
             },
+
             "items": null
         },
 
         {
-            "id": 2,
-            "component": "ArticleInfoList",
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."},
+                "fr": {"title": "Ou si vous **préférez**..."},
+                "ko": {"title": "또는 **원하시면**..."}
             },
+
             "items": [
                 {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "value": "+44 7903352059",
+                    "links": [
+                        {"href": "tel:+44 7903352059"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
                         "en": {"title": "Phone"},
                         "es": {"title": "Teléfono"},
@@ -93,59 +71,80 @@
                         "ko": {"title": "전화"}
                     }
                 },
+
                 {
-                    "id":2,
-                    "faIcon": "fa-solid fa-envelope",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "value": "dev@thomasjbutler.me",
+                    "links": [
+                        {"href": "mailto:dev@thomasjbutler.me"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
                         "en": {"title": "E-mail"},
                         "ko": {"title": "이메일"}
                     }
                 },
+
                 {
-                    "id": 3,
-                    "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "value": "@thomasjbutleruk",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/thomasbutleruk/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
+                        "en": {"title": "Linkedin"}
                     }
                 },
+
                 {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "value": "Thomas Butler",
+                    "links": [
+                        {"href": "https://github.com/ThomasJButler"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "en": {"title": "GitHub"}
                     }
                 },
+
                 {
-                    "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "value": "@thomasbutler",
+                    "links": [
+                        {"href": "https://codepen.io/thomasbutler"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-codepen",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "en": {"title": "CodePen"}
                     }
                 },
+
                 {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "value": "Prototype",
+                    "links": [
+                        {"href": "https://aitomatic.co.uk/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tiktok",
+                        "faColors": {"bg": null, "fill": null}
+                    },
                     "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": {"title": "AiTomatic"}
                     }
                 }
             ]
