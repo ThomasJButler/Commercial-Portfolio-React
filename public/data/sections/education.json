@@ -15,7 +15,8 @@
             "fr": {
                 "title": "Éducation",
                 "title_long": "**Contexte** Éducatif",
-                "title_long_prefix": "C'est mon"
+                "title_long_prefix": "C'est mon",
+                "title_short_nav": "Formation"
             },
             "ko": {
                 "title": "교육",

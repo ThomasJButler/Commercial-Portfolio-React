@@ -46,7 +46,8 @@
             "title_short": "Welcome",
             "title_long_prefix": "Hello, I'm",
             "title_long": "Thomas Butler",
-            "title_short_nav": "About"
+            "title_short_nav": "About",
+            "present": "Present"
         },
 
         "ru": {
@@ -95,7 +96,8 @@
             "title_short": "Добро пожаловать",
             "title_long_prefix": "Привет, я",
             "title_long": "Томас Батлер",
-            "title_short_nav": "Обо мне"
+            "title_short_nav": "Обо мне",
+            "present": "Настоящее время"
         },
 
         "fr": {
@@ -144,7 +146,8 @@
             "title_short": "Bienvenue",
             "title_long_prefix": "Bonjour, je suis",
             "title_long": "Thomas Butler",
-            "title_short_nav": "À propos"
+            "title_short_nav": "À propos",
+            "present": "Présent"
         },
 
         "ja": {
@@ -193,7 +196,8 @@
             "title_short": "ようこそ",
             "title_long_prefix": "こんにちは、私は",
             "title_long": "トーマス・バトラー",
-            "title_short_nav": "私について"
+            "title_short_nav": "私について",
+            "present": "現在"
         }
     }
 }

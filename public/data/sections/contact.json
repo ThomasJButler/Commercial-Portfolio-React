@@ -15,7 +15,8 @@
             "fr": {
                 "title": "Contact",
                 "title_long": "Me **Contacter**",
-                "title_long_prefix": "N'hésitez pas à"
+                "title_long_prefix": "N'hésitez pas à",
+                "title_short_nav": "Contact"
             },
             "ko": {
                 "title": "연락처",

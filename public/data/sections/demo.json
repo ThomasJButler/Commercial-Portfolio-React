@@ -16,7 +16,8 @@
             "fr": {
                 "title": "Démo",
                 "title_long": "**Démos Interactives**",
-                "title_long_prefix": "Essayez mes"
+                "title_long_prefix": "Essayez mes",
+                "title_short_nav": "Démo"
             },
             "ja": {
                 "title": "デモ",

@@ -16,7 +16,8 @@
             "fr": {
                 "title": "Portfolio",
                 "title_long": "Mon **Portfolio**",
-                "title_long_prefix": "Découvrez"
+                "title_long_prefix": "Découvrez",
+                "title_short_nav": "Portfolio"
             },
             "ja": {
                 "title": "ポートフォリオ",

@@ -15,7 +15,8 @@
             "fr": {
                 "title": "Expérience",
                 "title_long": "Parcours **Professionel**",
-                "title_long_prefix": "Résumé de mon"
+                "title_long_prefix": "Résumé de mon",
+                "title_short_nav": "Expérience"
             },
             "ko": {
                 "title": "경험",

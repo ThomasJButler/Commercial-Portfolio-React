@@ -6,7 +6,7 @@
 @import "swiper/swiper-bundle.css";
 
 // Importing core FontAwesome styling file...
-$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+$fa-font-path: "../assets/webfonts";
 @import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 // Our project needs Solid + Brands
 @import "@fortawesome/fontawesome-free/scss/solid.scss";

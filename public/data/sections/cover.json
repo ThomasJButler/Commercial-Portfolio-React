@@ -47,7 +47,7 @@
             },
             "items": [
                 {
-                    "value": "Liverpool – England",
+                    "label": "Liverpool – England",
                     "links": [
                         {
                             "href": null
@@ -63,7 +63,7 @@
                     }
                 },
                 {
-                    "value": "Personal Portfolio",
+                    "label": "Personal Portfolio",
                     "links": [
                         {
                             "href": "https://thomasjbutler.github.io"
@@ -79,7 +79,7 @@
                     }
                 },
                 {
-                    "value": "GitHub",
+                    "label": "GitHub",
                     "links": [
                         {
                             "href": "https://github.com/thomasjbutler"
