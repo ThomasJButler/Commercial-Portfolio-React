@@ -55,8 +55,8 @@
                         "img": null,
                         "fa": "fa-solid fa-city",
                         "faColors": {
-                            "bg": "#6B7280",
-                            "fill": "#FFFFFF"
+                            "bg": null,
+                            "fill": null
                         }
                     }
                 },
@@ -69,8 +69,8 @@
                         "img": null,
                         "fa": "fa-solid fa-code",
                         "faColors": {
-                            "bg": "#3B82F6",
-                            "fill": "#FFFFFF"
+                            "bg": null,
+                            "fill": null
                         }
                     }
                 },
@@ -83,34 +83,12 @@
                         "img": null,
                         "fa": "fa-brands fa-github",
                         "faColors": {
-                            "bg": "#181717",
-                            "fill": "#FFFFFF"
+                            "bg": null,
+                            "fill": null
                         }
                     }
                 }
             ]
-        },
-        {
-            "id": "dynamic_tagline",
-            "component": "ArticleText",
-            "config": {
-                "centered": true
-            },
-            "locales": {
-                "en": {
-                    "title": "**Building the future**, one line of code at a time"
-                },
-                "ru": {
-                    "title": "**Создавая будущее**, одна строка кода за раз"
-                },
-                "fr": {
-                    "title": "**Construire l'avenir**, une ligne de code à la fois"
-                },
-                "ja": {
-                    "title": "**未来を築く**、一行ずつのコード"
-                }
-            },
-            "items": []
         },
         {
             "id": "short_description",
@@ -177,201 +155,135 @@
             },
             "items": [
                 {
-                    "label": "Keith Cridland",
-                    "img": "images/pictures/testimonial-person-male-1.png",
-                    "faIcon": "fa-solid fa-user",
-                    "link": {
-                        "href": "https://kcroofingandbuilding.co.uk/"
+                    "value": "Keith Cridland",
+                    "links": [
+                        {
+                            "href": "https://kcroofingandbuilding.co.uk/"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/testimonial-person-male-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
                     },
                     "locales": {
                         "en": {
-                            "title": "Owner at <b>KC Roofing and Building</b>",
-                            "text": "Before working with Thomas, our roofing business relied on word-of-mouth. Now, we have a professional website where customers can see our work, request quotes, and book services. It's completely transformed the way we operate!"
+                            "info": "Owner at <b>KC Roofing and Building</b>",
+                            "text": "Before working with Thomas, our roofing business relied on word-of-mouth. Now, we have a professional website where customers can see our work, request quotes, and book services. It’s completely transformed the way we operate!"
                         },
                         "es": {
-                            "title": "Propietario de <b>KC Roofing and Building</b>",
+                            "info": "Propietario de <b>KC Roofing and Building</b>",
                             "text": "Antes de trabajar con Thomas, nuestro negocio de techado dependía del boca a boca. Ahora, tenemos un sitio web profesional donde los clientes pueden ver nuestro trabajo, solicitar presupuestos y reservar servicios. ¡Ha transformado completamente nuestra forma de operar!"
                         },
                         "fr": {
-                            "title": "Propriétaire de <b>KC Roofing and Building</b>",
+                            "info": "Propriétaire de <b>KC Roofing and Building</b>",
                             "text": "Avant de travailler avec Thomas, notre entreprise de toiture dépendait du bouche à oreille. Maintenant, nous avons un site web professionnel où les clients peuvent voir notre travail, demander des devis et réserver des services. Cela a complètement transformé notre façon de travailler !"
                         },
                         "ko": {
-                            "title": "<b>KC Roofing and Building</b> 대표",
+                            "info": "<b>KC Roofing and Building</b> 대표",
                             "text": "Thomas와 일하기 전에는 우리 지붕 공사 사업이 입소문에만 의존했습니다. 이제는 고객이 우리의 작업을 볼 수 있고, 견적을 요청하고, 서비스를 예약할 수 있는 전문적인 웹사이트가 있습니다. 우리의 운영 방식을 완전히 변화시켰습니다!"
                         }
                     }
                 },
                 {
-                    "label": "Annabel Butler",
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "link": {
-                        "href": "https://annabelbutlerdesigns.com/"
+                    "value": "Annabel Butler",
+                    "links": [
+                        {
+                            "href": "https://annabelbutlerdesigns.com/"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/testimonial-person-female-1.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
-                            "title": "CEO at <b>Annabel Butler Designs</b>",
+                            "info": "CEO at <b>Annabel Butler Designs</b>",
                             "text": "Thomas is building me a cool web shop to get my designs and prints out into the world for free. Safe to say, he won't have to buy me a Christmas present for at least the next two years. Best bro ever!"
                         },
                         "es": {
-                            "title": "CEO de <b>Annabel Butler Designs</b>",
+                            "info": "CEO de <b>Annabel Butler Designs</b>",
                             "text": "Thomas me está construyendo una tienda web genial para mostrar mis diseños e impresiones al mundo de forma gratuita. Se puede decir que no tendrá que comprarme un regalo de Navidad durante al menos los próximos dos años. ¡El mejor hermano del mundo!"
                         },
                         "fr": {
-                            "title": "PDG chez <b>Annabel Butler Designs</b>",
+                            "info": "PDG chez <b>Annabel Butler Designs</b>",
                             "text": "Thomas me construit une super boutique en ligne pour diffuser mes designs et impressions dans le monde gratuitement. Autant dire qu'il n'aura pas à m'acheter de cadeau de Noël pendant au moins les deux prochaines années. Le meilleur frère au monde !"
                         },
                         "ko": {
-                            "title": "<b>Annabel Butler Designs</b> CEO",
+                            "info": "<b>Annabel Butler Designs</b> CEO",
                             "text": "Thomas는 제 디자인과 프린트를 전 세계에 무료로 선보일 수 있는 멋진 웹 샵을 만들어주고 있어요. 앞으로 최소 2년 동안은 크리스마스 선물을 살 필요가 없을 거예요. 최고의 오빠예요!"
                         }
                     }
                 },
                 {
-                    "label": "Mark Johnson",
-                    "img": "images/pictures/testimonial-person-male-2.png",
-                    "link": {
-                        "href": "https://dribbble.com"
+                    "value": "Mark Johnson",
+                    "links": [
+                        {
+                            "href": "https://dribbble.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/testimonial-person-male-2.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
-                            "title": "Creative Director at <b>Dribbble</b>",
+                            "info": "Creative Director at <b>Dribbble</b>",
                             "text": "Thomas's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
                         },
                         "es": {
-                            "title": "Directora Creativa en <b>Dribbble</b>",
+                            "info": "Directora Creativa en <b>Dribbble</b>",
                             "text": "La atención al detalle de Thomas y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
                         },
                         "fr": {
-                            "title": "Directrice Créative chez <b>Dribbble</b>",
+                            "info": "Directrice Créative chez <b>Dribbble</b>",
                             "text": "L'attention aux détails de Thomas et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
                         },
                         "ko": {
-                            "title": "<b>Dribbble</b> 크리에이티브 디렉터",
+                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
                             "text": "Thomas의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
                         }
                     }
                 },
                 {
-                    "label": "Sophie Smith",
-                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "value": "Sophie Smith",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": "images/pictures/testimonial-person-female-2.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
                     "locales": {
                         "en": {
-                            "title": "Managing Director at <b>Dingga</b>",
+                            "info": "Managing Director at <b>Dingga</b>",
                             "text": "Collaborating with Thomas was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
                         },
                         "es": {
-                            "title": "Directora General en <b>Dingga</b>",
+                            "info": "Directora General en <b>Dingga</b>",
                             "text": "Colaborar con Thomas fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
                         },
                         "fr": {
-                            "title": "Directrice Générale chez <b>Dingga</b>",
+                            "info": "Directrice Générale chez <b>Dingga</b>",
                             "text": "Collaborer avec Thomas a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
                         },
                         "ko": {
-                            "title": "딩가 전무이사",
+                            "info": "딩가 전무이사",
                             "text": "Thomas와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
-                        }
-                    }
-                },
-                {
-                    "label": "Sarah Mitchell",
-                    "img": "images/pictures/testimonial-person-female-3.png",
-                    "link": {
-                        "href": "https://techstartup.com"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "CTO at <b>TechStartup Inc</b>",
-                            "text": "Thomas delivered exceptional results on our e-commerce platform rebuild. His expertise in React and Node.js, combined with his eye for user experience, helped us increase conversions by 40%. Highly recommend!"
-                        },
-                        "es": {
-                            "title": "CTO en <b>TechStartup Inc</b>",
-                            "text": "Thomas entregó resultados excepcionales en la reconstrucción de nuestra plataforma de comercio electrónico. Su experiencia en React y Node.js, combinada con su ojo para la experiencia del usuario, nos ayudó a aumentar las conversiones en un 40%. ¡Muy recomendable!"
-                        },
-                        "fr": {
-                            "title": "CTO chez <b>TechStartup Inc</b>",
-                            "text": "Thomas a livré des résultats exceptionnels pour la refonte de notre plateforme e-commerce. Son expertise en React et Node.js, combinée à son sens de l'expérience utilisateur, nous a aidés à augmenter les conversions de 40%. Je le recommande vivement !"
-                        },
-                        "ko": {
-                            "title": "<b>TechStartup Inc</b> CTO",
-                            "text": "Thomas는 우리 전자상거래 플랫폼 재구축에서 뛰어난 결과를 제공했습니다. React와 Node.js에 대한 그의 전문성과 사용자 경험에 대한 안목이 결합되어 전환율을 40% 증가시키는 데 도움이 되었습니다. 강력 추천합니다!"
-                        }
-                    }
-                },
-                {
-                    "label": "David Chen",
-                    "img": "images/pictures/testimonial-person-male-3.png",
-                    "faIcon": "fa-solid fa-user",
-                    "link": {
-                        "href": "https://digitalagency.com"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Lead Developer at <b>Digital Solutions Agency</b>",
-                            "text": "Working with Thomas was a pleasure. He quickly integrated with our team and contributed innovative solutions to complex problems. His code is clean, well-documented, and built to scale."
-                        },
-                        "es": {
-                            "title": "Desarrollador Principal en <b>Digital Solutions Agency</b>",
-                            "text": "Trabajar con Thomas fue un placer. Se integró rápidamente con nuestro equipo y contribuyó con soluciones innovadoras a problemas complejos. Su código es limpio, bien documentado y construido para escalar."
-                        },
-                        "fr": {
-                            "title": "Développeur Principal chez <b>Digital Solutions Agency</b>",
-                            "text": "Travailler avec Thomas a été un plaisir. Il s'est rapidement intégré à notre équipe et a apporté des solutions innovantes à des problèmes complexes. Son code est propre, bien documenté et conçu pour évoluer."
-                        },
-                        "ko": {
-                            "title": "<b>Digital Solutions Agency</b> 수석 개발자",
-                            "text": "Thomas와 함께 일하는 것은 즐거운 경험이었습니다. 그는 우리 팀에 빠르게 통합되었고 복잡한 문제에 혁신적인 솔루션을 제공했습니다. 그의 코드는 깨끗하고 잘 문서화되어 있으며 확장 가능하도록 구축되었습니다."
-                        }
-                    }
-                },
-                {
-                    "label": "Emma Rodriguez",
-                    "img": "images/pictures/testimonial-person-female-4.png",
-                    "link": {
-                        "href": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Product Manager at <b>FinTech Solutions</b>",
-                            "text": "Thomas was instrumental in bringing our mobile banking app vision to life. His technical skills are matched only by his ability to understand business requirements and deliver user-centric solutions."
-                        },
-                        "es": {
-                            "title": "Gerente de Producto en <b>FinTech Solutions</b>",
-                            "text": "Thomas fue fundamental para dar vida a nuestra visión de aplicación de banca móvil. Sus habilidades técnicas solo son igualadas por su capacidad para comprender los requisitos del negocio y ofrecer soluciones centradas en el usuario."
-                        },
-                        "fr": {
-                            "title": "Chef de Produit chez <b>FinTech Solutions</b>",
-                            "text": "Thomas a joué un rôle déterminant dans la concrétisation de notre vision d'application bancaire mobile. Ses compétences techniques n'ont d'égal que sa capacité à comprendre les exigences commerciales et à fournir des solutions centrées sur l'utilisateur."
-                        },
-                        "ko": {
-                            "title": "<b>FinTech Solutions</b> 제품 관리자",
-                            "text": "Thomas는 우리의 모바일 뱅킹 앱 비전을 실현하는 데 중요한 역할을 했습니다. 그의 기술적 능력은 비즈니스 요구사항을 이해하고 사용자 중심 솔루션을 제공하는 능력과 견줄 만합니다."
-                        }
-                    }
-                },
-                {
-                    "label": "James Wilson",
-                    "img": "images/pictures/testimonial-person-male-4.png",
-                    "link": {
-                        "href": "https://innovativetech.co"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Founder at <b>Innovative Tech Co</b>",
-                            "text": "As a startup founder, I needed someone who could wear multiple hats. Thomas exceeded expectations, handling everything from architecture design to deployment. He's a true full-stack developer."
-                        },
-                        "es": {
-                            "title": "Fundador de <b>Innovative Tech Co</b>",
-                            "text": "Como fundador de una startup, necesitaba a alguien que pudiera desempeñar múltiples roles. Thomas superó las expectativas, manejando todo desde el diseño de arquitectura hasta el despliegue. Es un verdadero desarrollador full-stack."
-                        },
-                        "fr": {
-                            "title": "Fondateur chez <b>Innovative Tech Co</b>",
-                            "text": "En tant que fondateur de startup, j'avais besoin de quelqu'un capable de porter plusieurs casquettes. Thomas a dépassé les attentes, gérant tout de la conception de l'architecture au déploiement. C'est un véritable développeur full-stack."
-                        },
-                        "ko": {
-                            "title": "<b>Innovative Tech Co</b> 설립자",
-                            "text": "스타트업 창업자로서 여러 역할을 수행할 수 있는 사람이 필요했습니다. Thomas는 아키텍처 설계부터 배포까지 모든 것을 처리하며 기대를 뛰어넘었습니다. 그는 진정한 풀스택 개발자입니다."
                         }
                     }
                 }

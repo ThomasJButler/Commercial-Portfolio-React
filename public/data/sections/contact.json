@@ -183,27 +183,6 @@
                             "title": "CodePen"
                         }
                     }
-                },
-                {
-                    "value": "Prototype",
-                    "links": [
-                        {
-                            "href": "https://aitomatic.co.uk/"
-                        }
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {
-                            "bg": null,
-                            "fill": null
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AiTomatic"
-                        }
-                    }
                 }
             ]
         }

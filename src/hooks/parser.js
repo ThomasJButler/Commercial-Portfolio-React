@@ -26,7 +26,7 @@ export const useParser = () => {
             title:
                 isLgOrHigher ?
                 language.getTranslation(titleLocales, "title_long") :
-                language.getTranslation(titleLocales, "title_short"),
+                language.getTranslation(titleLocales, "title_short", language.getTranslation(titleLocales, "title")),
 
             prefix:
                 isLgOrHigher ?

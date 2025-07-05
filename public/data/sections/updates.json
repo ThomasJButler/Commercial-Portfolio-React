@@ -42,7 +42,7 @@
                     "id": 1,
                     "img": null,
                     "faIcon": "fa-solid fa-tablet-screen-button",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#6366F1", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "03",
@@ -63,7 +63,7 @@
                     "id": 2,
                     "img": null,
                     "faIcon": "fa-solid fa-star",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#F59E0B", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "100+",
@@ -84,7 +84,7 @@
                     "id": 3,
                     "img": null,
                     "faIcon": "fa-solid fa-globe",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#06B6D4", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "12",
@@ -105,7 +105,7 @@
                     "id": 4,
                     "img": null,
                     "faIcon": "fa-solid fa-diagram-project",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#10B981", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "07",
@@ -126,7 +126,7 @@
                     "id": 5,
                     "img": null,
                     "faIcon": "fa-solid fa-coffee",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#92400E", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "20,000",
@@ -147,7 +147,7 @@
                     "id": 6,
                     "img": null,
                     "faIcon": "fa-solid fa-laptop-code",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {"bg": "#7C3AED", "fill": "#FFFFFF"},
                     "locales": {
                         "en": {
                             "title": "1,000,000+",

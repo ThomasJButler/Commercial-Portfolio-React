@@ -61,14 +61,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-html5",
-                        "faColors": {
-                            "bg": "#E34F26",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 95,
                     "dates": {
                         "start": "01/01/2022"
@@ -90,17 +82,14 @@
                             "title": "ウェブ開発",
                             "info": "レスポンシブで対話的、視覚的に魅力的なウェブアプリケーションを構築するためのHTML5、CSS3、JavaScriptの専門知識。"
                         }
+                    },
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "#E34F26",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {
-                            "bg": "#306998",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 85,
                     "dates": {
                         "start": "01/01/2022"
@@ -122,17 +111,14 @@
                             "title": "プログラミングとバックエンド",
                             "info": "堅牢なバックエンドシステムと多様なアプリケーションを開発するためのPython、Node.js、C#＆.NETに精通。"
                         }
+                    },
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "#339933",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-git",
-                        "faColors": {
-                            "bg": "#F05032",
-                            "fill": "#111"
-                        }
-                    },
                     "value": 98,
                     "dates": {
                         "start": "01/01/2022"
@@ -154,17 +140,14 @@
                             "title": "バージョン管理とAPI",
                             "info": "スムーズなコラボレーションと効率的な配信を確保するためのGitとAPI開発プラクティスに熟練。"
                         }
+                    },
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {
+                        "bg": "#F05032",
+                        "fill": "#111"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brain",
-                        "faColors": {
-                            "bg": "#9C27B0",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 65,
                     "dates": {
                         "start": "01/01/2022"
@@ -186,17 +169,14 @@
                             "title": "AI & Machine Learning",
                             "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
                         }
+                    },
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#FF6F00",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-database",
-                        "faColors": {
-                            "bg": "#2196F3",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 90,
                     "dates": {
                         "start": "01/01/2022"
@@ -218,17 +198,14 @@
                             "title": "Database Management",
                             "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
                         }
+                    },
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#336791",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-image",
-                        "faColors": {
-                            "bg": "#795548",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 70,
                     "dates": {
                         "start": "01/01/2022"
@@ -250,17 +227,14 @@
                             "title": "AI Visuals",
                             "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
                         }
+                    },
+                    "faIcon": "fa-solid fa-wand-magic-sparkles",
+                    "faIconColors": {
+                        "bg": "#8E2DE2",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-gamepad",
-                        "faColors": {
-                            "bg": "#607D8B",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 75,
                     "dates": {
                         "start": "01/01/2022"
@@ -282,17 +256,14 @@
                             "title": "Web3",
                             "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
                         }
+                    },
+                    "faIcon": "fa-brands fa-ethereum",
+                    "faIconColors": {
+                        "bg": "#627EEA",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-cloud-upload-alt",
-                        "faColors": {
-                            "bg": "#FF5722",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": 80,
                     "dates": {
                         "start": "01/01/2022"
@@ -314,6 +285,11 @@
                             "title": "Deployment",
                             "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
                         }
+                    },
+                    "faIcon": "fa-solid fa-cloud-arrow-up",
+                    "faIconColors": {
+                        "bg": "#0080FF",
+                        "fill": "#FFF"
                     }
                 }
             ]
@@ -342,14 +318,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-laptop-code",
-                        "faColors": {
-                            "bg": "#00BCD4",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -371,17 +339,14 @@
                             "title": "Website Development",
                             "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         }
+                    },
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#00BCD4",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-robot",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -403,17 +368,14 @@
                             "title": "AI Integration",
                             "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         }
+                    },
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#FFF"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-mobile-alt",
-                        "faColors": {
-                            "bg": "#3F51B5",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -435,17 +397,14 @@
                             "title": "Mobile Applications",
                             "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         }
+                    },
+                    "faIcon": "fa-mobile-alt",
+                    "faIconColors": {
+                        "bg": "#3F51B5",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-gamepad",
-                        "faColors": {
-                            "bg": "#FFFF00",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -467,17 +426,14 @@
                             "title": "Web3 & Blockchain Solutions",
                             "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         }
+                    },
+                    "faIcon": "fa-gamepad",
+                    "faIconColors": {
+                        "bg": "#FFFF00",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-palette",
-                        "faColors": {
-                            "bg": "#9C27B0",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -499,17 +455,14 @@
                             "title": "Digital Design",
                             "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         }
+                    },
+                    "faIcon": "fa-palette",
+                    "faIconColors": {
+                        "bg": "#9C27B0",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-tools",
-                        "faColors": {
-                            "bg": "#795548",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -531,6 +484,11 @@
                             "title": "Custom Projects",
                             "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         }
+                    },
+                    "faIcon": "fa-tools",
+                    "faIconColors": {
+                        "bg": "#795548",
+                        "fill": "#EEE"
                     }
                 }
             ]
@@ -555,14 +513,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-code",
-                        "faColors": {
-                            "bg": "#009688",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -584,17 +534,14 @@
                             "title": "Full-Stack Development",
                             "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         }
+                    },
+                    "faIcon": "fa-code",
+                    "faIconColors": {
+                        "bg": "#009688",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-robot",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -616,17 +563,14 @@
                             "title": "AI Integration",
                             "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         }
+                    },
+                    "faIcon": "fa-robot",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-python",
-                        "faColors": {
-                            "bg": "#FFEB3B",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -648,17 +592,14 @@
                             "title": "Python Development",
                             "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         }
+                    },
+                    "faIcon": "fa-python",
+                    "faIconColors": {
+                        "bg": "#FFEB3B",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-database",
-                        "faColors": {
-                            "bg": "#3F51B5",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -680,6 +621,11 @@
                             "title": "Database Management",
                             "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         }
+                    },
+                    "faIcon": "fa-database",
+                    "faIconColors": {
+                        "bg": "#3F51B5",
+                        "fill": "#EEE"
                     }
                 }
             ]
@@ -704,14 +650,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -733,17 +671,14 @@
                             "title": "HTML5/CSS3",
                             "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -765,17 +700,14 @@
                             "title": "JavaScript React Node.js",
                             "info": "Proficient in building dynamic web applications with React and Node.js."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -797,17 +729,14 @@
                             "title": "C#/.NET",
                             "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -829,17 +758,14 @@
                             "title": "Tailwind HubSpot/HUBL WordPress/PHP",
                             "info": "Skilled in using various frameworks and CMS platforms for web development."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -861,17 +787,14 @@
                             "title": "IOS/Web Apps",
                             "info": "Capable of developing applications for both iOS and web platforms."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -893,6 +816,11 @@
                             "title": "AI Integration",
                             "info": "Implementing cutting-edge AI solutions for real-world applications."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 }
             ]
@@ -919,14 +847,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -948,17 +868,14 @@
                             "title": "Data Analysis",
                             "info": "Experienced in applying data analysis techniques to support AI projects."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -980,17 +897,14 @@
                             "title": "Anaconda",
                             "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1012,17 +926,14 @@
                             "title": "PyTorch",
                             "info": "Proficient in building deep learning models with PyTorch."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1044,17 +955,14 @@
                             "title": "PyGame",
                             "info": "Skilled in game development with Python and integrating AI features."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1076,17 +984,14 @@
                             "title": "TensorFlow",
                             "info": "Experienced in designing and deploying machine learning models using TensorFlow."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1108,6 +1013,11 @@
                             "title": "Django & Flask",
                             "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 }
             ]
@@ -1134,14 +1044,6 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1163,17 +1065,14 @@
                             "title": "Data Analysis",
                             "info": "Experienced in using Python for data analysis and visualisation."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1195,17 +1094,14 @@
                             "title": "Anaconda",
                             "info": "Experienced in using Anaconda for managing Python packages and environments."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1227,17 +1123,14 @@
                             "title": "PyTorch",
                             "info": "Proficient in developing deep learning models with PyTorch."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1259,17 +1152,14 @@
                             "title": "PyGame",
                             "info": "Skilled in using PyGame for game development and scripting."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1291,17 +1181,14 @@
                             "title": "TensorFlow",
                             "info": "Experienced in using TensorFlow for machine learning and AI model development."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-check-circle",
-                        "faColors": {
-                            "bg": "#4CAF50",
-                            "fill": "#EEE"
-                        }
-                    },
                     "value": null,
                     "dates": {
                         "start": null
@@ -1323,6 +1210,11 @@
                             "title": "Django & Flask",
                             "info": "Proficient in using popular Python frameworks for web development."
                         }
+                    },
+                    "faIcon": "fa-check-circle",
+                    "faIconColors": {
+                        "bg": "#4CAF50",
+                        "fill": "#EEE"
                     }
                 }
             ]

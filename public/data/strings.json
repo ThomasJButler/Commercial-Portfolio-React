@@ -47,7 +47,11 @@
             "title_long_prefix": "Hello, I'm",
             "title_long": "Thomas Butler",
             "title_short_nav": "About",
-            "present": "Present"
+            "present": "Present",
+            "options": "Options",
+            "change_theme": "Change Theme",
+            "activate_magic_cursor": "Activate Magic Cursor",
+            "deactivate_magic_cursor": "Deactivate Magic Cursor"
         },
 
         "ru": {
@@ -97,7 +101,11 @@
             "title_long_prefix": "Привет, я",
             "title_long": "Томас Батлер",
             "title_short_nav": "Обо мне",
-            "present": "Настоящее время"
+            "present": "Настоящее время",
+            "options": "Опции",
+            "change_theme": "Изменить тему",
+            "activate_magic_cursor": "Активировать волшебный курсор",
+            "deactivate_magic_cursor": "Деактивировать волшебный курсор"
         },
 
         "fr": {
@@ -147,7 +155,11 @@
             "title_long_prefix": "Bonjour, je suis",
             "title_long": "Thomas Butler",
             "title_short_nav": "À propos",
-            "present": "Présent"
+            "present": "Présent",
+            "options": "Options",
+            "change_theme": "Changer le thème",
+            "activate_magic_cursor": "Activer le curseur magique",
+            "deactivate_magic_cursor": "Désactiver le curseur magique"
         },
 
         "ja": {
@@ -197,7 +209,11 @@
             "title_long_prefix": "こんにちは、私は",
             "title_long": "トーマス・バトラー",
             "title_short_nav": "私について",
-            "present": "現在"
+            "present": "現在",
+            "options": "オプション",
+            "change_theme": "テーマを変更",
+            "activate_magic_cursor": "マジックカーソルを有効にする",
+            "deactivate_magic_cursor": "マジックカーソルを無効にする"
         }
     }
 }

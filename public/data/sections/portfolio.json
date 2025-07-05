@@ -119,7 +119,7 @@
             "items": [
                 {
                     "id": "msbankarena",
-                    "img": "images/pictures/msbankarena.png",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
                     "title": "M&S Bank Arena",
                     "subtitle": "",
                     "tags": [],
@@ -127,8 +127,8 @@
                     "icon": {
                         "fa": "fa-regular fa-calendar-days",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#9333EA",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -163,7 +163,7 @@
                 },
                 {
                     "id": "cdw",
-                    "img": "images/pictures/gallery/cdw.png",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
                     "title": "CDW",
                     "subtitle": "",
                     "tags": [],
@@ -171,8 +171,8 @@
                     "icon": {
                         "fa": "fa-regular fa-file-code",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#3B82F6",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -207,7 +207,7 @@
                 },
                 {
                     "id": "accliverpool",
-                    "img": "images/pictures/gallery/acc.png",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
                     "title": "ACC Liverpool",
                     "subtitle": "",
                     "tags": [],
@@ -215,8 +215,8 @@
                     "icon": {
                         "fa": "fa-regular fa-calendar-days",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#EF4444",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -251,7 +251,7 @@
                 },
                 {
                     "id": "infotrack",
-                    "img": "images/pictures/infotrack.png",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
                     "title": "InfoTrack",
                     "subtitle": "",
                     "tags": [],
@@ -259,8 +259,8 @@
                     "icon": {
                         "fa": "fa-solid fa-house",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#10B981",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -295,7 +295,7 @@
                 },
                 {
                     "id": "mastermover",
-                    "img": "images/pictures/mastermover.png",
+                    "img": "images/pictures/portfolio-project-logo-5.png",
                     "title": "MasterMover",
                     "subtitle": "",
                     "tags": [],
@@ -303,8 +303,8 @@
                     "icon": {
                         "fa": "fa-solid fa-wrench",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#F97316",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -339,7 +339,7 @@
                 },
                 {
                     "id": "merseyrail",
-                    "img": "images/pictures/merseyrail.png",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
                     "title": "Merseyrail",
                     "subtitle": "",
                     "tags": [],
@@ -347,8 +347,8 @@
                     "icon": {
                         "fa": "fa-solid fa-train",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#8B5CF6",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -383,7 +383,7 @@
                 },
                 {
                     "id": "pvc",
-                    "img": "images/pictures/pvc.png",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
                     "title": "PvCase",
                     "subtitle": "",
                     "tags": [],
@@ -391,8 +391,8 @@
                     "icon": {
                         "fa": "fa-solid fa-pen-ruler",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#EC4899",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -427,7 +427,7 @@
                 },
                 {
                     "id": "premex",
-                    "img": "images/pictures/premex.png",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
                     "title": "Premex",
                     "subtitle": "",
                     "tags": [],
@@ -435,8 +435,8 @@
                     "icon": {
                         "fa": "fa-solid fa-paperclip",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#14B8A6",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -471,7 +471,7 @@
                 },
                 {
                     "id": "fueliusinternal",
-                    "img": "images/pictures/fuelius.png",
+                    "img": "images/pictures/fuelius.jpg",
                     "title": "Fuelius Internal",
                     "subtitle": "",
                     "tags": [],
@@ -479,8 +479,8 @@
                     "icon": {
                         "fa": "fa-solid fa-cloud",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#06B6D4",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -515,7 +515,7 @@
                 },
                 {
                     "id": "lancashirecricket",
-                    "img": "images/pictures/lancashirecricket.png",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
                     "title": "Lancashire Cricket",
                     "subtitle": "",
                     "tags": [],
@@ -523,8 +523,8 @@
                     "icon": {
                         "fa": "fa-solid fa-medal",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#F59E0B",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -559,7 +559,7 @@
                 },
                 {
                     "id": "orega",
-                    "img": "images/pictures/orega.png",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
                     "title": "Orega",
                     "subtitle": "",
                     "tags": [],
@@ -567,8 +567,8 @@
                     "icon": {
                         "fa": "fa-solid fa-briefcase",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#6366F1",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -603,7 +603,7 @@
                 },
                 {
                     "id": "hewittfertility",
-                    "img": "images/pictures/hewittfertility.png",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
                     "title": "Hewitt Fertility Center",
                     "subtitle": "",
                     "tags": [],
@@ -611,8 +611,8 @@
                     "icon": {
                         "fa": "fa-solid fa-stethoscope",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#DC2626",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -647,7 +647,7 @@
                 },
                 {
                     "id": "kcroofing",
-                    "img": "images/pictures/kcroofing.png",
+                    "img": "images/pictures/portfolio-project-logo-5.png",
                     "title": "KC Roofing and Building",
                     "subtitle": "",
                     "tags": [],
@@ -655,8 +655,8 @@
                     "icon": {
                         "fa": "fa-solid fa-hammer",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#78716C",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -691,7 +691,7 @@
                 },
                 {
                     "id": "annabelbutlerdesigns",
-                    "img": "images/pictures/annabelbutlerdesigns.png",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
                     "title": "Annabel Butler Designs",
                     "subtitle": "",
                     "tags": [],
@@ -699,8 +699,8 @@
                     "icon": {
                         "fa": "fa-solid fa-brush",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#E11D48",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -735,7 +735,7 @@
                 },
                 {
                     "id": "thomasjbutlergithubio",
-                    "img": "images/pictures/thomasjbutlergithubio.png",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
                     "title": "Personal Portfolio",
                     "subtitle": "",
                     "tags": [],
@@ -743,8 +743,8 @@
                     "icon": {
                         "fa": "fa-solid fa-laptop",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#2563EB",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -779,7 +779,7 @@
                 },
                 {
                     "id": "aitomatic",
-                    "img": "images/pictures/aitomatic.png",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
                     "title": "AiTomatic",
                     "subtitle": "",
                     "tags": [],
@@ -787,8 +787,8 @@
                     "icon": {
                         "fa": "fa-solid fa-microchip",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#7C3AED",
+                            "fill": "#FFFFFF"
                         }
                     },
                     "links": [
@@ -823,7 +823,7 @@
                 },
                 {
                     "id": "matrixarcade",
-                    "img": "images/pictures/matrixarcade.png",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
                     "title": "Matrix Arcade",
                     "subtitle": "",
                     "tags": [],

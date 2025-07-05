@@ -101,8 +101,8 @@ function LanguageProvider({ children, supportedLanguages, defaultLanguageId, app
             return text
 
         return text.replace(/\{\{(.*?)\}\}/g, `<span class="${constants.HTML_CLASSES.textHighlight}">$1</span>`)
-            .replace(/\[\[(.*?)\]\]/g, '<strong>$1</strong>')
-            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\[\[(.*?)\]\]/g, '<strong style="color: var(--theme-primary)">$1</strong>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--theme-primary)">$1</strong>')
             .replace("{theme}", selectedThemeId || "default")
     }
 

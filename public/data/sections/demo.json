@@ -125,10 +125,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-regular fa-calendar-days",
+                        "fa": "fa-solid fa-rocket",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#E91E63",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -169,10 +169,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-regular fa-file-code",
+                        "fa": "fa-solid fa-cube",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#00BCD4",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -213,10 +213,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-regular fa-calendar-days",
+                        "fa": "fa-solid fa-rocket",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#E91E63",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -257,10 +257,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-house",
+                        "fa": "fa-solid fa-diamond",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#9C27B0",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -301,10 +301,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-wrench",
+                        "fa": "fa-solid fa-gear",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#FF5722",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -347,8 +347,8 @@
                     "icon": {
                         "fa": "fa-solid fa-train",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#4CAF50",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -389,10 +389,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-pen-ruler",
+                        "fa": "fa-solid fa-solar-panel",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#FFC107",
+                            "fill": "#000"
                         }
                     },
                     "links": [
@@ -433,10 +433,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-paperclip",
+                        "fa": "fa-solid fa-bolt",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#FF9800",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -479,8 +479,8 @@
                     "icon": {
                         "fa": "fa-solid fa-cloud",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#2196F3",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -521,10 +521,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-medal",
+                        "fa": "fa-solid fa-trophy",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#FFD700",
+                            "fill": "#000"
                         }
                     },
                     "links": [
@@ -565,10 +565,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-briefcase",
+                        "fa": "fa-solid fa-building",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#607D8B",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -609,10 +609,10 @@
                     "tags": [],
                     "categoryId": "webAgency",
                     "icon": {
-                        "fa": "fa-solid fa-stethoscope",
+                        "fa": "fa-solid fa-heart-pulse",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#F44336",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -655,8 +655,8 @@
                     "icon": {
                         "fa": "fa-solid fa-hammer",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#795548",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -697,10 +697,10 @@
                     "tags": [],
                     "categoryId": "freelance",
                     "icon": {
-                        "fa": "fa-solid fa-brush",
+                        "fa": "fa-solid fa-palette",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#E91E63",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -741,10 +741,10 @@
                     "tags": [],
                     "categoryId": "personal",
                     "icon": {
-                        "fa": "fa-solid fa-laptop",
+                        "fa": "fa-solid fa-code",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#3F51B5",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -787,8 +787,8 @@
                     "icon": {
                         "fa": "fa-solid fa-microchip",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#00BCD4",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -831,8 +831,8 @@
                     "icon": {
                         "fa": "fa-solid fa-gamepad",
                         "faColors": {
-                            "bg": null,
-                            "fill": null
+                            "bg": "#4CAF50",
+                            "fill": "#FFF"
                         }
                     },
                     "links": [
@@ -862,6 +862,358 @@
                         "en": {
                             "title": "Matrix Arcade",
                             "text": "Mini Games arcade built with Typescript, Python and React. Showcase of games I created whilst learning."
+                        }
+                    }
+                },
+                {
+                    "id": "careertracker",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "Career Tracker Pro",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": {
+                            "bg": "#FF5722",
+                            "fill": "#FFF"
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-mobile-screen",
+                            "href": "#",
+                            "label": "Demo App"
+                        },
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "#",
+                            "label": "Source Code"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Career Tracker Pro",
+                            "text": "React Native app for tracking professional experience, milestones, and career progression. Features timeline visualization, achievement badges, and goal setting."
+                        }
+                    }
+                },
+                {
+                    "id": "workflowmanager",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "Workflow Manager",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-list-check",
+                        "faColors": {
+                            "bg": "#9C27B0",
+                            "fill": "#FFF"
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-desktop",
+                            "href": "#",
+                            "label": "Web Demo"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-video",
+                            "href": "#",
+                            "label": "Video Tour"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Workflow Manager",
+                            "text": "Enterprise task management app built with .NET Core and Angular. Includes Kanban boards, time tracking, and team collaboration features."
+                        }
+                    }
+                },
+                {
+                    "id": "skillmatcher",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "SkillMatcher AI",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-brain",
+                        "faColors": {
+                            "bg": "#FF6F00",
+                            "fill": "#FFF"
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-rocket",
+                            "href": "#",
+                            "label": "Launch App"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-code",
+                            "href": "#",
+                            "label": "API Docs"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SkillMatcher AI",
+                            "text": "AI-powered skills assessment and recommendation platform. Uses machine learning to match skills with job requirements and suggest learning paths."
+                        }
+                    }
+                },
+                {
+                    "id": "techstackvisualizer",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "Tech Stack Visualizer",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-network-wired",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-play",
+                            "href": "#",
+                            "label": "Try Demo"
+                        },
+                        {
+                            "faIcon": "fa-brands fa-npm",
+                            "href": "#",
+                            "label": "NPM Package"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tech Stack Visualizer",
+                            "text": "Interactive D3.js visualization tool for displaying technology stacks, dependencies, and skill relationships. Perfect for portfolio presentations."
+                        }
+                    }
+                },
+                {
+                    "id": "codebuddy",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "CodeBuddy Learning",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-graduation-cap",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-globe",
+                            "href": "#",
+                            "label": "Web App"
+                        },
+                        {
+                            "faIcon": "fa-brands fa-app-store-ios",
+                            "href": "#",
+                            "label": "iOS App"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CodeBuddy Learning",
+                            "text": "Educational platform for learning programming through interactive challenges. Features real-time code execution, progress tracking, and peer collaboration."
+                        }
+                    }
+                },
+                {
+                    "id": "certmanager",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "CertManager Plus",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-certificate",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-download",
+                            "href": "#",
+                            "label": "Download"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-book",
+                            "href": "#",
+                            "label": "Documentation"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CertManager Plus",
+                            "text": "Certification tracking app for IT professionals. Manages renewal dates, study materials, and provides exam preparation resources with AI-powered flashcards."
+                        }
+                    }
+                },
+                {
+                    "id": "studybuddy",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "StudyBuddy AI",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-robot",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-chrome",
+                            "href": "#",
+                            "label": "Chrome Extension"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-puzzle-piece",
+                            "href": "#",
+                            "label": "API Integration"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "StudyBuddy AI",
+                            "text": "AI-powered study assistant that creates personalized learning plans, quizzes, and summaries from course materials. Integrates with popular learning platforms."
+                        }
+                    }
+                },
+                {
+                    "id": "coursetracker",
+                    "img": "images/pictures/placeholder1.png",
+                    "title": "Course Tracker Pro",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "personal",
+                    "icon": {
+                        "fa": "fa-solid fa-chalkboard-teacher",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-solid fa-tablet",
+                            "href": "#",
+                            "label": "Tablet App"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-share",
+                            "href": "#",
+                            "label": "Share Progress"
+                        }
+                    ],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "modalEnabled": true,
+                            "aspectRatio": null,
+                            "images": [],
+                            "placeholderImages": [
+                                "images/pictures/placeholder1.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Course Tracker Pro",
+                            "text": "Comprehensive course management system for tracking online learning progress across multiple platforms. Features analytics dashboard and completion certificates."
                         }
                     }
                 }
