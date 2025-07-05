@@ -51,13 +51,10 @@
                     "link": {
                         "href": null
                     },
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-city",
-                        "faColors": {
-                            "bg": "#6B7280",
-                            "fill": "#FFFFFF"
-                        }
+                    "faIcon": "fa-solid fa-city",
+                    "faIconColors": {
+                        "bg": "#6B7280",
+                        "fill": "#36ad59"
                     }
                 },
                 {
@@ -65,13 +62,10 @@
                     "link": {
                         "href": "https://thomasjbutler.github.io"
                     },
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-code",
-                        "faColors": {
-                            "bg": "#3B82F6",
-                            "fill": "#FFFFFF"
-                        }
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#6B7280",
+                        "fill": "#36ad59"
                     }
                 },
                 {
@@ -79,12 +73,10 @@
                     "link": {
                         "href": "https://github.com/thomasjbutler"
                     },
-                    "icon": {
-                        "fa": "fa-brands fa-github",
-                        "faColors": {
-                            "bg": "#181717",
-                            "fill": "#FFFFFF"
-                        }
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {
+                        "bg": "#6B7280",
+                        "fill": "#36ad59"
                     }
                 }
             ]
@@ -131,14 +123,7 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": "images/svg/logo.svg",
-                        "fa": null,
-                        "faColors": {
-                            "bg": null,
-                            "fill": null
-                        }
-                    },
+                    "img": "images/pictures/matrix.png",
                     "locales": {
                         "en": {
                             "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development. I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p></p><p>Kind regards, Thomas</p>"
@@ -275,7 +260,7 @@
                 },
                 {
                     "label": "Sarah Mitchell",
-                    "img": "images/pictures/testimonial-person-female-3.png",
+                    "img": "images/pictures/testimonial-person-female-1.png",
                     "link": {
                         "href": "https://techstartup.com"
                     },
@@ -300,7 +285,7 @@
                 },
                 {
                     "label": "David Chen",
-                    "img": "images/pictures/testimonial-person-male-3.png",
+                    "img": "images/pictures/testimonial-person-male-1.png",
                     "faIcon": "fa-solid fa-user",
                     "link": {
                         "href": "https://digitalagency.com"
@@ -326,7 +311,7 @@
                 },
                 {
                     "label": "Emma Rodriguez",
-                    "img": "images/pictures/testimonial-person-female-4.png",
+                    "img": "images/pictures/testimonial-person-female-1.png",
                     "link": {
                         "href": null
                     },
@@ -351,7 +336,7 @@
                 },
                 {
                     "label": "James Wilson",
-                    "img": "images/pictures/testimonial-person-male-4.png",
+                    "img": "images/pictures/testimonial-person-male-2.png",
                     "link": {
                         "href": "https://innovativetech.co"
                     },
@@ -398,11 +383,7 @@
             },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-solid fa-guitar",
                     "value": null,
                     "locales": {
                         "en": {
@@ -424,11 +405,7 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-video",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-solid fa-video",
                     "value": null,
                     "locales": {
                         "en": {
@@ -450,11 +427,7 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-person-running",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-solid fa-person-running",
                     "value": null,
                     "locales": {
                         "en": {
@@ -476,11 +449,7 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-person-skiing",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-solid fa-person-skiing",
                     "value": null,
                     "locales": {
                         "en": {
@@ -502,11 +471,7 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-playstation",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-brands fa-playstation",
                     "value": null,
                     "locales": {
                         "en": {
@@ -528,11 +493,7 @@
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-person-hiking",
-                        "faColors": null
-                    },
+                    "faIcon": "fa-solid fa-person-hiking",
                     "value": null,
                     "locales": {
                         "en": {
