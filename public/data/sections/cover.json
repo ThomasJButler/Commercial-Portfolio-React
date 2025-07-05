@@ -47,7 +47,7 @@
             },
             "items": [
                 {
-                    "label": "Liverpool – England",
+                    "label": "York – England",
                     "link": {
                         "href": null
                     },
@@ -80,7 +80,6 @@
                         "href": "https://github.com/thomasjbutler"
                     },
                     "icon": {
-                        "img": null,
                         "fa": "fa-brands fa-github",
                         "faColors": {
                             "bg": "#181717",
@@ -98,7 +97,7 @@
             },
             "locales": {
                 "en": {
-                    "title": "**Building the future**, one line of code at a time"
+                    "title": "**Building the future**, one line of code at a time."
                 },
                 "ru": {
                     "title": "**Создавая будущее**, одна строка кода за раз"

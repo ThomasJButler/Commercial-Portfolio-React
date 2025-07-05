@@ -44,9 +44,20 @@ export const _fileUtils = {
      * @return {String}
      */
     resolvePath: (path) => {
+        if(!path)
+            return null
+            
         if(path.startsWith("http"))
             return path
-        const baseUrl = _fileUtils.BASE_URL || ""
+            
+        // Remove trailing slash from base URL to prevent double slashes
+        const baseUrl = (_fileUtils.BASE_URL || "").replace(/\/$/, "")
+        
+        // Ensure path starts with /
+        if(path.charAt(0) !== '/') {
+            path = '/' + path
+        }
+        
         return baseUrl + path
     },
 }

@@ -11,7 +11,7 @@
     "locales": {
         "en": {
             "localized_name": "Thomas Butler",
-            "localized_name_stylized": " [[Thomas {{Butler}}]]",
+            "localized_name_stylized": " Thomas [[ {{Butler}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
                 "Full-Stack Developer",

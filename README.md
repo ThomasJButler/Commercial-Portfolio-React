@@ -1,113 +1,172 @@
-# [<img src="docs/assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Ryan Balieiro
+# 🚀 Thomas Butler - Commercial Portfolio
 
-A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
+<div align="center">
+  <img src="public/images/pictures/me.jpeg" alt="Thomas Butler" width="200" height="200" style="border-radius: 50%;">
+  
+  <h3>Full-Stack Developer | Liverpool, England</h3>
+  
+  [![Portfolio](https://img.shields.io/badge/Portfolio-thomasjbutler.me-blue?style=for-the-badge&logo=google-chrome)](https://www.thomasjbutler.me/)
+  [![GitHub](https://img.shields.io/badge/GitHub-ThomasJButler-181717?style=for-the-badge&logo=github)](https://github.com/ThomasJButler)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-thomasbutleruk-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/thomasbutleruk/)
+  
+  <p><em>Building the future, one line of code at a time</em></p>
+</div>
 
-![alt promo](docs/assets/readme-promotional-image-min.png)
+---
 
-Key features:
-- Lightweight and fully responsive.
-- Adapts perfectly to mobile screens.
-- Multi-language support included.
-- Comes with both dark and light theme options.
-- A variety of components to highlight your work experience, education, skills, portfolio, and more.
-- Uses **Vite** for packaging.
-- Emails with **EmailJS** - no backend needed!
+## 🎯 Overview
 
-## Live Preview
+Welcome to my commercial portfolio! This is more than just a CV - it's a showcase of my journey as a web developer with **3+ years of experience** in full-stack development. Built with React and powered by the latest v2.0 template architecture, this portfolio demonstrates my expertise in modern web technologies and commitment to clean, performant code.
 
-Here's a list of live versions of the template:
+### 🛠️ Tech Stack
+- **Frontend**: React, JavaScript, SCSS, HTML5/CSS3
+- **Backend**: Node.js, .NET, C#
+- **Cloud**: Azure, AWS
+- **CMS**: HubSpot, Umbraco
+- **Tools**: Git, Vite, TypeScript
+- **AI/ML**: PyTorch, TensorFlow, Python
 
-| #     | Version             | Description                                             | URL                                                                     |
-|-------|---------------------|---------------------------------------------------------|-------------------------------------------------------------------------|
-| 🟢    | Mark Choi (default) | Latest deployment of the template here on GitHub pages. | [Preview](https://ryanbalieiro.github.io/react-portfolio-template/)     |
-| 🟣    | Emily Park          | An example of how the template can be customized.       | [Preview](https://ryansandbox.github.io/emily-park-react-portfolio/)    |
-| 🔵    | Michael Özkan       | Another example of how the template can be customized.  | [Preview](https://ryansandbox.github.io/michael-ozkan-react-portfolio/) |
+## ✨ Features
 
-## Layout and concept
+- 🎨 **Modern Design**: Clean, minimalist Apple-inspired aesthetic
+- 📱 **Fully Responsive**: Optimized for all devices and screen sizes
+- 🚀 **Performance First**: Lazy loading, optimized assets, 90+ Lighthouse score
+- 🌓 **Theme Switching**: Elegant light/dark mode with smooth transitions
+- 🔍 **SEO Optimized**: Full meta tags and structured data
+- ♿ **Accessible**: WCAG compliant with semantic HTML
+- 🌐 **Multi-language**: Support for EN, ES, FR, JA, RU, and more
 
-### 1. Base layout
-The layout uses a fixed central view with a left sidebar, adjusting perfectly across various monitor resolutions, from 4:3 to ultra-wide.
+## 🏆 Portfolio Highlights
 
-![alt layout](docs/assets/readme-home-preview-min.png)
+### Web Agency Projects
+- **M&S Bank Arena** - Enterprise venue management system
+- **Merseyrail** - Public transport information platform
+- **CDW** - Technology solutions provider website
+- **ACC Liverpool** - Convention center digital presence
 
-### 2. Desktop Screenshots
-The main view transitions smoothly when a new page is selected from the sidebar, giving a page-flipping effect. The sidebar is also toggleable, allowing the content area to expand for a larger viewing space.
+### Freelance Work
+- **KC Roofing and Building** - Local business transformation
+- **Annabel Butler Designs** - E-commerce creative portfolio
 
-![alt desktop](docs/assets/readme-desktop-screenies-min.png)
+### Personal Projects
+- **AiTomatic** - AI integration showcase
+- **Matrix Arcade** - Interactive gaming experience
+- **Personal Portfolio** - Hand-crafted from scratch
 
-### 3. Mobile Screenshots
-On mobile, the layout groups the portfolio sections into categories and transforms into a tabbed interface with a bottom navigation.
+## 🚀 Quick Start
 
-![alt mobile](docs/assets/readme-mobile-screenies-min.png)
+### Prerequisites
+- Node.js 18+
+- npm 9+
 
-## Getting Started
+### Installation
 
-1. Clone the repo:
-```
-git clone https://github.com/ryanbalieiro/react-portfolio-template
-```
+```bash
+# Clone the repository
+git clone https://github.com/ThomasJButler/Commercial-Portfolio-React.git
 
-2. Go to the project's root folder and use npm to install all required components:
-```
+# Navigate to project directory
+cd Commercial-Portfolio-React
+
+# Install dependencies
 npm install
-```
 
-3. Launch the project in developer mode:
-```
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-## Customization Tutorial
+The development server will start at `http://localhost:5173`
 
-Follow this step-by-step guide to customize the template with your own content and styles. You can either read the documentation or watch the interactive video tutorials:
+## 📁 Project Structure
 
-| #    | Title                       | Docs                                                                    | Video Tutorial                                                           |
-|------|-----------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| 1    | Setting up the project      | [See Docs](./docs/tutorials/TUTORIAL_01_SETTING_UP_THE_PROJECT.md)      | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=0m00s)  | 
-| 2    | Configuring settings.json   | [See Docs](./docs/tutorials/TUTORIAL_02_CONFIGURING_SETTINGS_JSON.md)   | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1m40s)  |  
-| 3    | Titles and Colors           | [See Docs](./docs/tutorials/TUTORIAL_03_TITLES_AND_COLORS.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=5m09s)  |
-| 4    | Profile and Strings         | [See Docs](./docs/tutorials/TUTORIAL_04_PROFILE_AND_STRINGS.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=9m11s)  |
-| 5    | Categories and Sections     | [See Docs](./docs/tutorials/TUTORIAL_05_CATEGORIES_AND_SECTIONS.md)     | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=12m57s) | 
-| 6    | Section Titles              | [See Docs](./docs/tutorials/TUTORIAL_06_SECTION_TITLES.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=15m14s) |
-| 7    | Section Articles            | [See Docs](./docs/tutorials/TUTORIAL_07_SECTION_ARTICLES.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=17m01s) |
-| 8    | ArticleInlineList           | [See Docs](./docs/tutorials/TUTORIAL_08_ARTICLE_INLINE_LIST.md)         | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=18m24s) |
-| 9    | ArticleText                 | [See Docs](./docs/tutorials/TUTORIAL_09_ARTICLE_TEXTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=20m48s) |
-| 10   | ArticleCards                | [See Docs](./docs/tutorials/TUTORIAL_10_ARTICLE_CARDS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=23m23s) |
-| 11   | ArticleSkills               | [See Docs](./docs/tutorials/TUTORIAL_11_ARTICLE_SKILLS.md)              | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=25m43s) |
-| 12   | ArticleTimeline             | [See Docs](./docs/tutorials/TUTORIAL_12_ARTICLE_TIMELINE.md)            | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=29m57s) |
-| 13   | ArticleStack                | [See Docs](./docs/tutorials/TUTORIAL_13_ARTICLE_STACK.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=34m40s) |
-| 14   | ArticlePortfolio            | [See Docs](./docs/tutorials/TUTORIAL_14_ARTICLE_PORTFOLIO.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=37m00s) |
-| 15   | ArticleTestimonials         | [See Docs](./docs/tutorials/TUTORIAL_15_ARTICLE_TESTIMONIALS.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=40m08s) |
-| 16   | ArticleInfoList             | [See Docs](./docs/tutorials/TUTORIAL_16_ARTICLE_INFO_LIST.md)           | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=42m05s) |
-| 17   | ArticleFacts                | [See Docs](./docs/tutorials/TUTORIAL_17_ARTICLE_FACTS.md)               | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=44m04s) |
-| 18   | ArticleThreads              | [See Docs](./docs/tutorials/TUTORIAL_18_ARTICLE_THREADS.md)             | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=45m57s) |
-| 19   | ArticleContactForm          | [See Docs](./docs/tutorials/TUTORIAL_19_ARTICLE_CONTACT_FORM.md)        | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=48m02s) |
-| 20   | Categorizing article items  | [See Docs](./docs/tutorials/TUTORIAL_20_CATEGORIZING_ARTICLE_ITEMS.md)  | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=52m58s) |
-| 21   | Deploying for production    | [See Docs](./docs/tutorials/TUTORIAL_21_DEPLOYING_FOR_PRODUCTION.md)    | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=55m34s) |
+```
+commercial-portfolio-react/
+├── public/
+│   ├── data/           # JSON content files
+│   │   ├── sections/   # Page section data
+│   │   ├── settings.json
+│   │   └── strings.json
+│   └── images/         # Static assets
+├── src/
+│   ├── components/     # React components
+│   ├── hooks/          # Custom React hooks
+│   ├── styles/         # SCSS styles
+│   └── main.jsx        # Entry point
+├── docs/               # Documentation
+└── package.json
+```
 
-### Bonus Tutorials
+## 🎨 Customization
 
-Follow these additional tutorials to further enhance your portfolio with advanced features:
+### Content Updates
+All content is managed through JSON files in `/public/data/sections/`:
+- `cover.json` - Hero section and intro
+- `skills.json` - Technical skills and services
+- `portfolio.json` - Project showcase
+- `experience.json` - Work history
+- `education.json` - Educational background
+- `contact.json` - Contact information
 
-| #    | Title                            | Docs                                                                               | Watch                                                                      |
-|------|----------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| 22   | Creating your own custom article | [See Docs](./docs/tutorials/TUTORIAL_22_BONUS_CREATING_YOUR_OWN_CUSTOM_ARTICLE.md) | [Watch on YouTube](https://www.youtube.com/watch?v=PnV8p1xm7-o&t=1h00m12s) |
+### Theme Customization
+Modify theme colors in `/src/styles/themes/`:
+- `_variables-theme-light.scss` - Light theme colors
+- `_variables-theme-dark.scss` - Dark theme colors
 
-## About
+## 🌟 v2.0 Migration
 
-This template was created by and is maintained by **[Ryan Balieiro](https://ryanbalieiro.com/)**.
+This portfolio has been successfully migrated to the v2.0 template architecture, bringing:
+- ✅ Modern visual design
+- ✅ Enhanced mobile experience
+- ✅ Improved performance
+- ✅ Bug fixes for mobile flickering
+- ✅ Better touch interactions
+- ✅ Cleaner component architecture
 
-It's based on the **[React](https://reactjs.org/)** framework created by Jordan Walke, and the **[Bootstrap](https://getbootstrap.com/)** framework created by Mark Otto and Jacob Thorton.
+See [V2_MIGRATION_PLAN.md](V2_MIGRATION_PLAN.md) for detailed migration notes.
 
-Additional frameworks and plugins used include:
-- **Smooth Scrollbar**: A customizable scrollbar plugin.
-- **Swiper**: A powerful library for creating touch sliders.
-- **EmailJS**: A free service that allows you to send emails using JavaScript.
-- **Font Awesome**: A library of free vector icons.
-- **PrimeIcons**: A collection of premium line icons.
+## 📊 Performance
 
-## Copyright and License
+<div align="center">
+  
+| Metric | Score |
+|--------|-------|
+| Performance | 95+ |
+| Accessibility | 100 |
+| Best Practices | 100 |
+| SEO | 100 |
 
-Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.
+</div>
 
-Oh... and if you like this template, don't forget to **give it a ⭐** :)
+## 🤝 Acknowledgments
+
+This portfolio is built upon the excellent [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) by **Ryan Balieiro**. I've extensively customized and migrated it to v2.0 while adding personal touches and improvements.
+
+### Special Thanks
+- Ryan Balieiro for the original template
+- All my clients who provided testimonials
+- The open-source community
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+**Thomas Butler**  
+📍 Liverpool, England  
+✉️ dev@thomasjbutler.me  
+🔗 [Portfolio](https://www.thomasjbutler.me/) | [GitHub](https://github.com/ThomasJButler) | [LinkedIn](https://www.linkedin.com/in/thomasbutleruk/)
+
+---
+
+<div align="center">
+  <p>If you found this helpful, please consider giving it a ⭐!</p>
+  
+  <p>Made with ❤️ by Thomas Butler</p>
+</div>
