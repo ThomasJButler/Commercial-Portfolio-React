@@ -155,19 +155,19 @@
                     "locales": {
                         "en": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
                         },
                         "ru": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
                         },
                         "fr": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
                         },
                         "ja": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Model creation and custom RAG / GPT's."
+                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -398,10 +398,10 @@
                             "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         }
                     },
-                    "faIcon": "fa-mobile-alt",
+                    "faIcon": "fa-solid fa-mobile-alt",
                     "faIconColors": {
                         "bg": "#3F51B5",
-                        "fill": "#EEE"
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -427,10 +427,10 @@
                             "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         }
                     },
-                    "faIcon": "fa-gamepad",
+                    "faIcon": "fa-solid fa-cube",
                     "faIconColors": {
-                        "bg": "#FFFF00",
-                        "fill": "#EEE"
+                        "bg": "#627EEA",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -456,10 +456,10 @@
                             "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         }
                     },
-                    "faIcon": "fa-palette",
+                    "faIcon": "fa-solid fa-palette",
                     "faIconColors": {
                         "bg": "#9C27B0",
-                        "fill": "#EEE"
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -485,10 +485,10 @@
                             "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         }
                     },
-                    "faIcon": "fa-tools",
+                    "faIcon": "fa-solid fa-tools",
                     "faIconColors": {
                         "bg": "#795548",
-                        "fill": "#EEE"
+                        "fill": "#FFF"
                     }
                 }
             ]
@@ -535,10 +535,10 @@
                             "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         }
                     },
-                    "faIcon": "fa-code",
+                    "faIcon": "fa-solid fa-code",
                     "faIconColors": {
                         "bg": "#009688",
-                        "fill": "#EEE"
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -564,10 +564,10 @@
                             "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         }
                     },
-                    "faIcon": "fa-robot",
+                    "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
                         "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -593,10 +593,10 @@
                             "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         }
                     },
-                    "faIcon": "fa-python",
+                    "faIcon": "fa-brands fa-python",
                     "faIconColors": {
-                        "bg": "#FFEB3B",
-                        "fill": "#EEE"
+                        "bg": "#3776AB",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -622,10 +622,10 @@
                             "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         }
                     },
-                    "faIcon": "fa-database",
+                    "faIcon": "fa-solid fa-database",
                     "faIconColors": {
-                        "bg": "#3F51B5",
-                        "fill": "#EEE"
+                        "bg": "#336791",
+                        "fill": "#FFF"
                     }
                 }
             ]
@@ -672,10 +672,10 @@
                             "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-html5",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#E34F26",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -701,10 +701,10 @@
                             "info": "Proficient in building dynamic web applications with React and Node.js."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-react",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#61DAFB",
+                        "fill": "#282C34"
                     }
                 },
                 {
@@ -730,10 +730,10 @@
                             "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-microsoft",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#5C2D91",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -759,10 +759,10 @@
                             "info": "Skilled in using various frameworks and CMS platforms for web development."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-wordpress",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#21759B",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -788,10 +788,10 @@
                             "info": "Capable of developing applications for both iOS and web platforms."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-app-store-ios",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#007AFF",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -817,10 +817,10 @@
                             "info": "Implementing cutting-edge AI solutions for real-world applications."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#9C27B0",
+                        "fill": "#FFF"
                     }
                 }
             ]
@@ -869,10 +869,10 @@
                             "info": "Experienced in applying data analysis techniques to support AI projects."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-chart-line",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#2196F3",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -898,10 +898,10 @@
                             "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-python",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#44A833",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -927,10 +927,10 @@
                             "info": "Proficient in building deep learning models with PyTorch."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-fire",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#EE4C2C",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -956,10 +956,10 @@
                             "info": "Skilled in game development with Python and integrating AI features."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-gamepad",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#673AB7",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -985,10 +985,10 @@
                             "info": "Experienced in designing and deploying machine learning models using TensorFlow."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-brain",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#FF6F00",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1014,10 +1014,10 @@
                             "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-brands fa-python",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#3776AB",
+                        "fill": "#FFF"
                     }
                 }
             ]
@@ -1066,10 +1066,10 @@
                             "info": "Experienced in using Python for data analysis and visualisation."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-chart-bar",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#00ACC1",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1095,10 +1095,10 @@
                             "info": "Experienced in using Anaconda for managing Python packages and environments."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-box-open",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#44A833",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1124,10 +1124,10 @@
                             "info": "Proficient in developing deep learning models with PyTorch."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-fire-flame-curved",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#EE4C2C",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1153,10 +1153,10 @@
                             "info": "Skilled in using PyGame for game development and scripting."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-dice",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#8E24AA",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1182,10 +1182,10 @@
                             "info": "Experienced in using TensorFlow for machine learning and AI model development."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-network-wired",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#FF6F00",
+                        "fill": "#FFF"
                     }
                 },
                 {
@@ -1211,10 +1211,10 @@
                             "info": "Proficient in using popular Python frameworks for web development."
                         }
                     },
-                    "faIcon": "fa-check-circle",
+                    "faIcon": "fa-solid fa-flask",
                     "faIconColors": {
-                        "bg": "#4CAF50",
-                        "fill": "#EEE"
+                        "bg": "#000000",
+                        "fill": "#FFF"
                     }
                 }
             ]
