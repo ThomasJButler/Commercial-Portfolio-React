@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title": {
         "locales": {
             "en": {
@@ -1542,4 +1543,406 @@
             ]
         }
     ]
+=======
+  "locales": {
+    "en": {
+      "title": "Life recently",
+      "title_menu": "Updates",
+      "title_long_prefix": "Take a look at my",
+      "title_long": "Recent **Updates**"
+    },
+    "es": {
+      "title": "Vida Reciente",
+      "title_menu": "Actualizaciones",
+      "title_long_prefix": "Consulta mis",
+      "title_long": "Actualizaciones **Recientes**"
+    },
+    "fr": {
+      "title": "Vie Récente",
+      "title_menu": "Mises à Jour",
+      "title_long_prefix": "Découvrez mes",
+      "title_long": "Dernières **Mises à Jour**"
+    },
+    "ko": {
+      "title": "최근의 삶",
+      "title_menu": "업데이트",
+      "title_long_prefix": "내 최근",
+      "title_long": "**업데이트**를 확인해 보세요"
+    }
+  },
+  "articles": [
+    {
+      "id": "fun_facts",
+      "component": "ArticleServices",
+      "config": {},
+      "link": {
+        "en": "/fun-facts",
+        "es": "/curiosidades",
+        "fr": "/faits-amusants",
+        "ko": "/재미있는-사실"
+      },
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-coffee",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "10,000+",
+              "info": "coffees drank"
+            },
+            "es": {
+              "title": "10,000+",
+              "info": "cafés consumidos"
+            },
+            "fr": {
+              "title": "10,000+",
+              "info": "cafés bus"
+            },
+            "ko": {
+              "title": "10,000+",
+              "info": "마신 커피"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-robot",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "150+",
+              "info": "AI models built"
+            },
+            "es": {
+              "title": "150+",
+              "info": "modelos de IA construidos"
+            },
+            "fr": {
+              "title": "150+",
+              "info": "modèles IA construits"
+            },
+            "ko": {
+              "title": "150+",
+              "info": "제작한 AI 모델"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-brain",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "100+",
+              "info": "custom GPTs built"
+            },
+            "es": {
+              "title": "100+",
+              "info": "GPTs personalizados creados"
+            },
+            "fr": {
+              "title": "100+",
+              "info": "GPTs personnalisés construits"
+            },
+            "ko": {
+              "title": "100+",
+              "info": "커스텀 GPT 제작"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cubes",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "4000",
+              "info": "AI asset creations"
+            },
+            "es": {
+              "title": "4000",
+              "info": "creaciones de recursos AI"
+            },
+            "fr": {
+              "title": "4000",
+              "info": "créations d'actifs IA"
+            },
+            "ko": {
+              "title": "4000",
+              "info": "AI 에셋 생성"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-globe",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "36",
+              "info": "countries visited"
+            },
+            "es": {
+              "title": "36",
+              "info": "países visitados"
+            },
+            "fr": {
+              "title": "36",
+              "info": "pays visités"
+            },
+            "ko": {
+              "title": "36",
+              "info": "방문한 나라"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "6",
+              "info": "websites published"
+            },
+            "es": {
+              "title": "6",
+              "info": "sitios web publicados"
+            },
+            "fr": {
+              "title": "6",
+              "info": "sites web publiés"
+            },
+            "ko": {
+              "title": "6",
+              "info": "웹사이트 공개"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-diagram-project",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "2",
+              "info": "open source projects"
+            },
+            "es": {
+              "title": "2",
+              "info": "proyectos de código abierto"
+            },
+            "fr": {
+              "title": "2",
+              "info": "projets open source"
+            },
+            "ko": {
+              "title": "2",
+              "info": "오픈 소스 프로젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "updates",
+      "component": "ArticleThread",
+      "config": {},
+      "link": {
+        "en": "/updates",
+        "es": "/actualizaciones",
+        "fr": "/mises-a-jour",
+        "ko": "/업데이트"
+      },
+      "locales": {
+        "en": {
+          "title": "Updates"
+        },
+        "es": {
+          "title": "Actualizaciones"
+        },
+        "fr": {
+          "title": "Mises à Jour"
+        },
+        "ko": {
+          "title": "업데이트"
+        }
+      },
+      "links": [],
+      "items": [
+        {
+          "dates": {
+            "start": "01/01/2023",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Created Personal Portfolio Website",
+              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
+            },
+            "es": {
+              "title": "Created Personal Portfolio Website",
+              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
+            },
+            "fr": {
+              "title": "Created Personal Portfolio Website",
+              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
+            },
+            "ko": {
+              "title": "Created Personal Portfolio Website",
+              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "06/01/2023",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Website Design & Development Training",
+              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
+            },
+            "es": {
+              "title": "Website Design & Development Training",
+              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
+            },
+            "fr": {
+              "title": "Website Design & Development Training",
+              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
+            },
+            "ko": {
+              "title": "Website Design & Development Training",
+              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "06/01/2023",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Matrix Arcade Integration",
+              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
+            },
+            "es": {
+              "title": "Matrix Arcade Integration",
+              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
+            },
+            "fr": {
+              "title": "Matrix Arcade Integration",
+              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
+            },
+            "ko": {
+              "title": "Matrix Arcade Integration",
+              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "09/01/2023",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Created AiTomatic Prototype",
+              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
+            },
+            "es": {
+              "title": "Created AiTomatic Prototype",
+              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
+            },
+            "fr": {
+              "title": "Created AiTomatic Prototype",
+              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
+            },
+            "ko": {
+              "title": "Created AiTomatic Prototype",
+              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "02/18/2025",
+            "end": null
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "Design Overhaul & Project Consolidation",
+              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
+            },
+            "es": {
+              "title": "Design Overhaul & Project Consolidation",
+              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
+            },
+            "fr": {
+              "title": "Design Overhaul & Project Consolidation",
+              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
+            },
+            "ko": {
+              "title": "Design Overhaul & Project Consolidation",
+              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "04/01/2025",
+            "end": null
+          },
+            "links": [{
+            "en": "/",
+            "es": "/",
+            "fr": "/",
+            "ko": "/"
+            }],
+          "locales": {
+            "en": {
+              "title": "Commercial Portfolio",
+              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
+            },
+            "es": {
+              "title": "Final Consolidated Launch",
+              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
+            },
+            "fr": {
+              "title": "Final Consolidated Launch",
+              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
+            },
+            "ko": {
+              "title": "Final Consolidated Launch",
+              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
+            }
+          }
+        }
+      ]
+    }
+  ]
+>>>>>>> main
 }

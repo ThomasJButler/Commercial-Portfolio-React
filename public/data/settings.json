@@ -8,6 +8,7 @@
 
     "preloaderSettings": {
         "enabled": true,
+<<<<<<< HEAD
         "title": "Thomas <strong>Butler</strong>",
         "subtitle": "Full-Stack Developer",
         "logoOffset": {
@@ -24,13 +25,48 @@
         "defaultThemeId": "dark",
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": false
+=======
+        "title": "React <b>Portfolio</b>",
+        "subtitle": "by Thomas Butler"
+    },
+
+    "profile": {
+        "name": "Thomas Butler",
+        "stylizedName": "<strong>Thomas **Butler**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/me.jpeg",
+
+        "locales": {
+            "en": {"role": "Full-Stack Web Developer"},
+            "es": {"role": "Desarrollador Web"},
+            "fr": {"role": "Développeur Web"},
+            "ko": {"role": "웹 개발자"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for full time work!"},
+            "es": {"message": "¡Disponible para freelance!"},
+            "fr": {"message": "Disponible pour freelance !"},
+            "ko": {"message": "프리랜스 가능합니다!"}
+        }
+>>>>>>> main
     },
 
     "supportedLanguages": [
         {
             "name": "English (UK)",
             "id": "en",
+<<<<<<< HEAD
             "flagUrl": "images/flags/en-uk.png"
+=======
+            "flagUrl": "images/flags/uk.png",
+            "default": true
+>>>>>>> main
         },
         {
             "name": "Français",
@@ -49,6 +85,7 @@
         }
     ],
 
+<<<<<<< HEAD
     "supportedThemes": [
         {
             "id": "dark",
@@ -75,4 +112,11 @@
     ],
 
     "imagesToCache": []
+=======
+    "emailjs": {
+        "publicKey": "F3bCtaiaGaGRcByJg",
+        "serviceId": "service_ehkcdf8",
+        "templateId": "template_ott5y0i"
+    }
+>>>>>>> main
 }

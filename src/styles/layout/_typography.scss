@@ -94,4 +94,48 @@ $lead-sizes: (
             font-size: map-get($size, sm)!important;
         }
     }
+<<<<<<< HEAD:src/styles/layout/_typography.scss
+=======
+}
+
+a {
+    text-decoration: none!important;
+    color: var(--theme-highlight-2)!important;
+    &:hover {
+        color: var(--theme-highlight-3)!important;
+    }
+
+    span, .fa-icon-wrapper, .fa-icon {
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
+.font-family-headings {
+    font-family: $headings-font-family!important;
+}
+
+.font-family-subheadings {
+    font-family: $custom-subheadings-font-family!important;
+}
+
+.text-highlight {
+    color: var(--theme-highlight);
+}
+
+.text-muted {
+    color: var(--theme-muted)!important;
+}
+
+.text-secondary-2 {
+    color: var(--theme-highlight-2);
+  }
+
+.text-secondary-3 {
+    color: var(--theme-secondary-3);
+}
+
+.text-secondary-4 {
+    color: var(--theme-secondary-4);
+>>>>>>> main:src/styles/_typography.scss
 }

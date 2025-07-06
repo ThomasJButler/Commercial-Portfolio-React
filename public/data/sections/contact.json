@@ -68,9 +68,20 @@
             },
             "items": [
                 {
+<<<<<<< HEAD
                     "label": "+44 7903352059",
                     "link": {
                         "href": "tel:+447903352059"
+=======
+                    "value": "+44 7903352059",
+                    "links": [
+                        {"href": "tel:+44 7903352059"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+>>>>>>> main
                     },
                     "faIcon": "fa-solid fa-phone",
                     "faIconColors": {
@@ -79,6 +90,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "label": "dev@thomasjbutler.me",
                     "link": {
                         "href": "mailto:dev@thomasjbutler.me"
@@ -126,6 +138,16 @@
                     "link": {
                         "href": "https://www.linkedin.com/in/thomasbutleruk/",
                         "tooltipString": "open_link"
+=======
+                    "value": "dev@thomasjbutler.me",
+                    "links": [
+                        {"href": "mailto:dev@thomasjbutler.me"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+>>>>>>> main
                     },
                     "locales": {
                         "en": {
@@ -155,6 +177,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "id": 2,
                     "faIcon": "fa-brands fa-github",
                     "faIconColors": {
@@ -164,6 +187,16 @@
                     "link": {
                         "href": "https://github.com/ThomasJButler",
                         "tooltipString": "open_link"
+=======
+                    "value": "@thomasjbutleruk",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/thomasbutleruk/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+>>>>>>> main
                     },
                     "locales": {
                         "en": {
@@ -193,6 +226,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "id": 3,
                     "faIcon": "fa-brands fa-codepen",
                     "faIconColors": {
@@ -228,9 +262,23 @@
                             "title": "CodePen",
                             "text": "CodePenで実験を見る"
                         }
+=======
+                    "value": "Thomas Butler",
+                    "links": [
+                        {"href": "https://github.com/ThomasJButler"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "GitHub"}
+>>>>>>> main
                     }
                 },
                 {
+<<<<<<< HEAD
                     "id": 4,
                     "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
@@ -266,6 +314,34 @@
                             "title": "AiTomatic",
                             "text": "AI自動化会社を訪問"
                         }
+=======
+                    "value": "@thomasbutler",
+                    "links": [
+                        {"href": "https://codepen.io/thomasbutler"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-codepen",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "CodePen"}
+                    }
+                },
+
+                {
+                    "value": "Prototype",
+                    "links": [
+                        {"href": "https://aitomatic.co.uk/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tiktok",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "AiTomatic"}
+>>>>>>> main
                     }
                 }
             ]

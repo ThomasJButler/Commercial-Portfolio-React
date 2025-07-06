@@ -1,0 +1,99 @@
+{
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
+    },
+    "es": {
+      "title": "Experiencia",
+      "title_long_prefix": "Resumen de mi",
+      "title_long": "Experiencia **Laboral**"
+    },
+    "fr": {
+      "title": "Expérience",
+      "title_long_prefix": "Résumé de mon",
+      "title_long": "Parcours **Professionel**"
+    },
+    "ko": {
+      "title": "경험",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**직업적** 경험"
+    }
+  },
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+          "img": "images/pictures/fuelius.jpg",
+          "fa": "",
+          "faColors": {
+              "bg": null,
+              "fill": null
+          }
+      },
+          "dates": {
+            "start": "08/31/2023",
+            "end": "12/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "Apprentice Full-Stack Software Developer",
+              "info": "Fuelius - Chester",
+              "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\n■ Gained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience.\n■ Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n■ Stepped up to cover senior responsibilities during team members’ leave, demonstrating adaptability and reliability.\n■ Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration.",
+              "image": "/images/pictures/fuelius.jpg"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/gc.png",
+            "fa": "",
+            "faColors": {
+                "bg": null,
+                "fill": null
+            }
+        },
+          "dates": {
+            "start": "02/02/2023",
+            "end": "06/02/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Cloud Engineering and Data Science Bootcamp Participant",
+              "info": "The Growth Company - Manchester",
+              "text": "Completed an intensive bootcamp focused on cloud platforms (AWS, Azure), Python programming, data analysis, and foundational AI.\n\n■ Built practical skills in Python for data analysis and gained familiarity with APIs and data models.\n■ Strengthened core knowledge in high‑availability infrastructure and networking through collaborative projects."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": "",
+            "faColors": {
+                "bg": null,
+                "fill": null
+            }
+        },
+          "dates": {
+            "start": "Childhood",
+            "end": "Present"
+          },
+          "locales": {
+            "en": {
+              "title": "Lifelong Passion for Technology",
+              "info": "",
+              "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I’ve always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch (iOS 1.1.4) with Cydia, messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it’s not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "note": "For additional education details, please refer to the [education tab](public/data/sections/education.json)."
+}

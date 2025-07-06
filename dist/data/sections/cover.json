@@ -1,0 +1,423 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Tom!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Tom!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Tom!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Tom** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Liverpool – England",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "Personal Portfolio",
+                    "links": [
+                        {"href": "https://thomasjbutler.github.io"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "GitHub",
+                    "links": [
+                        {"href": "https://github.com/thomasjbutler"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+                
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development. I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p></p><p>Kind regards, Tom</p>"},
+                        "es": {"text": "<p>Soy un desarrollador web con <b>más de 3 años</b> de experiencia, especializado en desarrollo full-stack. También tengo experiencia práctica con .NET, Azure, Node.js, C#, SCSS, Python y HubSpot/Umbraco CMS en entornos de producción.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
+                        "fr": {"text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack. J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
+                        "ko": {"text": "<p>저는 풀스택 개발을 전문으로 하는 <b>3년 이상의</b> 경력을 가진 웹 개발자입니다. 또한 프로덕션 환경에서 .NET, Azure, Node.js, C#, SCSS, Python 및 HubSpot/Umbraco CMS를 사용한 실무 경험이 있습니다.</p><p>이러한 다양한 배경으로 프로젝트의 다양한 요구사항에 유연하게 대응할 수 있습니다.</p><p><b>여러분과 협업</b>하기를 기대합니다!</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "What clients **might say**"},
+                "es": {"title": "Testimonios de **clientes**"},
+                "fr": {"title": "Témoignages de **clients**"},
+                "ko": {"title": "**고객** 추천사"}
+            },
+
+            "items": [
+                {
+                    "value": "Keith Cridland",
+                    "links": [
+                        {"href": "https://kcroofingandbuilding.co.uk/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Owner at <b>KC Roofing and Building</b>",
+                            "text": "Before working with Tom, our roofing business relied on word-of-mouth. Now, we have a professional website where customers can see our work, request quotes, and book services. It’s completely transformed the way we operate!"
+                        },
+                        "es": {
+                            "info": "Propietario de <b>KC Roofing and Building</b>",
+                            "text": "Antes de trabajar con Tom, nuestro negocio de techado dependía del boca a boca. Ahora, tenemos un sitio web profesional donde los clientes pueden ver nuestro trabajo, solicitar presupuestos y reservar servicios. ¡Ha transformado completamente nuestra forma de operar!"
+                        },
+                        "fr": {
+                            "info": "Propriétaire de <b>KC Roofing and Building</b>",
+                            "text": "Avant de travailler avec Tom, notre entreprise de toiture dépendait du bouche à oreille. Maintenant, nous avons un site web professionnel où les clients peuvent voir notre travail, demander des devis et réserver des services. Cela a complètement transformé notre façon de travailler !"
+                        },
+                        "ko": {
+                            "info": "<b>KC Roofing and Building</b> 대표",
+                            "text": "Tom과 일하기 전에는 우리 지붕 공사 사업이 입소문에만 의존했습니다. 이제는 고객이 우리의 작업을 볼 수 있고, 견적을 요청하고, 서비스를 예약할 수 있는 전문적인 웹사이트가 있습니다. 우리의 운영 방식을 완전히 변화시켰습니다!"
+                        }
+                    }
+                },
+
+                {
+                    "value": "Annabel Butler",
+                    "links": [
+                        {"href": "https://annabelbutlerdesigns.com/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>Annabel Butler Designs</b>",
+                            "text": "Tom is building me a cool web shop to get my designs and prints out into the world for free. Safe to say, he won't have to buy me a Christmas present for at least the next two years. Best bro ever!"
+                        },
+                        "es": {
+                            "info": "CEO de <b>Annabel Butler Designs</b>",
+                            "text": "Tom me está construyendo una tienda web genial para mostrar mis diseños e impresiones al mundo de forma gratuita. Se puede decir que no tendrá que comprarme un regalo de Navidad durante al menos los próximos dos años. ¡El mejor hermano del mundo!"
+                        },
+                        "fr": {
+                            "info": "PDG chez <b>Annabel Butler Designs</b>",
+                            "text": "Tom me construit une super boutique en ligne pour diffuser mes designs et impressions dans le monde gratuitement. Autant dire qu'il n'aura pas à m'acheter de cadeau de Noël pendant au moins les deux prochaines années. Le meilleur frère au monde !"
+                        },
+                        "ko": {
+                            "info": "<b>Annabel Butler Designs</b> CEO",
+                            "text": "Tom은 제 디자인과 프린트를 전 세계에 무료로 선보일 수 있는 멋진 웹 샵을 만들어주고 있어요. 앞으로 최소 2년 동안은 크리스마스 선물을 살 필요가 없을 거예요. 최고의 오빠예요!"
+                        }
+                    }
+                },
+                {
+                    "value": "Mark Johnson",
+                    "links": [
+                        {"href": "https://dribbble.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-4.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Creative Director at <b>Dribbble</b>",
+                            "text": "Toms's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+                        },
+                        "es": {
+                            "info": "Directora Creativa en <b>Dribbble</b>",
+                            "text": "La atención al detalle de Tom y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
+                        },
+                        "fr": {
+                            "info": "Directrice Créative chez <b>Dribbble</b>",
+                            "text": "L'attention aux détails de Tom et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
+                        },
+                        "ko": {
+                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
+                            "text": "Tom의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
+                        }
+                    }
+                },
+                {
+                    "value": "Sophie Smith",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Managing Director at <b>Dingga</b>",
+                            "text": "Collaborating with Tom was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                        },
+                        "es": {
+                            "info": "Directora General en <b>Dingga</b>",
+                            "text": "Colaborar con Tom fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
+                        },
+                        "fr": {
+                            "info": "Directrice Générale chez <b>Dingga</b>",
+                            "text": "Collaborer avec Tom a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
+                        },
+                        "ko": {
+                            "info": "딩가 전무이사",
+                            "text": "Tom와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing guitar and creating music",
+                            "info": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la guitare",
+                            "info": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "기타 연주",
+                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-video",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI Image and Model Creation",
+                            "info": "Learning to use new and existing AI tools."
+                        },
+                        "es": {
+                            "title": "Creación de imágenes y modelos con IA",
+                            "info": "Aprendiendo a usar herramientas de IA nuevas y existentes."
+                        },
+                        "fr": {
+                            "title": "Création d'images et de modèles IA",
+                            "info": "Apprendre à utiliser des outils d'IA nouveaux et existants."
+                        },
+                        "ko": {
+                            "title": "AI 이미지 및 모델 제작",
+                            "info": "새로운 AI 도구와 기존 AI 도구 사용법 배우기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person-running",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cricket",
+                            "info": "Loved to play ever since childhood."
+                        },
+                        "es": {
+                            "title": "Cricket",
+                            "info": "Me encantó jugar desde la infancia."
+                        },
+                        "fr": {
+                            "title": "Cricket",
+                            "info": "J'ai adoré jouer depuis l'enfance."
+                        },
+                        "ko": {
+                            "title": "크리켓",
+                            "info": "어린 시절부터 즐겨온 운동입니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person-skiing",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Skiing",
+                            "info": "Enjoying the slopes and the fresh mountain air."
+                        },
+                        "es": {
+                            "title": "Esquí",
+                            "info": "Disfrutando de las pistas y el aire fresco de la montaña."
+                        },
+                        "fr": {
+                            "title": "Ski",
+                            "info": "Profiter des pistes et de l'air frais de la montagne."
+                        },
+                        "ko": {
+                            "title": "스키",
+                            "info": "슬로프와 신선한 산악 공기를 즐기기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-playstation",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Casual Gaming",
+                            "info": "Playing the odd game here and there, to relax and unwind."
+                        },
+                        "es": {
+                            "title": "Juegos casuales",
+                            "info": "Jugando algún juego de vez en cuando, para relajarme y desconectar."
+                        },
+                        "fr": {
+                            "title": "Jeux occasionnels",
+                            "info": "Jouer à quelques jeux ici et là, pour se détendre et décompresser."
+                        },
+                        "ko": {
+                            "title": "캐주얼 게임",
+                            "info": "긴장을 풀고 휴식을 취하기 위해 가끔 게임을 즐깁니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person-hiking",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Hiking and Camping",
+                            "info": "Exploring the great outdoors and immersing in nature."
+                        },
+                        "es": {
+                            "title": "Senderismo y Camping",
+                            "info": "Explorando la naturaleza e inmersos en ella."
+                        },
+                        "fr": {
+                            "title": "Randonnée et Camping",
+                            "info": "Explorer le plein air et s'immerger dans la nature."
+                        },
+                        "ko": {
+                            "title": "등산과 캠핑",
+                            "info": "아웃도어 활동과 자연을 탐험하기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
