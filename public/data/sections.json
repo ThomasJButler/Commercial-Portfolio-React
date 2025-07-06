@@ -34,13 +34,7 @@
             "id": "demo",
             "categoryId": "showcase",
             "jsonPath": "/data/sections/demo.json",
-            "faIcon": "fa-solid fa-play-circle"
-        },
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
+            "faIcon": "fa-solid fa-rocket"
         },
         {
             "id": "updates",

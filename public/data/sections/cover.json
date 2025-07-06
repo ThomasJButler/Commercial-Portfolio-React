@@ -58,11 +58,11 @@
                     }
                 },
                 {
-                    "label": "Personal Portfolio",
+                    "label": "LinkedIn",
                     "link": {
-                        "href": "https://thomasjbutler.github.io"
+                        "href": "https://www.linkedin.com/in/thomasbutleruk/"
                     },
-                    "faIcon": "fa-solid fa-code",
+                    "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": {
                         "bg": "#6B7280",
                         "fill": "#36ad59"
@@ -80,28 +80,6 @@
                     }
                 }
             ]
-        },
-        {
-            "id": "dynamic_tagline",
-            "component": "ArticleText",
-            "config": {
-                "centered": true
-            },
-            "locales": {
-                "en": {
-                    "title": "**Building the future**, one line of code at a time."
-                },
-                "ru": {
-                    "title": "**Создавая будущее**, одна строка кода за раз"
-                },
-                "fr": {
-                    "title": "**Construire l'avenir**, une ligne de code à la fois"
-                },
-                "ja": {
-                    "title": "**未来を築く**、一行ずつのコード"
-                }
-            },
-            "items": []
         },
         {
             "id": "short_description",
@@ -384,6 +362,10 @@
             "items": [
                 {
                     "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {
+                        "bg": "#FF6B35",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {
@@ -406,6 +388,10 @@
                 },
                 {
                     "faIcon": "fa-solid fa-video",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {
@@ -428,6 +414,10 @@
                 },
                 {
                     "faIcon": "fa-solid fa-person-running",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {
@@ -450,6 +440,10 @@
                 },
                 {
                     "faIcon": "fa-solid fa-person-skiing",
+                    "faIconColors": {
+                        "bg": "#0EA5E9",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {
@@ -472,6 +466,10 @@
                 },
                 {
                     "faIcon": "fa-brands fa-playstation",
+                    "faIconColors": {
+                        "bg": "#003791",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {
@@ -494,6 +492,10 @@
                 },
                 {
                     "faIcon": "fa-solid fa-person-hiking",
+                    "faIconColors": {
+                        "bg": "#92400E",
+                        "fill": "#FFFFFF"
+                    },
                     "value": null,
                     "locales": {
                         "en": {

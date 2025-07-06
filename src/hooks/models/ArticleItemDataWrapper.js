@@ -175,8 +175,8 @@ export default class ArticleItemDataWrapper {
             return null
 
         return {
-            backgroundColor: this.faIconColors["backgroundColor"] || null,
-            color: this.faIconColors["color"] || null,
+            backgroundColor: this.faIconColors.backgroundColor || null,
+            color: this.faIconColors.color || null,
         }
     }
 

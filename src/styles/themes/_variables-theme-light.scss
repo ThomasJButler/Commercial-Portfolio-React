@@ -37,27 +37,31 @@ $primary: #007AFF;
 $secondary: #8E8E93;
 $dark: #1C1C1E;
 $danger: #FF3B30;
-$muted: #C7C7CC;
+$muted: #86868B;
 
-$base-bg: #FFFFFF;
+$base-bg: #FAFAFA;
 $base-bg-light: #FFFFFF;
-$base-bg-dark: #F5F5F7;
+$base-bg-dark: #F2F2F7;
 
-$texts: #000000;
+$texts: #1D1D1F;
 $texts-inverted: #FFFFFF;
 
 $base-container-bg: #FFFFFF;
 $base-container-bg-accent: #F5F5F7;
 $base-popover-bg: #FFFFFF;
-$base-boards: #FFFFFF;
-$base-info-badges: #F5F5F7;
+$base-boards: #FAFAFA;
+$base-info-badges: #F2F2F7;
 $empty: #F5F5F7;
 
-$borders: #D1D1D6;
+$borders: #E5E5E7;
 $borders-nav-mobile: rgba(0, 0, 0, 0.04);
-$borders-nav-mobile-accent: rgba(0, 0, 0, 0.08);
+$borders-nav-mobile-accent: rgba(0, 0, 0, 0.06);
 $scrollbar-track: #F5F5F7;
-$scrollbar-thumb: #C7C7CC;
+$scrollbar-thumb: #8E8E93;
+
+// Form specific colors for light theme
+$form-attach-bg: #F5F5F7;
+$form-attach-color: #48484A;
 
 [data-theme="light"] {
     @include build-theme(
@@ -104,4 +108,8 @@ $scrollbar-thumb: #C7C7CC;
         /** SCROLLBAR TRACK: **/            $scrollbar-track,
         /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
     );
+    
+    // Override form attachment colors for light theme
+    --form-attach-background-color: #{$form-attach-bg};
+    --form-attach-color: #{$form-attach-color};
 }

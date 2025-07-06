@@ -44,19 +44,19 @@
             "locales": {
                 "en": {
                     "title": "Technical Proficiencies",
-                    "info": "A comprehensive overview of my technical expertise and proficiencies."
+                    "text": "A comprehensive overview of my technical expertise and proficiencies."
                 },
                 "ru": {
                     "title": "Технические навыки",
-                    "info": "Полный обзор моих технических знаний и навыков."
+                    "text": "Полный обзор моих технических знаний и навыков."
                 },
                 "fr": {
                     "title": "Compétences techniques",
-                    "info": "Un aperçu complet de mon expertise et de mes compétences techniques."
+                    "text": "Un aperçu complet de mon expertise et de mes compétences techniques."
                 },
                 "ja": {
                     "title": "技術的熟練度",
-                    "info": "私の技術的専門知識と熟練度の包括的な概要。"
+                    "text": "私の技術的専門知識と熟練度の包括的な概要。"
                 }
             },
             "items": [
@@ -68,19 +68,23 @@
                     "locales": {
                         "en": {
                             "title": "Web Development",
-                            "info": "Expertise in HTML5, CSS3, and JavaScript for building responsive, interactive, and visually appealing web applications."
+                            "text": "Expertise in HTML5, CSS3, and JavaScript for building responsive, interactive, and visually appealing web applications. Proficient with Bootstrap, Tailwind CSS, Sass/SCSS, and modern build tools.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Веб-разработка",
-                            "info": "Экспертиза в HTML5, CSS3 и JavaScript для создания адаптивных, интерактивных и визуально привлекательных веб-приложений."
+                            "text": "Экспертиза в HTML5, CSS3 и JavaScript для создания адаптивных, интерактивных и визуально привлекательных веб-приложений. Владение Bootstrap, Tailwind CSS, Sass/SCSS и современными инструментами сборки.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Développement Web",
-                            "info": "Expertise en HTML5, CSS3 et JavaScript pour créer des applications web réactives, interactives et visuellement attrayantes."
+                            "text": "Expertise en HTML5, CSS3 et JavaScript pour créer des applications web réactives, interactives et visuellement attrayantes. Maîtrise de Bootstrap, Tailwind CSS, Sass/SCSS et des outils de build modernes.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "ウェブ開発",
-                            "info": "レスポンシブで対話的、視覚的に魅力的なウェブアプリケーションを構築するためのHTML5、CSS3、JavaScriptの専門知識。"
+                            "text": "レスポンシブで対話的、視覚的に魅力的なウェブアプリケーションを構築するためのHTML5、CSS3、JavaScriptの専門知識。Bootstrap、Tailwind CSS、Sass/SCSS、最新のビルドツールに精通。",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-html5",
@@ -97,19 +101,23 @@
                     "locales": {
                         "en": {
                             "title": "Programming & Backend",
-                            "info": "Proficient in Python, Node.js, and C# & .NET for developing robust backend systems and diverse applications."
+                            "text": "Proficient in Python, Node.js, and C# & .NET for developing robust backend systems and diverse applications. Experience with Express.js, ASP.NET Core, Django, and FastAPI frameworks.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Программирование и бэкенд",
-                            "info": "Владение Python, Node.js и C# & .NET для разработки надежных серверных систем и различных приложений."
+                            "text": "Владение Python, Node.js и C# & .NET для разработки надежных серверных систем и различных приложений. Опыт работы с Express.js, ASP.NET Core, Django и FastAPI.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Programmation et Backend",
-                            "info": "Maîtrise de Python, Node.js et C# & .NET pour développer des systèmes backend robustes et diverses applications."
+                            "text": "Maîtrise de Python, Node.js et C# & .NET pour développer des systèmes backend robustes et diverses applications. Expérience avec Express.js, ASP.NET Core, Django et FastAPI.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "プログラミングとバックエンド",
-                            "info": "堅牢なバックエンドシステムと多様なアプリケーションを開発するためのPython、Node.js、C#＆.NETに精通。"
+                            "text": "堅牢なバックエンドシステムと多様なアプリケーションを開発するためのPython、Node.js、C#＆.NETに精通。Express.js、ASP.NET Core、Django、FastAPIフレームワークの経験。",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-node-js",
@@ -126,19 +134,23 @@
                     "locales": {
                         "en": {
                             "title": "Version Control & API",
-                            "info": "Skilled in Git and API development practices to ensure smooth collaboration and efficient delivery."
+                            "text": "Skilled in Git and API development practices to ensure smooth collaboration and efficient delivery. Experienced with GitHub, GitLab, REST APIs, GraphQL, and API documentation tools like Swagger.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Контроль версий и API",
-                            "info": "Навыки работы с Git и разработки API для обеспечения плавного сотрудничества и эффективной доставки."
+                            "text": "Навыки работы с Git и разработки API для обеспечения плавного сотрудничества и эффективной доставки. Опыт работы с GitHub, GitLab, REST API, GraphQL и инструментами документирования API.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Contrôle de version et API",
-                            "info": "Compétent en Git et pratiques de développement d'API pour assurer une collaboration fluide et une livraison efficace."
+                            "text": "Compétent en Git et pratiques de développement d'API pour assurer une collaboration fluide et une livraison efficace. Expérience avec GitHub, GitLab, API REST, GraphQL et outils de documentation.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "バージョン管理とAPI",
-                            "info": "スムーズなコラボレーションと効率的な配信を確保するためのGitとAPI開発プラクティスに熟練。"
+                            "text": "スムーズなコラボレーションと効率的な配信を確保するためのGitとAPI開発プラクティスに熟練。GitHub、GitLab、REST API、GraphQL、Swaggerなどのドキュメントツールの経験。",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-git",
@@ -155,19 +167,23 @@
                     "locales": {
                         "en": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
+                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
+                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
+                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "AI & Machine Learning",
-                            "info": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations."
+                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -184,19 +200,23 @@
                     "locales": {
                         "en": {
                             "title": "Database Management",
-                            "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
+                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Database Management",
-                            "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
+                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Database Management",
-                            "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
+                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Database Management",
-                            "info": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management."
+                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-database",
@@ -213,19 +233,23 @@
                     "locales": {
                         "en": {
                             "title": "AI Visuals",
-                            "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
+                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "AI Visuals",
-                            "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
+                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "AI Visuals",
-                            "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
+                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "AI Visuals",
-                            "info": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets."
+                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-wand-magic-sparkles",
@@ -242,19 +266,23 @@
                     "locales": {
                         "en": {
                             "title": "Web3",
-                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
+                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "Web3",
-                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
+                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "Web3",
-                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
+                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "Web3",
-                            "info": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum and NFT ecosystems."
+                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-ethereum",
@@ -271,19 +299,23 @@
                     "locales": {
                         "en": {
                             "title": "Deployment",
-                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Deployment",
-                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Deployment",
-                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Deployment",
-                            "info": "Experience with IIS, Vercel, and Hostinger for deploying web applications. I've been deploying applications for 3 years, using a variety of platforms and tools."
+                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-cloud-arrow-up",
@@ -301,19 +333,19 @@
             "locales": {
                 "en": {
                     "title": "Professional Services",
-                    "info": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
+                    "text": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
                 },
                 "ru": {
                     "title": "Professional Services",
-                    "info": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
+                    "text": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
                 },
                 "fr": {
                     "title": "Professional Services",
-                    "info": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
+                    "text": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
                 },
                 "ja": {
                     "title": "Professional Services",
-                    "info": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
+                    "text": "Bespoke digital solutions tailored to your needs. All services include consultation, delivery and support."
                 }
             },
             "items": [
@@ -325,19 +357,19 @@
                     "locales": {
                         "en": {
                             "title": "Website Development",
-                            "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         },
                         "ru": {
                             "title": "Website Development",
-                            "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         },
                         "fr": {
                             "title": "Website Development",
-                            "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         },
                         "ja": {
                             "title": "Website Development",
-                            "info": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         }
                     },
                     "faIcon": "fa-solid fa-laptop-code",
@@ -354,19 +386,19 @@
                     "locales": {
                         "en": {
                             "title": "AI Integration",
-                            "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
+                            "text": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         },
                         "ru": {
                             "title": "AI Integration",
-                            "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
+                            "text": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         },
                         "fr": {
                             "title": "AI Integration",
-                            "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
+                            "text": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         },
                         "ja": {
                             "title": "AI Integration",
-                            "info": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
+                            "text": "Practical AI solutions to automate workflows and enhance business efficiency. I can help you leverage the power of AI to streamline your operations and gain a competitive edge."
                         }
                     },
                     "faIcon": "fa-solid fa-robot",
@@ -383,19 +415,19 @@
                     "locales": {
                         "en": {
                             "title": "Mobile Applications",
-                            "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
+                            "text": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         },
                         "ru": {
                             "title": "Mobile Applications",
-                            "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
+                            "text": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         },
                         "fr": {
                             "title": "Mobile Applications",
-                            "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
+                            "text": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         },
                         "ja": {
                             "title": "Mobile Applications",
-                            "info": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
+                            "text": "Custom mobile apps developed for both iOS and Android platforms. I create intuitive and engaging mobile experiences that meet your specific needs."
                         }
                     },
                     "faIcon": "fa-solid fa-mobile-alt",
@@ -412,19 +444,19 @@
                     "locales": {
                         "en": {
                             "title": "Web3 & Blockchain Solutions",
-                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
+                            "text": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         },
                         "ru": {
                             "title": "Web3 & Blockchain Solutions",
-                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
+                            "text": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         },
                         "fr": {
                             "title": "Web3 & Blockchain Solutions",
-                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
+                            "text": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         },
                         "ja": {
                             "title": "Web3 & Blockchain Solutions",
-                            "info": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
+                            "text": "Whether you’re building DeFi platforms, NFTs, or blockchain-based automation, I help bring your vision to life with cutting edge tech."
                         }
                     },
                     "faIcon": "fa-solid fa-cube",
@@ -441,19 +473,19 @@
                     "locales": {
                         "en": {
                             "title": "Digital Design",
-                            "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
+                            "text": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         },
                         "ru": {
                             "title": "Digital Design",
-                            "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
+                            "text": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         },
                         "fr": {
                             "title": "Digital Design",
-                            "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
+                            "text": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         },
                         "ja": {
                             "title": "Digital Design",
-                            "info": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
+                            "text": "Brand identity, logos, and marketing materials designed to professional standards. I create visually stunning designs that capture your brand's essence."
                         }
                     },
                     "faIcon": "fa-solid fa-palette",
@@ -470,19 +502,19 @@
                     "locales": {
                         "en": {
                             "title": "Custom Projects",
-                            "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
+                            "text": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         },
                         "ru": {
                             "title": "Custom Projects",
-                            "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
+                            "text": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         },
                         "fr": {
                             "title": "Custom Projects",
-                            "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
+                            "text": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         },
                         "ja": {
                             "title": "Custom Projects",
-                            "info": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
+                            "text": "Tailored solutions for unique requirements. Contact me to discuss your specific needs. I'm always up for a challenge and eager to create something new."
                         }
                     },
                     "faIcon": "fa-solid fa-tools",
@@ -520,19 +552,19 @@
                     "locales": {
                         "en": {
                             "title": "Full-Stack Development",
-                            "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
+                            "text": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         },
                         "ru": {
                             "title": "Full-Stack Development",
-                            "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
+                            "text": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         },
                         "fr": {
                             "title": "Full-Stack Development",
-                            "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
+                            "text": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         },
                         "ja": {
                             "title": "Full-Stack Development",
-                            "info": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
+                            "text": "Crafting robust web applications with modern technologies and best practices. I build scalable and maintainable applications from front to back."
                         }
                     },
                     "faIcon": "fa-solid fa-code",
@@ -549,19 +581,19 @@
                     "locales": {
                         "en": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         },
                         "ru": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         },
                         "fr": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         },
                         "ja": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. I integrate AI into your existing systems to automate tasks and improve efficiency."
                         }
                     },
                     "faIcon": "fa-solid fa-robot",
@@ -578,19 +610,19 @@
                     "locales": {
                         "en": {
                             "title": "Python Development",
-                            "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
+                            "text": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         },
                         "ru": {
                             "title": "Python Development",
-                            "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
+                            "text": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         },
                         "fr": {
                             "title": "Python Development",
-                            "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
+                            "text": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         },
                         "ja": {
                             "title": "Python Development",
-                            "info": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
+                            "text": "Building efficient and scalable solutions with Python expertise. I leverage Python's versatility to create a wide range of applications."
                         }
                     },
                     "faIcon": "fa-brands fa-python",
@@ -607,19 +639,19 @@
                     "locales": {
                         "en": {
                             "title": "Database Management",
-                            "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
+                            "text": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         },
                         "ru": {
                             "title": "Database Management",
-                            "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
+                            "text": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         },
                         "fr": {
                             "title": "Database Management",
-                            "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
+                            "text": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         },
                         "ja": {
                             "title": "Database Management",
-                            "info": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
+                            "text": "Optimising data structures and managing complex database systems. I ensure your data is stored securely and accessed efficiently."
                         }
                     },
                     "faIcon": "fa-solid fa-database",
@@ -657,19 +689,23 @@
                     "locales": {
                         "en": {
                             "title": "HTML5/CSS3",
-                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                            "text": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques. Experienced with Flexbox, Grid, animations, and responsive design patterns.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "HTML5/CSS3",
-                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                            "text": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques. Experienced with Flexbox, Grid, animations, and responsive design patterns.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "HTML5/CSS3",
-                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                            "text": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques. Experienced with Flexbox, Grid, animations, and responsive design patterns.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "HTML5/CSS3",
-                            "info": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques."
+                            "text": "Advanced knowledge of semantic HTML5 and modern CSS3 techniques. Experienced with Flexbox, Grid, animations, and responsive design patterns.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-html5",
@@ -686,19 +722,23 @@
                     "locales": {
                         "en": {
                             "title": "JavaScript React Node.js",
-                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                            "text": "Proficient in building dynamic web applications with React and Node.js. Experience with React Hooks, Context API, Redux, Next.js, and Express.js.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "JavaScript React Node.js",
-                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                            "text": "Proficient in building dynamic web applications with React and Node.js. Experience with React Hooks, Context API, Redux, Next.js, and Express.js.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "JavaScript React Node.js",
-                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                            "text": "Proficient in building dynamic web applications with React and Node.js. Experience with React Hooks, Context API, Redux, Next.js, and Express.js.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "JavaScript React Node.js",
-                            "info": "Proficient in building dynamic web applications with React and Node.js."
+                            "text": "Proficient in building dynamic web applications with React and Node.js. Experience with React Hooks, Context API, Redux, Next.js, and Express.js.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-react",
@@ -715,19 +755,23 @@
                     "locales": {
                         "en": {
                             "title": "C#/.NET",
-                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                            "text": "Experienced in developing robust backend systems and desktop applications with C# and .NET. Proficient with ASP.NET Core, Entity Framework, LINQ, and Azure cloud services.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "C#/.NET",
-                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                            "text": "Experienced in developing robust backend systems and desktop applications with C# and .NET. Proficient with ASP.NET Core, Entity Framework, LINQ, and Azure cloud services.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "C#/.NET",
-                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                            "text": "Experienced in developing robust backend systems and desktop applications with C# and .NET. Proficient with ASP.NET Core, Entity Framework, LINQ, and Azure cloud services.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "C#/.NET",
-                            "info": "Experienced in developing robust backend systems and desktop applications with C# and .NET."
+                            "text": "Experienced in developing robust backend systems and desktop applications with C# and .NET. Proficient with ASP.NET Core, Entity Framework, LINQ, and Azure cloud services.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-microsoft",
@@ -744,19 +788,23 @@
                     "locales": {
                         "en": {
                             "title": "Tailwind HubSpot/HUBL WordPress/PHP",
-                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                            "text": "Skilled in using various frameworks and CMS platforms for web development. Experience with Tailwind CSS utility classes, HubSpot CMS modules, WordPress theme development, and PHP Laravel.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Tailwind HubSpot/HUBL WordPress/PHP",
-                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                            "text": "Skilled in using various frameworks and CMS platforms for web development. Experience with Tailwind CSS utility classes, HubSpot CMS modules, WordPress theme development, and PHP Laravel.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Tailwind HubSpot/HUBL WordPress/PHP",
-                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                            "text": "Skilled in using various frameworks and CMS platforms for web development. Experience with Tailwind CSS utility classes, HubSpot CMS modules, WordPress theme development, and PHP Laravel.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Tailwind HubSpot/HUBL WordPress/PHP",
-                            "info": "Skilled in using various frameworks and CMS platforms for web development."
+                            "text": "Skilled in using various frameworks and CMS platforms for web development. Experience with Tailwind CSS utility classes, HubSpot CMS modules, WordPress theme development, and PHP Laravel.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-wordpress",
@@ -773,19 +821,23 @@
                     "locales": {
                         "en": {
                             "title": "IOS/Web Apps",
-                            "info": "Capable of developing applications for both iOS and web platforms."
+                            "text": "Capable of developing applications for both iOS and web platforms. Experience with React Native, PWAs, Swift basics, and cross-platform development strategies.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "IOS/Web Apps",
-                            "info": "Capable of developing applications for both iOS and web platforms."
+                            "text": "Capable of developing applications for both iOS and web platforms. Experience with React Native, PWAs, Swift basics, and cross-platform development strategies.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "IOS/Web Apps",
-                            "info": "Capable of developing applications for both iOS and web platforms."
+                            "text": "Capable of developing applications for both iOS and web platforms. Experience with React Native, PWAs, Swift basics, and cross-platform development strategies.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "IOS/Web Apps",
-                            "info": "Capable of developing applications for both iOS and web platforms."
+                            "text": "Capable of developing applications for both iOS and web platforms. Experience with React Native, PWAs, Swift basics, and cross-platform development strategies.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-app-store-ios",
@@ -802,19 +854,23 @@
                     "locales": {
                         "en": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. Experience with OpenAI API, LangChain, vector databases, and building AI-powered features.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. Experience with OpenAI API, LangChain, vector databases, and building AI-powered features.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. Experience with OpenAI API, LangChain, vector databases, and building AI-powered features.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "AI Integration",
-                            "info": "Implementing cutting-edge AI solutions for real-world applications."
+                            "text": "Implementing cutting-edge AI solutions for real-world applications. Experience with OpenAI API, LangChain, vector databases, and building AI-powered features.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-robot",
@@ -854,19 +910,23 @@
                     "locales": {
                         "en": {
                             "title": "Data Analysis",
-                            "info": "Experienced in applying data analysis techniques to support AI projects."
+                            "text": "Experienced in applying data analysis techniques to support AI projects. Proficient with pandas, NumPy, Matplotlib, Seaborn, and Jupyter notebooks for data exploration.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "Data Analysis",
-                            "info": "Experienced in applying data analysis techniques to support AI projects."
+                            "text": "Experienced in applying data analysis techniques to support AI projects. Proficient with pandas, NumPy, Matplotlib, Seaborn, and Jupyter notebooks for data exploration.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "Data Analysis",
-                            "info": "Experienced in applying data analysis techniques to support AI projects."
+                            "text": "Experienced in applying data analysis techniques to support AI projects. Proficient with pandas, NumPy, Matplotlib, Seaborn, and Jupyter notebooks for data exploration.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "Data Analysis",
-                            "info": "Experienced in applying data analysis techniques to support AI projects."
+                            "text": "Experienced in applying data analysis techniques to support AI projects. Proficient with pandas, NumPy, Matplotlib, Seaborn, and Jupyter notebooks for data exploration.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-chart-line",
@@ -883,19 +943,23 @@
                     "locales": {
                         "en": {
                             "title": "Anaconda",
-                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
+                            "text": "Skilled in using Anaconda for managing Python environments and AI libraries. Experience with conda environments, package management, and Jupyter Lab for ML development.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Anaconda",
-                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
+                            "text": "Skilled in using Anaconda for managing Python environments and AI libraries. Experience with conda environments, package management, and Jupyter Lab for ML development.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Anaconda",
-                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
+                            "text": "Skilled in using Anaconda for managing Python environments and AI libraries. Experience with conda environments, package management, and Jupyter Lab for ML development.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Anaconda",
-                            "info": "Skilled in using Anaconda for managing Python environments and AI libraries."
+                            "text": "Skilled in using Anaconda for managing Python environments and AI libraries. Experience with conda environments, package management, and Jupyter Lab for ML development.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-python",
@@ -912,19 +976,23 @@
                     "locales": {
                         "en": {
                             "title": "PyTorch",
-                            "info": "Proficient in building deep learning models with PyTorch."
+                            "text": "Proficient in building deep learning models with PyTorch. Experience with neural networks, CNNs, RNNs, transformers, and model training/deployment.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "PyTorch",
-                            "info": "Proficient in building deep learning models with PyTorch."
+                            "text": "Proficient in building deep learning models with PyTorch. Experience with neural networks, CNNs, RNNs, transformers, and model training/deployment.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "PyTorch",
-                            "info": "Proficient in building deep learning models with PyTorch."
+                            "text": "Proficient in building deep learning models with PyTorch. Experience with neural networks, CNNs, RNNs, transformers, and model training/deployment.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "PyTorch",
-                            "info": "Proficient in building deep learning models with PyTorch."
+                            "text": "Proficient in building deep learning models with PyTorch. Experience with neural networks, CNNs, RNNs, transformers, and model training/deployment.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-fire",
@@ -941,19 +1009,23 @@
                     "locales": {
                         "en": {
                             "title": "PyGame",
-                            "info": "Skilled in game development with Python and integrating AI features."
+                            "text": "Skilled in game development with Python and integrating AI features. Experience with game loops, sprite management, collision detection, and AI-driven game mechanics.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "PyGame",
-                            "info": "Skilled in game development with Python and integrating AI features."
+                            "text": "Skilled in game development with Python and integrating AI features. Experience with game loops, sprite management, collision detection, and AI-driven game mechanics.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "PyGame",
-                            "info": "Skilled in game development with Python and integrating AI features."
+                            "text": "Skilled in game development with Python and integrating AI features. Experience with game loops, sprite management, collision detection, and AI-driven game mechanics.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "PyGame",
-                            "info": "Skilled in game development with Python and integrating AI features."
+                            "text": "Skilled in game development with Python and integrating AI features. Experience with game loops, sprite management, collision detection, and AI-driven game mechanics.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-gamepad",
@@ -970,19 +1042,23 @@
                     "locales": {
                         "en": {
                             "title": "TensorFlow",
-                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                            "text": "Experienced in designing and deploying machine learning models using TensorFlow. Proficient with Keras API, TensorFlow Lite, model optimization, and production deployment.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "TensorFlow",
-                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                            "text": "Experienced in designing and deploying machine learning models using TensorFlow. Proficient with Keras API, TensorFlow Lite, model optimization, and production deployment.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "TensorFlow",
-                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                            "text": "Experienced in designing and deploying machine learning models using TensorFlow. Proficient with Keras API, TensorFlow Lite, model optimization, and production deployment.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "TensorFlow",
-                            "info": "Experienced in designing and deploying machine learning models using TensorFlow."
+                            "text": "Experienced in designing and deploying machine learning models using TensorFlow. Proficient with Keras API, TensorFlow Lite, model optimization, and production deployment.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-brain",
@@ -999,19 +1075,23 @@
                     "locales": {
                         "en": {
                             "title": "Django & Flask",
-                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
+                            "text": "Proficient in integrating AI solutions into web applications with Django and Flask. Experience with Django REST framework, Flask-RESTful, API development, and ML model serving.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Django & Flask",
-                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
+                            "text": "Proficient in integrating AI solutions into web applications with Django and Flask. Experience with Django REST framework, Flask-RESTful, API development, and ML model serving.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Django & Flask",
-                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
+                            "text": "Proficient in integrating AI solutions into web applications with Django and Flask. Experience with Django REST framework, Flask-RESTful, API development, and ML model serving.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Django & Flask",
-                            "info": "Proficient in integrating AI solutions into web applications with Django and Flask."
+                            "text": "Proficient in integrating AI solutions into web applications with Django and Flask. Experience with Django REST framework, Flask-RESTful, API development, and ML model serving.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-brands fa-python",
@@ -1051,19 +1131,23 @@
                     "locales": {
                         "en": {
                             "title": "Data Analysis",
-                            "info": "Experienced in using Python for data analysis and visualisation."
+                            "text": "Experienced in using Python for data analysis and visualisation. Proficient with pandas DataFrames, NumPy arrays, Matplotlib plots, and statistical analysis libraries.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "Data Analysis",
-                            "info": "Experienced in using Python for data analysis and visualisation."
+                            "text": "Experienced in using Python for data analysis and visualisation. Proficient with pandas DataFrames, NumPy arrays, Matplotlib plots, and statistical analysis libraries.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "Data Analysis",
-                            "info": "Experienced in using Python for data analysis and visualisation."
+                            "text": "Experienced in using Python for data analysis and visualisation. Proficient with pandas DataFrames, NumPy arrays, Matplotlib plots, and statistical analysis libraries.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "Data Analysis",
-                            "info": "Experienced in using Python for data analysis and visualisation."
+                            "text": "Experienced in using Python for data analysis and visualisation. Proficient with pandas DataFrames, NumPy arrays, Matplotlib plots, and statistical analysis libraries.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-chart-bar",
@@ -1080,19 +1164,23 @@
                     "locales": {
                         "en": {
                             "title": "Anaconda",
-                            "info": "Experienced in using Anaconda for managing Python packages and environments."
+                            "text": "Experienced in using Anaconda for managing Python packages and environments. Skilled with conda, pip, virtual environments, and dependency management for projects.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Anaconda",
-                            "info": "Experienced in using Anaconda for managing Python packages and environments."
+                            "text": "Experienced in using Anaconda for managing Python packages and environments. Skilled with conda, pip, virtual environments, and dependency management for projects.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Anaconda",
-                            "info": "Experienced in using Anaconda for managing Python packages and environments."
+                            "text": "Experienced in using Anaconda for managing Python packages and environments. Skilled with conda, pip, virtual environments, and dependency management for projects.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Anaconda",
-                            "info": "Experienced in using Anaconda for managing Python packages and environments."
+                            "text": "Experienced in using Anaconda for managing Python packages and environments. Skilled with conda, pip, virtual environments, and dependency management for projects.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-box-open",
@@ -1109,19 +1197,23 @@
                     "locales": {
                         "en": {
                             "title": "PyTorch",
-                            "info": "Proficient in developing deep learning models with PyTorch."
+                            "text": "Proficient in developing deep learning models with PyTorch. Experience with tensor operations, autograd, model checkpointing, and GPU acceleration.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "PyTorch",
-                            "info": "Proficient in developing deep learning models with PyTorch."
+                            "text": "Proficient in developing deep learning models with PyTorch. Experience with tensor operations, autograd, model checkpointing, and GPU acceleration.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "PyTorch",
-                            "info": "Proficient in developing deep learning models with PyTorch."
+                            "text": "Proficient in developing deep learning models with PyTorch. Experience with tensor operations, autograd, model checkpointing, and GPU acceleration.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "PyTorch",
-                            "info": "Proficient in developing deep learning models with PyTorch."
+                            "text": "Proficient in developing deep learning models with PyTorch. Experience with tensor operations, autograd, model checkpointing, and GPU acceleration.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-fire-flame-curved",
@@ -1138,19 +1230,23 @@
                     "locales": {
                         "en": {
                             "title": "PyGame",
-                            "info": "Skilled in using PyGame for game development and scripting."
+                            "text": "Skilled in using PyGame for game development and scripting. Experience with 2D graphics, sound management, event handling, and building interactive Python applications.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "PyGame",
-                            "info": "Skilled in using PyGame for game development and scripting."
+                            "text": "Skilled in using PyGame for game development and scripting. Experience with 2D graphics, sound management, event handling, and building interactive Python applications.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "PyGame",
-                            "info": "Skilled in using PyGame for game development and scripting."
+                            "text": "Skilled in using PyGame for game development and scripting. Experience with 2D graphics, sound management, event handling, and building interactive Python applications.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "PyGame",
-                            "info": "Skilled in using PyGame for game development and scripting."
+                            "text": "Skilled in using PyGame for game development and scripting. Experience with 2D graphics, sound management, event handling, and building interactive Python applications.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-dice",
@@ -1167,19 +1263,23 @@
                     "locales": {
                         "en": {
                             "title": "TensorFlow",
-                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                            "text": "Experienced in using TensorFlow for machine learning and AI model development. Skilled with TF datasets, model serving, TensorBoard visualization, and production deployment.",
+                            "level": "2 years experience"
                         },
                         "ru": {
                             "title": "TensorFlow",
-                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                            "text": "Experienced in using TensorFlow for machine learning and AI model development. Skilled with TF datasets, model serving, TensorBoard visualization, and production deployment.",
+                            "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "TensorFlow",
-                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                            "text": "Experienced in using TensorFlow for machine learning and AI model development. Skilled with TF datasets, model serving, TensorBoard visualization, and production deployment.",
+                            "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "TensorFlow",
-                            "info": "Experienced in using TensorFlow for machine learning and AI model development."
+                            "text": "Experienced in using TensorFlow for machine learning and AI model development. Skilled with TF datasets, model serving, TensorBoard visualization, and production deployment.",
+                            "level": "2年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-network-wired",
@@ -1196,19 +1296,23 @@
                     "locales": {
                         "en": {
                             "title": "Django & Flask",
-                            "info": "Proficient in using popular Python frameworks for web development."
+                            "text": "Proficient in using popular Python frameworks for web development. Experience with Django ORM, Flask blueprints, template engines, authentication systems, and RESTful API design.",
+                            "level": "3 years experience"
                         },
                         "ru": {
                             "title": "Django & Flask",
-                            "info": "Proficient in using popular Python frameworks for web development."
+                            "text": "Proficient in using popular Python frameworks for web development. Experience with Django ORM, Flask blueprints, template engines, authentication systems, and RESTful API design.",
+                            "level": "3 года опыта"
                         },
                         "fr": {
                             "title": "Django & Flask",
-                            "info": "Proficient in using popular Python frameworks for web development."
+                            "text": "Proficient in using popular Python frameworks for web development. Experience with Django ORM, Flask blueprints, template engines, authentication systems, and RESTful API design.",
+                            "level": "3 ans d'expérience"
                         },
                         "ja": {
                             "title": "Django & Flask",
-                            "info": "Proficient in using popular Python frameworks for web development."
+                            "text": "Proficient in using popular Python frameworks for web development. Experience with Django ORM, Flask blueprints, template engines, authentication systems, and RESTful API design.",
+                            "level": "3年の経験"
                         }
                     },
                     "faIcon": "fa-solid fa-flask",

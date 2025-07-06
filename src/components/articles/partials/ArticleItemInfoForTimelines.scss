@@ -97,5 +97,10 @@ div.article-timeline-item-info-preview-footer {
 
     &-title {
         margin-bottom: 8px;
+        font-weight: 600;
+        font-style: italic;
+        color: var(--theme-texts-12);
+        opacity: 0.8;
+        font-size: 0.9em;
     }
 }

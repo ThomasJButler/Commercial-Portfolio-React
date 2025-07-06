@@ -51,7 +51,9 @@
             "options": "Options",
             "change_theme": "Change Theme",
             "activate_magic_cursor": "Activate Magic Cursor",
-            "deactivate_magic_cursor": "Deactivate Magic Cursor"
+            "deactivate_magic_cursor": "Deactivate Magic Cursor",
+            "tooltipString": "View",
+            "get_to_know_more": "Learn More 👇"
         },
 
         "ru": {
@@ -105,7 +107,8 @@
             "options": "Опции",
             "change_theme": "Изменить тему",
             "activate_magic_cursor": "Активировать волшебный курсор",
-            "deactivate_magic_cursor": "Деактивировать волшебный курсор"
+            "deactivate_magic_cursor": "Деактивировать волшебный курсор",
+            "get_to_know_more": "Узнать больше 👇"
         },
 
         "fr": {
@@ -159,7 +162,8 @@
             "options": "Options",
             "change_theme": "Changer le thème",
             "activate_magic_cursor": "Activer le curseur magique",
-            "deactivate_magic_cursor": "Désactiver le curseur magique"
+            "deactivate_magic_cursor": "Désactiver le curseur magique",
+            "get_to_know_more": "En savoir plus 👇"
         },
 
         "ja": {
@@ -213,7 +217,8 @@
             "options": "オプション",
             "change_theme": "テーマを変更",
             "activate_magic_cursor": "マジックカーソルを有効にする",
-            "deactivate_magic_cursor": "マジックカーソルを無効にする"
+            "deactivate_magic_cursor": "マジックカーソルを無効にする",
+            "get_to_know_more": "詳細を見る 👇"
         }
     }
 }
