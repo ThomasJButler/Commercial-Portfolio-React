@@ -30,17 +30,6 @@
             "jsonPath": "/data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
         },
-<<<<<<< HEAD:public/data/sections.json
-        {
-            "id": "demo",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/demo.json",
-            "faIcon": "fa-solid fa-rocket"
-        },
-=======
-
-
->>>>>>> main:dist/data/structure.json
         {
             "id": "updates",
             "categoryId": "more",

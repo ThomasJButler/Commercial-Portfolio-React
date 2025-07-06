@@ -35,16 +35,6 @@
             "faIcon": "fa-solid fa-folder-open"
         },
 
-<<<<<<< HEAD
-        {
-            "id": "demo",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/demo.json",
-            "faIcon": "fa-solid fa-rocket"
-        },
-=======
->>>>>>> main
-
         {
             "id": "updates",
             "categoryId": "more",
