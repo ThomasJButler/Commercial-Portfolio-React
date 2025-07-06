@@ -328,7 +328,7 @@
         },
         {
             "id": "professional_services",
-            "component": "ArticleServices",
+            "component": "ArticleCards",
             "config": {},
             "locales": {
                 "en": {
