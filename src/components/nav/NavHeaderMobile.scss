@@ -1,0 +1,29 @@
+@import "/src/styles/extend.scss";
+
+nav.nav-header-mobile {
+    width: 100%;
+    position: relative;
+
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        display: none;
+    }
+
+    div.nav-header-mobile-card-wrapper {
+        padding-top: 8px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    div.left-tool-container, div.right-tool-container {
+        position: absolute;
+        top: 10px;
+    }
+
+    div.left-tool-container {
+        left: 5px;
+    }
+
+    div.right-tool-container {
+        right: 5px;
+    }
+}

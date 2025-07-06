@@ -1,66 +1,83 @@
+/**
+ * @author Ryan Balieiro
+ * @date 2025-05-10
+ * @description This provider is responsible for managing feedbacks, modals and UI interactions.
+ */
+
 import React, {createContext, useContext, useEffect, useState} from 'react'
-import {useData} from "/src/providers/DataProvider.jsx"
-import {useUtils} from "/src/helpers/utils.js"
+import {useUtils} from "/src/hooks/utils.js"
+import {useScheduler} from "/src/hooks/scheduler.js"
+import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import {useViewport} from "/src/providers/ViewportProvider.jsx"
+import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"
+import MouseLayer from "/src/components/mouse/MouseLayer.jsx"
+import NotificationsLayer from "/src/components/notifications/NotificationsLayer.jsx"
+import YoutubeVideoModal from "/src/components/modals/YoutubeVideoModal.jsx"
+import ConfirmationWindowModal from "/src/components/modals/ConfirmationWindowModal.jsx"
+import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 
-const FeedbacksContext = createContext(null)
-export const useFeedbacks = () => useContext(FeedbacksContext)
-
-export const FeedbacksProvider = ({children}) => {
+function FeedbacksProvider({ children, canHaveAnimatedCursor }) {
+    const scheduler = useScheduler()
+    const language = useLanguage()
+    const viewport = useViewport()
     const utils = useUtils()
-    const {getSettings} = useData()
-    const settings = getSettings()
 
     const [spinnerActivities, setSpinnerActivities] = useState([])
-    const [animatedCursorEnabled, setAnimatedCursorEnabled] = useState(true)
+    const [animatedCursorEnabled, setAnimatedCursorEnabled] = useState(false)
     const [animatedCursorActive, setAnimatedCursorActive] = useState(true)
-
+    const [animatedCursorLocked, setAnimatedCursorLocked] = useState(false)
     const [displayingNotification, setDisplayingNotification] = useState(null)
     const [displayingYoutubeVideo, setDisplayingYoutubeVideo] = useState(null)
     const [displayingGallery, setDisplayingGallery] = useState(null)
     const [pendingConfirmation, setPendingConfirmation] = useState(null)
 
+    /** @listens canHaveAnimatedCursor|viewport.innerWidth **/
     useEffect(() => {
-        setAnimatedCursorEnabled(!utils.isTouchDevice() && settings["animatedCursorEnabled"])
-    }, [])
+        setAnimatedCursorEnabled(
+            canHaveAnimatedCursor &&
+            !utils.device.isTouchDevice() &&
+            viewport.isBreakpoint("md")
+        )
+    }, [canHaveAnimatedCursor, viewport.innerWidth])
 
-    // SPINNER...
-    const showActivitySpinner = (activityId, message) => {
-        if(spinnerActivities.find(activity => activity.id === activityId))
+    const setActivitySpinnerVisible = (visible, activityId, message) => {
+        setSpinnerActivities(prev => {
+            if (visible) {
+                if (prev.some(activity => activity.id === activityId)) return prev
+                return [...prev, { id: activityId, message }]
+            }
+            else {
+                return prev.filter(activity => activity.id !== activityId)
+            }
+        })
+    }
+
+    const showActivitySpinnerFor = (milliseconds, activityId, message) => {
+        scheduler.clearAllWithTag("spinner-auto-interval")
+        setActivitySpinnerVisible(true, activityId, message)
+        scheduler.schedule(() => {
+            setActivitySpinnerVisible(false, activityId)
+        }, milliseconds, "spinner-auto-interval")
+    }
+
+    const isShowingActivitySpinner = () => {
+        return Boolean(spinnerActivities.length)
+    }
+
+    const toggleAnimatedCursorActive = (withNotification) => {
+        const newValue = !animatedCursorActive
+        setAnimatedCursorActive(newValue)
+        if(!withNotification)
             return
 
-        const data = { id: activityId, message: message }
-        setSpinnerActivities(prevActivities => [...prevActivities, data])
-    }
-
-    const isShowingSpinner = () => {
-        return spinnerActivities.length
-    }
-
-    const listSpinnerActivities = () => {
-        return spinnerActivities
-    }
-
-    const hideActivitySpinner = (activityId) => {
-        setSpinnerActivities(prevActivities =>
-            prevActivities.filter(activity => activity.id !== activityId)
+        displayNotification(
+            language.getString("magic_cursor"),
+            language.getString(newValue ? "activate_magic_cursor_message" : "deactivate_magic_cursor_message"),
+            "default"
         )
     }
 
-    // ANIMATED CURSOR...
-    const isAnimatedCursorEnabled = () => {
-        return animatedCursorEnabled
-    }
-
-    const isAnimatedCursorActive = () => {
-        return animatedCursorActive
-    }
-
-    const toggleAnimatedCursorActive = () => {
-        setAnimatedCursorActive(!animatedCursorActive)
-    }
-
-    // NOTIFICATIONS...
-    const displayNotification = (type, title, message) => {
+    const displayNotification = (title, message, type) => {
         setDisplayingNotification({
             type: type,
             title: title,
@@ -72,7 +89,6 @@ export const FeedbacksProvider = ({children}) => {
         setDisplayingNotification(null)
     }
 
-    // YOUTUBE VIDEOS...
     const displayYoutubeVideo = (url, title, description) => {
         setDisplayingYoutubeVideo({
             url: url,
@@ -81,73 +97,117 @@ export const FeedbacksProvider = ({children}) => {
         })
     }
 
-    const hideYoutubeVideo = () => {
+    const closeYoutubeVideo = () => {
         setDisplayingYoutubeVideo(null)
     }
 
-    const showConfirmationDialog = (title, message, cancelButtonLabel, confirmButtonLabel, onConfirm) => {
-        setPendingConfirmation({
-            title: title,
-            message: message,
-            cancelButtonLabel: cancelButtonLabel,
-            confirmButtonLabel: confirmButtonLabel,
-            onConfirm: onConfirm
-        })
-    }
-
-    const hideConfirmationDialog = () => {
-        setPendingConfirmation(null)
-    }
-
-    // GALLERY...
-    const displayGallery = (screenshots, aspectRatio, title, description) => {
+    const displayGallery = (images, type, title) => {
         setDisplayingGallery({
-            screenshots: screenshots,
-            aspectRatio: aspectRatio,
-            title: title,
-            description: description
+            images: images,
+            type: type,
+            title: title
         })
     }
 
-    const hideGallery = () => {
+    const closeGallery = () => {
         setDisplayingGallery(null)
     }
 
-    // OTHER METHODS...
-    const isModalOpen = () => {
-        return isShowingSpinner() || displayingYoutubeVideo || displayingGallery || pendingConfirmation
+    const showConfirmationDialog = (title, message, faIcon, onConfirm, confirmLabel, onCancel, cancelLabel) => {
+        setPendingConfirmation({
+            title: title,
+            message: message,
+            faIcon: faIcon,
+            onConfirm: onConfirm,
+            confirmLabel: confirmLabel,
+            onCancel: onCancel,
+            cancelLabel: cancelLabel
+        })
+    }
+
+    const isBlockedByOverlay = () => {
+        return Boolean(
+            isShowingActivitySpinner() ||
+            displayingYoutubeVideo ||
+            displayingGallery ||
+            pendingConfirmation
+        )
     }
 
     return (
         <FeedbacksContext.Provider value={{
-            isShowingSpinner,
-            listSpinnerActivities,
-            showActivitySpinner,
-            hideActivitySpinner,
+            setActivitySpinnerVisible,
+            showActivitySpinnerFor,
+            isShowingActivitySpinner,
 
-            isAnimatedCursorEnabled,
-            isAnimatedCursorActive,
+            animatedCursorEnabled,
+            animatedCursorActive,
+            setAnimatedCursorActive,
+            setAnimatedCursorLocked,
             toggleAnimatedCursorActive,
 
-            displayingNotification,
             displayNotification,
             killNotification,
 
-            displayingYoutubeVideo,
             displayYoutubeVideo,
-            hideYoutubeVideo,
+            closeYoutubeVideo,
 
-            displayingGallery,
             displayGallery,
-            hideGallery,
+            closeGallery,
 
-            pendingConfirmation,
             showConfirmationDialog,
-            hideConfirmationDialog,
-
-            isModalOpen
+            isBlockedByOverlay
         }}>
+            <ActivitySpinner activities={spinnerActivities}
+                             defaultMessage={language.getString("loading")}/>
+
+            <MouseLayer active={animatedCursorEnabled && animatedCursorActive}
+                        hidden={animatedCursorLocked}
+                        isBlockedByOverlay={isBlockedByOverlay()}/>
+
+            <NotificationsLayer target={displayingNotification}
+                                onNotificationDismissed={killNotification}/>
+
+            <YoutubeVideoModal target={displayingYoutubeVideo}
+                               onDismiss={closeYoutubeVideo}/>
+
+            <ConfirmationWindowModal target={pendingConfirmation}
+                                     onDismiss={() => {setPendingConfirmation(null)}}/>
+
+            <GalleryModal target={displayingGallery}
+                          onDismiss={closeGallery}/>
+
             {children}
         </FeedbacksContext.Provider>
     )
 }
+
+const FeedbacksContext = createContext(null)
+/**
+ * @return {{
+ *    setActivitySpinnerVisible: Function,
+ *    showActivitySpinnerFor: Function,
+ *    isShowingActivitySpinner: Function,
+ *
+ *    animatedCursorEnabled: Boolean,
+ *    animatedCursorActive: Boolean,
+ *    setAnimatedCursorActive: Function,
+ *    setAnimatedCursorLocked: Function,
+ *    toggleAnimatedCursorActive: Function,
+ *
+ *    displayNotification: Function,
+ *    killNotification: Function,
+ *
+ *    displayYoutubeVideo: Function,
+ *    closeYoutubeVideo: Function,
+ *
+ *    displayGallery: Function,
+ *    closeGallery: Function,
+ *
+ *    showConfirmationDialog: Function,
+ *    isBlockedByOverlay: Function,
+ * }}
+ */
+export const useFeedbacks = () => useContext(FeedbacksContext)
+
+export default FeedbacksProvider

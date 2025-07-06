@@ -1,0 +1,31 @@
+@import "/src/styles/extend.scss";
+
+div.nav-tools {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid var(--theme-standard-borders);
+    padding: 2px 15px;
+}
+
+div.nav-tools-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 54px;
+    @media (max-height: 725px) { height: 49px; }
+    @media (max-height: 690px) { height: 44px; }
+}
+
+div.nav-tools-shrink {
+    flex-direction: column;
+    padding: 0;
+
+    div.nav-tools-item {
+        &:not(:first-child) {
+            border-top: 1px solid var(--theme-standard-borders);
+        }
+    }
+}

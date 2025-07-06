@@ -1,33 +1,50 @@
-@import "/src/styles/extend";
+@import "/src/styles/extend.scss";
 
-.tags {
-    .badge {
-        background-color: var(--theme-tag-color);
-        color: var(--theme-secondary);
-        font-family: $custom-subheadings-font-family;
-        border-radius: $standard-border-radius;
-        padding: 0.5rem 1rem;
+ul.tags {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
 
-        &:not(:last-child) {
-            margin-right: 5px;
-            margin-bottom: 5px;
-            @include media-breakpoint-down(md) {
-                margin-right: 3px;
-                margin-bottom: 3px;
-            }
-        }
+li.tag {
+    display: inline-flex;
+    background-color: var(--theme-primary);
+    color: var(--theme-texts-inv);
+    border-radius: 5px;
+    text-transform: lowercase;
+    white-space: nowrap;
+    user-select: none;
+    transition: 0.2s background-color ease-out;
+
+    &:hover {
+        background-color: var(--theme-links-hover);
     }
 
-    .badge-xs {
-        padding: 0.35rem 0.7rem;
-        border-radius: 5px;
-        &:not(:last-child) {
-            margin-right: 3px;
-            margin-bottom: 3px;
-            @include media-breakpoint-down(md) {
-                margin-right: 2px;
-                margin-bottom: 2px;
-            }
-        }
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+
+    @include media-breakpoint-down(md) {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 2px 8px;
     }
+}
+
+li.tag-dark {
+    background-color: var(--theme-dark);
+    color: var(--theme-texts);
+    margin-right: 3px;
+    margin-bottom: 3px;
+
+
+    &:hover {
+        background-color: var(--theme-background-darken-1);
+    }
+}
+
+li.tag-no-transition {
+    transition: none!important;
 }

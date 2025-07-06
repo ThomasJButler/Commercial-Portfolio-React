@@ -1,10 +1,31 @@
 {
-    "version": "1.0.0",
-    "animatedCursorEnabled": true,
-    "fullScreenButtonEnabled": true,
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.0"
+    },
 
-    "preloader": {
+    "preloaderSettings": {
         "enabled": true,
+<<<<<<< HEAD
+        "title": "Thomas <strong>Butler</strong>",
+        "subtitle": "Full-Stack Developer",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+
+    "templateSettings": {
+        "animatedBackground": true,
+        "animatedCursorEnabled": true,
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": false
+=======
         "title": "React <b>Portfolio</b>",
         "subtitle": "by Thomas Butler"
     },
@@ -33,52 +54,69 @@
             "fr": {"message": "Disponible pour freelance !"},
             "ko": {"message": "프리랜스 가능합니다!"}
         }
+>>>>>>> main
     },
-
-    "supportedThemes": [
-        {
-            "id": "dark",
-            "default": true,
-            "icon": "fa-solid fa-moon"
-        },
-
-        {
-            "id": "light",
-            "default": false,
-            "icon": "fa-solid fa-sun"
-        }
-    ],
 
     "supportedLanguages": [
         {
-            "name": "English",
+            "name": "English (UK)",
             "id": "en",
+<<<<<<< HEAD
+            "flagUrl": "images/flags/en-uk.png"
+=======
             "flagUrl": "images/flags/uk.png",
             "default": true
+>>>>>>> main
         },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-
         {
             "name": "Français",
             "id": "fr",
             "flagUrl": "images/flags/fr.png"
         },
-
         {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "Русский",
+            "id": "ru",
+            "flagUrl": "images/flags/ru.png"
+        },
+        {
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
         }
     ],
 
+<<<<<<< HEAD
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"},
+                "fr": {"name": "Mode Sombre"},
+                "ru": {"name": "Тёмный режим"},
+                "ja": {"name": "ダークモード"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"},
+                "fr": {"name": "Mode Clair"},
+                "ru": {"name": "Светлый режим"},
+                "ja": {"name": "ライトモード"}
+            }
+        }
+    ],
+
+    "imagesToCache": []
+=======
     "emailjs": {
         "publicKey": "F3bCtaiaGaGRcByJg",
         "serviceId": "service_ehkcdf8",
         "templateId": "template_ott5y0i"
     }
+>>>>>>> main
 }

@@ -1,41 +1,93 @@
+import "./ArticleThread.scss"
 import React, {useEffect, useState} from 'react'
-import Article from "/src/components/wrappers/Article.jsx"
-import Thread from "/src/components/generic/Thread.jsx"
-import Expandable from "/src/components/capabilities/Expandable.jsx"
-import {useParser} from "/src/helpers/parser.js"
-import {useLanguage} from "/src/providers/LanguageProvider.jsx"
-import {useWindow} from "/src/providers/WindowProvider.jsx"
+import Article from "/src/components/articles/base/Article.jsx"
+import Collapsable from "/src/components/capabilities/Collapsable.jsx"
+import {ArticleItemInfoForTimelines, ArticleItemInfoForTimelinesBody, ArticleItemInfoForTimelinesHeader, ArticleItemInfoForTimelinesPreviewFooter} from "/src/components/articles/partials/ArticleItemInfoForTimelines"
 
-function ArticleThread({ data }) {
-    const parser = useParser()
-    const {isMobileLayout} = useWindow()
-    const {selectedLanguageId} = useLanguage()
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {Number} id
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleThread({ dataWrapper, id }) {
+    const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
 
-    const parsedData = parser.parseArticleData(data)
-    const items = parsedData.items
-
-    const [parsedItems, setParsedItems] = useState([])
-    const [filteredItems, setFilteredItems] = useState([])
-
-    useEffect(() => {
-        parser.sortArticleItemsByDateDesc(items)
-        const parsedItems = parser.formatForThreads(items)
-        setParsedItems(parsedItems)
-    }, [null, selectedLanguageId])
-
-    return(
-        <Article className={`article-thread`} title={ parsedData.title }>
-            <Expandable items={parsedItems}
-                        storageId={data.id + "_expandable"}
-                        onFilter={setFilteredItems}
-                        controlsClass={`pt-0`}
-                        maxItems={isMobileLayout() ? 2 : 4}
-                        stepAmount={4}>
-
-                <Thread items={filteredItems}
-                        shouldShowAsComplete={parsedItems.length <= parsedItems.length}/>
-            </Expandable>
+    return (
+        <Article id={dataWrapper.uniqueId}
+                 type={Article.Types.SPACING_DEFAULT}
+                 dataWrapper={dataWrapper}
+                 className={`article-thread`}
+                 selectedItemCategoryId={selectedItemCategoryId}
+                 setSelectedItemCategoryId={setSelectedItemCategoryId}>
+            <ArticleThreadItems dataWrapper={dataWrapper} 
+                                   selectedItemCategoryId={selectedItemCategoryId}/>
         </Article>
+    )
+}
+
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {String} selectedItemCategoryId
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleThreadItems({ dataWrapper, selectedItemCategoryId }) {
+    const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
+    const maxRowsCollapseThreshold = dataWrapper.settings.maxRowsCollapseThreshold
+
+    return (
+        <Collapsable className={`article-thread-items`}
+                     id={dataWrapper.uniqueId}
+                     breakpointId={"any"}
+                     initialVisibleItems={maxRowsCollapseThreshold}
+                     itemsPerStep={3}
+                     trailingItemComponent={ArticleThreadTrailingItem}>
+            {filteredItems.map((itemWrapper, key) => (
+                <ArticleThreadItem itemWrapper={itemWrapper}
+                                   key={key}/>
+            ))}
+        </Collapsable>
+    )
+}
+
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleThreadItem({ itemWrapper }) {
+    return (
+        <div className={`article-thread-item`}>
+            <div className={`article-thread-item-circle`}>
+                <i className={`fa-solid fa-circle`}/>
+            </div>
+
+            <ArticleItemInfoForTimelines className={`article-thread-item-content`}
+                                         smallDateBadge={true}>
+                <ArticleItemInfoForTimelinesHeader itemWrapper={itemWrapper}
+                                                   dateInterval={false}/>
+
+                <ArticleItemInfoForTimelinesBody itemWrapper={itemWrapper}/>
+
+                <ArticleItemInfoForTimelinesPreviewFooter itemWrapper={itemWrapper}/>
+            </ArticleItemInfoForTimelines>
+        </div>
+    )
+}
+
+/**
+ * @param {Boolean} hasMore
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleThreadTrailingItem({ hasMore }) {
+    return (
+        <div className={`article-thread-item article-thread-item-trailing`}>
+            <div className={`article-thread-item-circle`}>
+                <i className={hasMore ? `fa-solid fa-ellipsis opacity-50` : ``}/>
+            </div>
+        </div>
     )
 }
 

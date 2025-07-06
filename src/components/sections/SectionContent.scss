@@ -1,0 +1,39 @@
+@import "/src/styles/extend.scss";
+
+div.section-content {
+    --padding: 2rem 2rem 3rem;
+    @include media-breakpoint-down(xl) { --padding: 1.5rem 1.5rem 2.25rem; }
+    @include media-breakpoint-down(md) { --padding: 1rem 1rem 2.25rem; }
+    @media (max-width: 380px) { --padding: 0.75rem 0.75rem 1.25rem; }
+
+    position: relative;
+    width: 100%;
+    padding: var(--padding);
+    min-height: calc(100vh - calc($default-card-spacing*5));
+}
+
+div.section-content-border-decoration {
+    --border-decoration-size: 70px;
+
+    display: inline-block;
+    position: absolute;
+    width: var(--border-decoration-size);
+    height: var(--border-decoration-size);
+    z-index: 0;
+
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+}
+
+div.section-content-border-decoration-top-left {
+    border-top: 3px dashed var(--theme-primary);
+    border-left: 3px dashed var(--theme-primary);
+}
+
+div.section-content-elements-wrapper {
+    padding: 20px 0 0 0;
+    @include media-breakpoint-down(lg) {
+        padding: 5px 0 0 0;
+    }
+}

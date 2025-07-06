@@ -1,0 +1,57 @@
+{
+    "name": "Thomas Butler",
+
+    "profilePictureUrl": "images/pictures/me.jpeg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Thomas Butler",
+            "localized_name_stylized": " Thomas [[ {{Butler}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Full-Stack Developer",
+                "AI Integration Specialist",
+                "Python Developer",
+                "Web Developer"
+            ]
+        },
+        "ru": {
+            "localized_name": "Томас Батлер",
+            "localized_name_stylized": " [[Томас {{Батлер}}]]",
+            "status_message_available_for_freelance": "Доступен для фриланса!",
+            "roles": [
+                "Фуллстек разработчик",
+                "Специалист по AI интеграции",
+                "Python разработчик",
+                "Веб-разработчик"
+            ]
+        },
+        "fr": {
+            "localized_name": "Thomas Butler",
+            "localized_name_stylized": " [[Thomas {{Butler}}]]",
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Full-Stack",
+                "Spécialiste en intégration IA",
+                "Développeur Python",
+                "Développeur Web"
+            ]
+        },
+        "ja": {
+            "localized_name": "トーマス・バトラー",
+            "localized_name_stylized": " [[トーマス {{バトラー}}]]",
+            "status_message_available_for_freelance": "フリーランス可能です！",
+            "roles": [
+                "フルスタック開発者",
+                "AI統合スペシャリスト",
+                "Python開発者",
+                "ウェブ開発者"
+            ]
+        }
+    }
+}

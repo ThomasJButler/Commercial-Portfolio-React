@@ -1,0 +1,35 @@
+@import "/src/styles/extend.scss";
+
+div.input-field-wrapper {
+    border: 2px solid var(--form-border-color);
+    border-radius: $standard-border-radius;
+    overflow: hidden;
+    background-color: var(--theme-empty);
+}
+
+div.input-field-wrapper-focused {
+    border: 2px solid var(--form-focus-border-color);
+    background-color: var(--form-focus-attach-background-color);
+}
+
+span.input-field-wrapper-attach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 65px;
+    font-size: 1.1rem;
+    @include media-breakpoint-down(sm) {
+        min-width: 55px;
+        font-size: 0.95rem;
+    }
+
+    background-color: var(--form-attach-background-color);
+    color: var(--form-attach-color);
+    border: none;
+}
+
+span.input-field-wrapper-attach-focused {
+    background-color: var(--form-focus-attach-background-color);
+    color: var(--form-focus-attach-color);
+}

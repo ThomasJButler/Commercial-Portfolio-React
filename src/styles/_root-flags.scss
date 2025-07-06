@@ -1,0 +1,35 @@
+/**
+ * @author Ryan Balieiro
+ * @description This file contains global flags and layout variables.
+ */
+
+:root {
+    --max-breakpoint-for-tabbed-interface: #{$max-breakpoint-for-tabbed-interface};
+    --default-card-spacing: #{$default-card-spacing};
+    --nav-pills-height: #{$nav-pills-height};
+
+    --form-background-color: var(--theme-empty);
+    --form-color: var(--theme-texts-light);
+    --form-autofill-color: var(--theme-links-hover);
+    --form-border-color: var(--theme-boards-background-accent-inv);
+    --form-attach-background-color: var(--theme-dark);
+    --form-attach-color: var(--theme-light-1);
+
+    --form-focus-background-color: var(--theme-empty);
+    --form-focus-color: var(--theme-links);
+    --form-focus-border-color: var(--theme-primary-1);
+    --form-focus-attach-background-color: var(--theme-primary);
+    --form-focus-attach-color: var(--theme-texts-inv);
+}
+
+@include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+    :root {
+        --default-card-spacing: #{$default-card-spacing-mobile};
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    :root {
+        --nav-pills-height: #{$nav-pills-height-compressed};
+    }
+}

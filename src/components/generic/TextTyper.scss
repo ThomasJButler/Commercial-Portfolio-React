@@ -1,0 +1,18 @@
+@import "/src/styles/extend.scss";
+
+span.text-typer-span {
+    position: relative;
+}
+
+span.text-typer-span-cursor {
+    opacity: 0;
+    transition: 0.1s opacity ease-out;
+
+    &-visible {
+        opacity: 1;
+    }
+
+    &-no-transition {
+        transition: none!important;
+    }
+}

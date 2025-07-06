@@ -1,58 +1,123 @@
-@import "/src/styles/extend";
+@import "/src/styles/extend.scss";
 
 #gallery-modal {
-    .gallery-swiper {
-        width: 100%;
-        height: 100%;
-        height: calc(100svh - 20px);
+    --header-size: 80px;
+    --padding-bottom: 36px;
+    --spacing: 5px;
+    --min-swiper-height: calc(100vh - var(--header-size) - var(--padding-bottom) - var(--spacing));
 
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        max-width: 300vh;
+    @supports (height: 100svh) {
+        --min-swiper-height: calc(100svh - var(--header-size) - var(--padding-bottom) - var(--spacing));
     }
 
-    .swiper-wrapper {
+    div.modal-header {
+        height: var(--header-size)!important;
+    }
+
+    div.gallery-modal-body {
+        padding: 0;
+        background-color: var(--theme-card-background);
+    }
+}
+
+div.gallery-modal-vertical {
+    div.gallery-modal-body {
+        background-color: black!important;
+    }
+}
+
+div.gallery-modal-loading {
+    div.gallery-modal-body {
+        background-color: black!important;
+        color: white!important;
+    }
+
+    div.gallery-modal-spinner {
+        position: absolute;
+        top: 0;
+
+        width: 100%;
+        height: var(--min-swiper-height);
+
         display: flex;
         align-items: center;
+        justify-content: center;
     }
+}
 
-    .gallery-swiper-no-bullets {
-        span.swiper-pagination-bullet {
-            display: none;
+/** ----------------- SWIPER MODAL ----------------- **/
+#gallery-modal {
+    div.gallery-swiper {
+        padding: 0 0 var(--padding-bottom);
+        background: black;
+
+        div.swiper-slide {
+            background: var(--theme-background-darken-8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+
+        img.swiper-image {
+            width: 100%;
+            height: 100%;
         }
     }
 
-    .swiper-slide-portrait {
+    div.swiper-pagination {
+        background-color: var(--theme-card-background);
+        height: calc(var(--padding-bottom));
+        bottom: 0;
+
         display: flex;
-        justify-content: center;
         align-items: center;
-
-        $height: min(calc(100vh - 40px), calc((100vw - 40px)*1.77));
-        $height: min(calc(100svh - 40px), calc((100vw - 40px)*1.77));
-        height: $height;
-        width: calc($height/1.77);
-        overflow: hidden;
-    }
-
-    .swiper-slide-landscape {
-        display: flex;
         justify-content: center;
-        align-items: center;
-
-        $height: min(calc(100vh - 40px), calc((100vw - 40px)/1.77));
-        $height: min(calc(100svh - 40px), calc((100vw - 40px)/1.77));
-        height: $height;
-        width: calc($height*1.77);
-        overflow: hidden;
     }
 
-    .swiper-zoom-container {
+    // Size variants...
+    div.gallery-swiper-default {
+        div.swiper-slide {
+            --height: min(100vw, max(var(--min-swiper-height), max(400px, 30vw)));
+            width: var(--height);
+            height: var(--height);
+        }
+    }
+
+    div.gallery-swiper-portrait {
+        div.swiper-slide {
+            --height: min(calc(100vw*16/9), max(var(--min-swiper-height), max(500px, 30vw)));
+            width: calc(var(--height)*9/16);
+            height: var(--height);
+        }
+    }
+
+    div.gallery-swiper-landscape {
+        div.swiper-slide {
+            --height:  min(calc(100vw*9/16), max(var(--min-swiper-height), 450px));
+            width: calc(var(--height)*16/9);
+            height: var(--height);
+        }
+    }
+}
+
+/** ----------------- STACK MODAL ----------------- **/
+#gallery-modal {
+    div.gallery-modal-image-stack {
         display: flex;
-    }
-
-    .image-view-wrapper {
+        flex-direction: column;
         width: 100%;
-        height: 100%;
+        background-color: black;
+        min-height: 100vh;
+    }
+
+    div.gallery-modal-image-stack-item {
+        width: 100%;
+        &:not(:last-child) {
+            padding-bottom: 3px;
+        }
+        img {
+            width: 100%;
+        }
     }
 }

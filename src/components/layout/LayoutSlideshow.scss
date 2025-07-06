@@ -1,0 +1,31 @@
+@import "/src/styles/extend.scss";
+
+div.layout-slideshow {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: calc(100% + var(--default-card-spacing));
+    height: 100%;
+    padding: 1.25rem 3rem 1.25rem calc(3rem + var(--default-card-spacing));
+    overflow-x: hidden;
+
+    @include media-breakpoint-down(xl) {
+        padding: 10px calc(var(--default-card-spacing) + 10px) 10px 10px;
+        height: 100%;
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding: 0 var(--default-card-spacing) 0 0;
+        height: 100%;
+    }
+
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin: 0;
+        height: auto;
+    }
+}
+
+div.layout-slideshow-transitioning {
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        overflow: hidden;
+    }
+}

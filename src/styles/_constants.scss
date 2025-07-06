@@ -1,0 +1,48 @@
+/**
+ * @author Ryan Balieiro
+ * @description Global presets for the template.
+ */
+
+@import "themes/variables-theme-dark";
+@import "themes/variables-theme-light";
+
+/** Overriding Bootstrap's contrast ratio. **/
+$min-contrast-ratio: 1.5 !default;
+
+/** Typography **/
+$font-family-base: 'Saira', sans-serif;
+$headings-font-family: 'Orbitron', sans-serif;
+
+/** Static Colors **/
+$loader-background: #111111;
+$loader-contrast: #FFFFFF;
+$primary: #36ad59;
+
+/** Z-Indexing **/
+$z-index-background: -1;
+$z-index-content: 0;
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-section-floating-items: 30;
+$z-index-sidebar: 100;
+$z-index-nav-tabs: 200;
+$z-index-pop-over: 8500;
+$z-index-modal: 9000;
+$z-index-notifications: 9500;
+$z-index-dialogs:9800;
+$z-index-activity-spinner: 9990;
+$z-index-animated-cursor: 9995;
+$z-index-loader: 9999;
+
+/** Layout Constraints - General **/
+$max-breakpoint-for-tabbed-interface: md;
+$standard-border-radius: 10px;
+$default-card-spacing: 0.5rem;
+$default-card-spacing-mobile: 5px;
+$timeline-merge-mode-breakpoint: sm;
+
+/** Layout Constraints - Nav **/
+$nav-tabs-height: 55px;
+$nav-tabs-height-with-offset: 75px;
+$nav-pills-height: 50px;
+$nav-pills-height-compressed: 50px;

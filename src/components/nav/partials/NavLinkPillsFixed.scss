@@ -1,0 +1,36 @@
+@import "/src/styles/extend.scss";
+
+div.nav-link-pills-fixed-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-index-nav-tabs;
+    width: 100%;
+    padding: 0 var(--default-card-spacing);
+
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        display: none;
+    }
+}
+
+div.nav-link-pills-fixed-wrapper-shown {
+    transition: 0.2s ease-out transform;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+div.nav-link-pills-fixed-wrapper-hiding {
+    --offset: calc(-1 * var(--nav-pills-height));
+
+    transition: 0.1s ease-out transform;
+    transform: translateY(var(--offset));
+    visibility: visible;
+}
+
+div.nav-link-pills-fixed-wrapper-hidden {
+    --offset: calc(-1.5 * var(--nav-pills-height));
+
+    transition: none;
+    transform: translateY(var(--offset));
+    visibility: hidden;
+}

@@ -1,0 +1,71 @@
+/**
+ * @author Ryan Balieiro
+ * @description App general layout styles.
+ */
+
+body {
+    overflow-x: hidden!important;
+    touch-action: manipulation;
+    width: 100%;
+    background-color: $loader-background;
+
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        position: fixed!important;
+        overflow-y: hidden!important;
+    }
+}
+
+body.body-theme {
+    background-color: var(--theme-background)!important;
+}
+
+body.body-android {
+    @include media-breakpoint-up($max-breakpoint-for-tabbed-interface) {
+        position: relative!important;
+        overflow-y: auto!important;
+    }
+}
+
+body.body-no-scroll {
+    overflow-y: hidden!important;
+}
+
+/** ------------ SELECTION STYLES ------------ **/
+::-moz-selection {
+    color: var(--theme-texts-inv);
+    background: var(--theme-primary);
+}
+
+::selection {
+    color: var(--theme-texts-inv);
+    background: var(--theme-primary);
+}
+
+/** ------------ SCROLLBAR STYLES ------------ **/
+.scrollbar-decorator {
+    ::-webkit-scrollbar { max-width: 4px; }
+    ::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 4px var(--theme-scrollbar-track); }
+    ::-webkit-scrollbar-thumb { background-color: var(--theme-scrollbar-thumb)!important; }
+}
+
+/** ------------ PLACEHOLDER STYLES ------------ **/
+::-webkit-input-placeholder {
+    color: var(--theme-opacity-border-accent);
+}
+*:-moz-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}
+*::-ms-input-placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}
+*::placeholder {
+    color: var(--theme-opacity-border-accent)!important;
+}

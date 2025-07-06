@@ -1,0 +1,10 @@
+@import "/src/styles/extend.scss";
+
+div.layout-image-cache {
+    position: absolute;
+    visibility: hidden;
+    img.cache-image {
+        width: 5px;
+        height: 5px;
+    }
+}

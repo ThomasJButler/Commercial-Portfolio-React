@@ -1,144 +1,164 @@
+import "./ArticlePortfolio.scss"
 import React, {useEffect, useState} from 'react'
-import Article from "/src/components/wrappers/Article.jsx"
-import {Col, Row} from "react-bootstrap"
-import {useParser} from "/src/helpers/parser.js"
-import {useScheduler} from "/src/helpers/scheduler.js"
-import Categorizable from "/src/components/capabilities/Categorizable.jsx"
-import Expandable from "/src/components/capabilities/Expandable.jsx"
-import ProjectCard from "/src/components/generic/ProjectCard.jsx"
+import Article from "/src/components/articles/base/Article.jsx"
+import Transitionable from "/src/components/capabilities/Transitionable.jsx"
+import {useViewport} from "/src/providers/ViewportProvider.jsx"
+import {useConstants} from "/src/hooks/constants.js"
+import AvatarView from "/src/components/generic/AvatarView.jsx"
+import {Tag, Tags} from "/src/components/generic/Tags.jsx"
+import ArticleItemPreviewMenu from "/src/components/articles/partials/ArticleItemPreviewMenu.jsx"
 import {useLanguage} from "/src/providers/LanguageProvider.jsx"
-import {useWindow} from "/src/providers/WindowProvider.jsx"
 
-const AnimationStatus = {
-    INVISIBLE: "invisible",
-    VISIBLE: "visible",
-    VISIBLE_WITH_TWEEN: "visible_with_tween"
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {Number} id
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolio({ dataWrapper, id }) {
+    const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
+
+    return (
+        <Article id={dataWrapper.uniqueId}
+                 type={Article.Types.SPACING_DEFAULT}
+                 dataWrapper={dataWrapper}
+                 className={`article-portfolio`}
+                 selectedItemCategoryId={selectedItemCategoryId}
+                 setSelectedItemCategoryId={setSelectedItemCategoryId}>
+            <ArticlePortfolioItems dataWrapper={dataWrapper}
+                                   selectedItemCategoryId={selectedItemCategoryId}/>
+        </Article>
+    )
 }
 
-function ArticlePortfolio({ data }) {
-    const parser = useParser()
-    const scheduler = useScheduler()
-    const {isBreakpoint} = useWindow()
-    const {selectedLanguageId} = useLanguage()
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {String} selectedItemCategoryId
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
+    const constants = useConstants()
+    const language = useLanguage()
+    const viewport = useViewport()
 
-    const parsedData = parser.parseArticleData(data)
+    const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
+    const customBreakpoint = viewport.getCustomBreakpoint(constants.SWIPER_BREAKPOINTS_FOR_THREE_SLIDES)
 
-    const [parsedItems, setParsedItems] = useState([])
-    const [parsedCategories, setParsedCategories] = useState([])
-    const [categoryFilterResult, setCategoryFilterResult] = useState(parsedItems)
-    const [expandableFilterResult, setExpandableFilterResult] = useState(parsedItems)
-    const [shouldAnimate, setShouldAnimate] = useState(false)
-    const [skipAnimationForNextChange, setSkipAnimationForNextChange] = useState(false)
+    const itemsPerRow = customBreakpoint?.slidesPerView || 1
+    const itemsPerRowClass = `article-portfolio-items-${itemsPerRow}-per-row`
 
-    useEffect(() => {
-        const parsedItems = parser.parseArticleItems(parsedData.items)
-        const parsedCategories = parser.parseArticleCategories(parsedData.categories)
-        parser.bindItemsToCategories(parsedItems, parsedCategories)
+    const refreshFlag = dataWrapper.categories?.length ?
+        selectedItemCategoryId + "-" + language.getSelectedLanguage()?.id :
+        language.getSelectedLanguage()?.id
 
-        setParsedItems(parsedItems)
-        setParsedCategories(parsedCategories)
-        setCategoryFilterResult(parsedItems)
-        setSkipAnimationForNextChange(true)
-    }, [null, selectedLanguageId])
-
-    useEffect(() => {
-        if(skipAnimationForNextChange) {
-            setSkipAnimationForNextChange(false)
-            return
-        }
-
-        setShouldAnimate(true)
-        _setAnimationStatus(AnimationStatus.INVISIBLE)
-    }, [categoryFilterResult])
-
-    useEffect(() => {
-        if(shouldAnimate) {
-            _setAnimationStatus(AnimationStatus.VISIBLE_WITH_TWEEN)
-        }
-        else {
-            _setAnimationStatus(AnimationStatus.VISIBLE)
-        }
-
-        setShouldAnimate(false)
-    }, [expandableFilterResult])
-
-    useEffect(() => {
-        _setAnimationStatus(AnimationStatus.VISIBLE)
-    }, [])
-
-    const _setAnimationStatus = (animationStatus) => {
-        const tag = 'portfolio-grid'
-        scheduler.clearAllWithTag(tag)
-        const divs = document.querySelectorAll('.grid-item')
-
-        switch(animationStatus) {
-            case AnimationStatus.INVISIBLE:
-                divs.forEach((div, index) => {
-                    div.classList.add(`grid-item-hidden`)
-                })
-                break
-
-            case AnimationStatus.VISIBLE:
-                divs.forEach((div, index) => {
-                    div.classList.remove(`grid-item-hidden`)
-                })
-                break
-
-            case AnimationStatus.VISIBLE_WITH_TWEEN:
-                divs.forEach((div, index) => {
-                    div.classList.add(`grid-item-hidden`)
-
-                    scheduler.schedule(() => {
-                        div.classList.remove(`grid-item-hidden`)
-                    }, 200 + 100 * index, tag)
-                })
-                break
-        }
+    if(dataWrapper.categories?.length) {
+        return (
+            <Transitionable id={dataWrapper.uniqueId}
+                            refreshFlag={refreshFlag}
+                            delayBetweenItems={100}
+                            animation={Transitionable.Animations.POP}
+                            className={`article-portfolio-items ${itemsPerRowClass}`}>
+                {filteredItems.map((itemWrapper, key) => (
+                    <ArticlePortfolioItem itemWrapper={itemWrapper}
+                                          key={key}/>
+                ))}
+            </Transitionable>
+        )
     }
-
-    const _getMaxItemsPerPage = () => {
-        if(isBreakpoint('xxl'))
-            return 9
-        if(isBreakpoint('lg'))
-            return 8
-        if(isBreakpoint('sm'))
-            return 6
-        return 4
+    else {
+        return (
+            <div className={`article-portfolio-items ${itemsPerRowClass} mb-3 mb-lg-2`}>
+                {filteredItems.map((itemWrapper, key) => (
+                    <ArticlePortfolioItem itemWrapper={itemWrapper}
+                                          key={key}/>
+                ))}
+            </div>
+        )
     }
+}
 
-    return(
-        <Article className={`article-portfolio`} title={ parsedData.title }>
-            <Row className={`gx-4 gy-lg-4 gx-lg-5`}>
-                <Categorizable items={parsedItems}
-                               categories={parsedCategories}
-                               onFilter={setCategoryFilterResult}
-                               storageId={data.id + "_categorizable"}
-                               controlsClass={``}>
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolioItem({ itemWrapper }) {
+    return (
+        <div className={`article-portfolio-item`}>
+            <AvatarView src={itemWrapper.img}
+                        faIcon={itemWrapper.faIcon}
+                        style={itemWrapper.faIconStyle}
+                        alt={itemWrapper.imageAlt}
+                        className={`article-portfolio-item-avatar`}/>
 
-                    <Expandable items={categoryFilterResult}
-                                storageId={null}
-                                onFilter={setExpandableFilterResult}
-                                controlsClass={`mt-4 pt-1`}
-                                maxItems={_getMaxItemsPerPage()}>
+            <ArticlePortfolioItemTitle itemWrapper={itemWrapper}/>
+            <ArticlePortfolioItemBody itemWrapper={itemWrapper}/>
+            <ArticlePortfolioItemFooter itemWrapper={itemWrapper}/>
+        </div>
+    )
+}
 
-                        {expandableFilterResult.map((item, key) => (
-                            <Col key={key} className={`col-12 col-sm-6 col-md-12 col-lg-6 col-xxl-4`}>
-                                <ProjectCard title={item.title}
-                                             subtitle={item.category.singular}
-                                             text={item.text}
-                                             links={item.links}
-                                             options={item.mediaOptions}
-                                             tags={item.tags.slice(0, 3)}
-                                             img={item.img}
-                                             fallbackIcon={item.faIcon}
-                                             fallbackIconColors={item.faIconColors}
-                                             className={`grid-item-hidden`}/>
-                            </Col>
-                        ))}
-                    </Expandable>
-                </Categorizable>
-            </Row>
-        </Article>
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolioItemTitle({ itemWrapper }) {
+    return (
+        <div className={`article-portfolio-item-title`}>
+            <h5 className={`article-portfolio-item-title-main`}
+                dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
+
+            <div className={`article-portfolio-item-title-category text-2`}
+                 dangerouslySetInnerHTML={{__html: itemWrapper.category?.label }}/>
+        </div>
+    )
+}
+
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolioItemBody({ itemWrapper }) {
+    return (
+        <div className={`article-portfolio-item-body`}>
+            <Tags className={`article-portfolio-item-body-tags`}>
+                {itemWrapper.locales.tags && Boolean(itemWrapper.locales.tags.length) && itemWrapper.locales.tags.map((tag, key) => (
+                    <Tag key={key}
+                         text={tag}
+                         variant={Tag.Variants.DARK}
+                         className={`article-portfolio-item-body-tag text-1`}/>
+                ))}
+            </Tags>
+
+            <div className={`article-portfolio-item-body-description text-2`}
+                 dangerouslySetInnerHTML={{__html: itemWrapper.locales.text}}/>
+        </div>
+    )
+}
+
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticlePortfolioItemFooter({ itemWrapper }) {
+    const hasPreview = itemWrapper.preview
+    const hasPreviewLinks = itemWrapper.preview?.hasLinks
+    const hasScreenshotsOrVideo = itemWrapper.preview?.hasScreenshotsOrYoutubeVideo
+
+    const previewMenuAvailable = hasPreview && (hasPreviewLinks || hasScreenshotsOrVideo)
+    if(!previewMenuAvailable)
+        return <></>
+
+    return (
+        <div className={`article-portfolio-item-footer`}>
+            <ArticleItemPreviewMenu itemWrapper={itemWrapper}
+                                    spaceBetween={true}
+                                    className={`article-portfolio-item-footer-menu`}/>
+        </div>
     )
 }
 

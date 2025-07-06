@@ -1,0 +1,72 @@
+/**
+ * @author Ryan Balieiro
+ * @description This file contains the customization of primitives.
+ */
+
+.bg {
+    &-primary {background-color: var(--theme-primary) !important;}
+    &-secondary {background-color: var(--theme-secondary) !important;}
+    &-danger {background-color: var(--theme-danger) !important;}
+    &-dark {background-color: var(--theme-dark) !important;}
+    &-default {background-color: var(--theme-texts) !important;}
+    &-inverted {background-color: var(--theme-texts-inv) !important;}
+    &-muted {background-color: var(--theme-muted) !important;}
+    &-board {background-color: var(--theme-boards-background) !important;}
+}
+
+.text {
+    &-primary {color: var(--theme-primary) !important;}
+    &-secondary {color: var(--theme-secondary) !important;}
+    &-dark {color: var(--theme-dark) !important;}
+    &-danger {color: var(--theme-danger) !important;}
+    &-default {color: var(--theme-texts) !important;}
+    &-inverted {color: var(--theme-texts-inv) !important;}
+    &-muted {color: var(--theme-muted) !important;}
+}
+
+a {
+    text-decoration: none!important;
+    color: var(--theme-links);
+    span, i {
+        user-select: none;
+        pointer-events: none;
+    }
+
+    &:hover {
+        color: var(--theme-links-hover);
+    }
+}
+
+i.fa-icon-no-select {
+    user-select: none;
+    pointer-events: none;
+}
+
+.last-p-no-margin p:last-of-type {
+    margin-bottom: 0;
+}
+
+hr {
+    color: var(--theme-opacity-border);
+}
+
+ul.list-style-none {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-mobile-small-padding {
+    list-style-type: disc;
+    margin-bottom: 0;
+    @include media-breakpoint-down(lg) {
+        padding: 0 30px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 0 26px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 0 22px;
+    }
+}
+

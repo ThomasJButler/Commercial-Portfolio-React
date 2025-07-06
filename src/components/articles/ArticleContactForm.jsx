@@ -1,134 +1,304 @@
+import "./ArticleContactForm.scss"
 import React, {useEffect, useState} from 'react'
-import Article from "/src/components/wrappers/Article.jsx"
-import {useParser} from "/src/helpers/parser.js"
-import {Col} from "react-bootstrap"
-import FormInput from "/src/components/forms/FormInput.jsx"
-import {useLanguage} from "/src/providers/LanguageProvider.jsx"
-import FormTextArea from "/src/components/forms/FormTextArea.jsx"
-import Form from "/src/components/forms/Form.jsx"
-import {useEmails} from "/src/helpers/emails.js"
-import StatusMessage from "/src/components/generic/StatusMessage.jsx"
-import {useTheme} from "/src/providers/ThemeProvider.jsx"
+import {useApi} from "/src/hooks/api.js"
+import {useConstants} from "/src/hooks/constants.js"
+import {useData} from "/src/providers/DataProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
+import {useLanguage} from "/src/providers/LanguageProvider.jsx"
+import {useNavigation} from "/src/providers/NavigationProvider.jsx"
+import {useUtils} from "/src/hooks/utils.js"
+import Article from "/src/components/articles/base/Article.jsx"
+import {RowForm, RowFormGroup, RowFormGroupAlert, RowFormGroupItem, RowFormGroupSubmit} from "/src/components/forms/containers/RowForm.jsx"
+import {MessageCard, MessageCardIcon, MessageCardBody, MessageCardFooter} from "/src/components/generic/MessageCard.jsx"
+import Input from "/src/components/forms/fields/Input.jsx"
+import Textarea from "/src/components/forms/fields/Textarea.jsx"
+import StandardButton from "/src/components/buttons/StandardButton.jsx"
 
-function ArticleContactForm({ data }) {
-    const parser = useParser()
-    const emails = useEmails()
-    const {showActivitySpinner, hideActivitySpinner, displayNotification} = useFeedbacks()
-    const {getString} = useLanguage()
-    const {getSelectedTheme} = useTheme()
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {Number} id
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleContactForm({ dataWrapper, id }) {
+    const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
+    const [shouldHideTitle, setShouldHideTitle] = useState(false)
+
+    return (
+        <Article id={dataWrapper.uniqueId}
+                 type={Article.Types.SPACING_DEFAULT}
+                 dataWrapper={dataWrapper}
+                 forceHideTitle={shouldHideTitle}
+                 className={`article-contact-form`}
+                 selectedItemCategoryId={selectedItemCategoryId}
+                 setSelectedItemCategoryId={setSelectedItemCategoryId}>
+            <ArticleContactFormContent dataWrapper={dataWrapper}
+                                       selectedItemCategoryId={selectedItemCategoryId}
+                                       setShouldHideTitle={setShouldHideTitle}/>
+        </Article>
+    )
+}
+
+ArticleContactForm.Status = {
+    WAITING_FOR_SUBMISSION: "waiting-for-submission",
+    SUBMITTING: "submitting",
+    SUBMITTED: "submitted",
+}
+
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {String} selectedItemCategoryId
+ * @param {Function} setShouldHideTitle
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setShouldHideTitle }) {
+    const api = useApi()
+    const constants = useConstants()
+    const data = useData()
+    const feedbacks = useFeedbacks()
+    const language = useLanguage()
+    const navigation = useNavigation()
+    const utils = useUtils()
+
+    const id = "contact-form"
+    const windowStatus = utils.storage.getWindowVariable(id)
+
+    const [fieldsBundle, setFieldsBundle] = useState(null)
+    const [validationError, setValidationError] = useState(null)
+    const [status, setStatus] = useState(windowStatus || ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
+
+    const name = fieldsBundle?.name
+    const email = fieldsBundle?.email
+    const subject = fieldsBundle?.subject
+    const message = fieldsBundle?.message
+    const emailDisplay = utils.storage.getWindowVariable(id + "-email")
+    const didSubmit = status === ArticleContactForm.Status.SUBMITTED
+
+    const errorMessage = validationError ?
+        language.getString(validationError.errorCode).replace("{x}", validationError.errorParameter) :
+        null
+
+    useEffect(() => {
+        const form = document.getElementById(id)
+
+        switch (status) {
+            case ArticleContactForm.Status.WAITING_FOR_SUBMISSION:
+                form?.reset()
+                utils.storage.setWindowVariable(id, null)
+                utils.storage.setWindowVariable(id + "-email", null)
+                setShouldHideTitle(false)
+                break
+
+            case ArticleContactForm.Status.SUBMITTED:
+                utils.storage.setWindowVariable(id, ArticleContactForm.Status.SUBMITTED)
+                if(email) utils.storage.setWindowVariable(id + "-email", email)
+                setShouldHideTitle(true)
+                break
+        }
+    }, [status])
+
+    const _onReset = () => {
+        setShouldHideTitle(false)
+        setStatus(ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
+    }
+
+    const _onSubmit = async (e) => {
+        if(status !== ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
+            return
+
+        e.preventDefault && e.preventDefault()
+        e.stopPropagation && e.stopPropagation()
+        navigation.forceScrollToTop()
+
+        const apiValidation = api.validators.validateEmailRequest(name, email, subject, message)
+        if(!apiValidation.success) {
+            feedbacks.setActivitySpinnerVisible(true, dataWrapper.uniqueId, language.getString("sending_message"))
+            setTimeout(() => {
+                setValidationError(apiValidation)
+                feedbacks.setActivitySpinnerVisible(false, dataWrapper.uniqueId)
+            }, 300)
+            return
+        }
+
+        setValidationError(null)
+        setStatus(ArticleContactForm.Status.SUBMITTING)
+        feedbacks.setActivitySpinnerVisible(true, dataWrapper.uniqueId, language.getString("sending_message"))
+
+        const fakeEmailRequests = utils.storage.getWindowVariable("fakeEmailRequests") || false
+
+        let apiResponse
+        if(!fakeEmailRequests) {
+            apiResponse = await api.handlers.sendEmailRequest(
+                apiValidation.bundle,
+                dataWrapper.settings.emailJsPublicKey,
+                dataWrapper.settings.emailJsServiceId,
+                dataWrapper.settings.emailJsTemplateId,
+            )
+        }
+        else {
+            apiResponse = await api.handlers.dummyRequest()
+        }
+
+        feedbacks.setActivitySpinnerVisible(false, dataWrapper.uniqueId)
+        _onApiResponse(apiResponse?.success)
+
+    }
+
+    const _onApiResponse = (success) => {
+        if(!success) {
+            setStatus(ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
+            feedbacks.displayNotification(
+                language.getString("error"),
+                language.getString(constants.ErrorCodes.MESSAGE_SUBMIT_FAILED),
+                "error"
+            )
+        }
+        else {
+            setStatus(ArticleContactForm.Status.SUBMITTED)
+        }
+    }
+
+    return (
+        <RowForm id={id}
+                 onSubmit={_onSubmit}>
+            {validationError && (
+                <RowFormGroupAlert variant={"danger"}
+                                   message={errorMessage}/>
+            )}
+
+            {!didSubmit && (
+                <ArticleContactFormContentFields onInput={setFieldsBundle}
+                                                 didSubmit={didSubmit}/>
+            )}
+
+            {didSubmit && (
+                <ArticleContactFormSuccessMessage dataWrapper={dataWrapper}
+                                                  email={emailDisplay}
+                                                  onReset={_onReset}/>
+            )}
+
+            {!didSubmit && (
+                <RowFormGroupSubmit faIcon={`fa-solid fa-envelope`}
+                                    label={language.getString("send_message")}/>
+            )}
+        </RowForm>
+    )
+}
+
+/**
+ * @param {Function} onInput
+ * @param {Boolean} didSubmit
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleContactFormContentFields({ onInput, didSubmit }) {
+    const language = useLanguage()
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
-    const [didSubmitMessage, setDidSubmitMessage] = useState(false)
 
-    const parsedData = parser.parseArticleData(data)
+    const splitColClass = `col-12 col-xl-6`
+    const textClass = `text-4`
 
     useEffect(() => {
-        _resetForm()
-    }, [getSelectedTheme()])
+        onInput({name, email, subject, message})
+    }, [null, name, email, subject, message])
 
-    const _resetForm = () => {
-        const form = document.getElementById('contact-form')
-        if(form) {
-            form.reset()
+    useEffect(() => {
+        if(!didSubmit) {
+            setName('')
+            setEmail('')
+            setSubject('')
+            setMessage('')
         }
-        setName('')
-        setEmail('')
-        setSubject('')
-    }
+    }, [didSubmit])
 
-    const _onSubmitButton = (e) => {
-        e.preventDefault()
-        showActivitySpinner('submitting')
+    return (
+        <>
+            <RowFormGroup className={`${splitColClass}`}>
+                <RowFormGroupItem>
+                    <Input id={`contact-form-name`}
+                           name={`name`}
+                           type={`text`}
+                           model={name}
+                           setModel={setName}
+                           faIconPrefix={`fa-solid fa-signature`}
+                           placeholder={language.getString("name")}
+                           className={textClass}
+                           required={true}/>
+                </RowFormGroupItem>
 
+                <RowFormGroupItem>
+                    <Input id={`contact-form-email`}
+                           name={`email`}
+                           type={`email`}
+                           model={email}
+                           setModel={setEmail}
+                           faIconPrefix={`fa-solid fa-envelope`}
+                           placeholder={language.getString("email")}
+                           className={textClass}
+                           required={true}/>
+                </RowFormGroupItem>
 
-        setTimeout(async () => {
-            await _submitMessage()
-        }, 300)
-    }
+                <RowFormGroupItem>
+                    <Input id={`contact-form-subject`}
+                           name={`contact-message-subject`}
+                           type={`text`}
+                           model={subject}
+                           setModel={setSubject}
+                           faIconPrefix={`fa-solid fa-pen-to-square`}
+                           placeholder={language.getString("subject")}
+                           className={textClass}
+                           required={true}/>
+                </RowFormGroupItem>
+            </RowFormGroup>
 
-    const _submitMessage = async () => {
-        if(!emails.isInitialized()) {
-            hideActivitySpinner('submitting')
-            _onSubmitError()
-            return
-        }
+            <RowFormGroup className={`${splitColClass}`}>
+                <RowFormGroupItem>
+                    <Textarea id={`contact-form-textarea`}
+                              name={`message`}
+                              model={message}
+                              setModel={setMessage}
+                              placeholder={language.getString("message")}
+                              className={textClass}
+                              required={true}/>
+                </RowFormGroupItem>
+            </RowFormGroup>
+        </>
+    )
+}
 
-        window.scrollTo({top: 260, behavior: 'instant'})
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {String} email
+ * @param {Function} onReset
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleContactFormSuccessMessage({ dataWrapper, email, onReset }) {
+    const language = useLanguage()
 
-        const success = await emails.sendContactEmail(name, email, subject, message)
-        if(success) {
-            _onSubmitSuccess()
-        }
-        else {
-            _onSubmitError()
-        }
-    }
+    const formattedEmail = `<br>«<span class="me-1"></span>${email}<span class="ms-1"></span>»`
 
-    const _onSubmitSuccess = () => {
-        hideActivitySpinner('submitting')
-        setDidSubmitMessage(true)
-    }
+    return (
+        <MessageCard>
+            <MessageCardIcon faIcon={`fa-solid fa-envelope-circle-check`}/>
 
-    const _onSubmitError = () => {
-        hideActivitySpinner('submitting')
-        displayNotification('error', getString('uhOh'), getString('message_sent_error'))
-    }
+            <MessageCardBody title={dataWrapper.locales.contactThankYouTitle}
+                             text={dataWrapper.locales.contactThankYouBody}/>
 
-    return(
-        <Article className={`article-contact-form pb-2`} title={ parsedData.title }>
-            {!didSubmitMessage && (
-                <Form id={`contact-form`}
-                      submitIcon={`fa-solid fa-envelope`}
-                      submitLabel={getString('send_message')}
-                      onSubmit={_onSubmitButton}>
-
-                    <Col className={`col-12 col-xl-6`}>
-                        <FormInput id={`name`}
-                                   type={`text`}
-                                   value={name}
-                                   valueSetter={setName}
-                                   faIcon={`fa-solid fa-signature`}
-                                   placeholder={getString('name')}
-                                   required={true}/>
-
-                        <FormInput id={`email`}
-                                   type={`email`}
-                                   value={email}
-                                   valueSetter={setEmail}
-                                   faIcon={`fa-solid fa-envelope`}
-                                   placeholder={getString('email')}
-                                   required={true}/>
-
-                        <FormInput id={`subject`}
-                                   type={`text`}
-                                   value={subject}
-                                   valueSetter={setSubject}
-                                   faIcon={`fa-solid fa-pen-to-square`}
-                                   placeholder={getString('subject')}
-                                   required={true}/>
-                    </Col>
-
-                    <Col className={`col-12 col-xl-6 d-flex`}>
-                        <FormTextArea   id={`message`}
-                                        value={message}
-                                        valueSetter={setMessage}
-                                        placeholder={getString('message')}
-                                        required={true}/>
-                    </Col>
-                </Form>
-            )}
-
-            {didSubmitMessage && (
-                <StatusMessage title={getString('yay')}
-                               faIcon={`fa-solid fa-check`}
-                               type={`success`}
-                               message={getString('message_sent_success')}/>
-            )}
-        </Article>
+            <MessageCardFooter text={dataWrapper.locales.contactThankYouFooter.replace("$email", formattedEmail)}>
+                <StandardButton className={`article-contact-form-reset-button`}
+                                variant={`primary`}
+                                faIcon={`fa-regular fa-envelope`}
+                                label={language.getString("send_another_message")}
+                                tooltip={language.getString("send_another_message")}
+                                onClick={onReset}/>
+            </MessageCardFooter>
+        </MessageCard>
     )
 }
 

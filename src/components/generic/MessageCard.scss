@@ -1,0 +1,63 @@
+@import "/src/styles/extend.scss";
+
+div.message-card {
+    --avatar-size: 110px;
+    --padding: 50px;
+
+    @include media-breakpoint-down(xxl) {
+        --avatar-size: 100px;
+        --padding: 45px;
+    }
+    @include media-breakpoint-down(xl) {
+        --avatar-size: 90px;
+        --padding: 40px;
+    }
+    @include media-breakpoint-down(md) {
+        --avatar-size: 85px;
+        --padding: 35px;
+    }
+    @include media-breakpoint-down(sm) {
+        --avatar-size: 75px;
+        --padding: 30px;
+    }
+
+    background-color: var(--theme-boards-background)!important;
+
+    &-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: var(--padding);
+    }
+
+    &-avatar {
+        width: var(--avatar-size);
+        height: var(--avatar-size);
+        font-size: calc(var(--avatar-size) / 2.3);
+        border-radius: 100%;
+        background-color: var(--theme-primary);
+        color: var(--theme-texts-inv);
+        margin-bottom: 20px;
+    }
+
+    div.message-card-title-wrapper {
+        max-width: 760px;
+    }
+
+    h5 {
+        font-weight: bold;
+        margin-bottom: 12px;
+        color: var(--theme-texts-light);
+    }
+
+    p.message-card-body, p.message-card-footer {
+        margin-bottom: 0;
+        color: var(--theme-texts-light-2);
+    }
+
+    div.message-card-footer-wrapper {
+        width: 100%;
+    }
+}

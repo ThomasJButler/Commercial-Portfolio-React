@@ -1,0 +1,39 @@
+@import "/src/styles/extend.scss";
+
+div.layout-navigation-wrapper {
+    $target-height: calc(100vh - $default-card-spacing*2);
+    $target-height-svh: calc(100svh - $default-card-spacing*2);
+
+    display: flex;
+    height: $target-height;
+    height: $target-height-svh;
+    min-height: $target-height;
+    min-height: $target-height-svh;
+    max-height: $target-height;
+    max-height: $target-height-svh;
+
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        min-width: 0;
+        height: auto;
+        max-height: inherit;
+        flex-direction: column;
+    }
+}
+
+div.layout-navigation-children-wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin-left: var(--default-card-spacing);
+
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-left: 0;
+        margin-top: calc(var(--default-card-spacing) - 1px);
+        margin-bottom: $nav-tabs-height;
+    }
+}
+
+div.layout-navigation-children-wrapper-with-offset {
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-bottom: $nav-tabs-height-with-offset;
+    }
+}

@@ -1,0 +1,106 @@
+@import "/src/styles/extend.scss";
+
+div.article-timeline-item-info-for-timelines {
+    --content-padding: 25px 30px;
+    --date-badge-width: 220px;
+
+    @include media-breakpoint-down(xl) {
+        --content-padding: 25px 30px;
+    }
+
+    @include media-breakpoint-down(md) {
+        --content-padding: 20px 25px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        --content-padding: 22px 28px 22px 28px;
+    }
+}
+
+div.article-timeline-item-info-for-timelines-date-badge-small {
+    --date-badge-width: 150px;
+}
+
+div.article-timeline-item-info-for-timelines {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--content-padding);
+
+    background-color: var(--theme-boards-background);
+    border-radius: $standard-border-radius;
+}
+
+/** -------------- HEADING -------------- **/
+div.article-timeline-item-info-for-timelines-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.article-timeline-item-info-for-timelines-header-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+
+    h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+        max-width: calc(100% - var(--date-badge-width)*1.15);
+        @include media-breakpoint-down(xl) {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    div.article-timeline-item-info-for-timelines-header-date-badge {
+        position: absolute;
+        right: -4px;
+        top: -4px;
+        font-size: 13px;
+        min-width: var(--date-badge-width)!important;
+    }
+}
+
+ul.article-timeline-item-info-for-timelines-header-prop-list {
+    color: var(--theme-texts-12);
+}
+
+/** -------------- BODY -------------- **/
+div.article-timeline-item-info-for-timelines-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    color: var(--theme-texts-light);
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-top: 12px;
+    }
+}
+
+ul.article-timeline-item-info-for-timelines-body-list {
+    margin-top: 8px;
+}
+
+/** -------------- FOOTER -------------- **/
+div.article-timeline-item-info-for-timelines-tags-footer {
+    display: flex;
+    width: 100%;
+    margin-top: 22px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-top: 16px;
+    }
+}
+
+div.article-timeline-item-info-preview-footer {
+    margin-top: 16px;
+
+    &-title {
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-style: italic;
+        color: var(--theme-texts-12);
+        opacity: 0.8;
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,30 @@
+@import "/src/styles/extend.scss";
+
+div.mouse-layer-circle {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--theme-texts);
+
+    pointer-events: none;
+    user-select: none;
+    transition: 0.2s background-color ease-in;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--theme-texts-inv);
+}
+
+i.mouse-layer-circle-fa-icon {
+    transition: 0.2s scale ease-in;
+    &-hidden {
+        scale: 0;
+    }
+}
+
+div.mouse-layer-circle-highlight {
+    background-color: var(--theme-primary);
+}

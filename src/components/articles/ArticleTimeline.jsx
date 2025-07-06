@@ -1,21 +1,87 @@
-import React from 'react'
-import Article from "/src/components/wrappers/Article.jsx"
-import Timeline from "/src/components/generic/Timeline.jsx"
-import {useParser} from "/src/helpers/parser.js"
+import "./ArticleTimeline.scss"
+import React, {useEffect, useState} from 'react'
+import Article from "/src/components/articles/base/Article.jsx"
+import AvatarView from "/src/components/generic/AvatarView.jsx"
+import {ArticleItemInfoForTimelines, ArticleItemInfoForTimelinesHeader, ArticleItemInfoForTimelinesTagsFooter, ArticleItemInfoForTimelinesBody} from "/src/components/articles/partials/ArticleItemInfoForTimelines.jsx"
 
-function ArticleTimeline({ data }) {
-    const parser = useParser()
-
-    const parsedData = parser.parseArticleData(data)
-    const items = parsedData.items
-    parser.sortArticleItemsByDateDesc(items)
-
-    const parsedItems = parser.formatForTimeline(items)
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {Number} id
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleTimeline({ dataWrapper, id }) {
+    const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
 
     return (
-        <Article className={`article-timeline`} title={ parsedData.title }>
-            <Timeline items={parsedItems}/>
+        <Article id={dataWrapper.uniqueId}
+                 type={Article.Types.SPACING_DEFAULT}
+                 dataWrapper={dataWrapper}
+                 className={`article-timeline`}
+                 selectedItemCategoryId={selectedItemCategoryId}
+                 setSelectedItemCategoryId={setSelectedItemCategoryId}>
+            <ArticleTimelineItems dataWrapper={dataWrapper}
+                                  selectedItemCategoryId={selectedItemCategoryId}/>
         </Article>
+    )
+}
+
+/**
+ * @param {ArticleDataWrapper} dataWrapper
+ * @param {String} selectedItemCategoryId
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleTimelineItems({ dataWrapper, selectedItemCategoryId }) {
+    const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
+
+    return (
+        <ul className={`article-timeline-items`}>
+            {filteredItems.map((itemWrapper, key) => (
+                <ArticleTimelineItem itemWrapper={itemWrapper} 
+                                     key={key}/>
+            ))}
+
+            <ArticleTimelineTrailingItem itemWrapper={null}/>
+        </ul>
+    )
+}
+
+/**
+ * @param {ArticleItemDataWrapper} itemWrapper
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleTimelineItem({ itemWrapper }) {
+    return (
+        <li className={`article-timeline-item`}>
+            <AvatarView src={itemWrapper?.img}
+                        faIcon={itemWrapper?.faIcon}
+                        style={itemWrapper?.faIconStyle}
+                        alt={itemWrapper?.imageAlt}
+                        className={`article-timeline-item-avatar`}/>
+
+            <ArticleItemInfoForTimelines className={`article-timeline-item-content`}>
+                <ArticleItemInfoForTimelinesHeader itemWrapper={itemWrapper}
+                                                   dateInterval={true}/>
+
+                <ArticleItemInfoForTimelinesBody itemWrapper={itemWrapper}/>
+
+                <ArticleItemInfoForTimelinesTagsFooter itemWrapper={itemWrapper}/>
+            </ArticleItemInfoForTimelines>
+        </li>
+    )
+}
+
+/**
+ * @return {JSX.Element}
+ * @constructor
+ */
+function ArticleTimelineTrailingItem() {
+    return (
+        <li className={`article-timeline-item article-timeline-item-trailing`}>
+            <AvatarView className={`article-timeline-item-avatar`}/>
+        </li>
     )
 }
 

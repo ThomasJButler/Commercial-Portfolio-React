@@ -1,18 +1,20 @@
-@import "/src/styles/extend";
+@import "/src/styles/extend.scss";
 
-.info-badge {
-    display: inline-block;
-    background-color: var(--theme-tag-color);
-    padding: 0.4rem 1rem;
-    border-radius: $standard-border-radius;
-    color: var(--theme-secondary-3);
-    font-family: $custom-subheadings-font-family;
-    font-weight: bold;
-    min-width: 220px;
-    text-align: center;
+div.info-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
-    @include media-breakpoint-down(xl) {
-        padding: 0.25rem 0.9rem;
-        min-width: 0;
+    background-color: var(--theme-info-badge-background);
+    border: 2px solid var(--theme-standard-borders-accent);
+    color: var(--theme-info-badge);
+    padding: 5px 15px;
+    border-radius: 30px;
+
+    i.fa-icon {
+        margin-right: 10px;
+        opacity: 0.75;
+        scale: 0.9;
+        margin-bottom: 2px;
     }
 }

@@ -1,0 +1,30 @@
+@import "/src/styles/extend.scss";
+
+header.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.section-header-prefix {
+    font-family: $headings-font-family;
+    font-weight: bold;
+    color: var(--theme-muted);
+
+    i {
+        opacity: 0.75;
+        margin-right: 8px;
+    }
+}
+
+h3.section-header-title {
+    margin: 0 40px 0 40px;
+    text-align: center;
+    font-weight: bold;
+    @include media-breakpoint-down(lg) {
+        color: var(--theme-primary);
+        margin-top: 10px;
+    }
+}

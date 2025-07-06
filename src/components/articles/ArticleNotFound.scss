@@ -1,0 +1,21 @@
+@import "/src/styles/extend.scss";
+
+table.article-not-found-item-table {
+    border-radius: $standard-border-radius!important;
+    overflow: hidden;
+    background-color: transparent;
+    border-color: var(--theme-card-background);
+    margin: 0;
+    height: 100%;
+
+    th, td {
+        background-color: var(--theme-boards-background);
+        color: var(--theme-texts);
+        padding: 10px 20px;
+        border-width: 2px!important;
+    }
+
+    th {
+        width: 100px;
+    }
+}

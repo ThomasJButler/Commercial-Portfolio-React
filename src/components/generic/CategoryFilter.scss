@@ -1,0 +1,66 @@
+@import "/src/styles/extend.scss";
+
+div.category-filter {
+    display: inline-flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    @include media-breakpoint-down(xxl) {
+        max-width: 800px;
+    }
+}
+
+button.category-filter-button {
+    padding: 0.3rem 2rem;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    background-color: var(--theme-boards-background);
+    border: 2px solid var(--theme-card-background)!important;
+    color: var(--theme-texts-light-1);
+    transition: none;
+
+    @include media-breakpoint-down(md) {
+        border-width: 1px!important;
+        min-width: 15%;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 0.3rem 0;
+    }
+}
+
+button.category-filter-button:hover, button.category-filter-button:focus {
+    background-color: var(--theme-links-hover);
+    color: var(--theme-texts-inv);
+}
+
+button.category-filter-no-hover-effects {
+    background-color: var(--theme-boards-background)!important;
+    color: var(--theme-texts-light-1)!important;
+}
+
+button.category-filter-button:active, button.category-filter-button-selected {
+    background-color: var(--theme-primary)!important;
+    color: var(--theme-texts-inv)!important;
+}
+
+button.category-filter-button-selected {
+    user-select: none;
+    pointer-events: none;
+}
+
+span.category-filter-button-label {
+    user-select: none;
+    pointer-events: none;
+}
+
+span.category-filter-button-count {
+    margin-left: 4px;
+    user-select: none;
+    pointer-events: none;
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}

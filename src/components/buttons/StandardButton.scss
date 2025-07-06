@@ -1,0 +1,31 @@
+@import "/src/styles/extend.scss";
+
+button.standard-button {
+    i, span {
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
+button.standard-button-large-size {
+    --padding: 1.125rem 2.3rem;
+    --font-size: 1.05rem;
+    @include media-breakpoint-down(xxl) {
+        --padding: 1rem 2rem;
+        --font-size: 1rem;
+    }
+    @include media-breakpoint-down(lg) {
+        --padding: 1rem 1.5rem;
+        --font-size: 0.9rem;
+    }
+    @include media-breakpoint-down(md) {
+        --padding: 0.8rem 1.5rem;
+        --font-size: 0.9rem;
+    }
+
+    border-radius: 4rem!important;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: var(--padding);
+    font-size: var(--font-size);
+}

@@ -1,0 +1,25 @@
+@import "/src/styles/extend.scss";
+
+#confirmation-window {
+    div.modal-content {
+        background-color: var(--theme-card-background-accent);
+    }
+
+    div.modal-header {
+        background-color: var(--theme-card-background);
+        border: none!important;
+    }
+
+    div.modal-body {
+        text-align: center;
+        padding: 20px 15px;
+        color: var(--theme-texts-2)
+    }
+
+    div.confirmation-window-menu {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

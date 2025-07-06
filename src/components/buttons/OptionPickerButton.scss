@@ -1,0 +1,106 @@
+@import "/src/styles/extend.scss";
+
+div.btn-option-picker {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn-option-picker-toggle {
+    i.fa-icon {
+        opacity: 0.3;
+        color: var(--theme-texts);
+    }
+
+    img, i.fa-icon {
+        transition: 0.1s ease-in-out transform;
+    }
+
+    img {
+        user-select: none;
+        pointer-events: none;
+    }
+
+    i.fa-caret-icon {
+        opacity: 0.7;
+        color: var(--theme-texts);
+        margin-left: 8px;
+        margin-bottom: 2px;
+        pointer-events: none;
+    }
+}
+
+button.btn-option-picker-toggle:hover {
+    i.fa-icon {
+        opacity: 1;
+        color: var(--theme-primary);
+    }
+
+    img, i.fa-icon {
+        transform: scale(1.1);
+    }
+
+    i.fa-caret-icon {
+        opacity: 1;
+    }
+}
+
+
+a.btn-option-picker-menu-item {
+    i.fa-icon {
+        opacity: 0.4;
+    }
+
+    span {
+        margin-left: 10px;
+        font-size: 0.95rem;
+        margin-top: 1px;
+    }
+}
+
+a.btn-option-picker-menu-item-selected {
+    background-color: var(--theme-texts-light-2)!important;
+    color: var(--theme-texts-inv)!important;
+    user-select: none;
+    pointer-events: none;
+
+    i.fa-icon {
+        opacity: 1;
+    }
+}
+
+div.btn-option-picker-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    pointer-events: none;
+
+    img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        border: 1px solid rgba(black, 0.05);
+    }
+}
+
+span.btn-option-picker-menu-item-label {
+    user-select: none;
+    pointer-events: none;
+}
+
+div.btn-option-picker-icon-size-1 {
+    font-size: 20px;
+    width: 22px;
+}
+
+div.btn-option-picker-icon-size-2 {
+    font-size: 22px;
+    width: 24px;
+}
+
+div.btn-option-picker-icon-size-3 {
+    font-size: 26px;
+    width: 22px;
+}

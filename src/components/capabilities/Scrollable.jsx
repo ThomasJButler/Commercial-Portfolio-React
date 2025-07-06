@@ -1,43 +1,54 @@
 import "./Scrollable.scss"
 import React, {useEffect, useState} from 'react'
+import {useViewport} from "/src/providers/ViewportProvider.jsx"
+import {useUtils} from "/src/hooks/utils.js"
+import {useConstants} from "/src/hooks/constants.js"
 import Scrollbar from 'smooth-scrollbar'
 import OverscrollPlugin from 'smooth-scrollbar/plugins/overscroll'
 
-import {useUtils} from "/src/helpers/utils.js"
-import {useWindow} from "/src/providers/WindowProvider.jsx"
-
-Scrollbar.use(OverscrollPlugin)
-
-function Scrollable({ children, id, scrollEnabled, scrollActive }) {
+function Scrollable({ children, id, pluginEnabled, shouldResetScroll, setShouldResetScroll, className = "" }) {
+    const constants = useConstants()
+    const viewport = useViewport()
     const utils = useUtils()
-    const {isMobileLayout} = useWindow()
-    const [pluginScrollbar, setPluginScrollbar] = useState(null)
-    const canPluginScroll = pluginScrollbar && pluginScrollbar.limit.y > 0
+
+    const [plugin, setPlugin] = useState(null)
+
+    const pluginEnabledClass = plugin ?
+        `scrollable-with-plugin` :
+        ``
+
+    /** @constructs **/
+    useEffect(() => {
+        const supportsPlugin = !viewport.isMobileLayout() && !utils.device.isTouchDevice()
+        const shouldCreatePlugin = supportsPlugin && pluginEnabled
+
+        if(shouldCreatePlugin) _createPlugin()
+        else _deactivatePlugin()
+    }, [pluginEnabled, viewport.isMobileLayout()])
 
     useEffect(() => {
-        const supportsPlugin = !isMobileLayout()
-
-        if(scrollEnabled && supportsPlugin) {
-            _createPlugin()
-        }
-        else {
-            _deactivatePlugin()
-        }
-    }, [scrollEnabled])
-
-    useEffect(() => {
-        const div = document.getElementById(id)
-        if(!scrollActive || !div)
+        if(!shouldResetScroll)
             return
 
-        _scrollToTop()
-    }, [scrollActive])
+        if(!plugin) {
+            const div = document.getElementById(id)
+            setTimeout(() => {
+                div.scrollTop = 0
+            }, 50)
+        }
+        else {
+            plugin.scrollTo(0, 0)
+        }
+
+        setShouldResetScroll(false)
+    }, [shouldResetScroll])
 
     const _createPlugin = () => {
-        if(pluginScrollbar)
+        if(plugin)
             return
 
         const target = document.getElementById(id)
+
         const scrollbar = Scrollbar.init(target, {
             damping: 0.2,
             renderByPixels: true,
@@ -46,41 +57,35 @@ function Scrollable({ children, id, scrollEnabled, scrollActive }) {
             plugins: {
                 overscroll: {
                     effect: 'glow',
-                    glowColor: utils.getBootstrapColor('secondary')
+                    glowColor: utils.css.getRootSCSSVariable("--theme-secondary")
                 }
             }
         })
 
-        setPluginScrollbar(scrollbar)
+        setPlugin(scrollbar)
     }
 
     const _deactivatePlugin = () => {
-        if(!pluginScrollbar)
+        if(!plugin)
             return
 
         const target = document.getElementById(id)
         Scrollbar.destroy(target)
-        setPluginScrollbar(null)
-    }
-
-    const _scrollToTop = () => {
-        const div = document.getElementById(id)
-        if(!div)
-            return
-        if(pluginScrollbar)
-            pluginScrollbar.scrollTo(0, 0)
-        else
-            div.scrollTop = 0
+        setPlugin(null)
     }
 
     return (
-        <div className={`custom-scrollable ${utils.strIf(!scrollEnabled || !canPluginScroll, `custom-scrollable-disabled`)}`}
-             id={id}>
-            <div className={`custom-scrollable-content`}>
-                {children}
+        <div className={`scrollable-wrapper ${constants.HTML_CLASSES.scrollbarDecorator} ${className}`}>
+            <div className={`scrollable ${pluginEnabledClass}`}
+                 id={id}>
+                <div className={`scrollable-content`}>
+                    {children}
+                </div>
             </div>
         </div>
     )
 }
+
+Scrollbar.use(OverscrollPlugin)
 
 export default Scrollable

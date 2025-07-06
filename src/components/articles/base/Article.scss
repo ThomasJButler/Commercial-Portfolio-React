@@ -1,0 +1,53 @@
+@import "/src/styles/extend.scss";
+
+article.article {
+    width: 100%;
+}
+
+h4.article-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+    margin-bottom: 24px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-bottom: 24px;
+    }
+
+    span.article-title-prefix {
+        color: var(--theme-primary);
+        user-select: none;
+        pointer-events: none;
+    }
+}
+
+div.article-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 16px 0 16px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin: 0 12px 0 12px;
+    }
+}
+
+article.article-spacing-default {
+    margin-top: 40px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-top: 28px;
+    }
+}
+
+article.article-spacing-small {
+    margin-top: 20px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-top: 15px;
+    }
+}
+
+div.article-category-filter {
+    margin-bottom: 32px!important;
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 28px!important;
+    }
+}

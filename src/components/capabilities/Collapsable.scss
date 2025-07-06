@@ -1,0 +1,14 @@
+@import "/src/styles/extend.scss";
+
+div.collapsable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.collapsable-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}

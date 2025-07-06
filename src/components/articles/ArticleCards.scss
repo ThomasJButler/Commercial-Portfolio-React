@@ -1,0 +1,94 @@
+@import "/src/styles/extend.scss";
+
+div.article-cards-items {
+    --item-padding-default: 30px;
+    --item-padding-bottom-offset: 8px;
+    --item-padding: var(--item-padding-default) calc(var(--item-padding-default) + 8px) calc(var(--item-padding-default) + var(--item-padding-bottom-offset));
+    --avatar-size: 98px;
+    --avatar-border-size: 7px;
+    --min-height: 260px;
+
+    @include media-breakpoint-down(xxl) {
+        --avatar-size: 95px;
+        --item-padding-default: 30px;
+    }
+
+    @include media-breakpoint-down(xl) {
+        --avatar-size: 90px;
+        --item-padding-default: 25px;
+        --min-height: 230px;
+    }
+
+    @include media-breakpoint-down(lg) {
+        --avatar-size: 85px;
+        --item-padding-default: 20px;
+    }
+
+    @include media-breakpoint-down(md) {
+        --avatar-size: 80px;
+        --avatar-border-size: 6px;
+        --item-padding-default: 20px;
+        --min-height: 220px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        --avatar-size: 75px;
+        --avatar-border-size: 6px;
+        --item-padding-default: 20px;
+        --min-height: 200px;
+    }
+}
+
+div.article-cards-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--theme-boards-background);
+    border-radius: $standard-border-radius;
+    padding: var(--item-padding);
+    height: 100%;
+    min-height: var(--min-height);
+    position: relative;
+}
+
+a.article-cards-item-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+div.article-cards-item-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border: var(--avatar-border-size) solid var(--theme-standard-borders-accent);
+    border-radius: 100%;
+    font-size: calc(var(--avatar-size)/2.4)!important;
+}
+
+div.article-cards-item-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 16px;
+    height: 100%;
+    @include media-breakpoint-down(lg) {
+        margin-top: 12px;
+    }
+
+    h6 {
+        color: var(--theme-texts-light);
+        font-weight: bold;
+        margin-bottom: calc(var(--avatar-size)/10);
+    }
+
+    &-description {
+        color: var(--theme-texts-light-2);
+        flex-grow: 1;
+    }
+
+    &-date-badge {
+        width: 140px;
+        margin: calc(var(--avatar-size)/8) auto 0;
+    }
+}

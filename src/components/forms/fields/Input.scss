@@ -1,0 +1,49 @@
+@import "/src/styles/extend.scss";
+
+/** ------------------ DIMENSIONS ----------------- **/
+input.form-input {
+    --height: 65px;
+    --padding: 1rem;
+    @include media-breakpoint-down(xl) {
+        --height: 60px;
+        --padding: 0.975rem;
+    }
+    @include media-breakpoint-down(lg) {
+        --height: 55px;
+        --padding: 0.9rem;
+    }
+    @include media-breakpoint-down(sm) {
+        --height: 50px;
+        --padding: 0.85rem;
+    }
+
+    min-height: var(--height);
+    padding: var(--padding);
+}
+
+input.form-input, input.form-input:focus {
+    background-color: var(--form-background-color);
+    color: var(--form-color);
+    border: none;
+    transition: none;
+    box-shadow: none;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active{
+        -webkit-box-shadow: 0 0 0 0 var(--theme-secondary) inset !important;
+        -webkit-text-fill-color: var(--form-autofill-color) !important;
+        color: var(--form-autofill-color)!important;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+
+    &:-webkit-autofill:focus {
+        border-color: var(--form-focus-border-color);
+    }
+}
+
+input.form-input-focused {
+    background-color: var(--form-focus-background-color)!important;
+    color: var(--form-focus-color)!important;
+}

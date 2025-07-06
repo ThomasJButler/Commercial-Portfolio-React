@@ -1,0 +1,12 @@
+@import "/src/styles/extend.scss";
+
+hr.separator {
+    opacity: 1;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid var(--theme-primary);
+    color: var(--theme-primary);
+    background-color: var(--theme-primary);
+}

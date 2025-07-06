@@ -1,0 +1,57 @@
+@import "/src/styles/extend.scss";
+
+div.preloader-window {
+    position: fixed;
+    z-index: $z-index-loader;
+    background-color: $loader-background;
+    color: $loader-contrast;
+
+    width: 100vw;
+    height: 125vh;
+    height: 125svh;
+    top: -12.5vh;
+    top: -12.5svh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+div.preloader-window-hidden {
+    top: -15.5vh;
+    opacity: 0;
+    transition: 0.3s all ease-in;
+    pointer-events: none;
+}
+
+div.preloader-window-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    user-select: none;
+}
+
+div.preloader-window-info {
+    margin-top: 12px;
+    transition: 0.3s opacity ease-out, 0.3s transform ease-out;
+}
+
+div.preloader-window-info-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none;
+}
+
+div.preloader-window-info-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.preloader-window-info-developer {
+    opacity: 0.5;
+    text-align: center;
+}

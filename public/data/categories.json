@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Home"},
+                "es": {"title": "Inicio"},
+                "fr": {"title": "Accueil"},
+                "ko": {"title": "홈페이지"}
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "es": {"title": "Trayectoria"},
+                "fr": {"title": "Parcours"},
+                "ko": {"title": "경력"}
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "es": {"title": "Vitrina"},
+                "fr": {"title": "Vitrine"},
+                "ko": {"title": "쇼케이스"}
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"title": "More"},
+                "es": {"title": "Más"},
+                "fr": {"title": "Plus"},
+                "ko": {"title": "더보기"}
+            }
+        }
+    ]
+}

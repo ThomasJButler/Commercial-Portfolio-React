@@ -1,0 +1,19 @@
+@import "/src/styles/extend.scss";
+
+div.article-item-preview-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+div.article-item-preview-menu-button-list {
+    display: flex;
+    width: 100%;
+}
+
+a.article-item-preview-menu-link {
+    &:not(:last-child) {
+        margin-right: 4px;
+    }
+}

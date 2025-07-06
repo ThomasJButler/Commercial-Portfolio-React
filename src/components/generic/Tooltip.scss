@@ -1,23 +1,22 @@
-@import "/src/styles/extend";
+@import "/src/styles/extend.scss";
 
-.custom-tooltip {
+div.custom-tooltip {
     position: absolute;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
     user-select: none;
     pointer-events: none;
 
     padding: 0.2rem 1rem;
 
-    background-color: var(--theme-tag-color);
-    font-weight: bold;
-    color: var(--theme-secondary);
-
-    font-family: $custom-subheadings-font-family;
+    background-color: var(--theme-pop-ups-background);
+    color: var(--theme-texts);
     font-size: 0.9rem;
     border-radius: $standard-border-radius;
-    border: 2px solid var(--theme-soft-2);
+    border: 2px solid var(--theme-standard-borders-accent-2);
 
     transition: 0.1s opacity ease-out;
     z-index: $z-index-animated-cursor;
@@ -30,13 +29,11 @@
         margin-left: -5px;
         border-width: 5px;
         border-style: solid;
-        border-color: var(--theme-soft-3) transparent transparent transparent;
+        border-color: var(--theme-standard-borders-accent-2) transparent transparent transparent;
     }
 
     &-hidden {
+        transition: none;
         opacity: 0;
-        &::before {
-            display: none;
-        }
     }
 }

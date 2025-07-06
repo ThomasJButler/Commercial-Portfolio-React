@@ -1,0 +1,74 @@
+@import "/src/styles/extend.scss";
+
+div.article-thread-items {
+    --min-gap-between-items: 50px;
+    --circle-size: 32px;
+    --line-width: 6px;
+    --gap-between-circle-and-content: 30px;
+    --trailing-item-size-multiplier: 0.8;
+    --circle-margin-top: 10px;
+
+    @include media-breakpoint-down(lg) {
+        --circle-size: 30px;
+        --gap-between-circle-and-content: 25px;
+        --line-width: 5px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        --circle-size: 28px;
+        --gap-between-circle-and-content: 20px;
+        --line-width: 4px;
+    }
+
+    position: relative;
+}
+
+div.article-thread-items:before {
+    z-index: 0;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+
+    width: var(--line-width);
+    background-color: var(--theme-timeline-line-color);
+    left: calc(var(--circle-size)/2 - var(--line-width)/2);
+    margin-top: calc(var(--circle-margin-top));
+}
+
+div.article-thread-item {
+    display: flex;
+    margin-bottom: var(--min-gap-between-items);
+}
+
+div.article-thread-item-trailing {
+    margin-bottom: 0;
+}
+
+div.article-thread-item-circle {
+    z-index: 1;
+
+    min-width: var(--circle-size);
+    min-height: var(--circle-size);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    font-size: calc(var(--circle-size)*0.5);
+    margin-top: calc(var(--circle-margin-top));
+
+    background-color: var(--theme-timeline-line-color);
+    color: var(--theme-texts-light);
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.article-thread-item-content {
+    margin-left: var(--gap-between-circle-and-content)!important;
+    padding: 22px 26px 24px!important;
+    @include media-breakpoint-down(sm) {
+        padding: 20px 22px 24px!important;
+    }
+}

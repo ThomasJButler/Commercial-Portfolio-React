@@ -1,12 +1,82 @@
 import "./ImageView.scss"
+<<<<<<< HEAD
+import React, {useEffect, useState} from 'react'
+import {useConstants} from "/src/hooks/constants.js"
+import {Spinner} from "react-bootstrap"
+import {useUtils} from "/src/hooks/utils.js"
+=======
 import React, {useState, useEffect, useRef} from 'react'
+>>>>>>> main
 
-const LoadStatus = {
+function ImageView({ src, alt = "", className = "", id= null, hideSpinner = false, style = null, onStatus = null }) {
+    const [loadStatus, setLoadStatus] = useState(ImageView.LoadStatus.LOADING)
+    const [loadedSrc, setLoadedSrc] = useState(null)
+    const [errorSrc, setErrorSrc] = useState(null)
+
+    /** @listens src **/
+    useEffect(() => {
+        if(src && src.length > 0) setLoadStatus(ImageView.LoadStatus.LOADING)
+        else setLoadStatus(ImageView.LoadStatus.ERROR)
+    }, [src])
+
+    /** @listens loadedSrc|errorSrc **/
+    useEffect(() => {
+        if(loadedSrc && src === loadedSrc)
+            setLoadStatus(ImageView.LoadStatus.LOADED)
+        else if(errorSrc && src === errorSrc)
+            setLoadStatus(ImageView.LoadStatus.ERROR)
+        else if(src && src.length > 0)
+            setLoadStatus(ImageView.LoadStatus.LOADING)
+    }, [loadedSrc, errorSrc])
+
+    /** @listens loadStatus **/
+    useEffect(() => {
+        onStatus && onStatus(loadStatus)
+    }, [loadStatus])
+
+    const spinnerVisible = loadStatus === ImageView.LoadStatus.LOADING && !hideSpinner
+    const containerVisible = loadStatus === ImageView.LoadStatus.LOADED
+    const errorVisible = loadStatus === ImageView.LoadStatus.ERROR
+
+    const _onLoad = () => {
+        setLoadedSrc(src)
+        setErrorSrc(null)
+    }
+
+    const _onError = () => {
+        setLoadedSrc(null)
+        setErrorSrc(src)
+    }
+
+    return (
+        <div className={`image-view ${className}`}
+             id={id}
+             style={style}>
+            <ImageViewContainer src={src}
+                                alt={alt}
+                                visible={containerVisible}
+                                loadStatus={loadStatus}
+                                onLoad={_onLoad}
+                                onError={_onError}/>
+
+            <ImageViewSpinner visible={spinnerVisible}/>
+            <ImageViewError visible={errorVisible}
+                            hideIcon={hideSpinner}/>
+        </div>
+    )
+}
+
+ImageView.LoadStatus = {
     LOADING: "loading",
     LOADED: "loaded",
     ERROR: "error"
 }
 
+<<<<<<< HEAD
+function ImageViewContainer({ src, alt, visible, loadStatus, onLoad, onError }) {
+    const constants = useConstants()
+    const utils = useUtils()
+=======
 /**
  * React component for displaying an image with lazy loading, load status handling, and a loading spinner.
  *
@@ -24,21 +94,10 @@ function ImageView({className, src, alt, lazy = true, sizes, srcSet}) {
     const [loadStatus, setLoadStatus] = useState(LoadStatus.LOADING)
     const [isIntersecting, setIsIntersecting] = useState(!lazy)
     const imgRef = useRef(null)
+>>>>>>> main
 
-    const _onImageLoaded = () => {
-        _setLoadStatus(LoadStatus.LOADED)
-    }
-
-    const _onImageError = () => {
-        _setLoadStatus(LoadStatus.ERROR)
-    }
-
-    const _setLoadStatus = (status) => {
-        if(status === loadStatus)
-            return
-
-        setLoadStatus(status)
-    }
+    const resolvedSrc = utils.file.resolvePath(src)
+    const visibleClass = visible ? `visible` : `invisible`
 
     useEffect(() => {
         if (!lazy || !imgRef.current) return;
@@ -71,13 +130,24 @@ function ImageView({className, src, alt, lazy = true, sizes, srcSet}) {
     }, [lazy])
 
     return (
-        <div className={`image-view-wrapper ${className}`}>
-            {(!src || loadStatus === LoadStatus.LOADING) && (
-                <img alt={`spinner`}
-                     className={`spinner`}
-                     src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgd2lkdGg9IjMzN3B4IiBoZWlnaHQ9IjMzN3B4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgwIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDciIHk9IjI0IiByeD0iMyIgcnk9IjYiIHdpZHRoPSI2IiBoZWlnaHQ9IjEyIiBmaWxsPSIjNDA0MDQwIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuOTE2NjY2NjY2NjY2NjY2NnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMzAgNTAgNTApIj4KICA8cmVjdCB4PSI0NyIgeT0iMjQiIHJ4PSIzIiByeT0iNiIgd2lkdGg9IjYiIGhlaWdodD0iMTIiIGZpbGw9IiM0MDQwNDAiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC44MzMzMzMzMzMzMzMzMzM0cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSg2MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjc1cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjY2NjY2NjY2NjY2NjY2NjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDEyMCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjU4MzMzMzMzMzMzMzMzMzRzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDE1MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjVzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDE4MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjQxNjY2NjY2NjY2NjY2NjdzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDIxMCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjMzMzMzMzMzMzMzMzMzMzNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDI0MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjI1cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgyNzAgNTAgNTApIj4KICA8cmVjdCB4PSI0NyIgeT0iMjQiIHJ4PSIzIiByeT0iNiIgd2lkdGg9IjYiIGhlaWdodD0iMTIiIGZpbGw9IiM0MDQwNDAiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC4xNjY2NjY2NjY2NjY2NjY2NnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDciIHk9IjI0IiByeD0iMyIgcnk9IjYiIHdpZHRoPSI2IiBoZWlnaHQ9IjEyIiBmaWxsPSIjNDA0MDQwIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuMDgzMzMzMzMzMzMzMzMzMzNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDMzMCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ3IiB5PSIyNCIgcng9IjMiIHJ5PSI2IiB3aWR0aD0iNiIgaGVpZ2h0PSIxMiIgZmlsbD0iIzQwNDA0MCI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49IjBzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPgo8IS0tIFtsZGlvXSBnZW5lcmF0ZWQgYnkgaHR0cHM6Ly9sb2FkaW5nLmlvLyAtLT48L3N2Zz4='}/>
-            )}
+        <img className={`image-view-img ${visibleClass} ${constants.HTML_CLASSES.imageView} ${constants.HTML_CLASSES.imageView}-${loadStatus}`}
+             src={resolvedSrc}
+             alt={alt}
+             loading="lazy"
+             onLoad={onLoad}
+             onError={onError}/>
+    )
+}
 
+<<<<<<< HEAD
+function ImageViewSpinner({ visible }) {
+    if(!visible)
+        return <></>
+
+    return (
+        <div className={`image-view-spinner-wrapper`}>
+            <Spinner/>
+=======
             {src && (
                 <img ref={imgRef}
                  src={isIntersecting ? src : undefined}
@@ -89,8 +159,23 @@ function ImageView({className, src, alt, lazy = true, sizes, srcSet}) {
                  alt={alt || 'Image'}
                  loading={lazy ? 'lazy' : 'eager'}/>
             )}
+>>>>>>> main
         </div>
     )
+}
+
+function ImageViewError({ visible, hideIcon }) {
+    if(!visible)
+        return <></>
+
+    return (
+        <div className={`image-view-error-wrapper`}>
+            {!hideIcon && (
+                <i className={`fa-solid fa-eye-slash`}/>
+            )}
+        </div>
+    )
+
 }
 
 export default ImageView

@@ -1,0 +1,101 @@
+@import "/src/styles/extend.scss";
+
+button.circular-button {
+    display: flex;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    outline: none;
+
+    i {
+        user-select: none;
+        pointer-events: none;
+        transition: 0.1s scale ease-in-out;
+    }
+}
+
+/** Variants **/
+button.circular-button-variant-default {
+    background-color: var(--theme-boards-background-accent);
+    color: var(--theme-texts);
+    border: 2px solid var(--theme-standard-borders-accent);
+
+    &:hover {
+        background-color: var(--theme-links);
+        color: var(--theme-texts-inv);
+        border-color: var(--theme-links);
+    }
+}
+
+button.circular-button-variant-blend {
+    background-color: var(--theme-card-background);
+    color: var(--theme-texts);
+    border: 2px solid var(--theme-standard-borders);
+
+    i {
+        opacity: 0.3;
+    }
+
+    &:hover {
+        background-color: var(--theme-card-background);
+        color: var(--theme-texts);
+    }
+}
+
+button.circular-button-variant-transparent {
+    background-color: transparent;
+    color: var(--theme-texts);
+    border: 2px solid var(--theme-standard-borders-accent);
+
+    i {
+        opacity: 0.5;
+    }
+
+    &:hover {
+        border-color: var(--theme-standard-borders-accent);
+    }
+}
+
+button.circular-button-variant-blend, button.circular-button-variant-transparent {
+    i {
+        scale: 0.9;
+    }
+
+    &:hover {
+        i {
+            scale: 1.05;
+            opacity: 1;
+        }
+    }
+}
+
+/** Sizes **/
+@mixin create_size($class-name, $size, $responsive-size) {
+    .#{$class-name} {
+        width: $size;
+        height: $size;
+        min-width: $size;
+        max-width: $size;
+        min-height: $size;
+        max-height: $size;
+        font-size: calc(#{$size}/2.5);
+
+        @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+            width: $responsive-size;
+            height: $responsive-size;
+            min-width: $responsive-size;
+            max-width: $responsive-size;
+            min-height: $responsive-size;
+            max-height: $responsive-size;
+            font-size: calc(#{$responsive-size}/2.5);
+        }
+    }
+}
+
+@include create_size('circular-button-size-small', 28px, 24px);
+@include create_size('circular-button-size-default', 32px, 28px);
+@include create_size('circular-button-size-large', 36px, 32px);
+@include create_size('circular-button-size-extra-large', 40px, 36px);
+@include create_size('circular-button-size-extra-extra-large', 46px, 42px);
+

@@ -1,0 +1,48 @@
+@import "/src/styles/extend.scss";
+
+div.notification {
+    pointer-events: auto;
+    user-select: auto;
+
+    width: 400px;
+    min-height: 120px;
+    @include media-breakpoint-down(lg) { width: 350px; }
+    @include media-breakpoint-down(sm) { width: 250px; min-height: 110px; }
+
+    background-color: var(--theme-primary);
+    color: var(--theme-texts-inv);
+
+    border-radius: $standard-border-radius;
+    transition: 0.2s transform ease-in;
+}
+
+div.notification-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 2px;
+    border-bottom: 1px solid rgba(black, 0.05);
+}
+
+div.notification-title {
+    padding: 7px;
+    font-weight: bold;
+}
+
+div.notification-body {
+    padding: 15px 15px 5px;
+}
+
+/** Variations **/
+div.notification-error {
+    background-color: var(--theme-danger);
+}
+
+/** Transitions **/
+div.notification-hidden {
+    transform: translateX(500px);
+    transition: none;
+}
+
+div.notification-hiding {
+    transform: translateX(500px);
+}

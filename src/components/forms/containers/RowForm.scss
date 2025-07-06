@@ -1,0 +1,30 @@
+@import "/src/styles/extend.scss";
+
+div.row-form-group {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+div.row-form-group-item {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+div.row-form-submit {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+}

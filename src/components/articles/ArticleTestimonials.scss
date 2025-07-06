@@ -1,0 +1,37 @@
+@import "/src/styles/extend.scss";
+
+div.article-testimonials-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+div.article-testimonials-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+div.article-testimonials-item-avatar {
+    --size: 100px;
+    --border-size: 7px;
+    @include media-breakpoint-down(xl) {--size: 95px}
+    @include media-breakpoint-down(md) {--border-size:6px; --size: 90px}
+    @include media-breakpoint-down(sm) {--size: 86px}
+
+    width: var(--size);
+    height: var(--size);
+    border: var(--border-size) solid var(--theme-boards-background);
+    border-radius: 100%;
+    font-size: calc(var(--size)/2.4);
+    margin-bottom: calc(var(--size)/10);
+    overflow: hidden;
+}
+
+div.article-testimonials-item-role {
+    margin-top: 2px;
+    color: var(--theme-muted);
+}

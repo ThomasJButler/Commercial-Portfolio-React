@@ -1,0 +1,25 @@
+@import "/src/styles/extend.scss";
+
+div.avatar-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    background-color: var(--theme-dark);
+    color: var(--theme-texts);
+    font-size: 32px;
+
+    &-image-view {
+        width: 100%;
+        height: 100%;
+    }
+
+    .avatar-icon-view {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color: inherit;
+    }
+}

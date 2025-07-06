@@ -1,15 +1,16 @@
-@import "/src/styles/extend";
+@import "/src/styles/extend.scss";
 
-.swiper-full-width {
+div.swipeable {
+    width: 100%;
     height: 100%;
-    user-select: none;
+    user-select: none!important;
+    padding-bottom: 25px;
 
-    .swiper-slide {
-        height: auto !important;
-        padding-bottom: 30px;
+    span.swiper-pagination-bullet {
+        top: 12px!important;
     }
+}
 
-    .swiper-content {
-        height: 100% !important
-    }
+div.swipeable-swiper-slide {
+    height: auto;
 }

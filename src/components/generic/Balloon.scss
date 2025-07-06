@@ -1,0 +1,38 @@
+@import "/src/styles/extend.scss";
+
+div.balloon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+
+    min-height: 150px;
+    padding: 1.5rem;
+    @include media-breakpoint-down(md) {
+        padding: 1rem 1.5rem;
+        min-height: 120px;
+    }
+
+    background-color: var(--theme-boards-background);
+    color: var(--theme-texts-light);
+    text-align: center;
+    border-radius: $standard-border-radius;
+}
+
+div.balloon-triangle {
+    position: absolute;
+    bottom: -9px;
+    width: 0;
+    height: 0;
+
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid  var(--theme-boards-background);
+}
+
+div.balloon-quote {
+    span.balloon-quote-2 {
+        white-space: nowrap;
+    }
+}

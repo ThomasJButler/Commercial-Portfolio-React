@@ -1,0 +1,109 @@
+@import "/src/styles/extend.scss";
+
+div.pacman-wrapper {
+    --size: 100px;
+    @include media-breakpoint-down(xxl) {--size: 100px;}
+    @include media-breakpoint-down(xl) {--size: 90px;}
+    @include media-breakpoint-down(lg) {--size: 85px;}
+    @include media-breakpoint-down(md) {--size: 80px;}
+    @include media-breakpoint-down(sm) {--size: 70px;}
+
+    --animation-bean-start-position: calc(var(--size) * 1.45);
+    --animation-bean-end-position: calc(var(--size) * 0.5);
+    --bean-size: calc(var(--size) * 0.12);
+
+    transition: 0.4s opacity ease-out, 0.4s transform ease-out, 0.4s scale ease-out;
+}
+
+div.pacman {
+    width: calc(var(--size)*1.3);
+    height: var(--size);
+    display: inline-block;
+    background: transparent;
+
+    &-color-variant-loader {
+        div.pacman-content > div:nth-child(2) div {
+            background: $loader-contrast!important;
+        }
+
+        div.pacman-content > div:nth-child(1) div {
+            background: $primary!important;
+        }
+    }
+}
+
+div.pacman-wrapper-hidden {
+    opacity: 0;
+    scale: 0;
+    transform: translateY(-120px);
+    transition: none;
+}
+
+div.pacman-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+}
+
+div.pacman-content div { box-sizing: content-box; }
+
+@keyframes pacman-content-1 {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(-45deg) }
+    100% { transform: rotate(0deg) }
+}
+
+@keyframes pacman-content-2 {
+    0% { transform: rotate(180deg) }
+    50% { transform: rotate(225deg) }
+    100% { transform: rotate(180deg) }
+}
+
+div.pacman-content > div:nth-child(2) div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--size);
+    height: calc(var(--size)/2);
+    border-radius: var(--size) var(--size) 0 0;
+    background: white;
+    animation: pacman-content-1 1s linear infinite;
+    transform-origin: calc(var(--size)/2) calc(var(--size)/2)
+}
+
+div.pacman-content > div:nth-child(2) div:nth-child(2) {
+    animation: pacman-content-2 1s linear infinite
+}
+
+div.pacman-content > div:nth-child(2) div:nth-child(3) {
+    transform: rotate(-90deg);
+    animation: none;
+}
+
+@keyframes pacman-content-3 {
+     0% { transform: translate(var(--animation-bean-start-position),0); opacity: 0 }
+     20% { opacity: 1 }
+     100% { transform: translate(var(--animation-bean-end-position),0); opacity: 1 }
+}
+
+div.pacman-content > div:nth-child(1) {
+    display: block;
+}
+
+div.pacman-content > div:nth-child(1) div {
+    position: absolute;
+    top: calc(var(--size) * 0.5 - var(--bean-size) * 0.5 + 1px);
+    left: calc(var(--size) * -0.08);
+    width: calc(var(--bean-size)*1.02);
+    height: var(--bean-size);
+    border-radius: 50%;
+    background: white;
+    animation: pacman-content-3 1s linear infinite
+}
+
+div.pacman-content > div:nth-child(1) div:nth-child(1) { animation-delay: -0.67s }
+div.pacman-content > div:nth-child(1) div:nth-child(2) { animation-delay: -0.33s }
+div.pacman-content > div:nth-child(1) div:nth-child(3) { animation-delay: 0s }

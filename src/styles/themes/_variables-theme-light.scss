@@ -1,0 +1,115 @@
+/**
+ * @author Ryan Balieiro
+ * @description Light theme colors.
+ *
+ * What each color represents:
+ * ------------------------------------------
+ * $primary: Represents the primary color used throughout the theme.
+ * $secondary: Represents the secondary color used for accents. It should be something neutral like gray or a soft white.
+ * $dark: Used for dark accents. Some examples where it's used are: the contact form attachment icon and the contact options icon background.
+ * $danger: Used for error messages (for example, when you try to submit a contact form with a message less than 4 words).
+ * $muted: Used for muted text that should not draw much attention, such as the page title prefix.
+ *
+ * $base-bg: The background color.
+ * $base-bg-light: A lighter version of the background color, only used for the light animation circles.
+ * $base-bg-dark: A darker version of the background color, used for the dark animation circles.
+ *
+ * $texts: The main text color.
+ * $texts-inverted: The inverted text color. For example, if your text color is white, this should be black.
+ *
+ * $base-container-bg: The background color for the sidebar and the main section container.
+ * $$base-container-bg-accent: The accent background color. This one is used for inactive elements on the mobile navigation items.
+ * $base-popover-bg: The standard background color for popovers, such as the language picker.
+ * $base-boards: The standard background color for containers inside the section, such as timeline items, cards, info list items, etc.
+ * $base-info-badges: The base color for badges, such as the date badge in the timeline.
+ * $empty: The color used for fillable containers, such as the contact form fields or the progress bar background, for example.
+ *
+ * $borders: The default border color. For example, the color of the borders around the navigation sidebar items.
+ * $borders-nav-mobile: The border color for the mobile navigation items.
+ * $borders-nav-mobile-accent: The highlighted border color for the mobile navigation items.
+ * $scrollbar-track: The background color of the scrollbar track.
+ * $scrollbar-thumb: The color of the scrollbar thumb.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #007AFF;
+$secondary: #8E8E93;
+$dark: #1C1C1E;
+$danger: #FF3B30;
+$muted: #86868B;
+
+$base-bg: #FAFAFA;
+$base-bg-light: #FFFFFF;
+$base-bg-dark: #F2F2F7;
+
+$texts: #1D1D1F;
+$texts-inverted: #FFFFFF;
+
+$base-container-bg: #FFFFFF;
+$base-container-bg-accent: #F5F5F7;
+$base-popover-bg: #FFFFFF;
+$base-boards: #FAFAFA;
+$base-info-badges: #F2F2F7;
+$empty: #F5F5F7;
+
+$borders: #E5E5E7;
+$borders-nav-mobile: rgba(0, 0, 0, 0.04);
+$borders-nav-mobile-accent: rgba(0, 0, 0, 0.06);
+$scrollbar-track: #F5F5F7;
+$scrollbar-thumb: #8E8E93;
+
+// Form specific colors for light theme
+$form-attach-bg: #F5F5F7;
+$form-attach-color: #48484A;
+
+[data-theme="light"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  false,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          $borders-nav-mobile-accent,
+
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ $borders-nav-mobile,
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+    
+    // Override form attachment colors for light theme
+    --form-attach-background-color: #{$form-attach-bg};
+    --form-attach-color: #{$form-attach-color};
+}

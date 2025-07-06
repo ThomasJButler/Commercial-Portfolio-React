@@ -1,0 +1,17 @@
+@import "/src/styles/extend.scss";
+
+div.mouse-layer {
+    z-index: $z-index-animated-cursor;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    user-select: none;
+
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        display: none;
+    }
+}

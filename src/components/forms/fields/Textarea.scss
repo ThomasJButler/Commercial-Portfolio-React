@@ -1,0 +1,30 @@
+@import "/src/styles/extend.scss";
+
+textarea.form-textarea, textarea.form-textarea:focus {
+    --min-height: 200px;
+    --padding: 1rem;
+    @include media-breakpoint-down(xl) {
+        --padding: 0.975rem;
+    }
+    @include media-breakpoint-down(lg) {
+        --padding: 0.9rem;
+    }
+    @include media-breakpoint-down(sm) {
+        --min-height: 150px;
+        --padding: 0.85rem;
+    }
+
+    min-height: var(--min-height);
+    padding: var(--padding);
+
+    background-color: var(--form-background-color);
+    color: var(--form-color);
+    border: none;
+    transition: none;
+    box-shadow: none;
+}
+
+textarea.form-textarea-focused {
+    background-color: var(--form-focus-background-color)!important;
+    color: var(--form-focus-color)!important;
+}

@@ -1,4 +1,623 @@
 {
+<<<<<<< HEAD
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long": "My **Commercial Portfolio**",
+                "title_long_prefix": "Take a look at"
+            },
+            "ru": {
+                "title": "Портфолио",
+                "title_short_nav": "Портфолио",
+                "title_long": "Моё **коммерческое портфолио**",
+                "title_long_prefix": "Посмотрите на"
+            },
+            "fr": {
+                "title": "Portfolio",
+                "title_long": "Mon **Portfolio**",
+                "title_long_prefix": "Découvrez",
+                "title_short_nav": "Portfolio"
+            },
+            "ja": {
+                "title": "ポートフォリオ",
+                "title_short_nav": "ポートフォリオ",
+                "title_long": "**商業ポートフォリオ**をご覧ください",
+                "title_long_prefix": "私の"
+            },
+            "links": {}
+        }
+    },
+    "locales": {
+        "en": {},
+        "ru": {},
+        "fr": {},
+        "ja": {},
+        "links": [
+            {
+                "faIcon": "fa-solid fa-link",
+                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                "label": "Notion Portfolio"
+            },
+            {
+                "faIcon": "fa-solid fa-book",
+                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                "label": "Notion Write-Up"
+            }
+        ]
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "categories": [
+                {
+                    "id": "webAgency",
+                    "locales": {
+                        "en": {
+                            "singular": "Web Agency",
+                            "plural": "Web Agencies"
+                        },
+                        "ru": {
+                            "singular": "Веб-агентство",
+                            "plural": "Веб-агентства"
+                        },
+                        "fr": {
+                            "singular": "Agence Web",
+                            "plural": "Agences Web"
+                        },
+                        "ja": {
+                            "singular": "ウェブエージェンシー",
+                            "plural": "ウェブエージェンシー"
+                        }
+                    }
+                },
+                {
+                    "id": "freelance",
+                    "locales": {
+                        "en": {
+                            "singular": "Freelance",
+                            "plural": "Freelance"
+                        },
+                        "ru": {
+                            "singular": "Фриланс",
+                            "plural": "Фриланс"
+                        },
+                        "fr": {
+                            "singular": "Client",
+                            "plural": "Clients"
+                        },
+                        "ja": {
+                            "singular": "フリーランス",
+                            "plural": "フリーランス"
+                        }
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "id": "msbankarena",
+                    "title": "M&S Bank Arena",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.mandsbankarena.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "M&S Bank Arena",
+                            "text": "Website development for M&S Bank Arena."
+                        }
+                    },
+                    "faIcon": "fa-regular fa-calendar-days",
+                    "faIconColors": {
+                        "bg": "#9333EA",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "cdw",
+                    "title": "CDW",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.uk.cdw.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CDW",
+                            "text": "Website development for CDW."
+                        }
+                    },
+                    "faIcon": "fa-regular fa-file-code",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "accliverpool",
+                    "title": "ACC Liverpool",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.accliverpool.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ACC Liverpool",
+                            "text": "Website development for ACC Liverpool."
+                        }
+                    },
+                    "faIcon": "fa-regular fa-calendar-days",
+                    "faIconColors": {
+                        "bg": "#EF4444",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "infotrack",
+                    "title": "InfoTrack",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.infotrack.co.uk/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "InfoTrack",
+                            "text": "Website development for InfoTrack."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-house",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "mastermover",
+                    "title": "MasterMover",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.mastermover.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MasterMover",
+                            "text": "Website development for MasterMover."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-wrench",
+                    "faIconColors": {
+                        "bg": "#F97316",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "merseyrail",
+                    "title": "Merseyrail",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.merseyrail.org/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Merseyrail",
+                            "text": "Website development for Merseyrail."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-train",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "pvc",
+                    "title": "PvCase",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://pvcase.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PvCase",
+                            "text": "Website development for PvCase."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-pen-ruler",
+                    "faIconColors": {
+                        "bg": "#EC4899",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "premex",
+                    "title": "Premex",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.premexservices.co.uk/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Premex",
+                            "text": "Website development for Premex."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-paperclip",
+                    "faIconColors": {
+                        "bg": "#14B8A6",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "fueliusinternal",
+                    "title": "Fuelius Internal",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.fuelius.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fuelius Internal",
+                            "text": "Website development for Fuelius Internal."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "#06B6D4",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "lancashirecricket",
+                    "title": "Lancashire Cricket",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://emiratesoldtrafford.lancashirecricket.co.uk/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Lancashire Cricket",
+                            "text": "Website development for Lancashire Cricket."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-medal",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "orega",
+                    "title": "Orega",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.orega.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Orega",
+                            "text": "Website development for Orega."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "bg": "#6366F1",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "hewittfertility",
+                    "title": "Hewitt Fertility Center",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "webAgency",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://www.thehewittfertilitycentre.org.uk/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Hewitt Fertility Center",
+                            "text": "Website development for Hewitt Fertility Center."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-stethoscope",
+                    "faIconColors": {
+                        "bg": "#DC2626",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "kcroofing",
+                    "title": "KC Roofing and Building",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "freelance",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://kcroofingandbuilding.co.uk/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "KC Roofing and Building",
+                            "text": "Website for KC Roofing and Building."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-hammer",
+                    "faIconColors": {
+                        "bg": "#78716C",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "annabelbutlerdesigns",
+                    "title": "Annabel Butler Designs",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "freelance",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://annabelbutlerdesigns.com/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Site"
+                            },
+                            {
+                                "faIcon": "fa-solid fa-file-lines",
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "label": "Notion Write-Up",
+                                "tooltip": "Notion Write-Up"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Annabel Butler Designs",
+                            "text": "Website for Annabel Butler Designs."
+                        }
+                    },
+                    "faIcon": "fa-solid fa-brush",
+                    "faIconColors": {
+                        "bg": "#E11D48",
+                        "fill": "#FFFFFF"
+                    }
+                }
+            ]
+        }
+=======
   "locales": {
     "en": {
       "title": "Portfolio",
@@ -31,6 +650,7 @@
         "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
         "label": "Notion Write-Up"
       }
+>>>>>>> main
     ]
   },
   "articles": [

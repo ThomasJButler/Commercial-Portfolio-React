@@ -1,0 +1,269 @@
+/**
+ * @author Ryan Balieiro
+ * @description This file contains the customization of Bootstrap styles.
+ */
+
+div.accordion {
+    div.accordion-item {
+        border: none;
+        overflow: hidden;
+        background-color: var(--theme-boards-background);
+        color: var(--theme-texts-light-1);
+    }
+
+    button.accordion-button {
+        background-color: var(--theme-dark);
+        color: var(--theme-texts-light-2);
+        font-family: $font-family-base!important;
+        transition: none;
+
+        &:hover {
+            background-color: var(--theme-dark);
+            color: var(--theme-primary);
+            opacity: 1;
+        }
+
+        div, span {
+            user-select: none;
+            pointer-events: none;
+        }
+
+        &:after {
+            filter: invert(var(--theme-invert-filter));
+        }
+    }
+
+    button.accordion-button:not(.collapsed) {
+        background-color: var(--theme-primary);
+        color: var(--theme-texts-inv);
+        outline: none;
+        box-shadow: none;
+        opacity: 1;
+        pointer-events: none;
+
+        i {
+            color: var(--theme-secondary-emphasis);
+        }
+
+        &:after {
+            filter: invert(calc(1 - var(--theme-invert-filter)));
+        }
+    }
+
+    div.accordion-body {
+        padding: 25px;
+        @include media-breakpoint-down(lg) {
+            padding: 20px;
+        }
+    }
+}
+
+div.alert {
+    &-danger {
+        background-color: var(--theme-danger);
+        border: 0;
+        color: var(--theme-texts-inv);
+    }
+}
+
+button.btn {
+    border-radius: $standard-border-radius;
+
+    &:focus {
+        box-shadow: none!important;
+        outline: none!important;
+        transition: none;
+    }
+
+    &-primary, &-secondary {
+        border: 0;
+    }
+
+    &-primary {
+        background-color: var(--theme-primary)!important;
+        color: var(--theme-texts-inv)!important;
+
+        &:hover {
+            background-color: var(--theme-links-hover)!important;
+        }
+    }
+
+    &-secondary {
+        background-color: var(--theme-secondary)!important;
+        color: var(--theme-texts-inv)!important;
+        opacity: 1;
+
+        &:hover {
+            opacity: 1!important;
+            background-color: var(--theme-texts-4)!important;
+        }
+    }
+
+    &-contrast {
+        background-color: var(--theme-texts-4)!important;
+        color: var(--theme-texts-inv)!important;
+        opacity: 1;
+
+        &:hover {
+            opacity: 1!important;
+            background-color: var(--theme-texts-8)!important;
+        }
+    }
+
+    &-link-default {
+        background-color: transparent!important;
+        color: var(--theme-texts)!important;
+        border: 0!important;
+        &:hover {
+            color: var(--theme-primary-10)!important;
+        }
+    }
+
+    &-link-default-inv {
+        background-color: transparent!important;
+        color: var(--theme-texts-inv)!important;
+        border: 0!important;
+        &:hover {
+            color: var(--theme-texts-inv-10)!important;
+        }
+    }
+
+    &-disabled {
+        user-select: none;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    &-selected {
+        user-select: none;
+        pointer-events: none;
+        background-color: var(--theme-texts)!important;
+        color: var(--theme-texts-inv)!important;
+        &:hover, &:focus, &:active {
+            background-color: var(--theme-texts)!important;
+            color: var(--theme-texts-inv)!important;
+        }
+    }
+}
+
+div.card {
+    background-color: var(--theme-card-background);
+    color: var(--theme-texts);
+    border: 0;
+    border-radius: $standard-border-radius;
+    padding: 0;
+
+    &-header, &-footer {
+        background-color: transparent;
+        padding: 15px 20px 16px;
+    }
+
+    &-header {
+        border-bottom: 1px solid var(--theme-card-background-accent)
+    }
+
+    &-footer {
+        border-top: 1px solid var(--theme-card-background-accent)
+    }
+}
+
+div.dropdown {
+    width: 100%;
+
+    button.dropdown-toggle {
+        outline: none;
+        border: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        color: var(--theme-texts);
+
+        &:after {
+            content: none!important;
+        }
+    }
+
+    div.dropdown-menu {
+        padding: 0;
+        margin-left: 10px;
+        min-width: 200px;
+        overflow: hidden;
+
+        border-radius: 20px;
+        border: 2px solid var(--theme-standard-borders);
+        background-color: var(--theme-pop-ups-background);
+    }
+
+    a.dropdown-item {
+        color: var(--theme-texts-2);
+        height: 45px;
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid var(--theme-standard-borders-5);
+        }
+
+        &:hover, &:focus {
+            background-color: var(--theme-primary);
+            color: var(--theme-texts-inv);
+            i.fa-icon {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    a.dropdown-item-no-border {
+        border-bottom: 0!important;
+    }
+}
+
+div.modal {
+    z-index: $z-index-modal;
+    background-color: rgba(black, 0.9);
+
+    &-content {
+        background-color: var(--theme-card-background);
+        color: var(--theme-texts);
+        border-radius: $standard-border-radius;
+    }
+
+    &-header {
+        border-bottom: 1px solid var(--theme-standard-borders);
+        justify-content: space-between;
+        padding: 20px 20px;
+        @include media-breakpoint-down(lg) {
+            padding: 10px 15px;
+        }
+    }
+
+    &-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+        color: var(--theme-texts-5);
+        border-top: 1px solid var(--theme-standard-borders);
+        padding: 15px 20px 20px;
+        @include media-breakpoint-down(lg) {
+            padding: 10px 15px 15px;
+        }
+    }
+}
+
+div.progress,
+div.progress-bar {
+    border-radius: 0 !important;
+}
+
+div.progress {
+    border: 1px solid var(--theme-opacity-border);
+    padding: 2px;
+    background-color: var(--theme-empty);
+    height: 12px;
+}

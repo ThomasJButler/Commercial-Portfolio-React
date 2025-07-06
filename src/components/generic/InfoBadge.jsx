@@ -1,12 +1,11 @@
 import "./InfoBadge.scss"
-import React from 'react'
-import FaIcon from "/src/components/generic/FaIcon.jsx"
+import React, {useEffect, useState} from 'react'
 
-function InfoBadge({faIcon, text, className}) {
+function InfoBadge({ children, faIcon = ``, className = `` }) {
     return (
-        <div className={`info-badge text-1 ${className}`}>
-            <FaIcon iconName={faIcon} className={`me-2 opacity-50`}/>
-            <span>{text}</span>
+        <div className={`info-badge ${className}`}>
+            <i className={`${faIcon} fa-icon`}/>
+            {children}
         </div>
     )
 }

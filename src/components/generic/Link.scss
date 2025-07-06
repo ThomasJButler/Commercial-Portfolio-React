@@ -1,0 +1,7 @@
+@import "/src/styles/extend.scss";
+
+a.link-no-href {
+    color: var(--theme-texts)!important;
+    user-select: none;
+    pointer-events: none;
+}

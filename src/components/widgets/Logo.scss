@@ -1,0 +1,38 @@
+@import "/src/styles/extend.scss";
+
+div.logo-wrapper {
+    display: inline-flex;
+    img {
+        width: 100%;
+    }
+}
+
+div.logo-wrapper-size-1 {
+    --size: 24px;
+    width: var(--size);
+    height: var(--size);
+}
+
+div.logo-wrapper-size-2 {
+    --size: 40px;
+    @include media-breakpoint-down(xxl) {--size: 38px;}
+    @include media-breakpoint-down(xl) {--size: 36px;}
+    @include media-breakpoint-down(lg) {--size: 32px;}
+    @include media-breakpoint-down(md) {--size: 28px;}
+    @include media-breakpoint-down(sm) {--size: 24px;}
+
+    width: var(--size);
+    height: var(--size);
+}
+
+div.logo-wrapper-size-3 {
+    --size: 48px;
+    @include media-breakpoint-down(xxl) {--size: 46px;}
+    @include media-breakpoint-down(xl) {--size: 44px;}
+    @include media-breakpoint-down(lg) {--size: 40px;}
+    @include media-breakpoint-down(md) {--size: 36px;}
+    @include media-breakpoint-down(sm) {--size: 32px;}
+
+    width: var(--size);
+    height: var(--size);
+}

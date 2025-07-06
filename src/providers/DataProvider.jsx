@@ -1,160 +1,182 @@
+/**
+ * @author Ryan Balieiro
+ * @date 2025-05-10
+ * @description This provider is responsible for loading and providing the data for the application.
+ */
+
 import React, {createContext, useContext, useEffect, useState} from 'react'
-import {useUtils} from "/src/helpers/utils.js"
-import {useEmails} from "/src/helpers/emails.js"
+import {useUtils} from "/src/hooks/utils.js"
 
-const DataContext = createContext(null)
-export const useData = () => useContext(DataContext)
-
-const Status = {
-    NOT_LOADED: 0,
-    LOADED: 1
-}
-
-export const DataProvider = ({children}) => {
+function DataProvider({ children, settings }) {
     const utils = useUtils()
-    const emails = useEmails()
 
-    const [status, setStatus] = useState(Status.NOT_LOADED)
-    const [jsonData, setJsonData] = useState({
-        settings: {},
-        strings: {},
-        sections: [],
-        categories: []
-    })
-    const [dataValidated, setDataValidated] = useState(false)
+    const DataProviderStatus = {
+        STATUS_IDLE: "data_provider_status_idle",
+        STATUS_PREPARING_FOR_LOADING: "data_provider_status_preparing_for_loading",
+        STATUS_LOADING: "data_provider_status_loading",
+        STATUS_LOADED: "data_provider_status_loaded",
+        STATUS_EVALUATED: "data_provider_status_evaluated",
+    }
 
+    const [status, setStatus] = useState(DataProviderStatus.STATUS_IDLE)
+    const [jsonData, setJsonData] = useState({})
+
+    /** @constructs **/
     useEffect(() => {
-        _load().then(r => {})
-    }, [])
-
-    useEffect(() => {
-        if(!jsonData.settings)
+        if(status !== DataProviderStatus.STATUS_IDLE)
             return
 
-        if(!dataValidated) {
-            _validate()
+        setStatus(DataProviderStatus.STATUS_PREPARING_FOR_LOADING)
+    }, [null])
+
+    /** @listens DataProviderStatus.STATUS_PREPARING_FOR_LOADING **/
+    useEffect(() => {
+        if(status !== DataProviderStatus.STATUS_PREPARING_FOR_LOADING)
+            return
+
+        setJsonData({})
+
+        setStatus(DataProviderStatus.STATUS_LOADING)
+    }, [status === DataProviderStatus.STATUS_PREPARING_FOR_LOADING])
+
+    /** @listens DataProviderStatus.STATUS_LOADING **/
+    useEffect(() => {
+        if(status !== DataProviderStatus.STATUS_LOADING)
+            return
+
+        _loadData().then(response => {
+            setJsonData(response)
+            setStatus(DataProviderStatus.STATUS_LOADED)
+        })
+    }, [status === DataProviderStatus.STATUS_LOADING])
+
+    /** @listens DataProviderStatus.STATUS_LOADED **/
+    useEffect(() => {
+        if(status !== DataProviderStatus.STATUS_LOADED)
+            return
+
+        const validation = _validateData()
+        if(!validation.success) {
+            utils.log.throwError("DataProvider", validation.message)
+            return
         }
 
-        if(jsonData.settings['emailjs']) {
-            emails.init(jsonData.settings['emailjs'])
+        setStatus(DataProviderStatus.STATUS_EVALUATED)
+    }, [status === DataProviderStatus.STATUS_LOADED])
+
+    const _loadData = async () => {
+        const jStrings = await utils.file.loadJSON("/data/strings.json")
+        const jProfile = await utils.file.loadJSON("/data/profile.json")
+        const jCategories = await utils.file.loadJSON("/data/categories.json")
+        const jSections = await utils.file.loadJSON("/data/sections.json")
+
+        const categories = jCategories.categories
+        const sections = jSections.sections
+        _bindCategoriesAndSections(categories, sections)
+        await _loadSectionsData(sections)
+
+        return {
+            strings: jStrings,
+            profile: jProfile,
+            settings: settings,
+            sections: sections,
+            categories: categories
         }
-    }, [jsonData])
+    }
 
-    const _load = async () => {
-        const jSettings = await _loadJson("/data/settings.json")
-        const jStrings = await _loadJson("/data/strings.json")
-        const jStructure = await _loadJson("/data/structure.json")
+    const _bindCategoriesAndSections = (categories, sections) => {
+        for(const category of categories) {
+            category.sections = []
+        }
 
-        const categories = jStructure["categories"]
-
-        const sections = jStructure["sections"]
         for(const section of sections) {
-            const category = categories.find(category => category.id === section["categoryId"])
-            if(!category) {
-                throw new Error(`[DataProvider] The section with id "${section.id}" has an invalid categoryId "${section["categoryId"]}". There's no such category.`)
+            const sectionCategoryId = section["categoryId"]
+            const sectionCategory = categories.find(category => category.id === sectionCategoryId)
+            if(!sectionCategory) {
+                utils.log.throwError("DataProvider", `Section with id "${section.id}" has invalid category id "${sectionCategoryId}". Make sure the category exists within categories.json`)
+                return
             }
 
-            section.category = category
-            section.content = await _loadJson(section["jsonPath"])
+            sectionCategory.sections.push(section)
+            section.category = sectionCategory
         }
-
-        const filteredCategories = categories.filter(category => {
-            return sections.find(section => section.categoryId === category.id)
-        })
-
-        setJsonData(prevState => ({
-            ...prevState,
-            settings: jSettings,
-            strings: jStrings,
-            categories: filteredCategories,
-            sections: jStructure["sections"]
-        }))
-
-        setStatus(Status.LOADED)
     }
 
-    const _validate = () => {
-        const sections = jsonData.sections
-        if(!sections.length) {
-            return
-        }
+    const _loadSectionsData = async (sections) => {
+        for(const section of sections) {
+            const sectionJsonPath = section.jsonPath
+            if(sectionJsonPath) {
+                let jSectionData = {}
 
-        setDataValidated(true)
+                try {
+                    jSectionData = await utils.file.loadJSON(sectionJsonPath)
+                } catch (e) {
+                    jSectionData = {}
+                }
+
+                section.data = jSectionData
+            }
+        }
     }
 
-    const _loadJson = async (path) => {
-        const actualPath = utils.resolvePath(path)
-        const request = await fetch(actualPath)
-        return request.json()
+    const _validateData = () => {
+        const emptyCategories = jsonData.categories.filter(category => category.sections.length === 0)
+        const emptyCategoriesIds = emptyCategories.map(category => category.id)
+        if(emptyCategories.length > 0) {
+            return {
+                success: false,
+                message: `The following ${emptyCategories.length} categories are empty: "${emptyCategoriesIds}". Make sure all categories have at least one section.`
+            }
+        }
+
+        return {success: true}
+    }
+
+    const getProfile = () => {
+        return jsonData?.profile || {}
     }
 
     const getSettings = () => {
-        return jsonData.settings
+        return jsonData?.settings || {}
     }
 
     const getStrings = () => {
-        return jsonData.strings
+        return jsonData?.strings || {}
     }
 
     const getSections = () => {
-        return jsonData.sections
+        return jsonData?.sections || []
     }
 
     const getCategories = () => {
-        return jsonData.categories
-    }
-
-    const getCategorySections = (category) => {
-        if(!category)
-            return []
-        return jsonData.sections.filter(section => section["categoryId"] === category.id)
-    }
-
-    const listImagesForCache = () => {
-        const settings = getSettings()
-        const sections = getSections()
-
-        const images = [
-            utils.resolvePath(settings.profile['logoUrl']),
-            utils.resolvePath(settings.profile['profilePictureUrl'])
-        ]
-
-        settings['supportedLanguages'].forEach(lang => {
-            images.push(utils.resolvePath(lang['flagUrl']))
-        })
-
-        sections.forEach(section => {
-            if(!section.content || !section.content.articles)
-                return
-
-            section.content.articles.forEach(article => {
-                if(!article.items)
-                    return
-
-                article.items.forEach(item => {
-                    if(!item.icon || !item.icon.img)
-                        return
-
-                    images.push(utils.resolvePath(item.icon.img))
-                })
-            })
-        })
-
-        return images
+        return jsonData?.categories || []
     }
 
     return (
         <DataContext.Provider value={{
+            getProfile,
             getSettings,
             getStrings,
             getSections,
-            getCategories,
-            getCategorySections,
-            listImagesForCache
+            getCategories
         }}>
-            {status === Status.LOADED && dataValidated && (
+            {status === DataProviderStatus.STATUS_EVALUATED && (
                 <>{children}</>
             )}
         </DataContext.Provider>
     )
 }
+
+const DataContext = createContext(null)
+/**
+ * @return {{
+ *    getProfile: Function,
+ *    getSettings: Function,
+ *    getStrings: Function,
+ *    getSections: Function,
+ *    getCategories: Function
+ * }}
+ */
+export const useData = () => useContext(DataContext)
+
+export default DataProvider

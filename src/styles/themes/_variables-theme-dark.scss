@@ -1,0 +1,103 @@
+/**
+ * @author Ryan Balieiro
+ * @description Dark theme colors.
+ *
+ * What each color represents:
+ * ------------------------------------------
+ * $primary: Represents the primary color used throughout the theme.
+ * $secondary: Represents the secondary color used for accents. It should be something neutral like gray or a soft white.
+ * $dark: Used for dark accents. Some examples where it's used are: the contact form attachment icon and the contact options icon background.
+ * $danger: Used for error messages (for example, when you try to submit a contact form with a message less than 4 words).
+ * $muted: Used for muted text that should not draw much attention, such as the page title prefix.
+ *
+ * $base-bg: The background color.
+ * $base-bg-light: A lighter version of the background color, only used for the light animation circles.
+ * $base-bg-dark: A darker version of the background color, used for the dark animation circles.
+ *
+ * $texts: The main text color.
+ * $texts-inverted: The inverted text color. For example, if your text color is white, this should be black.
+ *
+ * $base-container-bg: The background color for the sidebar and the main section container.
+ * $base-popover-bg: The standard background color for popovers, such as the language picker.
+ * $base-boards: The standard background color for containers inside the section, such as timeline items, cards, info list items, etc.
+ * $base-info-badges: The base color for badges, such as the date badge in the timeline.
+ * $empty: The color used for fillable containers, such as the contact form fields or the progress bar background, for example.
+ * $empty-accent: The accent color for empty containers. This one is used for inactive elements on the mobile navigation items.
+ *
+ * $borders: The default border color. For example, the color of the borders around the navigation sidebar items.
+ * $scrollbar-track: The background color of the scrollbar track.
+ * $scrollbar-thumb: The color of the scrollbar thumb.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #9dff8e;
+$secondary: #a4afb5;
+$dark: #161616;
+$danger: #fdd2d2;
+$muted: #6c757d;
+
+$base-bg: #0c0c0c;
+$base-bg-light: #161616;
+$base-bg-dark: #090909;
+
+$texts: #EEEEEE;
+$texts-inverted: #111111;
+
+$base-container-bg: #181818;
+$base-popover-bg: #0e0e0e;
+$base-boards: lighten($base-container-bg, 3%);
+$base-info-badges: lighten($dark, 3%);
+$empty: darken($base-container-bg, 3%);
+$empty-accent: #131313;
+
+$borders: #1D1D1D;
+$scrollbar-track: #101010;
+$scrollbar-thumb: #32343a;
+
+:root {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  true,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $empty-accent,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          $borders,
+
+        /** NAV MOBILE HOVER BG: **/        $empty-accent,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $borders,
+        /** NAV MOBILE SELECTED: **/        $primary,
+        /** NAV MOBILE SELECTED BORDER: **/ $primary,
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+}

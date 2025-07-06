@@ -1,0 +1,42 @@
+@import "/src/styles/extend.scss";
+
+nav.nav-sidebar {
+    --width: 280px;
+
+    display: flex;
+    z-index: $z-index-sidebar;
+    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
+        display: none;
+    }
+
+    div.nav-sidebar-card-wrapper {
+        width: var(--width);
+        min-width: var(--width);
+        height: 100%;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.nav-sidebar-btn-toggle {
+        position: absolute;
+        right: -15px;
+        top: 65px;
+        z-index: calc($z-index-sidebar + 1);
+    }
+}
+
+nav.nav-sidebar-shrink {
+    --width: 120px;
+
+    div.nav-sidebar-card-wrapper {
+        width: var(--width);
+        min-width: var(--width);
+    }
+
+    button.nav-sidebar-btn-toggle {
+        top: 40px;
+        right: -16px;
+    }
+}

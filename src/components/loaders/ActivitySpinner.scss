@@ -1,0 +1,36 @@
+@import "/src/styles/extend.scss";
+
+#activity-spinner {
+    position: fixed;
+    z-index: $z-index-activity-spinner;
+
+    background-color: rgba(0, 0, 0, 0.90);
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+}
+
+.activity-spinner {
+    --dimensions: 120px;
+    @include media-breakpoint-down(xl) {--dimensions: 100px;}
+    @include media-breakpoint-down(md) {--dimensions: 80px;}
+
+    width: var(--dimensions);
+    height: var(--dimensions);
+    font-size: calc(var(--dimensions)/1.25);
+
+    opacity: 0.75;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.activity-spinner-message {
+    color: #BBB;
+    padding: 0 30px;
+}

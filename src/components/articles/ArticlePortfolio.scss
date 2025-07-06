@@ -1,0 +1,94 @@
+@import "/src/styles/extend.scss";
+
+div.article-portfolio-items {
+    --item-gap: 40px;
+    --padding: 25px 25px 25px;
+    --avatar-size: 95px;
+    --avatar-border-size: 6px;
+    --margin-top: 10px;
+
+    @include media-breakpoint-down(lg) {
+        --item-gap: 30px;
+        --avatar-size: 85px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        --avatar-size: 80px;
+        --margin-top: 5px;
+    }
+}
+
+/** ---------------- BASE GRID ---------------- */
+div.article-portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--item-gap);
+}
+
+/** ---------- 2 ITEMS PER ROW ---------------- */
+div.article-portfolio-items-2-per-row, div.article-portfolio-items-3-per-row {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/** ---------- 3 ITEMS PER ROW ---------------- */
+div.article-portfolio-items-3-per-row {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.article-portfolio-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    background-color: var(--theme-boards-background);
+    border-radius: $standard-border-radius;
+
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+}
+
+div.article-portfolio-item-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border: var(--avatar-border-size) solid var(--theme-boards-background);
+    border-radius: 100%;
+    font-size: calc(var(--avatar-size)/2.3);
+
+    position: absolute;
+    top: calc(var(--avatar-size)*-0.13);
+    right: calc(var(--avatar-size)*-0.13);
+}
+
+div.article-portfolio-item-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: calc(100% - var(--avatar-size)*0.83);
+
+    h5 {
+        font-weight: bold;
+        color: var(--theme-primary);
+        margin-bottom: 0;
+    }
+
+    div.article-portfolio-item-title-category {
+        color: var(--theme-texts-light-2);
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+}
+
+div.article-portfolio-item-body {
+    margin-top: 12px;
+    flex-grow: 1;
+
+    div.article-portfolio-item-body-description {
+        margin-top: 12px;
+        color: var(--theme-texts-light-1);
+    }
+}
+
+div.article-portfolio-item-footer {
+    margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+@import "/src/styles/extend.scss";
+
+div.layout-animated-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: $z-index-background;
+    background-color: var(--theme-background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+}
+
+#layout-animated-background-canvas {
+    height: 100%;
+}

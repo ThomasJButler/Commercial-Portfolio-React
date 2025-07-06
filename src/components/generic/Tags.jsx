@@ -1,23 +1,35 @@
-import './Tags.scss'
-import React from 'react'
-import FaIcon from "/src/components/generic/FaIcon.jsx"
+import "./Tags.scss"
+import React, {useEffect, useState} from 'react'
+import {useTheme} from "/src/providers/ThemeProvider.jsx"
 
-function Tags({strings, className, shorten}) {
-    if(!strings || !strings.map)
-        strings = []
-
+function Tags({ children, className = "" }) {
     return (
-        <div className={`tags d-block ${className}`}>
-            {strings.map((string, key) => (
-                <span key={key} className={`badge badge-sm ${shorten ? 'badge-xs' : ''}`}>
-                    {!shorten && (
-                        <FaIcon iconName={`fa-solid fa-bullseye`} className={`me-2 opacity-25`}/>
-                    )}
-                    {shorten ? string : string.toUpperCase()}
-                </span>
-            ))}
-        </div>
+        <ul className={`tags ${className}`}>
+            {children}
+        </ul>
     )
 }
 
-export default Tags
+function Tag({ text, variant = "tag-default", className = "" }) {
+    const theme = useTheme()
+    const [transitionClass, setTransitionClass] = useState(``)
+
+    useEffect(() => {
+        setTransitionClass(`tag-no-transition`)
+        setTimeout(() => {
+            setTransitionClass(``)
+        }, 1000/30)
+    }, [theme.getSelectedTheme()])
+
+    return (
+        <li className={`tag ${className} ${variant} ${transitionClass}`}
+            dangerouslySetInnerHTML={{__html: text}}/>
+    )
+}
+
+Tag.Variants = {
+    DEFAULT: "tag-default",
+    DARK: "tag-dark"
+}
+
+export {Tags, Tag}

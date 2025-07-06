@@ -1,0 +1,987 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Demo",
+                "title_short": "Live Demos",
+                "title_short_nav": "Demo",
+                "title_long_prefix": "Check out my",
+                "title_long": "Live {{Demo}} Projects"
+            },
+            "ru": {
+                "title": "Демо",
+                "title_short": "Живые демо",
+                "title_short_nav": "Демо",
+                "title_long_prefix": "Посмотрите мои",
+                "title_long": "{{Демо}} проекты в реальном времени"
+            },
+            "fr": {
+                "title": "Démo",
+                "title_short": "Démos Live",
+                "title_short_nav": "Démo",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Projets {{Démo}} en Direct"
+            },
+            "ja": {
+                "title": "デモ",
+                "title_short": "ライブデモ",
+                "title_short_nav": "デモ",
+                "title_long_prefix": "私の",
+                "title_long": "ライブ{{デモ}}プロジェクトをご覧ください"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Live Demos"
+                },
+                "ru": {
+                    "title": "Demos en Vivo"
+                },
+                "fr": {
+                    "title": "Démos en Direct"
+                },
+                "ja": {
+                    "title": "라이브 데모"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#2563EB",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal {{Portfolio}}",
+                            "text": "Custom-built portfolio with HTML, CSS, and JavaScript. Matrix-themed design inspired by my favorite films. This was my primary portfolio for practicing skills until transitioning to this more professional commercial site."
+                        },
+                        "ru": {
+                            "title": "Личное {{Портфолио}}",
+                            "text": "Индивидуально созданное портфолио с HTML, CSS и JavaScript. Дизайн в стиле Матрицы, вдохновленный моими любимыми фильмами. Это было мое основное портфолио для отработки навыков до перехода на этот более профессиональный коммерческий сайт."
+                        },
+                        "fr": {
+                            "title": "{{Portfolio}} Personnel",
+                            "text": "Portfolio personnalisé construit avec HTML, CSS et JavaScript. Design sur le thème Matrix inspiré de mes films préférés. C'était mon portfolio principal pour pratiquer mes compétences avant de passer à ce site commercial plus professionnel."
+                        },
+                        "ja": {
+                            "title": "個人{{ポートフォリオ}}",
+                            "text": "HTML、CSS、JavaScriptでカスタム構築されたポートフォリオ。お気に入りの映画に触発されたマトリックステーマのデザイン。これは、このよりプロフェッショナルな商業サイトに移行するまで、スキルを練習するための私の主要なポートフォリオでした。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/thomasjbutler.github.io",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "link": {
+                        "href": "https://aitomatic.co.uk/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{AiTomatic}}",
+                            "text": "Live prototype for AiTomatic. Built with Python and Typescript. Currently being developed."
+                        },
+                        "ru": {
+                            "title": "{{AiTomatic}}",
+                            "text": "Prototipo en vivo para AiTomatic. Construido con Python y Typescript. Actualmente en desarrollo."
+                        },
+                        "fr": {
+                            "title": "{{AiTomatic}}",
+                            "text": "Prototype en direct pour AiTomatic. Construit avec Python et Typescript. Actuellement en développement."
+                        },
+                        "ja": {
+                            "title": "{{AiTomatic}}",
+                            "text": "AiTomatic의 라이브 프로토타입. Python과 Typescript로 구축. 현재 개발 중."
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/AiTomatic",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://aitomatic.co.uk/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "#EC4899",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://the-matrix-arcade.vercel.app/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Mini Games arcade built with Typescript, Python and React. Showcase of games I created whilst learning."
+                        },
+                        "ru": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Arcade de mini juegos construido con Typescript, Python y React. Muestra de juegos que creé mientras aprendía."
+                        },
+                        "fr": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Arcade de mini-jeux construit avec Typescript, Python et React. Vitrine de jeux créés en apprenant."
+                        },
+                        "ja": {
+                            "title": "{{매트릭스 아케이드}}",
+                            "text": "Typescript, Python 및 React로 구축된 미니 게임 아케이드. 학습하면서 만든 게임 쇼케이스."
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Matrix-Arcade",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://the-matrix-arcade.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {
+                        "bg": "#F97316",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 10
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/css-showcase/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{CSS Showcase}}",
+                            "text": "Interactive CSS animations and effects showcase demonstrating advanced styling techniques."
+                        },
+                        "ru": {
+                            "title": "{{Showcase de CSS}}",
+                            "text": "Showcase interactivo de animaciones y efectos CSS que demuestra técnicas avanzadas de estilo."
+                        },
+                        "fr": {
+                            "title": "{{Vitrine CSS}}",
+                            "text": "Vitrine interactive d'animations et d'effets CSS démontrant des techniques de style avancées."
+                        },
+                        "ja": {
+                            "title": "{{CSS 쇼케이스}}",
+                            "text": "고급 스타일링 기술을 보여주는 대화형 CSS 애니메이션 및 효과 쇼케이스."
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/css-showcase",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/css-showcase/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-futbol",
+                    "faIconColors": {
+                        "bg": "#38003C",
+                        "fill": "#00FF87"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                        "tooltipString": "see_on_github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Premier League Oracle}}",
+                            "text": "Data-driven football prediction platform using ML and statistical analysis. Built with Python, Svelte, and PostgreSQL."
+                        },
+                        "ru": {
+                            "title": "{{Оракул Премьер-лиги}}",
+                            "text": "Платформа прогнозирования футбола на основе данных с использованием ML и статистического анализа. Создано с Python, Svelte и PostgreSQL."
+                        },
+                        "fr": {
+                            "title": "{{Oracle de Premier League}}",
+                            "text": "Plateforme de prédiction de football basée sur les données utilisant ML et analyse statistique. Construit avec Python, Svelte et PostgreSQL."
+                        },
+                        "ja": {
+                            "title": "{{プレミアリーグオラクル}}",
+                            "text": "MLと統計分析を使用したデータ駆動型のサッカー予測プラットフォーム。Python、Svelte、PostgreSQLで構築。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#3776AB",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 10
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/PythonProjects",
+                        "tooltipString": "see_on_github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python {{Backend Collection}}",
+                            "text": "A suite of Python applications demonstrating API development, data processing, and machine learning implementations."
+                        },
+                        "ru": {
+                            "title": "{{Коллекция}} Python Backend",
+                            "text": "Набор приложений Python, демонстрирующих разработку API, обработку данных и реализацию машинного обучения."
+                        },
+                        "fr": {
+                            "title": "{{Collection}} Backend Python",
+                            "text": "Une suite d'applications Python démontrant le développement d'API, le traitement de données et les implémentations d'apprentissage automatique."
+                        },
+                        "ja": {
+                            "title": "Python {{バックエンドコレクション}}",
+                            "text": "API開発、データ処理、機械学習の実装を示すPythonアプリケーションのスイート。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/PythonProjects",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Recent Updates"
+                },
+                "ru": {
+                    "title": "Actualizaciones Recientes"
+                },
+                "fr": {
+                    "title": "Mises à Jour Récentes"
+                },
+                "ja": {
+                    "title": "최근 업데이트"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Portfolio v2.0}} Launch",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Successfully migrated portfolio to React v2.0 with improved performance, modern design, and enhanced user experience. Key improvements include:",
+                            "list": [
+                                "Complete UI/UX redesign with dark mode support",
+                                "Performance optimizations achieving 95+ Lighthouse scores",
+                                "Enhanced accessibility features and SEO improvements"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Lanzamiento de {{Portfolio v2.0}}",
+                            "province": "Liverpool",
+                            "country": "Reino Unido",
+                            "institution": "Proyecto Personal",
+                            "text": "Migración exitosa del portafolio a React v2.0 con rendimiento mejorado, diseño moderno y experiencia de usuario mejorada. Las mejoras clave incluyen:",
+                            "list": [
+                                "Rediseño completo de UI/UX con soporte para modo oscuro",
+                                "Optimizaciones de rendimiento logrando puntuaciones de Lighthouse de 95+",
+                                "Funciones de accesibilidad mejoradas y mejoras de SEO"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement du {{Portfolio v2.0}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Migration réussie du portfolio vers React v2.0 avec des performances améliorées, un design moderne et une expérience utilisateur améliorée. Les principales améliorations comprennent :",
+                            "list": [
+                                "Refonte complète de l'UI/UX avec support du mode sombre",
+                                "Optimisations des performances atteignant des scores Lighthouse de 95+",
+                                "Fonctionnalités d'accessibilité améliorées et améliorations SEO"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{포트폴리오 v2.0}} 출시",
+                            "province": "리버풀",
+                            "country": "영국",
+                            "institution": "개인 프로젝트",
+                            "text": "향상된 성능, 현대적인 디자인 및 향상된 사용자 경험으로 포트폴리오를 React v2.0으로 성공적으로 마이그레이션했습니다. 주요 개선 사항:",
+                            "list": [
+                                "다크 모드 지원을 갖춘 완전한 UI/UX 재설계",
+                                "95+ Lighthouse 점수를 달성하는 성능 최적화",
+                                "향상된 접근성 기능 및 SEO 개선"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2025,
+                        "month": 4
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://aitomatic.co.uk/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{AiTomatic}} Beta Release",
+                            "province": "",
+                            "country": "",
+                            "institution": "AiTomatic Project",
+                            "text": "Launched beta version of AiTomatic, an AI-powered automation platform. The platform features advanced machine learning capabilities and has already gained traction with early adopters. Major features include:",
+                            "list": [
+                                "Natural language processing for task automation",
+                                "Integration with popular productivity tools",
+                                "Real-time analytics and performance monitoring"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Lanzamiento Beta de {{AiTomatic}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Proyecto AiTomatic",
+                            "text": "Lanzamiento de la versión beta de AiTomatic, una plataforma de automatización impulsada por IA. La plataforma cuenta con capacidades avanzadas de aprendizaje automático y ya ha ganado tracción con los primeros usuarios. Las características principales incluyen:",
+                            "list": [
+                                "Procesamiento de lenguaje natural para automatización de tareas",
+                                "Integración con herramientas de productividad populares",
+                                "Análisis en tiempo real y monitoreo de rendimiento"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Version Bêta d'{{AiTomatic}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Projet AiTomatic",
+                            "text": "Lancement de la version bêta d'AiTomatic, une plateforme d'automatisation alimentée par l'IA. La plateforme dispose de capacités avancées d'apprentissage automatique et a déjà gagné du terrain auprès des premiers adoptants. Les principales fonctionnalités comprennent :",
+                            "list": [
+                                "Traitement du langage naturel pour l'automatisation des tâches",
+                                "Intégration avec des outils de productivité populaires",
+                                "Analyses en temps réel et surveillance des performances"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{AiTomatic}} 베타 출시",
+                            "province": "",
+                            "country": "",
+                            "institution": "AiTomatic 프로젝트",
+                            "text": "AI 기반 자동화 플랫폼인 AiTomatic의 베타 버전을 출시했습니다. 이 플랫폼은 고급 기계 학습 기능을 갖추고 있으며 이미 얼리 어답터들에게 인기를 얻고 있습니다. 주요 기능:",
+                            "list": [
+                                "작업 자동화를 위한 자연어 처리",
+                                "인기 있는 생산성 도구와의 통합",
+                                "실시간 분석 및 성능 모니터링"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://the-matrix-arcade.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Matrix Arcade}} New Games",
+                            "province": "",
+                            "country": "",
+                            "institution": "Personal Project",
+                            "text": "Added 5 new retro-style games to Matrix Arcade, bringing the total collection to 12 playable games. Each game showcases different programming concepts and game mechanics learned through various tutorials and courses."
+                        },
+                        "ru": {
+                            "title": "Nuevos Juegos en {{Matrix Arcade}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Proyecto Personal",
+                            "text": "Se agregaron 5 nuevos juegos de estilo retro a Matrix Arcade, llevando la colección total a 12 juegos jugables. Cada juego muestra diferentes conceptos de programación y mecánicas de juego aprendidas a través de varios tutoriales y cursos."
+                        },
+                        "fr": {
+                            "title": "Nouveaux Jeux {{Matrix Arcade}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Projet Personnel",
+                            "text": "Ajout de 5 nouveaux jeux de style rétro à Matrix Arcade, portant la collection totale à 12 jeux jouables. Chaque jeu présente différents concepts de programmation et mécaniques de jeu appris à travers divers tutoriels et cours."
+                        },
+                        "ja": {
+                            "title": "{{매트릭스 아케이드}} 새 게임",
+                            "province": "",
+                            "country": "",
+                            "institution": "개인 프로젝트",
+                            "text": "매트릭스 아케이드에 5개의 새로운 레트로 스타일 게임을 추가하여 총 12개의 플레이 가능한 게임 컬렉션을 만들었습니다. 각 게임은 다양한 튜토리얼과 과정을 통해 배운 다양한 프로그래밍 개념과 게임 메커니즘을 보여줍니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Open Source}} Contributions",
+                            "province": "",
+                            "country": "",
+                            "institution": "GitHub Community",
+                            "text": "Made significant contributions to several open source projects, including bug fixes, feature implementations, and documentation improvements. Notable contributions include:",
+                            "list": [
+                                "Implemented new features for a popular React component library",
+                                "Fixed critical security vulnerabilities in a Node.js framework",
+                                "Improved documentation for multiple TypeScript projects"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Contribuciones de {{Código Abierto}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Comunidad GitHub",
+                            "text": "Realicé contribuciones significativas a varios proyectos de código abierto, incluyendo correcciones de errores, implementaciones de características y mejoras de documentación. Las contribuciones notables incluyen:",
+                            "list": [
+                                "Implementación de nuevas características para una biblioteca de componentes React popular",
+                                "Corrección de vulnerabilidades de seguridad críticas en un framework de Node.js",
+                                "Mejora de la documentación para múltiples proyectos de TypeScript"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Contributions {{Open Source}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Communauté GitHub",
+                            "text": "J'ai apporté des contributions significatives à plusieurs projets open source, notamment des corrections de bugs, des implémentations de fonctionnalités et des améliorations de documentation. Les contributions notables comprennent :",
+                            "list": [
+                                "Implémentation de nouvelles fonctionnalités pour une bibliothèque de composants React populaire",
+                                "Correction de vulnérabilités de sécurité critiques dans un framework Node.js",
+                                "Amélioration de la documentation pour plusieurs projets TypeScript"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{오픈 소스}} 기여",
+                            "province": "",
+                            "country": "",
+                            "institution": "GitHub 커뮤니티",
+                            "text": "버그 수정, 기능 구현 및 문서 개선을 포함하여 여러 오픈 소스 프로젝트에 중요한 기여를 했습니다. 주목할 만한 기여:",
+                            "list": [
+                                "인기 있는 React 컴포넌트 라이브러리에 새로운 기능 구현",
+                                "Node.js 프레임워크의 중요한 보안 취약점 수정",
+                                "여러 TypeScript 프로젝트의 문서 개선"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleFacts",
+            "locales": {
+                "en": {
+                    "title": "Demo {{Statistics}}"
+                },
+                "ru": {
+                    "title": "{{Статистика}} демо"
+                },
+                "fr": {
+                    "title": "{{Statistiques}} des Démos"
+                },
+                "ja": {
+                    "title": "デモ{{統計}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code-branch",
+                    "faIconColors": {
+                        "bg": "#22C55E",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "6+",
+                            "text": "Live Projects"
+                        },
+                        "ru": {
+                            "title": "6+",
+                            "text": "Активных проектов"
+                        },
+                        "fr": {
+                            "title": "6+",
+                            "text": "Projets en Direct"
+                        },
+                        "ja": {
+                            "title": "6+",
+                            "text": "ライブプロジェクト"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "15+",
+                            "text": "Technologies Used"
+                        },
+                        "ru": {
+                            "title": "15+",
+                            "text": "Используемых технологий"
+                        },
+                        "fr": {
+                            "title": "15+",
+                            "text": "Technologies Utilisées"
+                        },
+                        "ja": {
+                            "title": "15+",
+                            "text": "使用技術"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {
+                        "bg": "#171515",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "100%",
+                            "text": "Open Source"
+                        },
+                        "ru": {
+                            "title": "100%",
+                            "text": "Открытый исходный код"
+                        },
+                        "fr": {
+                            "title": "100%",
+                            "text": "Open Source"
+                        },
+                        "ja": {
+                            "title": "100%",
+                            "text": "オープンソース"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "5",
+                            "text": "AI-Powered Projects"
+                        },
+                        "ru": {
+                            "title": "5",
+                            "text": "Проектов с ИИ"
+                        },
+                        "fr": {
+                            "title": "5",
+                            "text": "Projets Alimentés par l'IA"
+                        },
+                        "ja": {
+                            "title": "5",
+                            "text": "AI搭載プロジェクト"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "Project {{Highlights}}"
+                },
+                "ru": {
+                    "title": "{{Основные моменты}} проектов"
+                },
+                "fr": {
+                    "title": "{{Points Forts}} des Projets"
+                },
+                "ja": {
+                    "title": "プロジェクトの{{ハイライト}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
+                    "locales": {
+                        "en": {
+                            "name": "Matrix Arcade Achievement",
+                            "title": "Interactive Gaming Experience",
+                            "text": "The Matrix Arcade showcases my ability to create engaging, interactive web experiences. Built with TypeScript and React, it features multiple retro-style games with smooth animations and responsive controls, demonstrating both technical skill and creative design."
+                        },
+                        "ru": {
+                            "name": "Достижение Matrix Arcade",
+                            "title": "Интерактивный игровой опыт",
+                            "text": "Matrix Arcade демонстрирует мою способность создавать увлекательные интерактивные веб-приложения. Созданный с использованием TypeScript и React, он включает несколько игр в стиле ретро с плавной анимацией и отзывчивым управлением."
+                        },
+                        "fr": {
+                            "name": "Réalisation Matrix Arcade",
+                            "title": "Expérience de Jeu Interactive",
+                            "text": "Matrix Arcade démontre ma capacité à créer des expériences web interactives engageantes. Construit avec TypeScript et React, il propose plusieurs jeux de style rétro avec des animations fluides et des contrôles réactifs."
+                        },
+                        "ja": {
+                            "name": "Matrix Arcadeの成果",
+                            "title": "インタラクティブなゲーム体験",
+                            "text": "Matrix Arcadeは、魅力的でインタラクティブなWeb体験を作成する私の能力を示しています。TypeScriptとReactで構築され、スムーズなアニメーションとレスポンシブなコントロールを備えた複数のレトロスタイルのゲームを特徴としています。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
+                    "locales": {
+                        "en": {
+                            "name": "Python Backend Excellence",
+                            "title": "Scalable API Development",
+                            "text": "My Python Backend Collection demonstrates proficiency in building robust, scalable APIs. From RESTful services to machine learning integrations, these projects showcase clean architecture, efficient data processing, and best practices in backend development."
+                        },
+                        "ru": {
+                            "name": "Превосходство Python Backend",
+                            "title": "Масштабируемая разработка API",
+                            "text": "Моя коллекция Python Backend демонстрирует мастерство в создании надежных, масштабируемых API. От RESTful сервисов до интеграций машинного обучения, эти проекты демонстрируют чистую архитектуру и эффективную обработку данных."
+                        },
+                        "fr": {
+                            "name": "Excellence Backend Python",
+                            "title": "Développement d'API Évolutif",
+                            "text": "Ma Collection Backend Python démontre ma maîtrise dans la construction d'API robustes et évolutives. Des services RESTful aux intégrations d'apprentissage automatique, ces projets mettent en valeur une architecture propre et un traitement efficace des données."
+                        },
+                        "ja": {
+                            "name": "Pythonバックエンドの卓越性",
+                            "title": "スケーラブルなAPI開発",
+                            "text": "私のPythonバックエンドコレクションは、堅牢でスケーラブルなAPIを構築する熟練度を示しています。RESTfulサービスから機械学習の統合まで、これらのプロジェクトはクリーンなアーキテクチャと効率的なデータ処理を示しています。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+                    "locales": {
+                        "en": {
+                            "name": "AI Innovation",
+                            "title": "Practical AI Implementation",
+                            "text": "Through projects like AiTomatic and AI-powered features in various demos, I've demonstrated the ability to integrate cutting-edge AI technologies into practical applications, making complex technology accessible and useful for end users."
+                        },
+                        "ru": {
+                            "name": "Инновации в ИИ",
+                            "title": "Практическая реализация ИИ",
+                            "text": "Через проекты, такие как AiTomatic и функции на основе ИИ в различных демо, я продемонстрировал способность интегрировать передовые технологии ИИ в практические приложения, делая сложные технологии доступными для конечных пользователей."
+                        },
+                        "fr": {
+                            "name": "Innovation IA",
+                            "title": "Implémentation Pratique de l'IA",
+                            "text": "À travers des projets comme AiTomatic et des fonctionnalités alimentées par l'IA dans diverses démos, j'ai démontré la capacité d'intégrer des technologies d'IA de pointe dans des applications pratiques, rendant la technologie complexe accessible aux utilisateurs finaux."
+                        },
+                        "ja": {
+                            "name": "AIイノベーション",
+                            "title": "実用的なAI実装",
+                            "text": "AiTomaticやさまざまなデモのAI搭載機能などのプロジェクトを通じて、最先端のAI技術を実用的なアプリケーションに統合し、複雑な技術をエンドユーザーにとってアクセスしやすく有用なものにする能力を実証しました。"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {
+                    "title": "Coming {{Soon}}"
+                },
+                "ru": {
+                    "title": "{{Скоро}} появится"
+                },
+                "fr": {
+                    "title": "À {{Venir}}"
+                },
+                "ja": {
+                    "title": "{{近日}}公開"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-newspaper",
+                    "faIconColors": {
+                        "bg": "#DC2626",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "NewsPerspective",
+                            "text": "AI-powered news analysis tool that combats misinformation by analyzing articles and generating accurate headlines based on actual content. Built with Azure Cognitive Services and OpenAI."
+                        },
+                        "ru": {
+                            "title": "NewsPerspective",
+                            "text": "Инструмент анализа новостей на основе ИИ, который борется с дезинформацией, анализируя статьи и генерируя точные заголовки на основе фактического содержания. Создан с Azure Cognitive Services и OpenAI."
+                        },
+                        "fr": {
+                            "title": "NewsPerspective",
+                            "text": "Outil d'analyse de nouvelles alimenté par l'IA qui combat la désinformation en analysant les articles et en générant des titres précis basés sur le contenu réel. Construit avec Azure Cognitive Services et OpenAI."
+                        },
+                        "ja": {
+                            "title": "NewsPerspective",
+                            "text": "記事を分析し、実際のコンテンツに基づいて正確な見出しを生成することで誤情報と戦うAI搭載のニュース分析ツール。Azure Cognitive ServicesとOpenAIで構築。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Consulting Toolkit",
+                            "text": "Comprehensive suite of AI tools for business automation and optimization. Features custom model training, prompt engineering interfaces, and integration capabilities with popular business platforms."
+                        },
+                        "ru": {
+                            "title": "Набор инструментов для ИИ-консалтинга",
+                            "text": "Комплексный набор инструментов ИИ для автоматизации и оптимизации бизнеса. Включает обучение пользовательских моделей, интерфейсы для инженерии промптов и возможности интеграции с популярными бизнес-платформами."
+                        },
+                        "fr": {
+                            "title": "Boîte à Outils de Conseil IA",
+                            "text": "Suite complète d'outils IA pour l'automatisation et l'optimisation des entreprises. Comprend la formation de modèles personnalisés, des interfaces d'ingénierie de prompts et des capacités d'intégration avec des plateformes d'entreprise populaires."
+                        },
+                        "ja": {
+                            "title": "AIコンサルティングツールキット",
+                            "text": "ビジネスの自動化と最適化のためのAIツールの包括的なスイート。カスタムモデルトレーニング、プロンプトエンジニアリングインターフェース、人気のビジネスプラットフォームとの統合機能を備えています。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "#00FF41",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Matrix Arcade Expansion",
+                            "text": "New games coming to the Matrix Arcade including multiplayer capabilities, leaderboards, and achievement systems. Planning to add puzzle games, racing games, and AI-powered opponents."
+                        },
+                        "ru": {
+                            "title": "Расширение Matrix Arcade",
+                            "text": "Новые игры появятся в Matrix Arcade, включая многопользовательские возможности, таблицы лидеров и системы достижений. Планируется добавить головоломки, гоночные игры и противников на основе ИИ."
+                        },
+                        "fr": {
+                            "title": "Expansion Matrix Arcade",
+                            "text": "De nouveaux jeux arrivent dans Matrix Arcade, y compris des capacités multijoueurs, des classements et des systèmes de réalisations. Prévoit d'ajouter des jeux de puzzle, des jeux de course et des adversaires alimentés par l'IA."
+                        },
+                        "ja": {
+                            "title": "Matrix Arcadeの拡張",
+                            "text": "マルチプレイヤー機能、リーダーボード、アチーブメントシステムを含むMatrix Arcadeに新しいゲームが登場。パズルゲーム、レーシングゲーム、AI搭載の対戦相手を追加する予定。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {
+                        "bg": "#0EA5E9",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Advanced ML Dashboard",
+                            "text": "Interactive dashboard for visualizing machine learning models, training progress, and predictions. Will feature real-time data processing, model comparison tools, and export capabilities for reports."
+                        },
+                        "ru": {
+                            "title": "Продвинутая панель ML",
+                            "text": "Интерактивная панель для визуализации моделей машинного обучения, прогресса обучения и прогнозов. Будет включать обработку данных в реальном времени, инструменты сравнения моделей и возможности экспорта отчетов."
+                        },
+                        "fr": {
+                            "title": "Tableau de Bord ML Avancé",
+                            "text": "Tableau de bord interactif pour visualiser les modèles d'apprentissage automatique, les progrès de formation et les prédictions. Comprendra le traitement de données en temps réel, des outils de comparaison de modèles et des capacités d'exportation de rapports."
+                        },
+                        "ja": {
+                            "title": "高度なMLダッシュボード",
+                            "text": "機械学習モデル、トレーニングの進行状況、予測を視覚化するためのインタラクティブなダッシュボード。リアルタイムデータ処理、モデル比較ツール、レポートのエクスポート機能を備える予定。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+/**
+ * @author Ryan Balieiro
+ * @description This file contains the customization of other plugin styles.
+ */
+
+span.swiper-pagination-bullet {
+    width: 20px!important;
+    height: 5px!important;
+    position: relative;
+    background: var(--theme-secondary);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: width 0.3s, transform 0.3s;
+
+    &:hover {
+        opacity: 0.6;
+        background: var(--theme-primary-7);
+    }
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--theme-primary);
+    transform: scale(1.2);
+    opacity: 1!important;
+}
