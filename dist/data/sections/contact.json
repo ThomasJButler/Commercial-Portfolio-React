@@ -1,150 +1,271 @@
 {
-    "locales": {
-        "en": {
-            "title": "Contact",
-            "title_long_prefix": "Don't hesitate to",
-            "title_long": "**Contact** Me"
-        },
-
-        "es": {
-            "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
-        },
-
-        "fr": {
-            "title": "Contact",
-            "title_long_prefix": "N'hésitez pas à",
-            "title_long": "Me **Contacter**"
-        },
-
-        "ko": {
-            "title": "연락처",
-            "title_long_prefix": "주저하지 말고",
-            "title_long": "**연락** 주세요"
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Contact",
+                "title_short_nav": "Contact",
+                "title_long": "**Contact** Me",
+                "title_long_prefix": "Don't hesitate to"
+            },
+            "es": {
+                "title": "Contacto",
+                "title_long": "**Contácta**me",
+                "title_long_prefix": "No dudes en"
+            },
+            "fr": {
+                "title": "Contact",
+                "title_long": "Me **Contacter**",
+                "title_long_prefix": "N'hésitez pas à",
+                "title_short_nav": "Contact"
+            },
+            "ko": {
+                "title": "연락처",
+                "title_long": "**연락** 주세요",
+                "title_long_prefix": "주저하지 말고"
+            }
         }
     },
-
     "articles": [
         {
             "id": "contact_form",
             "component": "ArticleContactForm",
             "config": {},
             "locales": {
-                "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
+                "en": {
+                    "title": "Send me a **message**"
+                },
+                "es": {
+                    "title": "Envíame un **mensaje**"
+                },
+                "fr": {
+                    "title": "Envoyez-moi un **message**"
+                },
+                "ko": {
+                    "title": "**메시지를** 보내주세요"
+                }
             },
-
             "items": null
         },
-
         {
             "id": "contact_list",
-            "component": "ArticleGrid",
+            "component": "ArticleInlineList",
             "config": {
-                "format": "grid"
+                "format": "inline"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
-                "ko": {"title": "또는 **원하시면**..."}
+                "en": {
+                    "title": "Or if you **prefer**..."
+                },
+                "es": {
+                    "title": "O si **prefieres**..."
+                },
+                "fr": {
+                    "title": "Ou si vous **préférez**..."
+                },
+                "ko": {
+                    "title": "또는 **원하시면**..."
+                }
             },
-
             "items": [
                 {
-                    "value": "+44 7903352059",
-                    "links": [
-                        {"href": "tel:+44 7903352059"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-phone",
-                        "faColors": {"bg": null, "fill": null}
+                    "label": "+44 7903352059",
+                    "link": {
+                        "href": "tel:+447903352059"
                     },
-                    "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
                     }
                 },
-
                 {
-                    "value": "dev@thomasjbutler.me",
-                    "links": [
-                        {"href": "mailto:dev@thomasjbutler.me"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-envelope",
-                        "faColors": {"bg": null, "fill": null}
+                    "label": "dev@thomasjbutler.me",
+                    "link": {
+                        "href": "mailto:dev@thomasjbutler.me"
+                    },
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "social_links",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Connect on **social media**"
+                },
+                "es": {
+                    "title": "Conecta en **redes sociales**"
+                },
+                "fr": {
+                    "title": "Connectez-vous sur les **réseaux sociaux**"
+                },
+                "ko": {
+                    "title": "**소셜 미디어**에서 연결하세요"
+                },
+                "ru": {
+                    "title": "Связаться в **социальных сетях**"
+                },
+                "ja": {
+                    "title": "**ソーシャルメディア**でつながる"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": {
+                        "bg": "#0077B5",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://www.linkedin.com/in/thomasbutleruk/",
+                        "tooltipString": "open_link"
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {
+                            "title": "LinkedIn",
+                            "text": "Connect with me on LinkedIn"
+                        },
+                        "es": {
+                            "title": "LinkedIn",
+                            "text": "Conéctate conmigo en LinkedIn"
+                        },
+                        "fr": {
+                            "title": "LinkedIn",
+                            "text": "Connectez-vous avec moi sur LinkedIn"
+                        },
+                        "ko": {
+                            "title": "LinkedIn",
+                            "text": "LinkedIn에서 연결하세요"
+                        },
+                        "ru": {
+                            "title": "LinkedIn",
+                            "text": "Свяжитесь со мной в LinkedIn"
+                        },
+                        "ja": {
+                            "title": "LinkedIn",
+                            "text": "LinkedInでつながりましょう"
+                        }
                     }
                 },
-
                 {
-                    "value": "@thomasjbutleruk",
-                    "links": [
-                        {"href": "https://www.linkedin.com/in/thomasbutleruk/"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-linkedin",
-                        "faColors": {"bg": null, "fill": null}
+                    "id": 2,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {
+                        "bg": "#1F2937",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler",
+                        "tooltipString": "open_link"
                     },
                     "locales": {
-                        "en": {"title": "Linkedin"}
+                        "en": {
+                            "title": "GitHub",
+                            "text": "Check out my code on GitHub"
+                        },
+                        "es": {
+                            "title": "GitHub",
+                            "text": "Mira mi código en GitHub"
+                        },
+                        "fr": {
+                            "title": "GitHub",
+                            "text": "Consultez mon code sur GitHub"
+                        },
+                        "ko": {
+                            "title": "GitHub",
+                            "text": "GitHub에서 코드를 확인하세요"
+                        },
+                        "ru": {
+                            "title": "GitHub",
+                            "text": "Посмотрите мой код на GitHub"
+                        },
+                        "ja": {
+                            "title": "GitHub",
+                            "text": "GitHubでコードをチェック"
+                        }
                     }
                 },
-
                 {
-                    "value": "Thomas Butler",
-                    "links": [
-                        {"href": "https://github.com/ThomasJButler"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-github",
-                        "faColors": {"bg": null, "fill": null}
+                    "id": 3,
+                    "faIcon": "fa-brands fa-codepen",
+                    "faIconColors": {
+                        "bg": "#111111",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://codepen.io/thomasbutler",
+                        "tooltipString": "open_link"
                     },
                     "locales": {
-                        "en": {"title": "GitHub"}
+                        "en": {
+                            "title": "CodePen",
+                            "text": "See my experiments on CodePen"
+                        },
+                        "es": {
+                            "title": "CodePen",
+                            "text": "Ver mis experimentos en CodePen"
+                        },
+                        "fr": {
+                            "title": "CodePen",
+                            "text": "Voir mes expériences sur CodePen"
+                        },
+                        "ko": {
+                            "title": "CodePen",
+                            "text": "CodePen에서 실험 보기"
+                        },
+                        "ru": {
+                            "title": "CodePen",
+                            "text": "Смотрите мои эксперименты на CodePen"
+                        },
+                        "ja": {
+                            "title": "CodePen",
+                            "text": "CodePenで実験を見る"
+                        }
                     }
                 },
-
                 {
-                    "value": "@thomasbutler",
-                    "links": [
-                        {"href": "https://codepen.io/thomasbutler"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-codepen",
-                        "faColors": {"bg": null, "fill": null}
+                    "id": 4,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#FF0080",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://aitomatic.co.uk/",
+                        "tooltipString": "open_link"
                     },
                     "locales": {
-                        "en": {"title": "CodePen"}
-                    }
-                },
-
-                {
-                    "value": "Prototype",
-                    "links": [
-                        {"href": "https://aitomatic.co.uk/"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "AiTomatic"}
+                        "en": {
+                            "title": "AiTomatic",
+                            "text": "Visit my AI automation company"
+                        },
+                        "es": {
+                            "title": "AiTomatic",
+                            "text": "Visita mi empresa de automatización con IA"
+                        },
+                        "fr": {
+                            "title": "AiTomatic",
+                            "text": "Visitez mon entreprise d'automatisation IA"
+                        },
+                        "ko": {
+                            "title": "AiTomatic",
+                            "text": "AI 자동화 회사 방문"
+                        },
+                        "ru": {
+                            "title": "AiTomatic",
+                            "text": "Посетите мою компанию по автоматизации ИИ"
+                        },
+                        "ja": {
+                            "title": "AiTomatic",
+                            "text": "AI自動化会社を訪問"
+                        }
                     }
                 }
             ]

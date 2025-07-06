@@ -1,12 +1,20 @@
 {
-    "version": "1.0.0",
-    "animatedCursorEnabled": true,
-    "fullScreenButtonEnabled": true,
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.0"
+    },
 
-    "preloader": {
+    "preloaderSettings": {
         "enabled": true,
-        "title": "React <b>Portfolio</b>",
-        "subtitle": "by Thomas Butler"
+        "title": "Thomas <strong>Butler</strong>",
+        "subtitle": "Full-Stack Developer",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
     },
 
     "profile": {
@@ -35,50 +43,80 @@
         }
     },
 
-    "supportedThemes": [
-        {
-            "id": "dark",
-            "default": true,
-            "icon": "fa-solid fa-moon"
-        },
-
-        {
-            "id": "light",
-            "default": false,
-            "icon": "fa-solid fa-sun"
-        }
-    ],
+    "templateSettings": {
+        "animatedBackground": true,
+        "animatedCursorEnabled": true,
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": false
+    },
 
     "supportedLanguages": [
         {
-            "name": "English",
+            "name": "English (UK)",
             "id": "en",
             "flagUrl": "images/flags/uk.png",
             "default": true
         },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-
         {
             "name": "Français",
             "id": "fr",
             "flagUrl": "images/flags/fr.png"
         },
-
         {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "Русский",
+            "id": "ru",
+            "flagUrl": "images/flags/ru.png"
+        },
+        {
+            "name": "日本語",
+            "id": "ja",
+            "flagUrl": "images/flags/ja.png"
         }
     ],
 
-    "emailjs": {
-        "publicKey": "F3bCtaiaGaGRcByJg",
-        "serviceId": "service_ehkcdf8",
-        "templateId": "template_ott5y0i"
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"},
+                "fr": {"name": "Mode Sombre"},
+                "ru": {"name": "Тёмный режим"},
+                "ja": {"name": "ダークモード"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"},
+                "fr": {"name": "Mode Clair"},
+                "ru": {"name": "Светлый режим"},
+                "ja": {"name": "ライトモード"}
+            }
+        }
+    ],
+
+    "logoOffsets": {
+        "dark": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        },
+        "light": {
+            "right": 13,
+            "top": 3,
+            "bottom": 0
+        }
+    },
+
+    "emailRequest": {
+        "serviceId": "service_82v7bds",
+        "templateId": "template_0m39fjv",
+        "publicKey": "THYlpb66xvhb9SYO6"
     }
 }
