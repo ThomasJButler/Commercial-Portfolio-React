@@ -1,402 +1,1545 @@
 {
-  "locales": {
-    "en": {
-      "title": "Life recently",
-      "title_menu": "Updates",
-      "title_long_prefix": "Take a look at my",
-      "title_long": "Recent **Updates**"
-    },
-    "es": {
-      "title": "Vida Reciente",
-      "title_menu": "Actualizaciones",
-      "title_long_prefix": "Consulta mis",
-      "title_long": "Actualizaciones **Recientes**"
-    },
-    "fr": {
-      "title": "Vie Récente",
-      "title_menu": "Mises à Jour",
-      "title_long_prefix": "Découvrez mes",
-      "title_long": "Dernières **Mises à Jour**"
-    },
-    "ko": {
-      "title": "최근의 삶",
-      "title_menu": "업데이트",
-      "title_long_prefix": "내 최근",
-      "title_long": "**업데이트**를 확인해 보세요"
-    }
-  },
-  "articles": [
-    {
-      "id": "fun_facts",
-      "component": "ArticleServices",
-      "config": {},
-      "link": {
-        "en": "/fun-facts",
-        "es": "/curiosidades",
-        "fr": "/faits-amusants",
-        "ko": "/재미있는-사실"
-      },
-      "locales": {},
-      "items": [
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-coffee",
-            "faColors": null
-          },
-          "locales": {
+    "title": {
+        "locales": {
             "en": {
-              "title": "10,000+",
-              "info": "coffees drank"
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
             },
-            "es": {
-              "title": "10,000+",
-              "info": "cafés consumidos"
+            "ru": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
             },
             "fr": {
-              "title": "10,000+",
-              "info": "cafés bus"
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
             },
-            "ko": {
-              "title": "10,000+",
-              "info": "마신 커피"
+            "ja": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
             }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-robot",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "150+",
-              "info": "AI models built"
-            },
-            "es": {
-              "title": "150+",
-              "info": "modelos de IA construidos"
-            },
-            "fr": {
-              "title": "150+",
-              "info": "modèles IA construits"
-            },
-            "ko": {
-              "title": "150+",
-              "info": "제작한 AI 모델"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-brain",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "100+",
-              "info": "custom GPTs built"
-            },
-            "es": {
-              "title": "100+",
-              "info": "GPTs personalizados creados"
-            },
-            "fr": {
-              "title": "100+",
-              "info": "GPTs personnalisés construits"
-            },
-            "ko": {
-              "title": "100+",
-              "info": "커스텀 GPT 제작"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-cubes",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "4000",
-              "info": "AI asset creations"
-            },
-            "es": {
-              "title": "4000",
-              "info": "creaciones de recursos AI"
-            },
-            "fr": {
-              "title": "4000",
-              "info": "créations d'actifs IA"
-            },
-            "ko": {
-              "title": "4000",
-              "info": "AI 에셋 생성"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-globe",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "36",
-              "info": "countries visited"
-            },
-            "es": {
-              "title": "36",
-              "info": "países visitados"
-            },
-            "fr": {
-              "title": "36",
-              "info": "pays visités"
-            },
-            "ko": {
-              "title": "36",
-              "info": "방문한 나라"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-code",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "6",
-              "info": "websites published"
-            },
-            "es": {
-              "title": "6",
-              "info": "sitios web publicados"
-            },
-            "fr": {
-              "title": "6",
-              "info": "sites web publiés"
-            },
-            "ko": {
-              "title": "6",
-              "info": "웹사이트 공개"
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-solid fa-diagram-project",
-            "faColors": null
-          },
-          "locales": {
-            "en": {
-              "title": "2",
-              "info": "open source projects"
-            },
-            "es": {
-              "title": "2",
-              "info": "proyectos de código abierto"
-            },
-            "fr": {
-              "title": "2",
-              "info": "projets open source"
-            },
-            "ko": {
-              "title": "2",
-              "info": "오픈 소스 프로젝트"
-            }
-          }
         }
-      ]
     },
-    {
-      "id": "updates",
-      "component": "ArticleThread",
-      "config": {},
-      "link": {
-        "en": "/updates",
-        "es": "/actualizaciones",
-        "fr": "/mises-a-jour",
-        "ko": "/업데이트"
-      },
-      "locales": {
-        "en": {
-          "title": "Updates"
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#6366F1",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "05",
+                            "text": "Live Projects"
+                        },
+                        "ru": {
+                            "title": "05",
+                            "text": "Живые проекты"
+                        },
+                        "fr": {
+                            "title": "05",
+                            "text": "Projets en Direct"
+                        },
+                        "ja": {
+                            "title": "05",
+                            "text": "ライブプロジェクト"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-certificate",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ICT",
+                            "text": "Bootcamp Completed"
+                        },
+                        "ru": {
+                            "title": "ИКТ",
+                            "text": "Буткемп завершен"
+                        },
+                        "fr": {
+                            "title": "TIC",
+                            "text": "Bootcamp Terminé"
+                        },
+                        "ja": {
+                            "title": "ICT",
+                            "text": "ブートキャンプ修了"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "#0078D4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Azure",
+                            "text": "Cloud Certified"
+                        },
+                        "ru": {
+                            "title": "Azure",
+                            "text": "Сертифицирован в облаке"
+                        },
+                        "fr": {
+                            "title": "Azure",
+                            "text": "Certifié Cloud"
+                        },
+                        "ja": {
+                            "title": "Azure",
+                            "text": "クラウド認定"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ML/AI",
+                            "text": "Currently Studying"
+                        },
+                        "ru": {
+                            "title": "ML/AI",
+                            "text": "В настоящее время изучаю"
+                        },
+                        "fr": {
+                            "title": "ML/IA",
+                            "text": "Actuellement à l'étude"
+                        },
+                        "ja": {
+                            "title": "ML/AI",
+                            "text": "現在勉強中"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#3776AB",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Primary Language"
+                        },
+                        "ru": {
+                            "title": "Python",
+                            "text": "Основной язык"
+                        },
+                        "fr": {
+                            "title": "Python",
+                            "text": "Langage Principal"
+                        },
+                        "ja": {
+                            "title": "Python",
+                            "text": "主要言語"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Network+",
+                            "text": "Hardware & Networking"
+                        },
+                        "ru": {
+                            "title": "Network+",
+                            "text": "Оборудование и сети"
+                        },
+                        "fr": {
+                            "title": "Network+",
+                            "text": "Matériel et Réseaux"
+                        },
+                        "ja": {
+                            "title": "Network+",
+                            "text": "ハードウェアとネットワーク"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {
+                        "bg": "#EF4444",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "∞",
+                            "text": "Passion for Tech"
+                        },
+                        "ru": {
+                            "title": "∞",
+                            "text": "Страсть к технологиям"
+                        },
+                        "fr": {
+                            "title": "∞",
+                            "text": "Passion pour la Tech"
+                        },
+                        "ja": {
+                            "title": "∞",
+                            "text": "テクノロジーへの情熱"
+                        }
+                    }
+                }
+            ]
         },
-        "es": {
-          "title": "Actualizaciones"
-        },
-        "fr": {
-          "title": "Mises à Jour"
-        },
-        "ko": {
-          "title": "업데이트"
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Recent {{Achievements}}"
+                },
+                "ru": {
+                    "title": "Недавние {{Достижения}}"
+                },
+                "fr": {
+                    "title": "{{Réalisations}} Récentes"
+                },
+                "ja": {
+                    "title": "最近の{{成果}}"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.thomasjbutler.me/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Updated {{Commercial Portfolio}} to v2.0",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Successfully migrated my commercial portfolio website to React v2.0 with significant improvements. This major update includes enhanced performance, modern design patterns, and improved user experience.",
+                            "list": [
+                                "Migrated from v1.x to v2.0 framework with complete refactor",
+                                "Achieved 95+ Lighthouse scores for performance",
+                                "Implemented SEO optimizations and accessibility features",
+                                "Added multilingual support (EN, FR, RU, JA)"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Обновил {{Коммерческое Портфолио}} до v2.0",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Успешно мигрировал свой коммерческий сайт-портфолио на React v2.0 со значительными улучшениями. Это крупное обновление включает улучшенную производительность, современные шаблоны дизайна и улучшенный пользовательский опыт.",
+                            "list": [
+                                "Миграция с v1.x на v2.0 с полным рефакторингом",
+                                "Достигнуты показатели Lighthouse 95+ для производительности",
+                                "Внедрены SEO-оптимизации и функции доступности",
+                                "Добавлена многоязычная поддержка (EN, FR, RU, JA)"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Mise à jour du {{Portfolio Commercial}} vers v2.0",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Migration réussie de mon site portfolio commercial vers React v2.0 avec des améliorations significatives. Cette mise à jour majeure comprend des performances améliorées, des modèles de conception modernes et une expérience utilisateur améliorée.",
+                            "list": [
+                                "Migration de v1.x vers v2.0 avec refactorisation complète",
+                                "Scores Lighthouse de 95+ atteints pour les performances",
+                                "Optimisations SEO et fonctionnalités d'accessibilité implémentées",
+                                "Support multilingue ajouté (EN, FR, RU, JA)"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{商業ポートフォリオ}}をv2.0に更新",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "商業ポートフォリオウェブサイトをReact v2.0に大幅な改善とともに正常に移行しました。この主要なアップデートには、パフォーマンスの向上、モダンなデザインパターン、ユーザーエクスペリエンスの改善が含まれています。",
+                            "list": [
+                                "v1.xからv2.0フレームワークへの完全なリファクタリング",
+                                "パフォーマンスのLighthouseスコア95+を達成",
+                                "SEO最適化とアクセシビリティ機能の実装",
+                                "多言語サポートの追加（EN、FR、RU、JA）"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/NewsPerspective",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Built {{NewsPerspective}} - AI News Analysis",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Developed NewsPerspective, an innovative application that uses Azure and OpenAI to analyze news articles and rewrite headlines based on actual content to combat misinformation.",
+                            "list": [
+                                "Integrated Azure Cognitive Services for content analysis",
+                                "Implemented OpenAI API for intelligent headline generation",
+                                "Built Python backend with Flask for API endpoints",
+                                "Created system to detect and flag misleading headlines"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Создал {{NewsPerspective}} - ИИ анализ новостей",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Разработал NewsPerspective, инновационное приложение, которое использует Azure и OpenAI для анализа новостных статей и переписывания заголовков на основе фактического содержания для борьбы с дезинформацией.",
+                            "list": [
+                                "Интеграция Azure Cognitive Services для анализа контента",
+                                "Реализация OpenAI API для интеллектуальной генерации заголовков",
+                                "Создание Python-бэкенда с Flask для API-эндпоинтов",
+                                "Создание системы для обнаружения и пометки вводящих в заблуждение заголовков"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Création de {{NewsPerspective}} - Analyse IA des actualités",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Développement de NewsPerspective, une application innovante qui utilise Azure et OpenAI pour analyser les articles d'actualité et réécrire les titres en fonction du contenu réel pour lutter contre la désinformation.",
+                            "list": [
+                                "Intégration d'Azure Cognitive Services pour l'analyse de contenu",
+                                "Implémentation de l'API OpenAI pour la génération intelligente de titres",
+                                "Construction d'un backend Python avec Flask pour les points de terminaison API",
+                                "Création d'un système pour détecter et signaler les titres trompeurs"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{NewsPerspective}}を構築 - AIニュース分析",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "AzureとOpenAIを使用してニュース記事を分析し、誤情報と戦うために実際のコンテンツに基づいて見出しを書き直す革新的なアプリケーション、NewsPerspectiveを開発しました。",
+                            "list": [
+                                "コンテンツ分析のためのAzure Cognitive Servicesの統合",
+                                "インテリジェントな見出し生成のためのOpenAI APIの実装",
+                                "APIエンドポイント用のFlaskを使用したPythonバックエンドの構築",
+                                "誤解を招く見出しを検出してフラグを立てるシステムの作成"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched {{Premier League Oracle}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Created The Premier League Oracle, a comprehensive football prediction platform that uses data science and machine learning to provide objective match predictions.",
+                            "list": [
+                                "Built with Python, Svelte, TypeScript, and PostgreSQL",
+                                "Integrated historical match data from Football-Data.co.uk",
+                                "Implemented statistical anomaly detection algorithms",
+                                "Designed responsive UI with data visualizations"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Запущен {{Оракул Премьер-лиги}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Создал The Premier League Oracle, комплексную платформу прогнозирования футбола, которая использует науку о данных и машинное обучение для предоставления объективных прогнозов матчей.",
+                            "list": [
+                                "Построен с Python, Svelte, TypeScript и PostgreSQL",
+                                "Интегрированы исторические данные матчей с Football-Data.co.uk",
+                                "Реализованы алгоритмы обнаружения статистических аномалий",
+                                "Разработан адаптивный интерфейс с визуализацией данных"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement de {{Premier League Oracle}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Création de The Premier League Oracle, une plateforme complète de prédiction de football qui utilise la science des données et l'apprentissage automatique pour fournir des prédictions de match objectives.",
+                            "list": [
+                                "Construit avec Python, Svelte, TypeScript et PostgreSQL",
+                                "Intégration des données historiques de matchs de Football-Data.co.uk",
+                                "Implémentation d'algorithmes de détection d'anomalies statistiques",
+                                "Conception d'une interface utilisateur responsive avec visualisations de données"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{プレミアリーグオラクル}}をローンチ",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "データサイエンスと機械学習を使用して客観的な試合予測を提供する包括的なサッカー予測プラットフォーム、The Premier League Oracleを作成しました。",
+                            "list": [
+                                "Python、Svelte、TypeScript、PostgreSQLで構築",
+                                "Football-Data.co.ukから履歴試合データを統合",
+                                "統計的異常検出アルゴリズムを実装",
+                                "データビジュアライゼーションを備えたレスポンシブUIを設計"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/matrix-arcade",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://the-matrix-arcade.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Updated {{Matrix Arcade}} with New Games",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Expanded the Matrix Arcade project with new games including Matrix Invaders. The arcade now features a comprehensive collection of retro-style games built with modern web technologies.",
+                            "list": [
+                                "Added Matrix Invaders - a space invaders clone with Matrix theme",
+                                "Improved game performance and responsiveness",
+                                "Enhanced UI/UX with better navigation between games",
+                                "Implemented high score tracking and leaderboards"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Обновил {{Matrix Arcade}} новыми играми",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Расширил проект Matrix Arcade новыми играми, включая Matrix Invaders. Аркада теперь включает обширную коллекцию игр в стиле ретро, созданных с использованием современных веб-технологий.",
+                            "list": [
+                                "Добавлен Matrix Invaders - клон Space Invaders с темой Матрицы",
+                                "Улучшена производительность и отзывчивость игр",
+                                "Улучшен UI/UX с лучшей навигацией между играми",
+                                "Реализовано отслеживание рекордов и таблицы лидеров"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Mise à jour de {{Matrix Arcade}} avec de nouveaux jeux",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Extension du projet Matrix Arcade avec de nouveaux jeux incluant Matrix Invaders. L'arcade propose désormais une collection complète de jeux de style rétro construits avec des technologies web modernes.",
+                            "list": [
+                                "Ajout de Matrix Invaders - un clone de Space Invaders avec le thème Matrix",
+                                "Amélioration des performances et de la réactivité des jeux",
+                                "Amélioration de l'UI/UX avec une meilleure navigation entre les jeux",
+                                "Implémentation du suivi des meilleurs scores et des classements"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Matrix Arcade}}を新しいゲームで更新",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "Matrix Invadersを含む新しいゲームでMatrix Arcadeプロジェクトを拡張しました。アーケードには、最新のWeb技術で構築されたレトロスタイルのゲームの包括的なコレクションが含まれています。",
+                            "list": [
+                                "Matrix Invadersの追加 - MatrixテーマのSpace Invadersクローン",
+                                "ゲームのパフォーマンスと応答性の改善",
+                                "ゲーム間のナビゲーションを改善したUI/UXの強化",
+                                "ハイスコアトラッキングとリーダーボードの実装"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {
+                        "year": 2024,
+                        "month": 10
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/PythonProjects",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Built {{Python Backend Collection}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Developed a comprehensive suite of Python applications showcasing various backend development skills. This collection demonstrates proficiency in API development, data processing, and machine learning implementations.",
+                            "list": [
+                                "Created RESTful APIs using Flask and FastAPI frameworks",
+                                "Implemented data processing pipelines and ETL workflows",
+                                "Built machine learning models for predictive analytics",
+                                "Demonstrated best practices in Python backend development"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Создал {{коллекцию Python Backend}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Разработал комплексный набор приложений Python, демонстрирующих различные навыки backend-разработки. Эта коллекция демонстрирует мастерство в разработке API, обработке данных и реализации машинного обучения.",
+                            "list": [
+                                "Создал RESTful API с использованием фреймворков Flask и FastAPI",
+                                "Реализовал конвейеры обработки данных и рабочие процессы ETL",
+                                "Построил модели машинного обучения для прогнозной аналитики",
+                                "Продемонстрировал лучшие практики в backend-разработке на Python"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Construction de la {{Collection Backend Python}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Développement d'une suite complète d'applications Python mettant en valeur diverses compétences de développement backend. Cette collection démontre la maîtrise du développement d'API, du traitement de données et des implémentations d'apprentissage automatique.",
+                            "list": [
+                                "Création d'API RESTful utilisant les frameworks Flask et FastAPI",
+                                "Implémentation de pipelines de traitement de données et de workflows ETL",
+                                "Construction de modèles d'apprentissage automatique pour l'analyse prédictive",
+                                "Démonstration des meilleures pratiques en développement backend Python"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Pythonバックエンドコレクション}}を構築",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "さまざまなバックエンド開発スキルを示すPythonアプリケーションの包括的なスイートを開発しました。このコレクションは、API開発、データ処理、機械学習の実装における熟練度を示しています。",
+                            "list": [
+                                "FlaskとFastAPIフレームワークを使用してRESTful APIを作成",
+                                "データ処理パイプラインとETLワークフローを実装",
+                                "予測分析のための機械学習モデルを構築",
+                                "Pythonバックエンド開発のベストプラクティスを実証"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/css-showcase",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/css-showcase/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed {{CSS Showcase}} Project",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Finished development of CSS Showcase, an interactive demonstration of advanced CSS animations and effects. This project serves as both a learning resource and a portfolio piece showcasing modern CSS capabilities.",
+                            "list": [
+                                "Created 20+ unique CSS animation demonstrations",
+                                "Implemented pure CSS solutions without JavaScript",
+                                "Built responsive design that works on all devices",
+                                "Added interactive tutorials for each animation technique"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершил проект {{CSS Showcase}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Завершена разработка CSS Showcase, интерактивной демонстрации продвинутых CSS-анимаций и эффектов. Этот проект служит как учебным ресурсом, так и элементом портфолио, демонстрирующим современные возможности CSS.",
+                            "list": [
+                                "Создано более 20 уникальных демонстраций CSS-анимации",
+                                "Реализованы чистые CSS-решения без JavaScript",
+                                "Создан адаптивный дизайн, работающий на всех устройствах",
+                                "Добавлены интерактивные учебные пособия для каждой техники анимации"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Projet {{CSS Showcase}} terminé",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Développement terminé de CSS Showcase, une démonstration interactive d'animations et d'effets CSS avancés. Ce projet sert à la fois de ressource d'apprentissage et de pièce de portfolio présentant les capacités CSS modernes.",
+                            "list": [
+                                "Création de plus de 20 démonstrations d'animation CSS uniques",
+                                "Implémentation de solutions CSS pures sans JavaScript",
+                                "Construction d'un design responsive qui fonctionne sur tous les appareils",
+                                "Ajout de tutoriels interactifs pour chaque technique d'animation"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{CSS Showcase}}プロジェクトを完了",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "高度なCSSアニメーションとエフェクトのインタラクティブなデモンストレーションであるCSS Showcaseの開発を完了しました。このプロジェクトは、学習リソースとしても、最新のCSS機能を紹介するポートフォリオ作品としても機能します。",
+                            "list": [
+                                "20以上のユニークなCSSアニメーションデモの作成",
+                                "JavaScriptなしの純粋なCSSソリューションの実装",
+                                "すべてのデバイスで動作するレスポンシブデザインの構築",
+                                "各アニメーション技術のインタラクティブなチュートリアルの追加"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "date": {
+                        "year": 2024,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Building {{AI Models}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "AI Development",
+                            "text": "Started creating custom AI models and applying machine learning knowledge practically. This marked a significant milestone in my AI journey, moving from theory to hands-on implementation.",
+                            "list": [
+                                "Developed custom AI models for various use cases",
+                                "Applied machine learning concepts to real-world problems",
+                                "Created AI-powered solutions and integrations",
+                                "Built foundation for future AI consulting work"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Создание {{моделей ИИ}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Разработка ИИ",
+                            "text": "Начал создавать пользовательские модели ИИ и практически применять знания машинного обучения. Это стало важной вехой в моем путешествии с ИИ, переходя от теории к практической реализации.",
+                            "list": [
+                                "Разработал пользовательские модели ИИ для различных случаев использования",
+                                "Применил концепции машинного обучения к реальным проблемам",
+                                "Создал решения и интеграции на основе ИИ",
+                                "Заложил основу для будущей консалтинговой работы с ИИ"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Construction de {{modèles IA}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Développement IA",
+                            "text": "J'ai commencé à créer des modèles d'IA personnalisés et à appliquer pratiquement les connaissances en apprentissage automatique. Cela a marqué une étape importante dans mon parcours IA, passant de la théorie à la mise en œuvre pratique.",
+                            "list": [
+                                "Développement de modèles d'IA personnalisés pour divers cas d'utilisation",
+                                "Application de concepts d'apprentissage automatique à des problèmes réels",
+                                "Création de solutions et d'intégrations alimentées par l'IA",
+                                "Construction de la base pour le futur travail de conseil en IA"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{AIモデル}}の構築",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "AI開発",
+                            "text": "カスタムAIモデルの作成を開始し、機械学習の知識を実践的に適用し始めました。これは、理論から実践的な実装への移行という、私のAIの旅における重要なマイルストーンとなりました。",
+                            "list": [
+                                "さまざまなユースケース向けのカスタムAIモデルを開発",
+                                "機械学習の概念を実世界の問題に適用",
+                                "AI駆動のソリューションと統合を作成",
+                                "将来のAIコンサルティング作業の基盤を構築"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed {{ICT Bootcamp}} Certification",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Professional Development",
+                            "text": "Successfully completed an intensive ICT bootcamp, gaining comprehensive knowledge in hardware, cloud computing, networking, and Azure services. This certification has significantly expanded my technical skillset.",
+                            "list": [
+                                "Mastered hardware troubleshooting and system administration",
+                                "Achieved Azure Fundamentals certification",
+                                "Learned advanced networking concepts and protocols",
+                                "Gained hands-on experience with cloud infrastructure deployment"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Завершил сертификацию {{ICT Bootcamp}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Профессиональное развитие",
+                            "text": "Успешно завершил интенсивный буткемп по ИКТ, получив всесторонние знания в области оборудования, облачных вычислений, сетей и сервисов Azure. Эта сертификация значительно расширила мои технические навыки.",
+                            "list": [
+                                "Освоил устранение неполадок оборудования и системное администрирование",
+                                "Получил сертификацию Azure Fundamentals",
+                                "Изучил продвинутые сетевые концепции и протоколы",
+                                "Получил практический опыт развертывания облачной инфраструктуры"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Certification {{ICT Bootcamp}} terminée",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Développement Professionnel",
+                            "text": "Achèvement réussi d'un bootcamp TIC intensif, acquérant des connaissances complètes en matériel, cloud computing, réseaux et services Azure. Cette certification a considérablement élargi mes compétences techniques.",
+                            "list": [
+                                "Maîtrise du dépannage matériel et de l'administration système",
+                                "Obtention de la certification Azure Fundamentals",
+                                "Apprentissage de concepts et protocoles réseau avancés",
+                                "Acquisition d'une expérience pratique du déploiement d'infrastructure cloud"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{ICTブートキャンプ}}認定を完了",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "専門能力開発",
+                            "text": "ハードウェア、クラウドコンピューティング、ネットワーキング、Azureサービスに関する包括的な知識を得て、集中的なICTブートキャンプを正常に完了しました。この認定により、技術的なスキルセットが大幅に拡大されました。",
+                            "list": [
+                                "ハードウェアのトラブルシューティングとシステム管理をマスター",
+                                "Azure Fundamentals認定を取得",
+                                "高度なネットワーキングの概念とプロトコルを学習",
+                                "クラウドインフラストラクチャの展開に関する実践的な経験を取得"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "date": {
+                        "year": 2024,
+                        "month": 4
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Experimenting with {{AI Tools}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Self-Study",
+                            "text": "Began deep exploration of AI tools and models, staying on top of the rapidly evolving AI industry. This period marked the beginning of my journey into practical AI implementation and understanding.",
+                            "list": [
+                                "Explored various AI platforms and models extensively",
+                                "Kept current with latest AI industry trends and developments",
+                                "Experimented with prompt engineering and model fine-tuning",
+                                "Started integrating AI tools into development workflow"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Экспериментирование с {{инструментами ИИ}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Самообучение",
+                            "text": "Начал глубокое изучение инструментов и моделей ИИ, следя за быстро развивающейся индустрией ИИ. Этот период ознаменовал начало моего пути в практическую реализацию и понимание ИИ.",
+                            "list": [
+                                "Тщательно изучил различные платформы и модели ИИ",
+                                "Следил за последними тенденциями и разработками в индустрии ИИ",
+                                "Экспериментировал с инженерией промптов и тонкой настройкой моделей",
+                                "Начал интегрировать инструменты ИИ в рабочий процесс разработки"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Expérimentation avec les {{outils IA}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Auto-apprentissage",
+                            "text": "J'ai commencé une exploration approfondie des outils et modèles d'IA, en restant au courant de l'industrie de l'IA en évolution rapide. Cette période a marqué le début de mon parcours dans la mise en œuvre pratique et la compréhension de l'IA.",
+                            "list": [
+                                "Exploration approfondie de diverses plateformes et modèles d'IA",
+                                "Suivi des dernières tendances et développements de l'industrie de l'IA",
+                                "Expérimentation avec l'ingénierie des prompts et le réglage fin des modèles",
+                                "Début de l'intégration des outils d'IA dans le flux de travail de développement"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{AIツール}}の実験",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "独学",
+                            "text": "AIツールとモデルの深い探求を開始し、急速に進化するAI業界の最新動向を把握しました。この期間は、実践的なAI実装と理解への私の旅の始まりを示しました。",
+                            "list": [
+                                "さまざまなAIプラットフォームとモデルを徹底的に探求",
+                                "最新のAI業界のトレンドと開発を把握",
+                                "プロンプトエンジニアリングとモデルの微調整を実験",
+                                "開発ワークフローへのAIツールの統合を開始"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "date": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://codepen.io/thomasbutler",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-brands fa-codepen"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started {{CodePen}} Journey",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Creative Coding",
+                            "text": "Joined CodePen to practice and showcase creative coding experiments. This platform became my playground for exploring ideas beyond client requirements and CMS limitations encountered at work.",
+                            "list": [
+                                "Created custom CSS animations and interactive components",
+                                "Practiced skills learned in professional environment",
+                                "Experimented with creative coding beyond work constraints",
+                                "Still actively creating and sharing code snippets"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Начал путешествие на {{CodePen}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Творческое кодирование",
+                            "text": "Присоединился к CodePen для практики и демонстрации творческих экспериментов с кодом. Эта платформа стала моей площадкой для изучения идей за пределами требований клиентов и ограничений CMS, с которыми сталкивался на работе.",
+                            "list": [
+                                "Создавал пользовательские CSS-анимации и интерактивные компоненты",
+                                "Практиковал навыки, полученные в профессиональной среде",
+                                "Экспериментировал с творческим кодированием за пределами рабочих ограничений",
+                                "Все еще активно создаю и делюсь фрагментами кода"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Début du parcours {{CodePen}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Codage Créatif",
+                            "text": "J'ai rejoint CodePen pour pratiquer et présenter des expériences de codage créatif. Cette plateforme est devenue mon terrain de jeu pour explorer des idées au-delà des exigences des clients et des limitations CMS rencontrées au travail.",
+                            "list": [
+                                "Création d'animations CSS personnalisées et de composants interactifs",
+                                "Pratique des compétences apprises dans l'environnement professionnel",
+                                "Expérimentation avec le codage créatif au-delà des contraintes de travail",
+                                "Création et partage actifs de fragments de code"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{CodePen}}の旅を開始",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "クリエイティブコーディング",
+                            "text": "クリエイティブなコーディング実験を練習し、紹介するためにCodePenに参加しました。このプラットフォームは、仕事で遭遇したクライアントの要件やCMSの制限を超えたアイデアを探求するための遊び場となりました。",
+                            "list": [
+                                "カスタムCSSアニメーションとインタラクティブコンポーネントを作成",
+                                "プロフェッショナル環境で学んだスキルを練習",
+                                "仕事の制約を超えたクリエイティブコーディングを実験",
+                                "現在もアクティブにコードスニペットを作成して共有"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "date": {
+                        "year": 2024,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started {{ML and Python}} Deep Dive",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Self-Study",
+                            "text": "Began an intensive self-study program focused on Machine Learning and advanced Python programming. Currently working through comprehensive courses and building practical ML projects.",
+                            "list": [
+                                "Studying neural networks and deep learning fundamentals",
+                                "Working with TensorFlow and PyTorch frameworks",
+                                "Building predictive models using scikit-learn",
+                                "Exploring natural language processing and computer vision"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Начал глубокое изучение {{ML и Python}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Самообучение",
+                            "text": "Начал интенсивную программу самообучения, сосредоточенную на машинном обучении и продвинутом программировании на Python. В настоящее время прохожу комплексные курсы и создаю практические проекты ML.",
+                            "list": [
+                                "Изучение нейронных сетей и основ глубокого обучения",
+                                "Работа с фреймворками TensorFlow и PyTorch",
+                                "Создание прогностических моделей с использованием scikit-learn",
+                                "Исследование обработки естественного языка и компьютерного зрения"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Début de l'approfondissement {{ML et Python}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Auto-apprentissage",
+                            "text": "Début d'un programme d'auto-apprentissage intensif axé sur l'apprentissage automatique et la programmation Python avancée. Actuellement en train de suivre des cours complets et de construire des projets ML pratiques.",
+                            "list": [
+                                "Étude des réseaux de neurones et des fondamentaux du deep learning",
+                                "Travail avec les frameworks TensorFlow et PyTorch",
+                                "Construction de modèles prédictifs avec scikit-learn",
+                                "Exploration du traitement du langage naturel et de la vision par ordinateur"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{MLとPython}}の深い学習を開始",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "自己学習",
+                            "text": "機械学習と高度なPythonプログラミングに焦点を当てた集中的な自己学習プログラムを開始しました。現在、包括的なコースを受講し、実用的なMLプロジェクトを構築しています。",
+                            "list": [
+                                "ニューラルネットワークとディープラーニングの基礎の学習",
+                                "TensorFlowとPyTorchフレームワークでの作業",
+                                "scikit-learnを使用した予測モデルの構築",
+                                "自然言語処理とコンピュータビジョンの探索"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "date": {
+                        "year": 2000,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Early Tech Passion & {{Life Journey}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Life Experience",
+                            "text": "From childhood, I was fascinated by technology and gaming, loving the simplicity and UI design of classic games. Despite this passion, life took me on different paths - pursuing professional cricket and later commercial diving. It wasn't until AI emerged that I realized I could finally pursue my true calling.",
+                            "list": [
+                                "Childhood obsession with tech - jailbreaking iPod Touch, installing Cydia repos",
+                                "Always the person with app ideas but no way to build them",
+                                "Pursued professional cricket, then commercial diving careers",
+                                "ADHD diagnosis brought clarity - realized I'd always wanted to be a developer",
+                                "AI tools like ChatGPT bridged the gap, making programming accessible",
+                                "Now making up for lost time with intense dedication to coding"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Ранняя страсть к технологиям и {{жизненный путь}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Жизненный опыт",
+                            "text": "С детства я был очарован технологиями и играми, любил простоту и дизайн интерфейса классических игр. Несмотря на эту страсть, жизнь повела меня другими путями - профессиональный крикет, затем коммерческое дайвинг. Только с появлением ИИ я понял, что могу наконец следовать своему истинному призванию.",
+                            "list": [
+                                "Детская одержимость технологиями - взлом iPod Touch, установка репозиториев Cydia",
+                                "Всегда был человеком с идеями приложений, но без возможности их создавать",
+                                "Занимался профессиональным крикетом, затем коммерческим дайвингом",
+                                "Диагноз СДВГ принес ясность - понял, что всегда хотел быть разработчиком",
+                                "Инструменты ИИ, такие как ChatGPT, преодолели разрыв, сделав программирование доступным",
+                                "Теперь наверстываю упущенное время с интенсивной преданностью кодированию"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Passion technologique précoce et {{parcours de vie}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Expérience de vie",
+                            "text": "Depuis l'enfance, j'étais fasciné par la technologie et les jeux, adorant la simplicité et le design UI des jeux classiques. Malgré cette passion, la vie m'a mené sur différents chemins - cricket professionnel puis plongée commerciale. Ce n'est qu'avec l'émergence de l'IA que j'ai réalisé que je pouvais enfin poursuivre ma vraie vocation.",
+                            "list": [
+                                "Obsession d'enfance pour la tech - jailbreak d'iPod Touch, installation de repos Cydia",
+                                "Toujours la personne avec des idées d'apps mais sans moyen de les construire",
+                                "Poursuivi le cricket professionnel, puis la plongée commerciale",
+                                "Le diagnostic de TDAH a apporté de la clarté - réalisé que j'avais toujours voulu être développeur",
+                                "Les outils IA comme ChatGPT ont comblé le fossé, rendant la programmation accessible",
+                                "Maintenant je rattrape le temps perdu avec un dévouement intense au codage"
+                            ]
+                        },
+                        "ja": {
+                            "title": "初期のテクノロジーへの情熱と{{人生の旅}}",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "人生経験",
+                            "text": "子供の頃から、私はテクノロジーとゲームに魅了され、クラシックゲームのシンプルさとUIデザインを愛していました。この情熱にもかかわらず、人生は私を異なる道へ導きました - プロのクリケット選手、その後商業ダイバー。AIが登場して初めて、私は真の天職を追求できることに気づきました。",
+                            "list": [
+                                "子供時代のテクノロジーへの執着 - iPod Touchの脱獄、Cydiaリポジトリのインストール",
+                                "常にアプリのアイデアを持っているが、それを構築する方法がない人",
+                                "プロのクリケット、その後商業ダイビングのキャリアを追求",
+                                "ADHD診断が明確さをもたらした - 常に開発者になりたかったことに気づいた",
+                                "ChatGPTのようなAIツールがギャップを埋め、プログラミングをアクセス可能にした",
+                                "今、コーディングへの激しい献身で失われた時間を取り戻している"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "date": {
+                        "year": 2022,
+                        "month": 11
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started My {{Coding Journey}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Self-Directed Learning",
+                            "text": "Embarked on my programming journey, discovering a passion for technology and software development. This marked the beginning of an intensive self-learning period that would transform my career path.",
+                            "list": [
+                                "Began learning programming fundamentals and computer science basics",
+                                "Discovered ChatGPT and used it as a learning companion",
+                                "Studied online through various platforms and tutorials",
+                                "Started exploring game development concepts and engines"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Начал свой {{путь в программировании}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Самостоятельное обучение",
+                            "text": "Начал свой путь в программировании, обнаружив страсть к технологиям и разработке программного обеспечения. Это стало началом интенсивного периода самообучения, который изменил мою карьеру.",
+                            "list": [
+                                "Начал изучать основы программирования и информатики",
+                                "Открыл для себя ChatGPT и использовал его как помощника в обучении",
+                                "Учился онлайн через различные платформы и туториалы",
+                                "Начал изучать концепции и движки разработки игр"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Commencé mon {{parcours de codage}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Apprentissage Autonome",
+                            "text": "J'ai commencé mon parcours de programmation, découvrant une passion pour la technologie et le développement logiciel. Cela a marqué le début d'une période d'auto-apprentissage intensive qui transformerait ma carrière.",
+                            "list": [
+                                "Commencé à apprendre les fondamentaux de la programmation et de l'informatique",
+                                "Découvert ChatGPT et l'utilisé comme compagnon d'apprentissage",
+                                "Étudié en ligne via diverses plateformes et tutoriels",
+                                "Commencé à explorer les concepts et moteurs de développement de jeux"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{コーディングの旅}}を開始",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "独学",
+                            "text": "プログラミングの旅を始め、テクノロジーとソフトウェア開発への情熱を発見しました。これは私のキャリアパスを変える集中的な自己学習期間の始まりでした。",
+                            "list": [
+                                "プログラミングの基礎とコンピュータサイエンスの基本を学び始めました",
+                                "ChatGPTを発見し、学習の相棒として使用",
+                                "さまざまなプラットフォームとチュートリアルを通じてオンラインで学習",
+                                "ゲーム開発の概念とエンジンの探求を開始"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "date": {
+                        "year": 2023,
+                        "month": 2
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cloud & Data Engineering {{Bootcamp}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Professional Training",
+                            "text": "Enrolled in an intensive Cloud and Data Engineering bootcamp from February to April 2023. This comprehensive program provided hands-on experience with modern cloud technologies and data processing frameworks.",
+                            "list": [
+                                "Learned cloud infrastructure fundamentals on AWS and Azure",
+                                "Studied data engineering principles and ETL pipelines",
+                                "Built projects using Python for data processing",
+                                "Gained experience with SQL and NoSQL databases"
+                            ]
+                        },
+                        "ru": {
+                            "title": "{{Буткемп}} по облачным технологиям и инженерии данных",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Профессиональная подготовка",
+                            "text": "Зачислен в интенсивный буткемп по облачным технологиям и инженерии данных с февраля по апрель 2023 года. Эта комплексная программа предоставила практический опыт работы с современными облачными технологиями и фреймворками обработки данных.",
+                            "list": [
+                                "Изучил основы облачной инфраструктуры на AWS и Azure",
+                                "Изучил принципы инженерии данных и ETL-конвейеры",
+                                "Создавал проекты с использованием Python для обработки данных",
+                                "Получил опыт работы с SQL и NoSQL базами данных"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Bootcamp}} Cloud & Data Engineering",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Formation Professionnelle",
+                            "text": "Inscrit à un bootcamp intensif Cloud et Data Engineering de février à avril 2023. Ce programme complet a fourni une expérience pratique avec les technologies cloud modernes et les frameworks de traitement de données.",
+                            "list": [
+                                "Appris les fondamentaux de l'infrastructure cloud sur AWS et Azure",
+                                "Étudié les principes d'ingénierie des données et les pipelines ETL",
+                                "Construit des projets utilisant Python pour le traitement des données",
+                                "Acquis de l'expérience avec les bases de données SQL et NoSQL"
+                            ]
+                        },
+                        "ja": {
+                            "title": "クラウド＆データエンジニアリング{{ブートキャンプ}}",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "専門トレーニング",
+                            "text": "2023年2月から4月まで、集中的なクラウドおよびデータエンジニアリングブートキャンプに参加しました。この包括的なプログラムは、最新のクラウドテクノロジーとデータ処理フレームワークの実践的な経験を提供しました。",
+                            "list": [
+                                "AWSとAzureでクラウドインフラストラクチャの基礎を学習",
+                                "データエンジニアリングの原則とETLパイプラインを学習",
+                                "データ処理のためのPythonを使用したプロジェクトを構築",
+                                "SQLおよびNoSQLデータベースの経験を獲得"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "date": {
+                        "year": 2023,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python Development & {{First Projects}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Projects",
+                            "text": "Focused intensively on Python development, creating my first scripts and web applications. This period marked significant growth in practical programming skills and creative exploration with AI tools.",
+                            "list": [
+                                "Practiced Python and created automation scripts",
+                                "Built and launched first website using GoDaddy (now retired)",
+                                "Explored AI creative tools like Midjourney and DALL-E",
+                                "Developed understanding of web development fundamentals"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Разработка на Python и {{первые проекты}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личные проекты",
+                            "text": "Интенсивно сосредоточился на разработке на Python, создавая свои первые скрипты и веб-приложения. Этот период ознаменовался значительным ростом практических навыков программирования и творческим исследованием с помощью инструментов ИИ.",
+                            "list": [
+                                "Практиковался в Python и создавал скрипты автоматизации",
+                                "Создал и запустил первый сайт с помощью GoDaddy (сейчас удален)",
+                                "Исследовал творческие инструменты ИИ, такие как Midjourney и DALL-E",
+                                "Развил понимание основ веб-разработки"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développement Python & {{Premiers Projets}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projets Personnels",
+                            "text": "Concentration intensive sur le développement Python, création de mes premiers scripts et applications web. Cette période a marqué une croissance significative des compétences pratiques en programmation et l'exploration créative avec les outils IA.",
+                            "list": [
+                                "Pratiqué Python et créé des scripts d'automatisation",
+                                "Construit et lancé le premier site web utilisant GoDaddy (maintenant retiré)",
+                                "Exploré les outils créatifs IA comme Midjourney et DALL-E",
+                                "Développé la compréhension des fondamentaux du développement web"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Python開発と{{最初のプロジェクト}}",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "Pythonの開発に集中的に取り組み、最初のスクリプトとWebアプリケーションを作成しました。この期間は、実践的なプログラミングスキルの大幅な成長とAIツールを使った創造的な探求を示しました。",
+                            "list": [
+                                "Pythonを練習し、自動化スクリプトを作成",
+                                "GoDaddyを使用して最初のウェブサイトを構築して立ち上げ（現在は削除）",
+                                "MidjourneyやDALL-EなどのAIクリエイティブツールを探求",
+                                "Web開発の基礎の理解を深めた"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "date": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Secured {{First Professional Role}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Professional Career",
+                            "text": "Landed my first job in the tech industry, marking a significant milestone in my career transition. This role provided invaluable real-world experience and the opportunity to apply my self-taught skills in a professional environment.",
+                            "list": [
+                                "Applied coding skills in a professional setting",
+                                "Gained experience working in agile development teams",
+                                "Contributed to production-level code and systems",
+                                "Expanded technical knowledge through on-the-job learning"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Получил {{первую профессиональную роль}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Профессиональная карьера",
+                            "text": "Получил свою первую работу в технологической индустрии, что стало важной вехой в моем карьерном переходе. Эта роль предоставила бесценный реальный опыт и возможность применить свои самостоятельно приобретенные навыки в профессиональной среде.",
+                            "list": [
+                                "Применял навыки программирования в профессиональной среде",
+                                "Получил опыт работы в agile-командах разработки",
+                                "Внес вклад в производственный код и системы",
+                                "Расширил технические знания через обучение на рабочем месте"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Obtenu {{Premier Rôle Professionnel}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Carrière Professionnelle",
+                            "text": "Décroché mon premier emploi dans l'industrie technologique, marquant une étape importante dans ma transition de carrière. Ce rôle a fourni une expérience inestimable du monde réel et l'opportunité d'appliquer mes compétences autodidactes dans un environnement professionnel.",
+                            "list": [
+                                "Application des compétences de codage dans un cadre professionnel",
+                                "Acquisition d'expérience de travail dans des équipes de développement agile",
+                                "Contribution au code et aux systèmes de niveau production",
+                                "Expansion des connaissances techniques grâce à l'apprentissage sur le tas"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{最初の専門職}}を確保",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "プロフェッショナルキャリア",
+                            "text": "テクノロジー業界で最初の仕事を獲得し、キャリア移行の重要なマイルストーンとなりました。この役割は、貴重な実世界の経験と、独学で身につけたスキルをプロフェッショナルな環境で適用する機会を提供しました。",
+                            "list": [
+                                "プロフェッショナルな環境でコーディングスキルを適用",
+                                "アジャイル開発チームでの作業経験を獲得",
+                                "本番レベルのコードとシステムに貢献",
+                                "仕事を通じた学習により技術的知識を拡大"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.github.io/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/thomasjbutler.github.io",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Created {{Personal Portfolio}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Built my first portfolio website from scratch using custom HTML, CSS, and JavaScript. Designed with a Matrix theme inspired by my favorite films, this became my primary showcase until transitioning to this professional commercial site.",
+                            "list": [
+                                "Custom-built with pure HTML, CSS, and JavaScript",
+                                "Matrix-themed design with green digital rain effects",
+                                "Served as main portfolio and skills practice ground",
+                                "Features interactive elements and smooth animations"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Создал {{личное портфолио}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Создал свой первый сайт-портфолио с нуля, используя пользовательские HTML, CSS и JavaScript. Разработанный с темой Матрицы, вдохновленной моими любимыми фильмами, он стал моей основной витриной до перехода на этот профессиональный коммерческий сайт.",
+                            "list": [
+                                "Создан с нуля с использованием чистых HTML, CSS и JavaScript",
+                                "Дизайн в стиле Матрицы с эффектами зеленого цифрового дождя",
+                                "Служил основным портфолио и площадкой для практики навыков",
+                                "Включает интерактивные элементы и плавную анимацию"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Création du {{Portfolio Personnel}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Construit mon premier site portfolio à partir de zéro en utilisant HTML, CSS et JavaScript personnalisés. Conçu avec un thème Matrix inspiré de mes films préférés, il est devenu ma vitrine principale jusqu'à la transition vers ce site commercial professionnel.",
+                            "list": [
+                                "Construit sur mesure avec HTML, CSS et JavaScript purs",
+                                "Design sur le thème Matrix avec effets de pluie numérique verte",
+                                "A servi de portfolio principal et de terrain d'entraînement",
+                                "Comprend des éléments interactifs et des animations fluides"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{個人ポートフォリオ}}を作成",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "カスタムHTML、CSS、JavaScriptを使用して、最初のポートフォリオウェブサイトをゼロから構築しました。お気に入りの映画に触発されたマトリックステーマでデザインされ、このプロフェッショナルな商業サイトに移行するまで私の主要なショーケースとなりました。",
+                            "list": [
+                                "純粋なHTML、CSS、JavaScriptでカスタム構築",
+                                "緑のデジタルレイン効果を持つマトリックステーマのデザイン",
+                                "メインポートフォリオとスキル練習場として機能",
+                                "インタラクティブな要素とスムーズなアニメーションを特徴とする"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.github.io/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://aitomatic.com",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Career Transition & {{New Ventures}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Entrepreneurship",
+                            "text": "After being made redundant, I transformed this challenge into an opportunity. Created my Matrix-themed personal portfolio as my primary showcase, founded AiTomatic company, and began developing this commercial portfolio.",
+                            "list": [
+                                "Made redundant from previous position in December",
+                                "Created custom HTML/CSS/JS personal portfolio with Matrix theme",
+                                "Founded AiTomatic company for AI consulting and development",
+                                "Began development of this commercial React portfolio for professional presence"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Карьерный переход и {{новые предприятия}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Предпринимательство",
+                            "text": "После сокращения я превратил эту проблему в возможность. Создал свое личное портфолио в стиле Матрицы как основную витрину, основал компанию AiTomatic и начал разработку этого коммерческого портфолио.",
+                            "list": [
+                                "Сокращен с предыдущей должности в декабре",
+                                "Создал индивидуальное HTML/CSS/JS портфолио с темой Матрицы",
+                                "Основал компанию AiTomatic для консалтинга и разработки ИИ",
+                                "Начал разработку этого коммерческого портфолио React для профессионального присутствия"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Transition de carrière et {{Nouvelles Entreprises}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Entrepreneuriat",
+                            "text": "Après avoir été licencié, j'ai transformé ce défi en opportunité. J'ai créé mon portfolio personnel sur le thème Matrix comme vitrine principale, fondé la société AiTomatic et commencé à développer ce portfolio commercial.",
+                            "list": [
+                                "Licencié de mon poste précédent en décembre",
+                                "Création d'un portfolio personnel HTML/CSS/JS personnalisé avec le thème Matrix",
+                                "Fondation de la société AiTomatic pour le conseil et le développement en IA",
+                                "Début du développement de ce portfolio commercial React pour une présence professionnelle"
+                            ]
+                        },
+                        "ja": {
+                            "title": "キャリア転換と{{新しい事業}}",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "起業家精神",
+                            "text": "解雇された後、この課題を機会に変えました。マトリックステーマの個人ポートフォリオを主要なショーケースとして作成し、AiTomatic会社を設立し、この商業ポートフォリオの開発を開始しました。",
+                            "list": [
+                                "12月に前職から解雇",
+                                "マトリックステーマのカスタムHTML/CSS/JS個人ポートフォリオを作成",
+                                "AIコンサルティングと開発のためのAiTomatic会社を設立",
+                                "プロフェッショナルな存在感のためにこの商業用Reactポートフォリオの開発を開始"
+                            ]
+                        }
+                    }
+                }
+            ]
         }
-      },
-      "links": [],
-      "items": [
-        {
-          "dates": {
-            "start": "01/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Created Personal Portfolio Website",
-              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
-            },
-            "es": {
-              "title": "Created Personal Portfolio Website",
-              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
-            },
-            "fr": {
-              "title": "Created Personal Portfolio Website",
-              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
-            },
-            "ko": {
-              "title": "Created Personal Portfolio Website",
-              "text": "- Launched the initial Personal Portfolio Website built from scratch to showcase commercial projects."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "06/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Website Design & Development Training",
-              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
-            },
-            "es": {
-              "title": "Website Design & Development Training",
-              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
-            },
-            "fr": {
-              "title": "Website Design & Development Training",
-              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
-            },
-            "ko": {
-              "title": "Website Design & Development Training",
-              "text": "- Spent over a year designing and tweaking the portfolio website, using it as a playground for development training and experimenting with various visual elements."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "06/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Matrix Arcade Integration",
-              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
-            },
-            "es": {
-              "title": "Matrix Arcade Integration",
-              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
-            },
-            "fr": {
-              "title": "Matrix Arcade Integration",
-              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
-            },
-            "ko": {
-              "title": "Matrix Arcade Integration",
-              "text": "- Developed the Matrix Arcade Games on the side, inspired by the movie trilogy, and integrated interactive game features into the portfolio."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "09/01/2023",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Created AiTomatic Prototype",
-              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
-            },
-            "es": {
-              "title": "Created AiTomatic Prototype",
-              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
-            },
-            "fr": {
-              "title": "Created AiTomatic Prototype",
-              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
-            },
-            "ko": {
-              "title": "Created AiTomatic Prototype",
-              "text": "- Developed and launched the AiTomatic Prototype, with the model currently in its prototype phase."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "02/18/2025",
-            "end": null
-          },
-          "links": [],
-          "locales": {
-            "en": {
-              "title": "Design Overhaul & Project Consolidation",
-              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
-            },
-            "es": {
-              "title": "Design Overhaul & Project Consolidation",
-              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
-            },
-            "fr": {
-              "title": "Design Overhaul & Project Consolidation",
-              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
-            },
-            "ko": {
-              "title": "Design Overhaul & Project Consolidation",
-              "text": "- Performed a comprehensive design and tech stack overhaul: concatenated projects, implemented CDN delivery, and streamlined all web content to enhance the personal portfolio."
-            }
-          }
-        },
-        {
-          "dates": {
-            "start": "04/01/2025",
-            "end": null
-          },
-            "links": [{
-            "en": "/",
-            "es": "/",
-            "fr": "/",
-            "ko": "/"
-            }],
-          "locales": {
-            "en": {
-              "title": "Commercial Portfolio",
-              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
-            },
-            "es": {
-              "title": "Final Consolidated Launch",
-              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
-            },
-            "fr": {
-              "title": "Final Consolidated Launch",
-              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
-            },
-            "ko": {
-              "title": "Final Consolidated Launch",
-              "text": "- Launched the final, consolidated portfolio featuring enhanced performance, streamlined content, and a unified showcase of all projects."
-            }
-          }
-        }
-      ]
-    }
-  ]
+    ]
 }

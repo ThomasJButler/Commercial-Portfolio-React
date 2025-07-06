@@ -1,99 +1,111 @@
 {
-  "locales": {
-    "en": {
-      "title": "Experience",
-      "title_long_prefix": "Summary of my",
-      "title_long": "**Work** Experience"
-    },
-    "es": {
-      "title": "Experiencia",
-      "title_long_prefix": "Resumen de mi",
-      "title_long": "Experiencia **Laboral**"
-    },
-    "fr": {
-      "title": "Expérience",
-      "title_long_prefix": "Résumé de mon",
-      "title_long": "Parcours **Professionel**"
-    },
-    "ko": {
-      "title": "경험",
-      "title_long_prefix": "이것은 내",
-      "title_long": "**직업적** 경험"
-    }
-  },
-  "articles": [
-    {
-      "id": "work",
-      "component": "ArticleTimeline",
-      "config": {},
-      "locales": {},
-      "items": [
-        {
-          "icon": {
-          "img": "images/pictures/fuelius.jpg",
-          "fa": "",
-          "faColors": {
-              "bg": null,
-              "fill": null
-          }
-      },
-          "dates": {
-            "start": "08/31/2023",
-            "end": "12/01/2024"
-          },
-          "locales": {
+    "title": {
+        "locales": {
             "en": {
-              "title": "Apprentice Full-Stack Software Developer",
-              "info": "Fuelius - Chester",
-              "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\n■ Gained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience.\n■ Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n■ Stepped up to cover senior responsibilities during team members’ leave, demonstrating adaptability and reliability.\n■ Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration.",
-              "image": "/images/pictures/fuelius.jpg"
+                "title": "Experience",
+                "title_short_nav": "Experience",
+                "title_long": "**Work** Experience",
+                "title_long_prefix": "Summary of my"
+            },
+            "es": {
+                "title": "Experiencia",
+                "title_long": "Experiencia **Laboral**",
+                "title_long_prefix": "Resumen de mi"
+            },
+            "fr": {
+                "title": "Expérience",
+                "title_long": "Parcours **Professionel**",
+                "title_long_prefix": "Résumé de mon",
+                "title_short_nav": "Expérience"
+            },
+            "ko": {
+                "title": "경험",
+                "title_long": "**직업적** 경험",
+                "title_long_prefix": "이것은 내"
             }
-          }
-        },
-        {
-          "icon": {
-            "img": "images/pictures/gc.png",
-            "fa": "",
-            "faColors": {
-                "bg": null,
-                "fill": null
-            }
-        },
-          "dates": {
-            "start": "02/02/2023",
-            "end": "06/02/2023"
-          },
-          "locales": {
-            "en": {
-              "title": "Cloud Engineering and Data Science Bootcamp Participant",
-              "info": "The Growth Company - Manchester",
-              "text": "Completed an intensive bootcamp focused on cloud platforms (AWS, Azure), Python programming, data analysis, and foundational AI.\n\n■ Built practical skills in Python for data analysis and gained familiarity with APIs and data models.\n■ Strengthened core knowledge in high‑availability infrastructure and networking through collaborative projects."
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": "images/svg/logo.svg",
-            "fa": "",
-            "faColors": {
-                "bg": null,
-                "fill": null
-            }
-        },
-          "dates": {
-            "start": "Childhood",
-            "end": "Present"
-          },
-          "locales": {
-            "en": {
-              "title": "Lifelong Passion for Technology",
-              "info": "",
-              "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I’ve always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch (iOS 1.1.4) with Cydia, messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it’s not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen."
-            }
-          }
         }
-      ]
-    }
-  ],
-  "note": "For additional education details, please refer to the [education tab](public/data/sections/education.json)."
+    },
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/logos/jbc.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": null,
+                        "fill": null
+                    },
+                    "dateStart": {"year": 2025, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 2},
+                    "locales": {
+                        "en": {
+                            "title": "ICT System Support Bootcamp Participant",
+                            "info": "JCB Academy - Staffordshire, UK",
+                            "text": "Intensive bootcamp focused on IT system support, networking, and infrastructure management.\n\n■ Gained hands-on experience with network configuration, system administration, and IT troubleshooting.\n■ Developed skills in Windows Server, Active Directory, and enterprise IT support.\n■ Completed practical projects in system deployment and user support scenarios."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/fuelius.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": null,
+                        "fill": null
+                    },
+                    "dateStart": {"year": 2023, "month": 8},
+                    "dateEnd": {"year": 2024, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "Apprentice Full-Stack Software Developer",
+                            "info": "Fuelius - Chester, UK",
+                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\n■ Gained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience.\n■ Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n■ Stepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability.\n■ Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/logos/gc.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": null,
+                        "fill": null
+                    },
+                    "dateStart": {"year": 2023, "month": 2},
+                    "dateEnd": {"year": 2023, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "Cloud Engineering and Data Science Bootcamp Participant",
+                            "info": "The Growth Company - Manchester, UK",
+                            "text": "Completed an intensive bootcamp focused on cloud platforms (AWS, Azure), Python programming, data analysis, and foundational AI.\n\n■ Built practical skills in Python for data analysis and gained familiarity with APIs and data models.\n■ Strengthened core knowledge in high‑availability infrastructure and networking through collaborative projects."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/svg/logo.svg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": null,
+                        "fill": null
+                    },
+                    "dateStart": {"year": 2000, "month": 1},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Lifelong Passion for Technology",
+                            "info": "Self-Directed Learning",
+                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch (iOS 1.1.4) with Cydia, messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen."
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "note": "For additional education details, please refer to the [education tab](public/data/sections/education.json)."
 }

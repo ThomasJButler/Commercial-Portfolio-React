@@ -22,14 +22,7 @@ dist/
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
-*.sublime-workspace
-image.png
-CommercialReactPortfolioV105/
-CLAUDE.md
-=======
 
 CLAUDE.md
 CONTRIBUTING_TO_ORIGINAL.md
 adddemospage.png
->>>>>>> main
