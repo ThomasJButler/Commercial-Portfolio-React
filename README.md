@@ -36,6 +36,16 @@ Welcome to my commercial portfolio! This is more than just a CV - it's a showcas
 - ♿ **Accessible**: WCAG compliant with semantic HTML
 - 🌐 **Multi-language**: Support for EN, ES, FR, JA, RU, and more
 
+## 🤝 Acknowledgments
+
+This portfolio is built upon the excellent [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) by **Ryan Balieiro**. I've extensively customized and migrated it to v2.0 while adding personal touches and improvements.
+
+### Special Thanks
+- Ryan Balieiro for the original template
+- All my clients who provided testimonials
+- The open-source community
+
+
 ## 🏆 Portfolio Highlights
 
 ### Web Agency Projects
@@ -142,15 +152,6 @@ See [V2_MIGRATION_PLAN.md](V2_MIGRATION_PLAN.md) for detailed migration notes.
 | SEO | 100 |
 
 </div>
-
-## 🤝 Acknowledgments
-
-This portfolio is built upon the excellent [React Portfolio Template](https://github.com/ryanbalieiro/react-portfolio-template) by **Ryan Balieiro**. I've extensively customized and migrated it to v2.0 while adding personal touches and improvements.
-
-### Special Thanks
-- Ryan Balieiro for the original template
-- All my clients who provided testimonials
-- The open-source community
 
 ## 📝 License
 
