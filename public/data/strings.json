@@ -39,6 +39,7 @@
             "see_more": "See more",
             "send_another_message": "Send another message",
             "send_message": "Send message",
+            "sending_message": "Sending your message...",
             "subject": "Subject",
             "theme_dark": "Dark Mode",
             "theme_light": "Light Mode",
@@ -63,7 +64,14 @@
             "activate_magic_cursor": "Activate Magic Cursor",
             "deactivate_magic_cursor": "Deactivate Magic Cursor",
             "tooltipString": "View",
-            "get_to_know_more": "Learn More 👇"
+            "get_to_know_more": "Learn More 👇",
+            "error": "Error",
+            "gallery": "Gallery",
+            "close_window": "Close window",
+            "about_video": "About this video",
+            "magic_cursor_off": "Magic Cursor: Off",
+            "magic_cursor": "Magic Cursor",
+            "loading": "Loading..."
         },
 
         "ru": {
@@ -105,6 +113,7 @@
             "see_more": "Показать больше",
             "send_another_message": "Отправить ещё сообщение",
             "send_message": "Отправить сообщение",
+            "sending_message": "Отправка сообщения...",
             "subject": "Тема",
             "theme_dark": "Тёмный режим",
             "theme_light": "Светлый режим",
@@ -128,7 +137,14 @@
             "change_theme": "Изменить тему",
             "activate_magic_cursor": "Активировать волшебный курсор",
             "deactivate_magic_cursor": "Деактивировать волшебный курсор",
-            "get_to_know_more": "Узнать больше 👇"
+            "get_to_know_more": "Узнать больше 👇",
+            "error": "Ошибка",
+            "gallery": "Галерея",
+            "close_window": "Закрыть окно",
+            "about_video": "Об этом видео",
+            "magic_cursor_off": "Волшебный курсор: Выкл",
+            "magic_cursor": "Волшебный курсор",
+            "loading": "Загрузка..."
         },
 
         "fr": {
@@ -170,6 +186,7 @@
             "see_more": "Voir plus",
             "send_another_message": "Envoyer un autre message",
             "send_message": "Envoyer le message",
+            "sending_message": "Envoi du message...",
             "subject": "Sujet",
             "theme_dark": "Mode Sombre",
             "theme_light": "Mode Clair",
@@ -193,7 +210,14 @@
             "change_theme": "Changer le thème",
             "activate_magic_cursor": "Activer le curseur magique",
             "deactivate_magic_cursor": "Désactiver le curseur magique",
-            "get_to_know_more": "En savoir plus 👇"
+            "get_to_know_more": "En savoir plus 👇",
+            "error": "Erreur",
+            "gallery": "Galerie",
+            "close_window": "Fermer la fenêtre",
+            "about_video": "À propos de cette vidéo",
+            "magic_cursor_off": "Curseur Magique : Désactivé",
+            "magic_cursor": "Curseur Magique",
+            "loading": "Chargement..."
         },
 
         "ja": {
@@ -235,6 +259,7 @@
             "see_more": "もっと見る",
             "send_another_message": "別のメッセージを送信",
             "send_message": "メッセージを送信",
+            "sending_message": "メッセージを送信中...",
             "subject": "件名",
             "theme_dark": "ダークモード",
             "theme_light": "ライトモード",
@@ -258,7 +283,14 @@
             "change_theme": "テーマを変更",
             "activate_magic_cursor": "マジックカーソルを有効にする",
             "deactivate_magic_cursor": "マジックカーソルを無効にする",
-            "get_to_know_more": "詳細を見る 👇"
+            "get_to_know_more": "詳細を見る 👇",
+            "error": "エラー",
+            "gallery": "ギャラリー",
+            "close_window": "ウィンドウを閉じる",
+            "about_video": "このビデオについて",
+            "magic_cursor_off": "マジックカーソル: オフ",
+            "magic_cursor": "マジックカーソル",
+            "loading": "読み込み中..."
         }
     }
 }
