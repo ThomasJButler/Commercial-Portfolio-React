@@ -30,6 +30,11 @@
             "id": "contact_form",
             "component": "ArticleContactForm",
             "config": {},
+            "settings": {
+                "email_js_public_key": "THYlpb66xvhb9SYO6",
+                "email_js_service_id": "service_82v7bds",
+                "email_js_template_id": "template_0m39fjv"
+            },
             "locales": {
                 "en": {
                     "title": "Send me a **message**"

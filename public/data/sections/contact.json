@@ -30,18 +30,39 @@
             "id": "contact_form",
             "component": "ArticleContactForm",
             "config": {},
+            "settings": {
+                "email_js_public_key": "F3bCtaiaGaGRcByJg",
+                "email_js_service_id": "service_ehkcdf8",
+                "email_js_template_id": "template_ott5y0i"
+            },
             "locales": {
                 "en": {
-                    "title": "Send me a **message**"
+                    "title": "Send me a **message**",
+                    "contact_thank_you_title": "Message Sent Successfully!",
+                    "contact_thank_you_body": "Thank you for reaching out! I've received your message and will get back to you as soon as possible.",
+                    "contact_thank_you_footer": "I'll respond to your message at $email"
                 },
                 "es": {
                     "title": "Envíame un **mensaje**"
                 },
                 "fr": {
-                    "title": "Envoyez-moi un **message**"
+                    "title": "Envoyez-moi un **message**",
+                    "contact_thank_you_title": "Message envoyé avec succès !",
+                    "contact_thank_you_body": "Merci de m'avoir contacté ! J'ai reçu votre message et je vous répondrai dès que possible.",
+                    "contact_thank_you_footer": "Je répondrai à votre message à l'adresse $email"
                 },
                 "ko": {
                     "title": "**메시지를** 보내주세요"
+                },
+                "ru": {
+                    "contact_thank_you_title": "Сообщение успешно отправлено!",
+                    "contact_thank_you_body": "Спасибо за обращение! Я получил ваше сообщение и отвечу вам как можно скорее.",
+                    "contact_thank_you_footer": "Я отвечу на ваше сообщение по адресу $email"
+                },
+                "ja": {
+                    "contact_thank_you_title": "メッセージが正常に送信されました！",
+                    "contact_thank_you_body": "お問い合わせいただきありがとうございます！メッセージを受信いたしましたので、できるだけ早くご返信いたします。",
+                    "contact_thank_you_footer": "$email にご返信いたします"
                 }
             },
             "items": null

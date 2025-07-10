@@ -67,7 +67,7 @@
                         "month": 12
                     },
                     "link": {
-                        "href": "https://thomasjbutler.github.io/",
+                        "href": "https://thomasjbutler.github.io/ThomasJButler",
                         "tooltipString": "open_website"
                     },
                     "locales": {
@@ -96,7 +96,7 @@
                                 "faIcon": "fa-brands fa-github"
                             },
                             {
-                                "href": "https://thomasjbutler.github.io/",
+                                "href": "https://thomasjbutler.github.io/ThomasJButler",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
