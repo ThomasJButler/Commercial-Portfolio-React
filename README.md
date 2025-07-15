@@ -1,15 +1,15 @@
 # 🚀 Thomas Butler - Commercial Portfolio
 
 <div align="center">
-  <img src="public/images/pictures/me.jpeg" alt="Thomas Butler" width="200" height="200" style="border-radius: 50%;">
+
+<img width="1461" height="857" alt="image" src="https://github.com/user-attachments/assets/ba513200-85ab-4678-9300-35e9828ac208" />
   
   <h3>Full-Stack Developer | Liverpool, England</h3>
   
   [![Portfolio](https://img.shields.io/badge/Portfolio-thomasjbutler.me-blue?style=for-the-badge&logo=google-chrome)](https://www.thomasjbutler.me/)
   [![GitHub](https://img.shields.io/badge/GitHub-ThomasJButler-181717?style=for-the-badge&logo=github)](https://github.com/ThomasJButler)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-thomasbutleruk-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/thomasbutleruk/)
-  
-  <p><em>Building the future, one line of code at a time</em></p>
+
 </div>
 
 ---
