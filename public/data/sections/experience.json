@@ -40,8 +40,8 @@
                         "bg": null,
                         "fill": null
                     },
-                    "dateStart": {"year": 2025, "month": 1},
-                    "dateEnd": {"year": 2025, "month": 2},
+                    "dateStart": {"year": 2025, "month": 4},
+                    "dateEnd": {"year": 2025, "month": 7},
                     "locales": {
                         "en": {
                             "title": "ICT System Support Bootcamp Participant",
