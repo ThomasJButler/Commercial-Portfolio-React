@@ -48,7 +48,41 @@
     },
     "articles": [
         {
-            "id": "portfolio",
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": ""
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "",
+                    "locales": {
+                        "en": {
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p>"
+                        },
+                        "ru": {
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Вся коммерческая работа ниже была выполнена во время работы в [[Fuelius]] в Честере, Великобритания с {{августа 2023 по декабрь 2024}}. Проекты разработаны для крупных клиентов, включая площадки для мероприятий, технологические компании, поставщиков медицинских услуг и многое другое.</p>"
+                        },
+                        "fr": {
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Tous les travaux commerciaux ci-dessous ont été réalisés en travaillant chez [[Fuelius]] à Chester, Royaume-Uni de {{août 2023 à décembre 2024}}. Projets développés pour des clients majeurs incluant des lieux événementiels, des entreprises technologiques, des prestataires de santé et plus.</p>"
+                        },
+                        "ja": {
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
             "component": "ArticlePortfolio",
             "config": {},
             "categories": [
@@ -722,6 +756,40 @@
                     "faIconColors": {
                         "bg": "#3B82F6",
                         "fill": "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": ""
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "",
+                    "locales": {
+                        "en": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Freelance & Personal Projects]]</p>"
+                        },
+                        "ru": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Фриланс и личные проекты]]</p>"
+                        },
+                        "fr": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Projets Freelance et Personnels]]</p>"
+                        },
+                        "ja": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[フリーランスと個人プロジェクト]]</p>"
+                        }
                     }
                 }
             ]

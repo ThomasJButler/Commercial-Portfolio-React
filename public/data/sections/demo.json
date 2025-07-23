@@ -50,7 +50,7 @@
                 }
             },
             "settings": {
-                "order_items_by": "id",
+                "order_items_by": "date",
                 "order_items_sort": "desc"
             },
             "items": [
