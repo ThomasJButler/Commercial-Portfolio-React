@@ -109,6 +109,17 @@
                         "bg": "#3B82F6",
                         "fill": "#FFFFFF"
                     }
+                },
+                {
+                    "label": "CV available by request",
+                    "link": {
+                        "href": "mailto:dev@thomasjbutler.me?subject=CV%20Request"
+                    },
+                    "faIcon": "fa-solid fa-file-pdf",
+                    "faIconColors": {
+                        "bg": "#DC2626",
+                        "fill": "#FFFFFF"
+                    }
                 }
             ]
         },
