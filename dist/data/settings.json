@@ -112,11 +112,5 @@
             "top": 3,
             "bottom": 0
         }
-    },
-
-    "emailRequest": {
-        "serviceId": "service_82v7bds",
-        "templateId": "template_0m39fjv",
-        "publicKey": "THYlpb66xvhb9SYO6"
     }
 }
