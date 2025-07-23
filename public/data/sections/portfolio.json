@@ -35,12 +35,12 @@
         "ja": {},
         "links": [
             {
-                "faIcon": "fa-solid fa-link",
+                "faIcon": "fa-solid fa-briefcase",
                 "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
                 "label": "Notion Portfolio"
             },
             {
-                "faIcon": "fa-solid fa-book",
+                "faIcon": "fa-solid fa-file-lines",
                 "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
                 "label": "Notion Write-Up"
             }
