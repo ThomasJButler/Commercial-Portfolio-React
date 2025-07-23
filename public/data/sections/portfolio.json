@@ -605,12 +605,122 @@
                     "locales": {
                         "en": {
                             "title": "Annabel Butler Designs",
-                            "text": "Website for Annabel Butler Designs."
+                            "text": "Website for Annabel Butler Designs (work in progress). Building my sister's digital art presence together."
+                        },
+                        "ru": {
+                            "title": "Annabel Butler Designs",
+                            "text": "Веб-сайт для Annabel Butler Designs (в процессе разработки). Вместе создаем цифровое присутствие моей сестры в искусстве."
+                        },
+                        "fr": {
+                            "title": "Annabel Butler Designs",
+                            "text": "Site web pour Annabel Butler Designs (travail en cours). Construire ensemble la présence artistique numérique de ma sœur."
+                        },
+                        "ja": {
+                            "title": "Annabel Butler Designs",
+                            "text": "Annabel Butler Designsのウェブサイト（作業中）。妹のデジタルアートプレゼンスを一緒に構築しています。"
                         }
                     },
                     "faIcon": "fa-solid fa-brush",
                     "faIconColors": {
                         "bg": "#E11D48",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "personalportfolio",
+                    "title": "Personal Portfolio - Passion Projects",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "freelance",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://thomasjbutler.github.io/ThomasJButler/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Personal Portfolio"
+                            },
+                            {
+                                "faIcon": "fa-brands fa-github",
+                                "href": "https://github.com/ThomasJButler/ThomasJButler/",
+                                "label": "GitHub Repo",
+                                "tooltip": "View on GitHub"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio - Passion Projects",
+                            "text": "Showcases passion projects and personal experiments rather than commercial work. Features interactive Matrix-themed design and creative coding experiments."
+                        },
+                        "ru": {
+                            "title": "Личное портфолио - Страстные проекты",
+                            "text": "Демонстрирует страстные проекты и личные эксперименты, а не коммерческую работу. Включает интерактивный дизайн в стиле Матрицы и творческие эксперименты с кодированием."
+                        },
+                        "fr": {
+                            "title": "Portfolio Personnel - Projets Passion",
+                            "text": "Présente des projets passion et des expériences personnelles plutôt que des travaux commerciaux. Comprend un design interactif sur le thème Matrix et des expériences de codage créatives."
+                        },
+                        "ja": {
+                            "title": "個人ポートフォリオ - パッションプロジェクト",
+                            "text": "商業的な作品ではなく、情熱的なプロジェクトや個人的な実験を紹介します。インタラクティブなマトリックステーマのデザインとクリエイティブなコーディング実験が特徴です。"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {
+                        "bg": "#00FF41",
+                        "fill": "#000000"
+                    }
+                },
+                {
+                    "id": "versiontimetravel",
+                    "title": "Version TimeTravel",
+                    "subtitle": "",
+                    "tags": [],
+                    "categoryId": "freelance",
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
+                                "label": "Visit Site",
+                                "tooltip": "Visit Version TimeTravel"
+                            },
+                            {
+                                "faIcon": "fa-brands fa-github",
+                                "href": "https://github.com/ThomasJButler/version-timetravel",
+                                "label": "GitHub Repo",
+                                "tooltip": "View on GitHub"
+                            }
+                        ],
+                        "youtubeVideo": null,
+                        "screenshots": [],
+                        "screenshotsAspectRatio": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Version TimeTravel",
+                            "text": "Interactive showcase of portfolio evolution from static HTML/CSS/JS to modern React/Vite build. Travel through time to see the progression of web development practices and technologies."
+                        },
+                        "ru": {
+                            "title": "Version TimeTravel",
+                            "text": "Интерактивная демонстрация эволюции портфолио от статического HTML/CSS/JS до современной сборки React/Vite. Путешествуйте во времени, чтобы увидеть прогресс практик и технологий веб-разработки."
+                        },
+                        "fr": {
+                            "title": "Version TimeTravel",
+                            "text": "Vitrine interactive de l'évolution du portfolio du HTML/CSS/JS statique à la construction React/Vite moderne. Voyagez dans le temps pour voir la progression des pratiques et technologies de développement web."
+                        },
+                        "ja": {
+                            "title": "Version TimeTravel",
+                            "text": "静的なHTML/CSS/JSから最新のReact/Viteビルドまでのポートフォリオの進化をインタラクティブに紹介。ウェブ開発の実践と技術の進歩を見るために時間を旅してください。"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-clock-rotate-left",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
                         "fill": "#FFFFFF"
                     }
                 }

@@ -55,7 +55,193 @@
             },
             "items": [
                 {
-                    "id": 1,
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Web Agency Showcase}}",
+                            "text": "A key feature of the v2.0 portfolio upgrade - comprehensive documentation of all commercial web development work designed specifically for employers and recruiters. Includes detailed write-ups with step-by-step processes, technical decisions, and outcomes for 10+ projects."
+                        },
+                        "ru": {
+                            "title": "{{Веб-портфель агентства}}",
+                            "text": "Ключевая особенность обновления портфолио v2.0 - комплексная документация всех коммерческих работ по веб-разработке, специально разработанная для работодателей и рекрутеров. Включает подробные описания с пошаговыми процессами, техническими решениями и результатами для более чем 10 проектов."
+                        },
+                        "fr": {
+                            "title": "{{Vitrine d'Agence Web}}",
+                            "text": "Une caractéristique clé de la mise à niveau du portfolio v2.0 - documentation complète de tous les travaux de développement web commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Comprend des comptes rendus détaillés avec des processus étape par étape, des décisions techniques et des résultats pour plus de 10 projets."
+                        },
+                        "ja": {
+                            "title": "{{ウェブエージェンシーショーケース}}",
+                            "text": "v2.0ポートフォリオアップグレードの主要機能 - 雇用主とリクルーター向けに特別に設計された、すべての商業ウェブ開発作業の包括的なドキュメント。10以上のプロジェクトのステップバイステップのプロセス、技術的な決定、結果を含む詳細な記述が含まれています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-burst",
+                    "faIconColors": {
+                        "bg": "#9333EA",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/bigbang-gallery/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Big Bang Gallery}}",
+                            "text": "Showcase of AI art and CSS in an interactive canvas. Features generative artwork, animated effects, and cutting-edge CSS techniques combined with AI-generated visuals."
+                        },
+                        "ru": {
+                            "title": "{{Галерея Большого Взрыва}}",
+                            "text": "Витрина AI-искусства и CSS в интерактивном холсте. Включает генеративные произведения искусства, анимированные эффекты и передовые техники CSS в сочетании с визуальными эффектами, созданными ИИ."
+                        },
+                        "fr": {
+                            "title": "{{Galerie Big Bang}}",
+                            "text": "Vitrine d'art IA et CSS dans un canvas interactif. Comprend des œuvres d'art génératives, des effets animés et des techniques CSS de pointe combinées avec des visuels générés par l'IA."
+                        },
+                        "ja": {
+                            "title": "{{ビッグバンギャラリー}}",
+                            "text": "インタラクティブなキャンバスでのAIアートとCSSのショーケース。生成アートワーク、アニメーション効果、AI生成ビジュアルと組み合わせた最先端のCSS技術を特徴としています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/bigbang-gallery",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/bigbang-gallery/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-clock-rotate-left",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/version-timetravel/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Version TimeTravel}}",
+                            "text": "Showcase of different website versions of personal portfolio, from static HTML, CSS, JS, to full React and Vite build it is today. Travel through time to see the evolution of web development practices."
+                        },
+                        "ru": {
+                            "title": "{{Путешествие во времени версий}}",
+                            "text": "Витрина различных версий веб-сайта личного портфолио, от статических HTML, CSS, JS до полной сборки React и Vite, какой она является сегодня. Путешествуйте во времени, чтобы увидеть эволюцию практик веб-разработки."
+                        },
+                        "fr": {
+                            "title": "{{Voyage dans le Temps des Versions}}",
+                            "text": "Vitrine de différentes versions du site Web du portfolio personnel, du HTML statique, CSS, JS, à la construction complète React et Vite qu'il est aujourd'hui. Voyagez dans le temps pour voir l'évolution des pratiques de développement web."
+                        },
+                        "ja": {
+                            "title": "{{バージョンタイムトラベル}}",
+                            "text": "静的なHTML、CSS、JSから、今日のような完全なReactとViteビルドまで、個人ポートフォリオのさまざまなウェブサイトバージョンのショーケース。時間を旅して、ウェブ開発の実践の進化を見てください。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/version-timetravel",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-futbol",
+                    "faIconColors": {
+                        "bg": "#38003C",
+                        "fill": "#00FF87"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                        "tooltipString": "see_on_github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Premier League Oracle}}",
+                            "text": "Data-driven football prediction platform using ML and statistical analysis. Built with Python, Svelte, and PostgreSQL."
+                        },
+                        "ru": {
+                            "title": "{{Оракул Премьер-лиги}}",
+                            "text": "Платформа прогнозирования футбола на основе данных с использованием ML и статистического анализа. Создано с Python, Svelte и PostgreSQL."
+                        },
+                        "fr": {
+                            "title": "{{Oracle de Premier League}}",
+                            "text": "Plateforme de prédiction de football basée sur les données utilisant ML et analyse statistique. Construit avec Python, Svelte et PostgreSQL."
+                        },
+                        "ja": {
+                            "title": "{{プレミアリーグオラクル}}",
+                            "text": "MLと統計分析を使用したデータ駆動型のサッカー予測プラットフォーム。Python、Svelte、PostgreSQLで構築。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-code",
                     "faIconColors": {
@@ -104,51 +290,7 @@
                     }
                 },
                 {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-solid fa-briefcase",
-                    "faIconColors": {
-                        "bg": "#10B981",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 7
-                    },
-                    "link": {
-                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Web Agency Showcase}}",
-                            "text": "A key feature of the v2.0 portfolio upgrade - comprehensive documentation of all commercial web development work designed specifically for employers and recruiters. Includes detailed write-ups with step-by-step processes, technical decisions, and outcomes for 10+ projects."
-                        },
-                        "ru": {
-                            "title": "{{Веб-портфель агентства}}",
-                            "text": "Ключевая особенность обновления портфолио v2.0 - комплексная документация всех коммерческих работ по веб-разработке, специально разработанная для работодателей и рекрутеров. Включает подробные описания с пошаговыми процессами, техническими решениями и результатами для более чем 10 проектов."
-                        },
-                        "fr": {
-                            "title": "{{Vitrine d'Agence Web}}",
-                            "text": "Une caractéristique clé de la mise à niveau du portfolio v2.0 - documentation complète de tous les travaux de développement web commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Comprend des comptes rendus détaillés avec des processus étape par étape, des décisions techniques et des résultats pour plus de 10 projets."
-                        },
-                        "ja": {
-                            "title": "{{ウェブエージェンシーショーケース}}",
-                            "text": "v2.0ポートフォリオアップグレードの主要機能 - 雇用主とリクルーター向けに特別に設計された、すべての商業ウェブ開発作業の包括的なドキュメント。10以上のプロジェクトのステップバイステップのプロセス、技術的な決定、結果を含む詳細な記述が含まれています。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 3,
+                    "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
@@ -197,56 +339,7 @@
                     }
                 },
                 {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-solid fa-gamepad",
-                    "faIconColors": {
-                        "bg": "#EC4899",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2024,
-                        "month": 8
-                    },
-                    "link": {
-                        "href": "https://the-matrix-arcade.vercel.app/",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Matrix Arcade}}",
-                            "text": "Mini Games arcade built with Typescript, Python and React. Showcase of games I created whilst learning."
-                        },
-                        "ru": {
-                            "title": "{{Matrix Arcade}}",
-                            "text": "Arcade de mini juegos construido con Typescript, Python y React. Muestra de juegos que creé mientras aprendía."
-                        },
-                        "fr": {
-                            "title": "{{Matrix Arcade}}",
-                            "text": "Arcade de mini-jeux construit avec Typescript, Python et React. Vitrine de jeux créés en apprenant."
-                        },
-                        "ja": {
-                            "title": "{{매트릭스 아케이드}}",
-                            "text": "Typescript, Python 및 React로 구축된 미니 게임 아케이드. 학습하면서 만든 게임 쇼케이스."
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/The-Matrix-Arcade",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            },
-                            {
-                                "href": "https://the-matrix-arcade.vercel.app/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 5,
+                    "id": 3,
                     "img": "",
                     "faIcon": "fa-solid fa-palette",
                     "faIconColors": {
@@ -295,51 +388,7 @@
                     }
                 },
                 {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-solid fa-futbol",
-                    "faIconColors": {
-                        "bg": "#38003C",
-                        "fill": "#00FF87"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 3
-                    },
-                    "link": {
-                        "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
-                        "tooltipString": "see_on_github"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Premier League Oracle}}",
-                            "text": "Data-driven football prediction platform using ML and statistical analysis. Built with Python, Svelte, and PostgreSQL."
-                        },
-                        "ru": {
-                            "title": "{{Оракул Премьер-лиги}}",
-                            "text": "Платформа прогнозирования футбола на основе данных с использованием ML и статистического анализа. Создано с Python, Svelte и PostgreSQL."
-                        },
-                        "fr": {
-                            "title": "{{Oracle de Premier League}}",
-                            "text": "Plateforme de prédiction de football basée sur les données utilisant ML et analyse statistique. Construit avec Python, Svelte et PostgreSQL."
-                        },
-                        "ja": {
-                            "title": "{{プレミアリーグオラクル}}",
-                            "text": "MLと統計分析を使用したデータ駆動型のサッカー予測プラットフォーム。Python、Svelte、PostgreSQLで構築。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 6,
+                    "id": 2,
                     "img": "",
                     "faIcon": "fa-brands fa-python",
                     "faIconColors": {
@@ -378,6 +427,55 @@
                                 "href": "https://github.com/ThomasJButler/PythonProjects",
                                 "tooltipString": "see_on_github",
                                 "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {
+                        "bg": "#EC4899",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://the-matrix-arcade.vercel.app/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Mini Games arcade built with Typescript, Python and React. Showcase of games I created whilst learning."
+                        },
+                        "ru": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Arcade de mini juegos construido con Typescript, Python y React. Muestra de juegos que creé mientras aprendía."
+                        },
+                        "fr": {
+                            "title": "{{Matrix Arcade}}",
+                            "text": "Arcade de mini-jeux construit avec Typescript, Python et React. Vitrine de jeux créés en apprenant."
+                        },
+                        "ja": {
+                            "title": "{{매트릭스 아케이드}}",
+                            "text": "Typescript, Python 및 React로 구축된 미니 게임 아케이드. 학습하면서 만든 게임 쇼케이스."
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/The-Matrix-Arcade",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://the-matrix-arcade.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
                         ]
                     }
@@ -427,57 +525,139 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "{{Portfolio v2.0}} Launch",
+                            "title": "{{Portfolio v2.0}} Launch with Web Agency Showcase",
                             "province": "Liverpool",
                             "country": "UK",
                             "institution": "Personal Project",
-                            "text": "Successfully migrated portfolio to React v2.0 with improved performance, modern design, and enhanced user experience. Key improvements include:",
+                            "text": "Successfully migrated portfolio to React v2.0 with improved performance, modern design, and enhanced user experience. Key feature: Web Agency Showcase - comprehensive documentation of all commercial work designed specifically for employers and recruiters. Key improvements include:",
                             "list": [
                                 "Complete UI/UX redesign with dark mode support",
                                 "Performance optimizations achieving 95+ Lighthouse scores",
-                                "Enhanced accessibility features and SEO improvements"
+                                "Enhanced accessibility features and SEO improvements",
+                                "Web Agency Showcase featuring 10+ commercial projects with detailed case studies"
                             ]
                         },
                         "ru": {
-                            "title": "Lanzamiento de {{Portfolio v2.0}}",
+                            "title": "Запуск {{Портфолио v2.0}} с веб-портфелем агентства",
                             "province": "Liverpool",
                             "country": "Reino Unido",
                             "institution": "Proyecto Personal",
-                            "text": "Migración exitosa del portafolio a React v2.0 con rendimiento mejorado, diseño moderno y experiencia de usuario mejorada. Las mejoras clave incluyen:",
+                            "text": "Успешная миграция портфолио на React v2.0 с улучшенной производительностью, современным дизайном и улучшенным пользовательским опытом. Ключевая особенность: Веб-портфель агентства - комплексная документация всех коммерческих работ, специально разработанная для работодателей и рекрутеров. Ключевые улучшения включают:",
                             "list": [
                                 "Rediseño completo de UI/UX con soporte para modo oscuro",
                                 "Optimizaciones de rendimiento logrando puntuaciones de Lighthouse de 95+",
-                                "Funciones de accesibilidad mejoradas y mejoras de SEO"
+                                "Funciones de accesibilidad mejoradas y mejoras de SEO",
+                                "Веб-портфель агентства с более чем 10 коммерческими проектами с подробными кейсами"
                             ]
                         },
                         "fr": {
-                            "title": "Lancement du {{Portfolio v2.0}}",
+                            "title": "Lancement du {{Portfolio v2.0}} avec Vitrine d'Agence Web",
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
-                            "text": "Migration réussie du portfolio vers React v2.0 avec des performances améliorées, un design moderne et une expérience utilisateur améliorée. Les principales améliorations comprennent :",
+                            "text": "Migration réussie du portfolio vers React v2.0 avec des performances améliorées, un design moderne et une expérience utilisateur améliorée. Caractéristique clé : Vitrine d'Agence Web - documentation complète de tous les travaux commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Les principales améliorations comprennent :",
                             "list": [
                                 "Refonte complète de l'UI/UX avec support du mode sombre",
                                 "Optimisations des performances atteignant des scores Lighthouse de 95+",
-                                "Fonctionnalités d'accessibilité améliorées et améliorations SEO"
+                                "Fonctionnalités d'accessibilité améliorées et améliorations SEO",
+                                "Vitrine d'Agence Web présentant plus de 10 projets commerciaux avec des études de cas détaillées"
                             ]
                         },
                         "ja": {
-                            "title": "{{포트폴리오 v2.0}} 출시",
+                            "title": "ウェブエージェンシーショーケース付き{{ポートフォリオ v2.0}}リリース",
                             "province": "리버풀",
                             "country": "영국",
                             "institution": "개인 프로젝트",
-                            "text": "향상된 성능, 현대적인 디자인 및 향상된 사용자 경험으로 포트폴리오를 React v2.0으로 성공적으로 마이그레이션했습니다. 주요 개선 사항:",
+                            "text": "改善されたパフォーマンス、モダンなデザイン、強化されたユーザーエクスペリエンスでReact v2.0へのポートフォリオの移行に成功しました。主要機能：ウェブエージェンシーショーケース - 雇用主とリクルーター向けに特別に設計されたすべての商業作品の包括的なドキュメント。主な改善点：",
                             "list": [
                                 "다크 모드 지원을 갖춘 완전한 UI/UX 재설계",
                                 "95+ Lighthouse 점수를 달성하는 성능 최적화",
-                                "향상된 접근성 기능 및 SEO 개선"
+                                "향상된 접근성 기능 및 SEO 개선",
+                                "詳細なケーススタディを含む10以上の商業プロジェクトを特徴とするウェブエージェンシーショーケース"
                             ]
                         }
                     }
                 },
                 {
                     "id": 2,
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://thomasjbutler.github.io/ThomasJButler/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/ThomasJButler",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Personal Portfolio v3.0}} Migration",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Successfully migrated personal portfolio from static HTML/CSS/JS to modern React/Vite build. This major upgrade brings component-based architecture, better performance, and modern development tooling while maintaining the Matrix-themed design.",
+                            "list": [
+                                "Migrated from static site to React components",
+                                "Implemented Vite for fast development and optimized builds",
+                                "Maintained all original features while improving performance",
+                                "Added hot module replacement for better development experience"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Миграция {{Личного Портфолио v3.0}}",
+                            "province": "Liverpool",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Успешно перенес личное портфолио со статического HTML/CSS/JS на современную сборку React/Vite. Это крупное обновление привносит компонентную архитектуру, лучшую производительность и современные инструменты разработки, сохраняя при этом дизайн в стиле Матрицы.",
+                            "list": [
+                                "Миграция со статического сайта на компоненты React",
+                                "Внедрен Vite для быстрой разработки и оптимизированных сборок",
+                                "Сохранены все оригинальные функции при улучшении производительности",
+                                "Добавлена горячая замена модулей для лучшего опыта разработки"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Migration du {{Portfolio Personnel v3.0}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Migration réussie du portfolio personnel de HTML/CSS/JS statique vers une construction React/Vite moderne. Cette mise à niveau majeure apporte une architecture basée sur des composants, de meilleures performances et des outils de développement modernes tout en conservant le design sur le thème Matrix.",
+                            "list": [
+                                "Migration du site statique vers les composants React",
+                                "Implémentation de Vite pour un développement rapide et des builds optimisées",
+                                "Maintien de toutes les fonctionnalités originales tout en améliorant les performances",
+                                "Ajout du remplacement de module à chaud pour une meilleure expérience de développement"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{個人ポートフォリオ v3.0}}移行",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "個人ポートフォリオを静的なHTML/CSS/JSから最新のReact/Viteビルドに正常に移行しました。このメジャーアップグレードは、マトリックステーマのデザインを維持しながら、コンポーネントベースのアーキテクチャ、より良いパフォーマンス、最新の開発ツールをもたらします。",
+                            "list": [
+                                "静的サイトからReactコンポーネントへの移行",
+                                "高速開発と最適化されたビルドのためのViteの実装",
+                                "パフォーマンスを向上させながら、すべての元の機能を維持",
+                                "より良い開発体験のためのホットモジュール置換の追加"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
                     "date": {
                         "year": 2025,
                         "month": 4
@@ -546,7 +726,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "date": {
                         "year": 2025,
                         "month": 1
@@ -595,7 +775,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "date": {
                         "year": 2024,
                         "month": 12
