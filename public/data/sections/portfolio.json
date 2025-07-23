@@ -85,57 +85,12 @@
             "id": 2,
             "component": "ArticlePortfolio",
             "config": {},
-            "categories": [
-                {
-                    "id": "webAgency",
-                    "locales": {
-                        "en": {
-                            "singular": "Web Agency",
-                            "plural": "Web Agencies"
-                        },
-                        "ru": {
-                            "singular": "Веб-агентство",
-                            "plural": "Веб-агентства"
-                        },
-                        "fr": {
-                            "singular": "Agence Web",
-                            "plural": "Agences Web"
-                        },
-                        "ja": {
-                            "singular": "ウェブエージェンシー",
-                            "plural": "ウェブエージェンシー"
-                        }
-                    }
-                },
-                {
-                    "id": "freelance",
-                    "locales": {
-                        "en": {
-                            "singular": "Freelance",
-                            "plural": "Freelance"
-                        },
-                        "ru": {
-                            "singular": "Фриланс",
-                            "plural": "Фриланс"
-                        },
-                        "fr": {
-                            "singular": "Client",
-                            "plural": "Clients"
-                        },
-                        "ja": {
-                            "singular": "フリーランス",
-                            "plural": "フリーランス"
-                        }
-                    }
-                }
-            ],
             "items": [
                 {
                     "id": "msbankarena",
                     "title": "M&S Bank Arena",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -172,7 +127,6 @@
                     "title": "CDW",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -209,7 +163,6 @@
                     "title": "ACC Liverpool",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -246,7 +199,6 @@
                     "title": "InfoTrack",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -283,7 +235,6 @@
                     "title": "MasterMover",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -320,7 +271,6 @@
                     "title": "Merseyrail",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -357,7 +307,6 @@
                     "title": "PvCase",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -394,7 +343,6 @@
                     "title": "Premex",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -431,7 +379,6 @@
                     "title": "Fuelius Internal",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -468,7 +415,6 @@
                     "title": "Lancashire Cricket",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -505,7 +451,6 @@
                     "title": "Orega",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -542,7 +487,6 @@
                     "title": "Hewitt Fertility Center",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "webAgency",
                     "preview": {
                         "links": [
                             {
@@ -573,13 +517,53 @@
                         "bg": "#DC2626",
                         "fill": "#FFFFFF"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": ""
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "",
+                    "locales": {
+                        "en": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Freelance & Personal Projects]]</p>"
+                        },
+                        "ru": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Фриланс и личные проекты]]</p>"
+                        },
+                        "fr": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Projets Freelance et Personnels]]</p>"
+                        },
+                        "ja": {
+                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[フリーランスと個人プロジェクト]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticlePortfolio",
+            "config": {},
+            "items": [
                 {
                     "id": "kcroofing",
                     "title": "KC Roofing and Building",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "freelance",
                     "preview": {
                         "links": [
                             {
@@ -616,7 +600,6 @@
                     "title": "Annabel Butler Designs",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "freelance",
                     "preview": {
                         "links": [
                             {
@@ -665,7 +648,6 @@
                     "title": "Personal Portfolio - Passion Projects",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "freelance",
                     "preview": {
                         "links": [
                             {
@@ -714,7 +696,6 @@
                     "title": "Version TimeTravel",
                     "subtitle": "",
                     "tags": [],
-                    "categoryId": "freelance",
                     "preview": {
                         "links": [
                             {
@@ -756,40 +737,6 @@
                     "faIconColors": {
                         "bg": "#3B82F6",
                         "fill": "#FFFFFF"
-                    }
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "component": "ArticleText",
-            "locales": {
-                "en": {
-                    "title": ""
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "img": "",
-                    "faIcon": "",
-                    "locales": {
-                        "en": {
-                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Freelance & Personal Projects]]</p>"
-                        },
-                        "ru": {
-                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Фриланс и личные проекты]]</p>"
-                        },
-                        "fr": {
-                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Projets Freelance et Personnels]]</p>"
-                        },
-                        "ja": {
-                            "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[フリーランスと個人プロジェクト]]</p>"
-                        }
                     }
                 }
             ]

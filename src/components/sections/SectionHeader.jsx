@@ -18,7 +18,7 @@ function SectionHeader({ section }) {
         <header className={`section-header`}>
             {parsedTitle.prefix && (
                 <div className={`section-header-prefix lead-2 mb-2`}>
-                    <i className={`fa-solid fa-cubes`}/>
+                    <i className={`fa-solid fa-briefcase`}/>
                     <span dangerouslySetInnerHTML={{__html: parsedTitle.prefix}}/>
                 </div>
             )}
