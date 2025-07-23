@@ -78,6 +78,17 @@
                         "bg": "#6B7280",
                         "fill": "#36ad59"
                     }
+                },
+                {
+                    "label": "Agency Work",
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de"
+                    },
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "bg": "#6B7280",
+                        "fill": "#36ad59"
+                    }
                 }
             ]
         },
@@ -104,16 +115,16 @@
                     "img": "images/pictures/matrix.png",
                     "locales": {
                         "en": {
-                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development. I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p></p><p>Kind regards, Thomas</p>"
+                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development. I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><p style='margin-top: 20px;'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' style='display: inline-block; background-color: #36ad59; color: white; padding: 12px 24px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;' onmouseover='this.style.backgroundColor=\"#2d9149\"' onmouseout='this.style.backgroundColor=\"#36ad59\"'><i class='fa-solid fa-briefcase' style='margin-right: 8px;'></i>View My Commercial Work</a></p>"
                         },
                         "ru": {
-                            "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке. Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p>"
+                            "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке. Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p><p style='margin-top: 20px;'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' style='display: inline-block; background-color: #36ad59; color: white; padding: 12px 24px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;' onmouseover='this.style.backgroundColor=\"#2d9149\"' onmouseout='this.style.backgroundColor=\"#36ad59\"'><i class='fa-solid fa-briefcase' style='margin-right: 8px;'></i>Посмотреть мою коммерческую работу</a></p>"
                         },
                         "fr": {
-                            "text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack. J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"
+                            "text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack. J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p><p style='margin-top: 20px;'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' style='display: inline-block; background-color: #36ad59; color: white; padding: 12px 24px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;' onmouseover='this.style.backgroundColor=\"#2d9149\"' onmouseout='this.style.backgroundColor=\"#36ad59\"'><i class='fa-solid fa-briefcase' style='margin-right: 8px;'></i>Voir Mon Travail Commercial</a></p>"
                         },
                         "ja": {
-                            "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p>"
+                            "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p><p style='margin-top: 20px;'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' style='display: inline-block; background-color: #36ad59; color: white; padding: 12px 24px; border-radius: 5px; text-decoration: none; font-weight: 500; transition: background-color 0.3s ease;' onmouseover='this.style.backgroundColor=\"#2d9149\"' onmouseout='this.style.backgroundColor=\"#36ad59\"'><i class='fa-solid fa-briefcase' style='margin-right: 8px;'></i>私の商業作品を見る</a></p>"
                         }
                     }
                 }
