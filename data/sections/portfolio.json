@@ -63,7 +63,10 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "",
+                    "faIcon":"fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "fill": "#FFFFFF"
+                    },
                     "locales": {
                         "en": {
                             "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p>"
@@ -536,7 +539,10 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "",
+                    "faIcon":"fa-solid fa-user-secret",
+                    "faIconColors": {
+                        "fill": "#FFFFFF"
+                    },
                     "locales": {
                         "en": {
                             "text": "<hr style='border: 0; height: 2px; background: linear-gradient(to right, transparent, #36ad59, transparent); margin: 3rem 0;'/><p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>[[Freelance & Personal Projects]]</p>"

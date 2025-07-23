@@ -246,7 +246,7 @@
                 }
             },
             "settings": {
-                "max_rows_collapse_threshold": 4,
+                "max_rows_collapse_threshold": 5,
                 "order_items_by": "date",
                 "order_items_sort": "desc"
             },
