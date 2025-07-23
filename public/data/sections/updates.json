@@ -263,6 +263,11 @@
                                 "href": "https://www.thomasjbutler.me/",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-briefcase"
                             }
                         ],
                         "screenshots": [],
@@ -275,12 +280,13 @@
                             "province": "Liverpool",
                             "country": "UK",
                             "institution": "Personal Project",
-                            "text": "Successfully migrated my commercial portfolio website to React v2.0 with significant improvements. This major update includes enhanced performance, modern design patterns, and improved user experience.",
+                            "text": "Successfully migrated my commercial portfolio website to React v2.0 with significant improvements. A key feature of this update is the comprehensive Web Agency Showcase - detailed documentation of 10+ commercial projects specifically designed for employers and recruiters to review my professional work. This major update also includes enhanced performance, modern design patterns, and improved user experience.",
                             "list": [
                                 "Migrated from v1.x to v2.0 framework with complete refactor",
                                 "Achieved 95+ Lighthouse scores for performance",
                                 "Implemented SEO optimizations and accessibility features",
-                                "Added multilingual support (EN, FR, RU, JA)"
+                                "Added multilingual support (EN, FR, RU, JA)",
+                                "Published comprehensive Web Agency Showcase documenting 10+ commercial projects"
                             ]
                         },
                         "ru": {
@@ -288,12 +294,13 @@
                             "province": "Ливерпуль",
                             "country": "Великобритания",
                             "institution": "Личный проект",
-                            "text": "Успешно мигрировал свой коммерческий сайт-портфолио на React v2.0 со значительными улучшениями. Это крупное обновление включает улучшенную производительность, современные шаблоны дизайна и улучшенный пользовательский опыт.",
+                            "text": "Успешно мигрировал свой коммерческий сайт-портфолио на React v2.0 со значительными улучшениями. Ключевой особенностью этого обновления является комплексная витрина веб-агентства - подробная документация более 10 коммерческих проектов, специально разработанная для работодателей и рекрутеров для ознакомления с моей профессиональной работой. Это крупное обновление также включает улучшенную производительность, современные шаблоны дизайна и улучшенный пользовательский опыт.",
                             "list": [
                                 "Миграция с v1.x на v2.0 с полным рефакторингом",
                                 "Достигнуты показатели Lighthouse 95+ для производительности",
                                 "Внедрены SEO-оптимизации и функции доступности",
-                                "Добавлена многоязычная поддержка (EN, FR, RU, JA)"
+                                "Добавлена многоязычная поддержка (EN, FR, RU, JA)",
+                                "Опубликован комплексный портфель веб-агентства с документацией более 10 коммерческих проектов"
                             ]
                         },
                         "fr": {
@@ -301,12 +308,13 @@
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
-                            "text": "Migration réussie de mon site portfolio commercial vers React v2.0 avec des améliorations significatives. Cette mise à jour majeure comprend des performances améliorées, des modèles de conception modernes et une expérience utilisateur améliorée.",
+                            "text": "Migration réussie de mon site portfolio commercial vers React v2.0 avec des améliorations significatives. Une caractéristique clé de cette mise à jour est la vitrine complète de l'agence web - une documentation détaillée de plus de 10 projets commerciaux spécialement conçue pour que les employeurs et les recruteurs examinent mon travail professionnel. Cette mise à jour majeure comprend également des performances améliorées, des modèles de conception modernes et une expérience utilisateur améliorée.",
                             "list": [
                                 "Migration de v1.x vers v2.0 avec refactorisation complète",
                                 "Scores Lighthouse de 95+ atteints pour les performances",
                                 "Optimisations SEO et fonctionnalités d'accessibilité implémentées",
-                                "Support multilingue ajouté (EN, FR, RU, JA)"
+                                "Support multilingue ajouté (EN, FR, RU, JA)",
+                                "Publication d'une vitrine d'agence web complète documentant plus de 10 projets commerciaux"
                             ]
                         },
                         "ja": {
@@ -314,12 +322,13 @@
                             "province": "リバプール",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
-                            "text": "商業ポートフォリオウェブサイトをReact v2.0に大幅な改善とともに正常に移行しました。この主要なアップデートには、パフォーマンスの向上、モダンなデザインパターン、ユーザーエクスペリエンスの改善が含まれています。",
+                            "text": "商業ポートフォリオウェブサイトをReact v2.0に大幅な改善とともに正常に移行しました。このアップデートの主要な機能は、包括的なウェブエージェンシーショーケースです - 雇用主とリクルーターが私のプロフェッショナルな仕事をレビューするために特別に設計された10以上の商業プロジェクトの詳細なドキュメントです。この主要なアップデートには、パフォーマンスの向上、モダンなデザインパターン、ユーザーエクスペリエンスの改善も含まれています。",
                             "list": [
                                 "v1.xからv2.0フレームワークへの完全なリファクタリング",
                                 "パフォーマンスのLighthouseスコア95+を達成",
                                 "SEO最適化とアクセシビリティ機能の実装",
-                                "多言語サポートの追加（EN、FR、RU、JA）"
+                                "多言語サポートの追加（EN、FR、RU、JA）",
+                                "10以上の商業プロジェクトを文書化した包括的なウェブエージェンシーショーケースを公開"
                             ]
                         }
                     }

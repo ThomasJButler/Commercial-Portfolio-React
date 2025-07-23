@@ -51,7 +51,7 @@
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_sort": "desc"
             },
             "items": [
                 {
@@ -106,6 +106,50 @@
                 {
                     "id": 2,
                     "img": "",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "link": {
+                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Web Agency Showcase}}",
+                            "text": "A key feature of the v2.0 portfolio upgrade - comprehensive documentation of all commercial web development work designed specifically for employers and recruiters. Includes detailed write-ups with step-by-step processes, technical decisions, and outcomes for 10+ projects."
+                        },
+                        "ru": {
+                            "title": "{{Веб-портфель агентства}}",
+                            "text": "Ключевая особенность обновления портфолио v2.0 - комплексная документация всех коммерческих работ по веб-разработке, специально разработанная для работодателей и рекрутеров. Включает подробные описания с пошаговыми процессами, техническими решениями и результатами для более чем 10 проектов."
+                        },
+                        "fr": {
+                            "title": "{{Vitrine d'Agence Web}}",
+                            "text": "Une caractéristique clé de la mise à niveau du portfolio v2.0 - documentation complète de tous les travaux de développement web commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Comprend des comptes rendus détaillés avec des processus étape par étape, des décisions techniques et des résultats pour plus de 10 projets."
+                        },
+                        "ja": {
+                            "title": "{{ウェブエージェンシーショーケース}}",
+                            "text": "v2.0ポートフォリオアップグレードの主要機能 - 雇用主とリクルーター向けに特別に設計された、すべての商業ウェブ開発作業の包括的なドキュメント。10以上のプロジェクトのステップバイステップのプロセス、技術的な決定、結果を含む詳細な記述が含まれています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
                     "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
                         "bg": "#7C3AED",
@@ -153,7 +197,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-gamepad",
                     "faIconColors": {
@@ -202,7 +246,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-palette",
                     "faIconColors": {
@@ -640,7 +684,7 @@
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_sort": "desc"
             },
             "items": [
                 {
@@ -772,7 +816,7 @@
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_sort": "desc"
             },
             "items": [
                 {
@@ -874,7 +918,7 @@
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_sort": "desc"
             },
             "items": [
                 {
