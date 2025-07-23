@@ -40,13 +40,13 @@
                     "title": "Live Demos"
                 },
                 "ru": {
-                    "title": "Demos en Vivo"
+                    "title": "Живые демо"
                 },
                 "fr": {
                     "title": "Démos en Direct"
                 },
                 "ja": {
-                    "title": "라이브 데모"
+                    "title": "ライブデモ"
                 }
             },
             "settings": {
@@ -312,7 +312,7 @@
                         },
                         "ru": {
                             "title": "{{AiTomatic}}",
-                            "text": "Prototipo en vivo para AiTomatic. Construido con Python y Typescript. Actualmente en desarrollo."
+                            "text": "Живой прототип для AiTomatic. Построен с использованием Python и Typescript. В настоящее время в разработке."
                         },
                         "fr": {
                             "title": "{{AiTomatic}}",
@@ -320,7 +320,7 @@
                         },
                         "ja": {
                             "title": "{{AiTomatic}}",
-                            "text": "AiTomatic의 라이브 프로토타입. Python과 Typescript로 구축. 현재 개발 중."
+                            "text": "AiTomaticのライブプロトタイプ。PythonとTypescriptで構築。現在開発中。"
                         }
                     },
                     "preview": {
@@ -360,16 +360,16 @@
                             "text": "Interactive CSS animations and effects showcase demonstrating advanced styling techniques."
                         },
                         "ru": {
-                            "title": "{{Showcase de CSS}}",
-                            "text": "Showcase interactivo de animaciones y efectos CSS que demuestra técnicas avanzadas de estilo."
+                            "title": "{{Витрина CSS}}",
+                            "text": "Интерактивная витрина CSS-анимаций и эффектов, демонстрирующая передовые техники стилизации."
                         },
                         "fr": {
                             "title": "{{Vitrine CSS}}",
                             "text": "Vitrine interactive d'animations et d'effets CSS démontrant des techniques de style avancées."
                         },
                         "ja": {
-                            "title": "{{CSS 쇼케이스}}",
-                            "text": "고급 스타일링 기술을 보여주는 대화형 CSS 애니메이션 및 효과 쇼케이스."
+                            "title": "{{CSSショーケース}}",
+                            "text": "高度なスタイリング技術を示すインタラクティブなCSSアニメーションとエフェクトのショーケース。"
                         }
                     },
                     "preview": {
@@ -454,15 +454,15 @@
                         },
                         "ru": {
                             "title": "{{Matrix Arcade}}",
-                            "text": "Arcade de mini juegos construido con Typescript, Python y React. Muestra de juegos que creé mientras aprendía."
+                            "text": "Аркада мини-игр, построенная с использованием Typescript, Python и React. Витрина игр, которые я создал во время обучения."
                         },
                         "fr": {
                             "title": "{{Matrix Arcade}}",
                             "text": "Arcade de mini-jeux construit avec Typescript, Python et React. Vitrine de jeux créés en apprenant."
                         },
                         "ja": {
-                            "title": "{{매트릭스 아케이드}}",
-                            "text": "Typescript, Python 및 React로 구축된 미니 게임 아케이드. 학습하면서 만든 게임 쇼케이스."
+                            "title": "{{マトリックスアーケード}}",
+                            "text": "Typescript、Python、Reactで構築されたミニゲームアーケード。学習中に作成したゲームのショーケース。"
                         }
                     },
                     "preview": {
