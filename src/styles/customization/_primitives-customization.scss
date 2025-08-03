@@ -71,6 +71,9 @@ ul.list-mobile-small-padding {
 }
 
 .cta-button-primary {
+    i {
+        margin-right: 8px;
+    }
     &:hover {
         background-color: #2d9149 !important;
     }
