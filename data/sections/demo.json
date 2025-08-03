@@ -34,6 +34,52 @@
     "articles": [
         {
             "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "Personal Portfolio"
+                },
+                "ru": {
+                    "title": "Личное Портфолио"
+                },
+                "fr": {
+                    "title": "Portfolio Personnel"
+                },
+                "ja": {
+                    "title": "個人ポートフォリオ"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-regular fa-heart",
+                    "faIconColors": {
+                        "fill": "#63E6BE"
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Explore My Passion Projects}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Before diving into the demos below, I invite you to visit my personal portfolio - a creative playground where I showcase passion projects and experimental work. Built with an interactive Matrix-themed design, it represents my journey in web development beyond commercial projects.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Visit Personal Portfolio</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> View on GitHub</a></div></div>"
+                        },
+                        "ru": {
+                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Исследуйте мои страстные проекты}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Прежде чем погрузиться в демонстрации ниже, я приглашаю вас посетить мое личное портфолио - творческую площадку, где я демонстрирую страстные проекты и экспериментальные работы. Созданный с интерактивным дизайном в стиле Матрицы, он представляет мой путь в веб-разработке за пределами коммерческих проектов.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Посетить личное портфолио</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> Посмотреть на GitHub</a></div></div>"
+                        },
+                        "fr": {
+                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Explorez mes projets passion}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Avant de plonger dans les démos ci-dessous, je vous invite à visiter mon portfolio personnel - un terrain de jeu créatif où je présente des projets passion et des travaux expérimentaux. Construit avec un design interactif sur le thème Matrix, il représente mon parcours en développement web au-delà des projets commerciaux.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Visiter le portfolio personnel</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> Voir sur GitHub</a></div></div>"
+                        },
+                        "ja": {
+                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{私の情熱プロジェクトを探索}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>以下のデモに入る前に、私の個人ポートフォリオを訪問することをお勧めします - 情熱的なプロジェクトと実験的な作品を紹介する創造的な遊び場です。インタラクティブなマトリックステーマのデザインで構築され、商業プロジェクトを超えたウェブ開発における私の旅を表しています。</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> 個人ポートフォリオを訪問</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> GitHubで見る</a></div></div>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
             "component": "ArticleCards",
             "locales": {
                 "en": {
@@ -54,6 +100,55 @@
                 "order_items_sort": "desc"
             },
             "items": [
+                {
+                    "id": 11,
+                    "img": "",
+                    "faIcon": "fa-solid fa-calculator",
+                    "faIconColors": {
+                        "bg": "#14B8A6",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "link": {
+                        "href": "https://dotnet-react-calendar.vercel.app/",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Dotnet React Calculator}}",
+                            "text": "A code assessment turned personal learning project. A full-stack application featuring responsive design and rich functionality, built with .NET backend and React frontend. Demonstrates proficiency in modern web development practices and full-stack integration."
+                        },
+                        "ru": {
+                            "title": "{{Dotnet React Калькулятор}}",
+                            "text": "Оценка кода, превращенная в личный учебный проект. Полнофункциональное приложение с адаптивным дизайном и богатой функциональностью, построенное с использованием .NET бэкенда и React фронтенда. Демонстрирует мастерство в современных практиках веб-разработки и интеграции полного стека."
+                        },
+                        "fr": {
+                            "title": "{{Calculatrice Dotnet React}}",
+                            "text": "Une évaluation de code transformée en projet d'apprentissage personnel. Une application full-stack avec un design réactif et des fonctionnalités riches, construite avec un backend .NET et un frontend React. Démontre la maîtrise des pratiques modernes de développement web et de l'intégration full-stack."
+                        },
+                        "ja": {
+                            "title": "{{Dotnet React 電卓}}",
+                            "text": "コード評価から個人学習プロジェクトに転換。レスポンシブデザインと豊富な機能を備えたフルスタックアプリケーション。.NETバックエンドとReactフロントエンドで構築。現代的なWeb開発の実践とフルスタック統合の熟練度を示しています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/Dotnet-React-Calendar",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://dotnet-react-calendar.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            }
+                        ]
+                    }
+                },
                 {
                     "id": 9,
                     "img": "",
@@ -290,55 +385,6 @@
                     }
                 },
                 {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-solid fa-robot",
-                    "faIconColors": {
-                        "bg": "#7C3AED",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2024,
-                        "month": 12
-                    },
-                    "link": {
-                        "href": "https://aitomatic.co.uk/",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{AiTomatic}}",
-                            "text": "Live prototype for AiTomatic. Built with Python and Typescript. Currently being developed."
-                        },
-                        "ru": {
-                            "title": "{{AiTomatic}}",
-                            "text": "Живой прототип для AiTomatic. Построен с использованием Python и Typescript. В настоящее время в разработке."
-                        },
-                        "fr": {
-                            "title": "{{AiTomatic}}",
-                            "text": "Prototype en direct pour AiTomatic. Construit avec Python et Typescript. Actuellement en développement."
-                        },
-                        "ja": {
-                            "title": "{{AiTomatic}}",
-                            "text": "AiTomaticのライブプロトタイプ。PythonとTypescriptで構築。現在開発中。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/AiTomatic",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            },
-                            {
-                                "href": "https://aitomatic.co.uk/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": 3,
                     "img": "",
                     "faIcon": "fa-solid fa-palette",
@@ -483,7 +529,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "component": "ArticleThread",
             "locales": {
                 "en": {
@@ -506,7 +552,85 @@
             },
             "items": [
                 {
-                    "id": 1,
+                    "id": 7,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://dotnet-react-calendar.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                            },
+                            {
+                                "href": "https://github.com/ThomasJButler/Dotnet-React-Calendar",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Dotnet React Calculator}} Project Launch",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Personal Project",
+                            "text": "Launched a full-stack calculator application that started as a code assessment and evolved into a comprehensive learning project. This responsive application showcases modern development practices with .NET backend and React frontend integration.",
+                            "list": [
+                                "Built with .NET Core backend API and React TypeScript frontend",
+                                "Implements responsive design for desktop and mobile experiences",
+                                "Features comprehensive calculation history and memory functions",
+                                "Deployed on Vercel with continuous integration"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Запуск проекта {{Dotnet React Калькулятор}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Личный проект",
+                            "text": "Запущено полнофункциональное приложение-калькулятор, которое началось как оценка кода и превратилось в комплексный учебный проект. Это адаптивное приложение демонстрирует современные практики разработки с интеграцией .NET бэкенда и React фронтенда.",
+                            "list": [
+                                "Создано с использованием .NET Core backend API и React TypeScript frontend",
+                                "Реализует адаптивный дизайн для настольных и мобильных устройств",
+                                "Включает полную историю вычислений и функции памяти",
+                                "Развернуто на Vercel с непрерывной интеграцией"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement du projet {{Calculatrice Dotnet React}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Projet Personnel",
+                            "text": "Lancement d'une application de calculatrice full-stack qui a commencé comme une évaluation de code et a évolué en un projet d'apprentissage complet. Cette application réactive présente des pratiques de développement modernes avec intégration backend .NET et frontend React.",
+                            "list": [
+                                "Construit avec .NET Core backend API et React TypeScript frontend",
+                                "Implémente un design réactif pour les expériences desktop et mobile",
+                                "Comprend un historique complet des calculs et des fonctions de mémoire",
+                                "Déployé sur Vercel avec intégration continue"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{Dotnet React 電卓}}プロジェクトの開始",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "個人プロジェクト",
+                            "text": "コード評価として始まり、包括的な学習プロジェクトに進化したフルスタック電卓アプリケーションを開始しました。このレスポンシブアプリケーションは、.NETバックエンドとReactフロントエンドの統合による最新の開発プラクティスを示しています。",
+                            "list": [
+                                ".NET Core バックエンドAPIとReact TypeScriptフロントエンドで構築",
+                                "デスクトップとモバイル体験のためのレスポンシブデザインを実装",
+                                "包括的な計算履歴とメモリ機能を備える",
+                                "継続的インテグレーションでVercelにデプロイ"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
                     "date": {
                         "year": 2025,
                         "month": 7
@@ -579,7 +703,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 5,
                     "date": {
                         "year": 2025,
                         "month": 6
@@ -660,75 +784,6 @@
                     "id": 3,
                     "date": {
                         "year": 2025,
-                        "month": 4
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://aitomatic.co.uk/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{AiTomatic}} Beta Release",
-                            "province": "",
-                            "country": "",
-                            "institution": "AiTomatic Project",
-                            "text": "Launched beta version of AiTomatic, an AI-powered automation platform. The platform features advanced machine learning capabilities and has already gained traction with early adopters. Major features include:",
-                            "list": [
-                                "Natural language processing for task automation",
-                                "Integration with popular productivity tools",
-                                "Real-time analytics and performance monitoring"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Lanzamiento Beta de {{AiTomatic}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Proyecto AiTomatic",
-                            "text": "Lanzamiento de la versión beta de AiTomatic, una plataforma de automatización impulsada por IA. La plataforma cuenta con capacidades avanzadas de aprendizaje automático y ya ha ganado tracción con los primeros usuarios. Las características principales incluyen:",
-                            "list": [
-                                "Procesamiento de lenguaje natural para automatización de tareas",
-                                "Integración con herramientas de productividad populares",
-                                "Análisis en tiempo real y monitoreo de rendimiento"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Version Bêta d'{{AiTomatic}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Projet AiTomatic",
-                            "text": "Lancement de la version bêta d'AiTomatic, une plateforme d'automatisation alimentée par l'IA. La plateforme dispose de capacités avancées d'apprentissage automatique et a déjà gagné du terrain auprès des premiers adoptants. Les principales fonctionnalités comprennent :",
-                            "list": [
-                                "Traitement du langage naturel pour l'automatisation des tâches",
-                                "Intégration avec des outils de productivité populaires",
-                                "Analyses en temps réel et surveillance des performances"
-                            ]
-                        },
-                        "ja": {
-                            "title": "{{AiTomatic}} 베타 출시",
-                            "province": "",
-                            "country": "",
-                            "institution": "AiTomatic 프로젝트",
-                            "text": "AI 기반 자동화 플랫폼인 AiTomatic의 베타 버전을 출시했습니다. 이 플랫폼은 고급 기계 학습 기능을 갖추고 있으며 이미 얼리 어답터들에게 인기를 얻고 있습니다. 주요 기능:",
-                            "list": [
-                                "작업 자동화를 위한 자연어 처리",
-                                "인기 있는 생산성 도구와의 통합",
-                                "실시간 분석 및 성능 모니터링"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "date": {
-                        "year": 2025,
                         "month": 1
                     },
                     "preview": {
@@ -775,7 +830,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 2,
                     "date": {
                         "year": 2024,
                         "month": 12
@@ -846,7 +901,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "component": "ArticleFacts",
             "locales": {
                 "en": {
@@ -958,19 +1013,19 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "5",
+                            "title": "4",
                             "text": "AI-Powered Projects"
                         },
                         "ru": {
-                            "title": "5",
+                            "title": "4",
                             "text": "Проектов с ИИ"
                         },
                         "fr": {
-                            "title": "5",
+                            "title": "4",
                             "text": "Projets Alimentés par l'IA"
                         },
                         "ja": {
-                            "title": "5",
+                            "title": "4",
                             "text": "AI搭載プロジェクト"
                         }
                     }
@@ -978,7 +1033,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "component": "ArticleTestimonials",
             "locales": {
                 "en": {
@@ -1058,29 +1113,29 @@
                         "en": {
                             "name": "AI Innovation",
                             "title": "Practical AI Implementation",
-                            "text": "Through projects like AiTomatic and AI-powered features in various demos, I've demonstrated the ability to integrate cutting-edge AI technologies into practical applications, making complex technology accessible and useful for end users."
+                            "text": "Through AI-powered features in various demos, I've demonstrated the ability to integrate cutting-edge AI technologies into practical applications, making complex technology accessible and useful for end users."
                         },
                         "ru": {
                             "name": "Инновации в ИИ",
                             "title": "Практическая реализация ИИ",
-                            "text": "Через проекты, такие как AiTomatic и функции на основе ИИ в различных демо, я продемонстрировал способность интегрировать передовые технологии ИИ в практические приложения, делая сложные технологии доступными для конечных пользователей."
+                            "text": "Через функции на основе ИИ в различных демо, я продемонстрировал способность интегрировать передовые технологии ИИ в практические приложения, делая сложные технологии доступными для конечных пользователей."
                         },
                         "fr": {
                             "name": "Innovation IA",
                             "title": "Implémentation Pratique de l'IA",
-                            "text": "À travers des projets comme AiTomatic et des fonctionnalités alimentées par l'IA dans diverses démos, j'ai démontré la capacité d'intégrer des technologies d'IA de pointe dans des applications pratiques, rendant la technologie complexe accessible aux utilisateurs finaux."
+                            "text": "À travers des fonctionnalités alimentées par l'IA dans diverses démos, j'ai démontré la capacité d'intégrer des technologies d'IA de pointe dans des applications pratiques, rendant la technologie complexe accessible aux utilisateurs finaux."
                         },
                         "ja": {
                             "name": "AIイノベーション",
                             "title": "実用的なAI実装",
-                            "text": "AiTomaticやさまざまなデモのAI搭載機能などのプロジェクトを通じて、最先端のAI技術を実用的なアプリケーションに統合し、複雑な技術をエンドユーザーにとってアクセスしやすく有用なものにする能力を実証しました。"
+                            "text": "さまざまなデモのAI搭載機能を通じて、最先端のAI技術を実用的なアプリケーションに統合し、複雑な技術をエンドユーザーにとってアクセスしやすく有用なものにする能力を実証しました."
                         }
                     }
                 }
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "component": "ArticleInfoList",
             "locales": {
                 "en": {
