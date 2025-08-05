@@ -301,6 +301,71 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "support_links",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Support my **work**"
+                },
+                "es": {
+                    "title": "Apoya mi **trabajo**"
+                },
+                "fr": {
+                    "title": "Soutenez mon **travail**"
+                },
+                "ko": {
+                    "title": "**작업** 지원하기"
+                },
+                "ru": {
+                    "title": "Поддержать мою **работу**"
+                },
+                "ja": {
+                    "title": "私の**仕事**を支援する"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-mug-hot",
+                    "faIconColors": {
+                        "bg": "#FFDD00",
+                        "fill": "#000000"
+                    },
+                    "link": {
+                        "href": "https://buymeacoffee.com/ojrwoqkgmv",
+                        "tooltipString": "open_link"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Buy Me a Coffee",
+                            "text": "Support my work with a coffee"
+                        },
+                        "es": {
+                            "title": "Cómprame un café",
+                            "text": "Apoya mi trabajo con un café"
+                        },
+                        "fr": {
+                            "title": "Offrez-moi un café",
+                            "text": "Soutenez mon travail avec un café"
+                        },
+                        "ko": {
+                            "title": "커피 사주기",
+                            "text": "커피로 제 작업을 지원해주세요"
+                        },
+                        "ru": {
+                            "title": "Купить мне кофе",
+                            "text": "Поддержите мою работу чашкой кофе"
+                        },
+                        "ja": {
+                            "title": "コーヒーをおごる",
+                            "text": "コーヒーで私の仕事を支援"
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
