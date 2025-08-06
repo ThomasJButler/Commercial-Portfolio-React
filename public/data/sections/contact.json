@@ -305,7 +305,9 @@
         {
             "id": "support_links",
             "component": "ArticleCards",
-            "config": {},
+            "config": {
+                "className": "support-section-wide"
+            },
             "locales": {
                 "en": {
                     "title": "Support my **work**"

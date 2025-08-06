@@ -1,0 +1,506 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title": "Component Test",
+                "title_short": "Components",
+                "title_short_nav": "Test",
+                "title_long": "**Component** Showcase",
+                "title_long_prefix": "Explore all"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": "text-example",
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "**ArticleText** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-paragraph",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>This is an <strong>ArticleText</strong> component. It supports HTML formatting including <em>italics</em>, <strong>bold</strong>, and <a href='#'>links</a>.</p><p>You can also use {{variables}} and [[highlights]] in your text.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cards-example",
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "**ArticleCards** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-twitter",
+                    "faIconColors": {
+                        "bg": "#1DA1F2",
+                        "fill": "#FFFFFF"
+                    },
+                    "link": {
+                        "href": "https://twitter.com",
+                        "tooltipString": "open_link"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Twitter Card",
+                            "text": "Example card with link and icon"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Feature Card",
+                            "text": "Another card example with different styling"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "inline-list-example",
+            "component": "ArticleInlineList",
+            "config": {
+                "format": "inline"
+            },
+            "locales": {
+                "en": {
+                    "title": "**ArticleInlineList** Component"
+                }
+            },
+            "items": [
+                {
+                    "label": "example@email.com",
+                    "link": {
+                        "href": "mailto:example@email.com"
+                    },
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {
+                        "bg": "#EA4335",
+                        "fill": "#FFFFFF"
+                    }
+                },
+                {
+                    "label": "+1 234 567 8900",
+                    "link": {
+                        "href": "tel:+12345678900"
+                    },
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "skills-example",
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "**ArticleSkills** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "#61DAFB",
+                        "fill": "#000000"
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Modern web development"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "#339933",
+                        "fill": "#FFFFFF"
+                    },
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "text": "Backend development"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "timeline-example",
+            "component": "ArticleTimeline",
+            "locales": {
+                "en": {
+                    "title": "**ArticleTimeline** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": "2024-01",
+                    "dateEnd": "2024-06",
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Senior Developer",
+                            "subtitle": "Tech Company",
+                            "text": "Leading development team on multiple projects"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": "2023-06",
+                    "dateEnd": "2023-12",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Developer",
+                            "subtitle": "Startup Inc",
+                            "text": "Building web applications from scratch"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "testimonials-example",
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "**ArticleTestimonials** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "https://ui-avatars.com/api/?name=John+Doe&background=3B82F6&color=fff",
+                    "locales": {
+                        "en": {
+                            "name": "John Doe",
+                            "role": "CEO, Example Corp",
+                            "text": "Excellent work! The project was delivered on time and exceeded our expectations."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "https://ui-avatars.com/api/?name=Jane+Smith&background=EC4899&color=fff",
+                    "locales": {
+                        "en": {
+                            "name": "Jane Smith",
+                            "role": "CTO, Tech Solutions",
+                            "text": "Outstanding technical skills and great communication throughout the project."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "facts-example",
+            "component": "ArticleFacts",
+            "locales": {
+                "en": {
+                    "title": "**ArticleFacts** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {
+                        "bg": "#F59E0B",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "15+",
+                            "text": "Awards Won"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "100+",
+                            "text": "Happy Clients"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-project-diagram",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "200+",
+                            "text": "Projects Completed"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "stack-example",
+            "component": "ArticleStack",
+            "locales": {
+                "en": {
+                    "title": "**ArticleStack** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "#61DAFB",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {
+                        "bg": "#4FC08D",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": {
+                        "bg": "#DD0031",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Angular"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-node",
+                    "faIconColors": {
+                        "bg": "#339933",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "info-list-example",
+            "component": "ArticleInfoList",
+            "locales": {
+                "en": {
+                    "title": "**ArticleInfoList** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-location-dot",
+                    "faIconColors": {
+                        "bg": "#EF4444",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "label": "Location",
+                            "value": "New York, USA"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-calendar",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "label": "Available",
+                            "value": "Immediately"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-language",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "label": "Languages",
+                            "value": "English, Spanish"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "portfolio-example",
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": "**ArticlePortfolio** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": "project1",
+                    "title": "Sample Project",
+                    "tags": ["React", "Node.js"],
+                    "preview": {
+                        "links": [
+                            {
+                                "faIcon": "fa-solid fa-arrow-up-right-from-square",
+                                "href": "https://example.com",
+                                "tooltip": "View Live"
+                            },
+                            {
+                                "faIcon": "fa-brands fa-github",
+                                "href": "https://github.com",
+                                "tooltip": "View Code"
+                            }
+                        ],
+                        "thumbnailSrc": "https://via.placeholder.com/600x400",
+                        "imageAlt": "Project thumbnail"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sample Project",
+                            "subtitle": "Web Application",
+                            "text": "A comprehensive web application built with modern technologies"
+                        }
+                    },
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "thread-example",
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "**ArticleThread** Component"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": "2024-01-15",
+                    "faIcon": "fa-solid fa-comment",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Initial Discussion",
+                            "text": "Started the project planning phase"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": "2024-01-20",
+                    "faIcon": "fa-solid fa-check",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Milestone Reached",
+                            "text": "Completed the first phase successfully"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "contact-form-example",
+            "component": "ArticleContactForm",
+            "locales": {
+                "en": {
+                    "title": "**ArticleContactForm** Component",
+                    "subtitle": "Get in touch with us"
+                }
+            },
+            "config": {
+                "email": "test@example.com",
+                "subject": "Test Contact Form",
+                "captcha": false
+            }
+        }
+    ]
+}

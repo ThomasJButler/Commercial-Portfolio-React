@@ -1,0 +1,17 @@
+@import "/src/styles/extend.scss";
+
+// Custom styles for Buy Me a Coffee section on desktop
+.support-section-wide {
+    @include media-breakpoint-up(lg) {
+        .article-cards-items {
+            .swiper-wrapper {
+                justify-content: center;
+            }
+            
+            .swiper-slide {
+                width: 66% !important;
+                max-width: 600px;
+            }
+        }
+    }
+}

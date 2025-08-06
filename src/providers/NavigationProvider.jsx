@@ -242,7 +242,9 @@ function NavigationProvider({ children, sections, categories }) {
     }
 
     const _updateLinks = (targetSection, targetCategory) => {
-        const sectionLinks = sections.map(({ id, categoryId, faIcon, data }) => ({
+        const sectionLinks = sections
+            .filter(section => !section.hidden)
+            .map(({ id, categoryId, faIcon, data }) => ({
             id,
             categoryId,
             href: `#${id}`,
