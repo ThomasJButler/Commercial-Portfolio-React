@@ -304,10 +304,8 @@
         },
         {
             "id": "support_links",
-            "component": "ArticleCards",
-            "config": {
-                "className": "support-section-wide"
-            },
+            "component": "ArticleText",
+            "config": {},
             "locales": {
                 "en": {
                     "title": "Support my **work**"
@@ -336,34 +334,24 @@
                         "bg": "#FFDD00",
                         "fill": "#000000"
                     },
-                    "link": {
-                        "href": "https://buymeacoffee.com/ojrwoqkgmv",
-                        "tooltipString": "open_link"
-                    },
                     "locales": {
                         "en": {
-                            "title": "Buy Me a Coffee",
-                            "text": "Support my work with a coffee"
+                            "text": "<p>If you find my open-source work helpful or enjoy browsing through my portfolio, consider supporting my work with a coffee!</p><p>Your support helps me continue developing and maintaining projects that benefit the community.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Buy Me a Coffee</a></p>"
                         },
                         "es": {
-                            "title": "Cómprame un café",
-                            "text": "Apoya mi trabajo con un café"
+                            "text": "<p>Si encuentras útil mi trabajo de código abierto o disfrutas navegando por mi portafolio, ¡considera apoyar mi trabajo con un café!</p><p>Tu apoyo me ayuda a continuar desarrollando y manteniendo proyectos que benefician a la comunidad.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Cómprame un café</a></p>"
                         },
                         "fr": {
-                            "title": "Offrez-moi un café",
-                            "text": "Soutenez mon travail avec un café"
+                            "text": "<p>Si vous trouvez mon travail open-source utile ou si vous aimez parcourir mon portfolio, considérez soutenir mon travail avec un café !</p><p>Votre soutien m'aide à continuer à développer et maintenir des projets qui bénéficient à la communauté.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Offrez-moi un café</a></p>"
                         },
                         "ko": {
-                            "title": "커피 사주기",
-                            "text": "커피로 제 작업을 지원해주세요"
+                            "text": "<p>제 오픈소스 작업이 도움이 되거나 포트폴리오를 즐겨보신다면, 커피로 제 작업을 지원해 주세요!</p><p>여러분의 지원은 커뮤니티에 도움이 되는 프로젝트를 계속 개발하고 유지하는 데 도움이 됩니다.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>커피 사주기</a></p>"
                         },
                         "ru": {
-                            "title": "Купить мне кофе",
-                            "text": "Поддержите мою работу чашкой кофе"
+                            "text": "<p>Если вы находите мою работу с открытым исходным кодом полезной или вам нравится просматривать моё портфолио, подумайте о поддержке моей работы чашкой кофе!</p><p>Ваша поддержка помогает мне продолжать разрабатывать и поддерживать проекты, которые приносят пользу сообществу.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Купить мне кофе</a></p>"
                         },
                         "ja": {
-                            "title": "コーヒーをおごる",
-                            "text": "コーヒーで私の仕事を支援"
+                            "text": "<p>私のオープンソース作業が役に立つと思ったり、ポートフォリオを楽しんでご覧いただいている場合は、コーヒーで私の作業を支援することを検討してください！</p><p>皆様のサポートは、コミュニティに利益をもたらすプロジェクトの開発と維持を続けるのに役立ちます。</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>コーヒーをおごる</a></p>"
                         }
                     }
                 }
