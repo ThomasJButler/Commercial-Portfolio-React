@@ -26,3 +26,11 @@ dist/
 CLAUDE.md
 CONTRIBUTING_TO_ORIGINAL.md
 /.claude
+
+# Backup files
+*.backup.json
+*-backup.json
+*.bak
+*.backup
+*.old
+*~
