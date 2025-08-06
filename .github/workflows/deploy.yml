@@ -1,5 +1,8 @@
 name: CI/CD Pipeline
 
+permissions:
+  contents: read  # Default minimal permissions for all jobs
+
 on:
   workflow_dispatch:
   push:
@@ -82,6 +85,8 @@ jobs:
   deploy-github-pages:
     runs-on: ubuntu-latest
     needs: test-and-build
+    permissions:
+      contents: write  # Required to push to gh-pages branch
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     
     steps:
@@ -96,7 +101,7 @@ jobs:
           
       # Deploy to GitHub pages
       - name: Deploy to GitHub pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
