@@ -336,7 +336,7 @@
                     },
                     "locales": {
                         "en": {
-                            "text": "<p>If you find my open-source work helpful or enjoy browsing through my portfolio, consider supporting my work with a coffee!</p><p>Your support helps me continue developing and maintaining projects that benefit the community.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Buy Me a Coffee</a></p>"
+                            "text": "<p>If you find my open-source work helpful or enjoy browsing through my portfolio, please consider supporting my work with a coffee!</p><p>Your support helps me continue developing and maintaining projects that benefit the community.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Buy Me a Coffee</a></p>"
                         },
                         "es": {
                             "text": "<p>Si encuentras útil mi trabajo de código abierto o disfrutas navegando por mi portafolio, ¡considera apoyar mi trabajo con un café!</p><p>Tu apoyo me ayuda a continuar desarrollando y manteniendo proyectos que benefician a la comunidad.</p><p class='cta-wrapper'><a href='https://buymeacoffee.com/ojrwoqkgmv' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot'></i>Cómprame un café</a></p>"
