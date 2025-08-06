@@ -15,13 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Lighthouse CI integration for performance monitoring
   - Dual deployment support (GitHub Pages + Vercel)
   - Build artifact caching
+  - **Explicit permissions for GITHUB_TOKEN (security best practice)**
 - Detailed README enhancements:
   - Getting Started guide
-  - Architecture diagram
+  - Architecture diagram placeholder
   - Contributing guidelines
   - Troubleshooting section
   - Security reporting guidelines
   - Available scripts documentation
+  - Build status badges
 - `.gitignore` rules for backup files
 - Development and feature branch structure
 
@@ -33,10 +35,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - sass-embedded: 1.89.2 → 1.90.0
 - Enhanced GitHub Actions workflow with better error handling
 - Improved build process with artifact management
+- **Upgraded peaceiris/actions-gh-pages from v3 to v4**
 
 ### Fixed
 - Resolved all security vulnerabilities in dependencies
+- **Fixed CodeQL security warnings about workflow permissions**
+- **Added least-privilege access control to GitHub Actions**
 - Removed backup files from repository
+
+### Security
+- Implemented explicit permissions in GitHub Actions workflow
+- Set default `contents: read` for all jobs
+- Added `contents: write` only where required (deploy-github-pages)
+- Follows principle of least-privilege access
 
 ### Removed
 - Deleted `cover-backup.json` backup file
