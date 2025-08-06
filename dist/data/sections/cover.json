@@ -131,6 +131,157 @@
             ]
         },
         {
+            "id": "tech_stack",
+            "component": "ArticleStack",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "My **Tech Stack**"
+                },
+                "ru": {
+                    "title": "Мой **технологический стек**"
+                },
+                "fr": {
+                    "title": "Ma **pile technologique**"
+                },
+                "ja": {
+                    "title": "私の**技術スタック**"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "#61DAFB",
+                        "fill": "#282C34"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "#339933",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "#3776AB",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "#F7DF1E",
+                        "fill": "#000000"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#512BD4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": ".NET/C#"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-microsoft",
+                    "faIconColors": {
+                        "bg": "#0078D4",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Azure"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {
+                        "bg": "#2496ED",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "#E34F26",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {
+                        "bg": "#1572B6",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3/SCSS"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#336791",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SQL/MongoDB"
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "id": "testimonials",
             "component": "ArticleTestimonials",
             "config": {},
