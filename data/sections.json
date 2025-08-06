@@ -47,6 +47,13 @@
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",
             "faIcon": "fa-solid fa-pen-to-square"
+        },
+        {
+            "id": "kotsd",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/kotsd.json",
+            "faIcon": "fa-solid fa-flask",
+            "hidden": true
         }
     ]
 }
