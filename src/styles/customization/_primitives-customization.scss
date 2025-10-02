@@ -70,12 +70,64 @@ ul.list-mobile-small-padding {
     }
 }
 
+.cta-wrapper {
+    text-align: center;
+    margin-top: 1.5rem;
+    direction: ltr !important;
+    width: 100%;
+    display: block;
+}
+
+// Ensure CTA wrapper works in article-text layouts
+.article-text-excerpt .cta-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+// Additional specificity for portfolio page centering
+.article-text-item .article-text-excerpt .cta-wrapper {
+    text-align: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .cta-button-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--theme-links);
+    color: #FFFFFF !important;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(54, 173, 89, 0.3);
+
     i {
         margin-right: 8px;
     }
+
     &:hover {
-        background-color: #2d9149 !important;
+        background-color: var(--theme-links-hover) !important;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(54, 173, 89, 0.4);
     }
+}
+
+// Hide About Me CTA button on desktop (md and up), but keep the parent visible
+.mobile-only-cta {
+    direction: ltr;  // Ensure proper text direction
+
+    // Parent stays visible to preserve layout
+    @include media-breakpoint-up(md) {
+        .cta-wrapper {
+            display: none !important;
+        }
+    }
+}
+
+// Ensure article text avatar is always visible
+.article-text-avatar-view-wrapper {
+    display: flex !important;
 }
 
