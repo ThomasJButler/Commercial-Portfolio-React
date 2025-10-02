@@ -2,11 +2,11 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Component Test",
-                "title_short": "Components",
-                "title_short_nav": "Test",
-                "title_long": "**Component** Showcase",
-                "title_long_prefix": "Explore all"
+                "title": "Personal Projects",
+                "title_short": "Personal Projects",
+                "title_short_nav": "Personal Projects",
+                "title_long": "**Personal** Projects",
+                "title_long_prefix": "Check out my"
             }
         }
     },
