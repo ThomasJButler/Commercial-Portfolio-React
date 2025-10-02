@@ -64,21 +64,18 @@
                     "id": 1,
                     "img": "",
                     "faIcon":"fa-solid fa-briefcase",
-                    "faIconColors": {
-                        "fill": "#FFFFFF"
-                    },
                     "locales": {
                         "en": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View Detailed Agency Showcase</a></p>"
                         },
                         "ru": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Вся коммерческая работа ниже была выполнена во время работы в [[Fuelius]] в Честере, Великобритания с {{августа 2023 по декабрь 2024}}. Проекты разработаны для крупных клиентов, включая площадки для мероприятий, технологические компании, поставщиков медицинских услуг и многое другое.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Вся коммерческая работа ниже была выполнена во время работы в [[Fuelius]] в Честере, Великобритания с {{августа 2023 по декабрь 2024}}. Проекты разработаны для крупных клиентов, включая площадки для мероприятий, технологические компании, поставщиков медицинских услуг и многое другое.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть подробную витрину агентства</a></p>"
                         },
                         "fr": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Tous les travaux commerciaux ci-dessous ont été réalisés en travaillant chez [[Fuelius]] à Chester, Royaume-Uni de {{août 2023 à décembre 2024}}. Projets développés pour des clients majeurs incluant des lieux événementiels, des entreprises technologiques, des prestataires de santé et plus.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Tous les travaux commerciaux ci-dessous ont été réalisés en travaillant chez [[Fuelius]] à Chester, Royaume-Uni de {{août 2023 à décembre 2024}}. Projets développés pour des clients majeurs incluant des lieux événementiels, des entreprises technologiques, des prestataires de santé et plus.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir la vitrine détaillée de l'agence</a></p>"
                         },
                         "ja": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>詳細な代理店ショーケースを見る</a></p>"
                         }
                     }
                 }
