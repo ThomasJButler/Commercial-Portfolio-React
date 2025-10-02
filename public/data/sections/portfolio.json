@@ -2,8 +2,8 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Portfolio",
-                "title_short_nav": "Portfolio",
+                "title": "Commercial Work",
+                "title_short_nav": "Commercial Work",
                 "title_long": "My **Commercial Portfolio**",
                 "title_long_prefix": "Take a look at"
             },
