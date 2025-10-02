@@ -2,11 +2,11 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Demo",
-                "title_short": "Live Demos",
-                "title_short_nav": "Demo",
+                "title": "Personal Projects",
+                "title_short": "Personal Projects",
+                "title_short_nav": "Personal Projects",
                 "title_long_prefix": "Check out my",
-                "title_long": "Live {{Demo}} Projects"
+                "title_long": "**Personal** Projects"
             },
             "ru": {
                 "title": "Демо",
