@@ -164,7 +164,8 @@
                     },
                     "link": {
                         "href": "https://github.com/ThomasJButler/SQL-Ball",
-                        "tooltipString": "see_on_github"
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
                     },
                     "locales": {
                         "en": {
@@ -208,7 +209,8 @@
                     },
                     "link": {
                         "href": "https://github.com/ThomasJButler/AICodeGenerator",
-                        "tooltipString": "see_on_github"
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
                     },
                     "locales": {
                         "en": {
@@ -252,7 +254,8 @@
                     },
                     "link": {
                         "href": "https://github.com/ThomasJButler/AI-Comparison-Showcase",
-                        "tooltipString": "see_on_github"
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
                     },
                     "locales": {
                         "en": {
@@ -496,7 +499,8 @@
                     },
                     "link": {
                         "href": "https://github.com/ThomasJButler/PythonProjects",
-                        "tooltipString": "see_on_github"
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
                     },
                     "locales": {
                         "en": {
