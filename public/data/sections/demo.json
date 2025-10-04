@@ -9,25 +9,25 @@
                 "title_long": "**Personal** Projects"
             },
             "ru": {
-                "title": "Демо",
-                "title_short": "Живые демо",
-                "title_short_nav": "Демо",
+                "title": "Личные Проекты",
+                "title_short": "Личные Проекты",
+                "title_short_nav": "Личные Проекты",
                 "title_long_prefix": "Посмотрите мои",
-                "title_long": "{{Демо}} проекты в реальном времени"
+                "title_long": "**Личные** Проекты"
             },
             "fr": {
-                "title": "Démo",
-                "title_short": "Démos Live",
-                "title_short_nav": "Démo",
+                "title": "Projets Personnels",
+                "title_short": "Projets Personnels",
+                "title_short_nav": "Projets Personnels",
                 "title_long_prefix": "Découvrez mes",
-                "title_long": "Projets {{Démo}} en Direct"
+                "title_long": "**Projets** Personnels"
             },
             "ja": {
-                "title": "デモ",
-                "title_short": "ライブデモ",
-                "title_short_nav": "デモ",
+                "title": "個人プロジェクト",
+                "title_short": "個人プロジェクト",
+                "title_short_nav": "個人プロジェクト",
                 "title_long_prefix": "私の",
-                "title_long": "ライブ{{デモ}}プロジェクトをご覧ください"
+                "title_long": "**個人**プロジェクト"
             }
         }
     },
@@ -280,6 +280,7 @@
                             }
                         ]
                     }
+                },
                 {
                     "id": 11,
                     "img": "",

@@ -47,19 +47,19 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "05",
+                            "title": "10",
                             "text": "Live Projects"
                         },
                         "ru": {
-                            "title": "05",
+                            "title": "10",
                             "text": "Живые проекты"
                         },
                         "fr": {
-                            "title": "05",
+                            "title": "10",
                             "text": "Projets en Direct"
                         },
                         "ja": {
-                            "title": "05",
+                            "title": "10",
                             "text": "ライブプロジェクト"
                         }
                     }
@@ -334,166 +334,149 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 16,
                     "date": {
                         "year": 2025,
-                        "month": 5
+                        "month": 8
                     },
                     "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/NewsPerspective",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
+                        "links": [],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Built {{NewsPerspective}} - AI News Analysis",
-                            "province": "Liverpool",
+                            "title": "Moved to {{Yorkshire}}",
+                            "province": "Yorkshire",
                             "country": "UK",
-                            "institution": "Personal Project",
-                            "text": "Developed NewsPerspective, an innovative application that uses Azure and OpenAI to analyze news articles and rewrite headlines based on actual content to combat misinformation.",
+                            "institution": "Life Milestone",
+                            "text": "Relocated from Cheshire to Yorkshire for a brand new start. This significant life change brought new opportunities and a fresh perspective on both personal and professional endeavors.",
                             "list": [
-                                "Integrated Azure Cognitive Services for content analysis",
-                                "Implemented OpenAI API for intelligent headline generation",
-                                "Built Python backend with Flask for API endpoints",
-                                "Created system to detect and flag misleading headlines"
+                                "Relocated from Cheshire to Yorkshire",
+                                "Brand new start in a new region",
+                                "New opportunities for growth and development",
+                                "Fresh chapter in personal and professional life"
                             ]
                         },
                         "ru": {
-                            "title": "Создал {{NewsPerspective}} - ИИ анализ новостей",
-                            "province": "Ливерпуль",
+                            "title": "Переехал в {{Йоркшир}}",
+                            "province": "Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Личный проект",
-                            "text": "Разработал NewsPerspective, инновационное приложение, которое использует Azure и OpenAI для анализа новостных статей и переписывания заголовков на основе фактического содержания для борьбы с дезинформацией.",
+                            "institution": "Жизненная веха",
+                            "text": "Переехал из Чешира в Йоркшир для совершенно нового начала. Это значительное изменение в жизни принесло новые возможности и свежий взгляд как на личные, так и на профессиональные начинания.",
                             "list": [
-                                "Интеграция Azure Cognitive Services для анализа контента",
-                                "Реализация OpenAI API для интеллектуальной генерации заголовков",
-                                "Создание Python-бэкенда с Flask для API-эндпоинтов",
-                                "Создание системы для обнаружения и пометки вводящих в заблуждение заголовков"
+                                "Переезд из Чешира в Йоркшир",
+                                "Совершенно новое начало в новом регионе",
+                                "Новые возможности для роста и развития",
+                                "Свежая глава в личной и профессиональной жизни"
                             ]
                         },
                         "fr": {
-                            "title": "Création de {{NewsPerspective}} - Analyse IA des actualités",
-                            "province": "Liverpool",
+                            "title": "Déménagement au {{Yorkshire}}",
+                            "province": "Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Projet Personnel",
-                            "text": "Développement de NewsPerspective, une application innovante qui utilise Azure et OpenAI pour analyser les articles d'actualité et réécrire les titres en fonction du contenu réel pour lutter contre la désinformation.",
+                            "institution": "Étape de Vie",
+                            "text": "Déménagement de Cheshire vers le Yorkshire pour un tout nouveau départ. Ce changement de vie important a apporté de nouvelles opportunités et une nouvelle perspective sur les projets personnels et professionnels.",
                             "list": [
-                                "Intégration d'Azure Cognitive Services pour l'analyse de contenu",
-                                "Implémentation de l'API OpenAI pour la génération intelligente de titres",
-                                "Construction d'un backend Python avec Flask pour les points de terminaison API",
-                                "Création d'un système pour détecter et signaler les titres trompeurs"
+                                "Déménagement de Cheshire vers le Yorkshire",
+                                "Tout nouveau départ dans une nouvelle région",
+                                "Nouvelles opportunités de croissance et de développement",
+                                "Nouveau chapitre dans la vie personnelle et professionnelle"
                             ]
                         },
                         "ja": {
-                            "title": "{{NewsPerspective}}を構築 - AIニュース分析",
-                            "province": "リバプール",
+                            "title": "{{ヨークシャー}}へ移住",
+                            "province": "ヨークシャー",
                             "country": "イギリス",
-                            "institution": "個人プロジェクト",
-                            "text": "AzureとOpenAIを使用してニュース記事を分析し、誤情報と戦うために実際のコンテンツに基づいて見出しを書き直す革新的なアプリケーション、NewsPerspectiveを開発しました。",
+                            "institution": "人生の節目",
+                            "text": "チェシャーからヨークシャーへ移住し、まったく新しいスタートを切りました。この大きな人生の変化は、個人的および職業的な取り組みの両方に新しい機会と新鮮な視点をもたらしました。",
                             "list": [
-                                "コンテンツ分析のためのAzure Cognitive Servicesの統合",
-                                "インテリジェントな見出し生成のためのOpenAI APIの実装",
-                                "APIエンドポイント用のFlaskを使用したPythonバックエンドの構築",
-                                "誤解を招く見出しを検出してフラグを立てるシステムの作成"
+                                "チェシャーからヨークシャーへ移住",
+                                "新しい地域でまったく新しいスタート",
+                                "成長と発展のための新しい機会",
+                                "個人的および職業的生活の新しい章"
                             ]
                         }
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 17,
                     "date": {
                         "year": 2025,
-                        "month": 3
+                        "month": 9
                     },
                     "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
+                        "links": [],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Launched {{Premier League Oracle}}",
-                            "province": "Liverpool",
+                            "title": "Completed {{CodeCademy Generative AI Bootcamp}}",
+                            "province": "Yorkshire",
                             "country": "UK",
-                            "institution": "Personal Project",
-                            "text": "Created The Premier League Oracle, a comprehensive football prediction platform that uses data science and machine learning to provide objective match predictions.",
+                            "institution": "Professional Development",
+                            "text": "Successfully completed CodeCademy's Generative AI for Developers bootcamp from August to September 2025. This intensive program deepened my expertise in AI development and modern generative AI technologies.",
                             "list": [
-                                "Built with Python, Svelte, TypeScript, and PostgreSQL",
-                                "Integrated historical match data from Football-Data.co.uk",
-                                "Implemented statistical anomaly detection algorithms",
-                                "Designed responsive UI with data visualizations"
+                                "Completed Generative AI for Developers certification",
+                                "Learned advanced AI model implementation techniques",
+                                "Gained hands-on experience with GPT and diffusion models",
+                                "Enhanced skills in prompt engineering and AI integration"
                             ]
                         },
                         "ru": {
-                            "title": "Запущен {{Оракул Премьер-лиги}}",
-                            "province": "Ливерпуль",
+                            "title": "Завершил {{буткемп по генеративному ИИ CodeCademy}}",
+                            "province": "Йоркшир",
                             "country": "Великобритания",
-                            "institution": "Личный проект",
-                            "text": "Создал The Premier League Oracle, комплексную платформу прогнозирования футбола, которая использует науку о данных и машинное обучение для предоставления объективных прогнозов матчей.",
+                            "institution": "Профессиональное развитие",
+                            "text": "Успешно завершил буткемп CodeCademy по генеративному ИИ для разработчиков с августа по сентябрь 2025 года. Эта интенсивная программа углубила мой опыт в разработке ИИ и современных технологиях генеративного ИИ.",
                             "list": [
-                                "Построен с Python, Svelte, TypeScript и PostgreSQL",
-                                "Интегрированы исторические данные матчей с Football-Data.co.uk",
-                                "Реализованы алгоритмы обнаружения статистических аномалий",
-                                "Разработан адаптивный интерфейс с визуализацией данных"
+                                "Получена сертификация по генеративному ИИ для разработчиков",
+                                "Изучены продвинутые техники реализации моделей ИИ",
+                                "Получен практический опыт с GPT и диффузионными моделями",
+                                "Улучшены навыки инженерии промптов и интеграции ИИ"
                             ]
                         },
                         "fr": {
-                            "title": "Lancement de {{Premier League Oracle}}",
-                            "province": "Liverpool",
+                            "title": "Terminé le {{Bootcamp IA Générative CodeCademy}}",
+                            "province": "Yorkshire",
                             "country": "Royaume-Uni",
-                            "institution": "Projet Personnel",
-                            "text": "Création de The Premier League Oracle, une plateforme complète de prédiction de football qui utilise la science des données et l'apprentissage automatique pour fournir des prédictions de match objectives.",
+                            "institution": "Développement Professionnel",
+                            "text": "Terminé avec succès le bootcamp IA Générative pour Développeurs de CodeCademy d'août à septembre 2025. Ce programme intensif a approfondi mon expertise en développement IA et en technologies d'IA générative modernes.",
                             "list": [
-                                "Construit avec Python, Svelte, TypeScript et PostgreSQL",
-                                "Intégration des données historiques de matchs de Football-Data.co.uk",
-                                "Implémentation d'algorithmes de détection d'anomalies statistiques",
-                                "Conception d'une interface utilisateur responsive avec visualisations de données"
+                                "Certification IA Générative pour Développeurs obtenue",
+                                "Apprentissage de techniques avancées d'implémentation de modèles IA",
+                                "Expérience pratique avec GPT et modèles de diffusion",
+                                "Compétences améliorées en ingénierie de prompts et intégration IA"
                             ]
                         },
                         "ja": {
-                            "title": "{{プレミアリーグオラクル}}をローンチ",
-                            "province": "リバプール",
+                            "title": "{{CodeCademy生成AIブートキャンプ}}を修了",
+                            "province": "ヨークシャー",
                             "country": "イギリス",
-                            "institution": "個人プロジェクト",
-                            "text": "データサイエンスと機械学習を使用して客観的な試合予測を提供する包括的なサッカー予測プラットフォーム、The Premier League Oracleを作成しました。",
+                            "institution": "専門能力開発",
+                            "text": "2025年8月から9月にかけて、CodeCademyの開発者向け生成AIブートキャンプを正常に修了しました。この集中的なプログラムは、AI開発と最新の生成AIテクノロジーにおける私の専門知識を深めました。",
                             "list": [
-                                "Python、Svelte、TypeScript、PostgreSQLで構築",
-                                "Football-Data.co.ukから履歴試合データを統合",
-                                "統計的異常検出アルゴリズムを実装",
-                                "データビジュアライゼーションを備えたレスポンシブUIを設計"
+                                "開発者向け生成AI認定を取得",
+                                "高度なAIモデル実装技術を学習",
+                                "GPTと拡散モデルの実践的な経験を獲得",
+                                "プロンプトエンジニアリングとAI統合のスキルを強化"
                             ]
                         }
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 15,
                     "date": {
                         "year": 2025,
-                        "month": 1
+                        "month": 6
                     },
                     "preview": {
                         "links": [
                             {
-                                "href": "https://github.com/ThomasJButler/matrix-arcade",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            },
-                            {
-                                "href": "https://the-matrix-arcade.vercel.app/",
+                                "href": "https://thomasjbutler.github.io/ThomasJButler",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -504,55 +487,55 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Updated {{Matrix Arcade}} with New Games",
+                            "title": "Personal Portfolio {{v3.0 - React Migration}}",
                             "province": "Liverpool",
                             "country": "UK",
                             "institution": "Personal Project",
-                            "text": "Expanded the Matrix Arcade project with new games including Matrix Invaders. The arcade now features a comprehensive collection of retro-style games built with modern web technologies.",
+                            "text": "Migrated personal portfolio from static HTML/CSS/JS to a full React application with SvelteKit framework. This major upgrade brought modern development practices and enhanced user experience to my personal showcase.",
                             "list": [
-                                "Added Matrix Invaders - a space invaders clone with Matrix theme",
-                                "Improved game performance and responsiveness",
-                                "Enhanced UI/UX with better navigation between games",
-                                "Implemented high score tracking and leaderboards"
+                                "Migrated from static HTML/CSS/JS to React",
+                                "Implemented SvelteKit for improved performance",
+                                "Added modern component-based architecture",
+                                "Enhanced interactivity and user experience"
                             ]
                         },
                         "ru": {
-                            "title": "Обновил {{Matrix Arcade}} новыми играми",
+                            "title": "Личное Портфолио {{v3.0 - Миграция на React}}",
                             "province": "Ливерпуль",
                             "country": "Великобритания",
                             "institution": "Личный проект",
-                            "text": "Расширил проект Matrix Arcade новыми играми, включая Matrix Invaders. Аркада теперь включает обширную коллекцию игр в стиле ретро, созданных с использованием современных веб-технологий.",
+                            "text": "Мигрировал личное портфолио со статического HTML/CSS/JS на полноценное React-приложение с фреймворком SvelteKit. Это крупное обновление принесло современные практики разработки и улучшенный пользовательский опыт в мою личную витрину.",
                             "list": [
-                                "Добавлен Matrix Invaders - клон Space Invaders с темой Матрицы",
-                                "Улучшена производительность и отзывчивость игр",
-                                "Улучшен UI/UX с лучшей навигацией между играми",
-                                "Реализовано отслеживание рекордов и таблицы лидеров"
+                                "Миграция со статического HTML/CSS/JS на React",
+                                "Внедрение SvelteKit для улучшения производительности",
+                                "Добавлена современная компонентная архитектура",
+                                "Улучшена интерактивность и пользовательский опыт"
                             ]
                         },
                         "fr": {
-                            "title": "Mise à jour de {{Matrix Arcade}} avec de nouveaux jeux",
+                            "title": "Portfolio Personnel {{v3.0 - Migration React}}",
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
                             "institution": "Projet Personnel",
-                            "text": "Extension du projet Matrix Arcade avec de nouveaux jeux incluant Matrix Invaders. L'arcade propose désormais une collection complète de jeux de style rétro construits avec des technologies web modernes.",
+                            "text": "Migration du portfolio personnel de HTML/CSS/JS statique vers une application React complète avec le framework SvelteKit. Cette mise à niveau majeure a apporté des pratiques de développement modernes et une expérience utilisateur améliorée à ma vitrine personnelle.",
                             "list": [
-                                "Ajout de Matrix Invaders - un clone de Space Invaders avec le thème Matrix",
-                                "Amélioration des performances et de la réactivité des jeux",
-                                "Amélioration de l'UI/UX avec une meilleure navigation entre les jeux",
-                                "Implémentation du suivi des meilleurs scores et des classements"
+                                "Migration de HTML/CSS/JS statique vers React",
+                                "Implémentation de SvelteKit pour améliorer les performances",
+                                "Ajout d'une architecture moderne basée sur des composants",
+                                "Amélioration de l'interactivité et de l'expérience utilisateur"
                             ]
                         },
                         "ja": {
-                            "title": "{{Matrix Arcade}}を新しいゲームで更新",
+                            "title": "個人ポートフォリオ{{v3.0 - React移行}}",
                             "province": "リバプール",
                             "country": "イギリス",
                             "institution": "個人プロジェクト",
-                            "text": "Matrix Invadersを含む新しいゲームでMatrix Arcadeプロジェクトを拡張しました。アーケードには、最新のWeb技術で構築されたレトロスタイルのゲームの包括的なコレクションが含まれています。",
+                            "text": "静的なHTML/CSS/JSから、SvelteKitフレームワークを使用した本格的なReactアプリケーションに個人ポートフォリオを移行しました。この大規模なアップグレードにより、個人のショーケースに最新の開発プラクティスと強化されたユーザーエクスペリエンスがもたらされました。",
                             "list": [
-                                "Matrix Invadersの追加 - MatrixテーマのSpace Invadersクローン",
-                                "ゲームのパフォーマンスと応答性の改善",
-                                "ゲーム間のナビゲーションを改善したUI/UXの強化",
-                                "ハイスコアトラッキングとリーダーボードの実装"
+                                "静的HTML/CSS/JSからReactへ移行",
+                                "パフォーマンス向上のためにSvelteKitを実装",
+                                "最新のコンポーネントベースアーキテクチャを追加",
+                                "インタラクティブ性とユーザーエクスペリエンスを強化"
                             ]
                         }
                     }
@@ -1050,81 +1033,6 @@
                     }
                 },
                 {
-                    "id": 8,
-                    "date": {
-                        "year": 2000,
-                        "month": 1
-                    },
-                    "preview": {
-                        "links": [],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Early Tech Passion & {{Life Journey}}",
-                            "province": "Liverpool",
-                            "country": "UK",
-                            "institution": "Life Experience",
-                            "text": "From childhood, I was fascinated by technology and gaming, loving the simplicity and UI design of classic games. Despite this passion, life took me on different paths - pursuing professional cricket and later commercial diving. It wasn't until AI emerged that I realized I could finally pursue my true calling.",
-                            "list": [
-                                "Childhood obsession with tech - jailbreaking iPod Touch, installing Cydia repos",
-                                "Always the person with app ideas but no way to build them",
-                                "Pursued professional cricket, then commercial diving careers",
-                                "ADHD diagnosis brought clarity - realized I'd always wanted to be a developer",
-                                "AI tools like ChatGPT bridged the gap, making programming accessible",
-                                "Now making up for lost time with intense dedication to coding"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Ранняя страсть к технологиям и {{жизненный путь}}",
-                            "province": "Ливерпуль",
-                            "country": "Великобритания",
-                            "institution": "Жизненный опыт",
-                            "text": "С детства я был очарован технологиями и играми, любил простоту и дизайн интерфейса классических игр. Несмотря на эту страсть, жизнь повела меня другими путями - профессиональный крикет, затем коммерческое дайвинг. Только с появлением ИИ я понял, что могу наконец следовать своему истинному призванию.",
-                            "list": [
-                                "Детская одержимость технологиями - взлом iPod Touch, установка репозиториев Cydia",
-                                "Всегда был человеком с идеями приложений, но без возможности их создавать",
-                                "Занимался профессиональным крикетом, затем коммерческим дайвингом",
-                                "Диагноз СДВГ принес ясность - понял, что всегда хотел быть разработчиком",
-                                "Инструменты ИИ, такие как ChatGPT, преодолели разрыв, сделав программирование доступным",
-                                "Теперь наверстываю упущенное время с интенсивной преданностью кодированию"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Passion technologique précoce et {{parcours de vie}}",
-                            "province": "Liverpool",
-                            "country": "Royaume-Uni",
-                            "institution": "Expérience de vie",
-                            "text": "Depuis l'enfance, j'étais fasciné par la technologie et les jeux, adorant la simplicité et le design UI des jeux classiques. Malgré cette passion, la vie m'a mené sur différents chemins - cricket professionnel puis plongée commerciale. Ce n'est qu'avec l'émergence de l'IA que j'ai réalisé que je pouvais enfin poursuivre ma vraie vocation.",
-                            "list": [
-                                "Obsession d'enfance pour la tech - jailbreak d'iPod Touch, installation de repos Cydia",
-                                "Toujours la personne avec des idées d'apps mais sans moyen de les construire",
-                                "Poursuivi le cricket professionnel, puis la plongée commerciale",
-                                "Le diagnostic de TDAH a apporté de la clarté - réalisé que j'avais toujours voulu être développeur",
-                                "Les outils IA comme ChatGPT ont comblé le fossé, rendant la programmation accessible",
-                                "Maintenant je rattrape le temps perdu avec un dévouement intense au codage"
-                            ]
-                        },
-                        "ja": {
-                            "title": "初期のテクノロジーへの情熱と{{人生の旅}}",
-                            "province": "リバプール",
-                            "country": "イギリス",
-                            "institution": "人生経験",
-                            "text": "子供の頃から、私はテクノロジーとゲームに魅了され、クラシックゲームのシンプルさとUIデザインを愛していました。この情熱にもかかわらず、人生は私を異なる道へ導きました - プロのクリケット選手、その後商業ダイバー。AIが登場して初めて、私は真の天職を追求できることに気づきました。",
-                            "list": [
-                                "子供時代のテクノロジーへの執着 - iPod Touchの脱獄、Cydiaリポジトリのインストール",
-                                "常にアプリのアイデアを持っているが、それを構築する方法がない人",
-                                "プロのクリケット、その後商業ダイビングのキャリアを追求",
-                                "ADHD診断が明確さをもたらした - 常に開発者になりたかったことに気づいた",
-                                "ChatGPTのようなAIツールがギャップを埋め、プログラミングをアクセス可能にした",
-                                "今、コーディングへの激しい献身で失われた時間を取り戻している"
-                            ]
-                        }
-                    }
-                },
-                {
                     "id": 9,
                     "date": {
                         "year": 2022,
@@ -1138,55 +1046,55 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Started My {{Coding Journey}}",
+                            "title": "Left {{DWP Work Coach}} Role",
                             "province": "Liverpool",
                             "country": "UK",
-                            "institution": "Self-Directed Learning",
-                            "text": "Embarked on my programming journey, discovering a passion for technology and software development. This marked the beginning of an intensive self-learning period that would transform my career path.",
+                            "institution": "Career Transition",
+                            "text": "Left my position as a Work Coach at the Department for Work and Pensions (DWP) to pursue my passion for technology and software development. This marked the beginning of my journey into the tech industry.",
                             "list": [
-                                "Began learning programming fundamentals and computer science basics",
+                                "Transitioned from public sector to pursue tech career",
+                                "Began intensive self-directed learning in programming",
                                 "Discovered ChatGPT and used it as a learning companion",
-                                "Studied online through various platforms and tutorials",
-                                "Started exploring game development concepts and engines"
+                                "Started exploring web development and computer science fundamentals"
                             ]
                         },
                         "ru": {
-                            "title": "Начал свой {{путь в программировании}}",
+                            "title": "Покинул должность {{консультанта DWP}}",
                             "province": "Ливерпуль",
                             "country": "Великобритания",
-                            "institution": "Самостоятельное обучение",
-                            "text": "Начал свой путь в программировании, обнаружив страсть к технологиям и разработке программного обеспечения. Это стало началом интенсивного периода самообучения, который изменил мою карьеру.",
+                            "institution": "Карьерный переход",
+                            "text": "Покинул свою должность консультанта по трудоустройству в Департаменте труда и пенсий (DWP), чтобы следовать своей страсти к технологиям и разработке программного обеспечения. Это стало началом моего пути в технологическую индустрию.",
                             "list": [
-                                "Начал изучать основы программирования и информатики",
+                                "Переход из государственного сектора для карьеры в технологиях",
+                                "Начал интенсивное самостоятельное обучение программированию",
                                 "Открыл для себя ChatGPT и использовал его как помощника в обучении",
-                                "Учился онлайн через различные платформы и туториалы",
-                                "Начал изучать концепции и движки разработки игр"
+                                "Начал изучать веб-разработку и основы информатики"
                             ]
                         },
                         "fr": {
-                            "title": "Commencé mon {{parcours de codage}}",
+                            "title": "Quitté le rôle de {{Coach DWP}}",
                             "province": "Liverpool",
                             "country": "Royaume-Uni",
-                            "institution": "Apprentissage Autonome",
-                            "text": "J'ai commencé mon parcours de programmation, découvrant une passion pour la technologie et le développement logiciel. Cela a marqué le début d'une période d'auto-apprentissage intensive qui transformerait ma carrière.",
+                            "institution": "Transition de Carrière",
+                            "text": "Quitté mon poste de conseiller professionnel au Département du Travail et des Pensions (DWP) pour poursuivre ma passion pour la technologie et le développement logiciel. Cela a marqué le début de mon parcours dans l'industrie technologique.",
                             "list": [
-                                "Commencé à apprendre les fondamentaux de la programmation et de l'informatique",
+                                "Transition du secteur public vers une carrière dans la tech",
+                                "Commencé un apprentissage intensif autodidacte en programmation",
                                 "Découvert ChatGPT et l'utilisé comme compagnon d'apprentissage",
-                                "Étudié en ligne via diverses plateformes et tutoriels",
-                                "Commencé à explorer les concepts et moteurs de développement de jeux"
+                                "Commencé à explorer le développement web et les fondamentaux de l'informatique"
                             ]
                         },
                         "ja": {
-                            "title": "{{コーディングの旅}}を開始",
+                            "title": "{{DWPワークコーチ}}の職を退職",
                             "province": "リバプール",
                             "country": "イギリス",
-                            "institution": "独学",
-                            "text": "プログラミングの旅を始め、テクノロジーとソフトウェア開発への情熱を発見しました。これは私のキャリアパスを変える集中的な自己学習期間の始まりでした。",
+                            "institution": "キャリア転換",
+                            "text": "テクノロジーとソフトウェア開発への情熱を追求するため、労働年金省(DWP)のワークコーチの職を退職しました。これは、テクノロジー業界への私の旅の始まりとなりました。",
                             "list": [
-                                "プログラミングの基礎とコンピュータサイエンスの基本を学び始めました",
+                                "公共部門からテクノロジーキャリアへの転換",
+                                "プログラミングの集中的な自己学習を開始",
                                 "ChatGPTを発見し、学習の相棒として使用",
-                                "さまざまなプラットフォームとチュートリアルを通じてオンラインで学習",
-                                "ゲーム開発の概念とエンジンの探求を開始"
+                                "Web開発とコンピュータサイエンスの基礎の探求を開始"
                             ]
                         }
                     }
@@ -1396,7 +1304,7 @@
                     "id": 12,
                     "date": {
                         "year": 2024,
-                        "month": 12
+                        "month": 1
                     },
                     "preview": {
                         "links": [
@@ -1466,6 +1374,73 @@
                                 "緑のデジタルレイン効果を持つマトリックステーマのデザイン",
                                 "メインポートフォリオとスキル練習場として機能",
                                 "インタラクティブな要素とスムーズなアニメーションを特徴とする"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "date": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started {{Stealth AI Startup}}",
+                            "province": "Liverpool",
+                            "country": "UK",
+                            "institution": "Entrepreneurship",
+                            "text": "Founded a stealth AI startup focused on neurodiversity solutions. Working behind the scenes to develop AI tools that streamline repetitive tasks and make technology more human-friendly for neurodiverse individuals.",
+                            "list": [
+                                "Developing AI solutions for neurodiversity support",
+                                "Focus on streamlining repetitive tasks",
+                                "Creating human-friendly interfaces",
+                                "Currently in stealth mode with active development"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Основал {{скрытый AI-стартап}}",
+                            "province": "Ливерпуль",
+                            "country": "Великобритания",
+                            "institution": "Предпринимательство",
+                            "text": "Основал скрытый AI-стартап, ориентированный на решения для нейроразнообразия. Работа за кулисами над разработкой AI-инструментов, которые упрощают повторяющиеся задачи и делают технологии более человечными для нейроразнообразных людей.",
+                            "list": [
+                                "Разработка решений AI для поддержки нейроразнообразия",
+                                "Фокус на упрощении повторяющихся задач",
+                                "Создание удобных для человека интерфейсов",
+                                "В настоящее время в скрытом режиме с активной разработкой"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancé une {{startup AI secrète}}",
+                            "province": "Liverpool",
+                            "country": "Royaume-Uni",
+                            "institution": "Entrepreneuriat",
+                            "text": "Fondé une startup IA secrète axée sur les solutions de neurodiversité. Travail en coulisses pour développer des outils IA qui rationalisent les tâches répétitives et rendent la technologie plus conviviale pour les personnes neurodivers.",
+                            "list": [
+                                "Développement de solutions IA pour le soutien à la neurodiversité",
+                                "Focus sur la rationalisation des tâches répétitives",
+                                "Création d'interfaces conviviales",
+                                "Actuellement en mode furtif avec développement actif"
+                            ]
+                        },
+                        "ja": {
+                            "title": "{{ステルスAIスタートアップ}}を立ち上げ",
+                            "province": "リバプール",
+                            "country": "イギリス",
+                            "institution": "起業家精神",
+                            "text": "神経多様性ソリューションに焦点を当てたステルスAIスタートアップを設立しました。神経多様性のある個人のために反復的なタスクを合理化し、テクノロジーをより人間に優しくするAIツールの開発に裏で取り組んでいます。",
+                            "list": [
+                                "神経多様性サポートのためのAIソリューションの開発",
+                                "反復的なタスクの合理化に焦点",
+                                "人間に優しいインターフェースの作成",
+                                "現在、アクティブな開発でステルスモード中"
                             ]
                         }
                     }
