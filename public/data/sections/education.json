@@ -204,7 +204,7 @@
                         "en": {
                             "title": "Apprentice Full-Stack Software Developer",
                             "info": "Fuelius - Chester, UK",
-                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\n■ Gained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience.\n■ Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n■ Stepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability.\n■ Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration.",
+                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\nGained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience. Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n\nStepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability. Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration. I also completed the CodeCademy Front-End Engineer Career Path whilst working at Fuelius, to help me learn the tricks of the trade!",
                             "tags": [
                                 ".NET",
                                 "React",
@@ -283,6 +283,107 @@
                     }
                 },
                 {
+                    "img": "images/pictures/logos/cisco.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Introduction to Cybersecurity Certificate",
+                            "info": "Cisco",
+                            "text": "Completed Cisco's comprehensive cybersecurity fundamentals course, covering network security, threat analysis, and security best practices. Really valuable for understanding the security side of development - helps me write more secure code and understand potential vulnerabilities. The course covered everything from basic cryptography to incident response.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate on Credly</a>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Threat Analysis",
+                                "Security Best Practices",
+                                "Cisco"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learn How to Use AI for Coding Course",
+                            "info": "Codecademy",
+                            "text": "Mastered using AI tools like GitHub Copilot and ChatGPT to accelerate development workflows. Learned best practices for prompt engineering, code generation, and leveraging AI for debugging and optimization. This course really transformed how I approach problem-solving and made me a much more efficient developer!",
+                            "tags": [
+                                "AI Tools",
+                                "GitHub Copilot",
+                                "ChatGPT",
+                                "Prompt Engineering",
+                                "Code Generation",
+                                "AI-Assisted Development"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Prompt Engineering for Software Engineers Course",
+                            "info": "Codecademy",
+                            "text": "Deep dive into advanced prompt engineering techniques specifically for software development. Learned how to craft effective prompts for code generation, debugging, documentation, and testing. This course gave me the skills to get the most out of AI assistants in my daily work.",
+                            "tags": [
+                                "Prompt Engineering",
+                                "AI Development",
+                                "Code Generation",
+                                "Software Engineering",
+                                "AI Best Practices"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intro to AI Strategy Course",
+                            "info": "Codecademy",
+                            "text": "Comprehensive introduction to AI strategy and implementation in business contexts. Covered AI fundamentals, use case identification, implementation planning, and ethical considerations. Really helped me understand the bigger picture of AI transformation beyond just the technical aspects.",
+                            "tags": [
+                                "AI Strategy",
+                                "Business AI",
+                                "AI Implementation",
+                                "Digital Transformation",
+                                "Strategic Planning"
+                            ]
+                        }
+                    }
+                },
+                {
                     "img": "images/pictures/logos/gc.png",
                     "dateStart": {
                         "year": 2023,
@@ -308,6 +409,32 @@
                         }
                     }
                 },
+                           {
+                    "img": "images/svg/logo.svg",
+                    "dateStart": {
+                        "year": 2013,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "year": 2022,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "The Long Road to Tech",
+                            "info": "Career Exploration - UK & Australia",
+                            "text": "After school, I tried a few different paths - commercial diving, semi-pro cricket in Australia, financial services, conveyancing, and eventually became a work coach at DWP. Each experience taught me something valuable, but something was always missing.\n\nWhile helping others find their careers at DWP, I had a lightbulb moment - I'd been using tech my whole life but never considered it as a career. Growing up, I was a bit self-conscious about being 'the tech guy', so I'd hidden that side of myself.\n\nIn winter 2021, I took the leap - bought an M1 Max MBP the night it launched, taught myself Python, and dove into AI over 2022 as ChatGPT was taking off. February 2023, after leaving DWP, I enrolled in my first code bootcamp. It felt like coming home, finally turning my lifelong passion into my career.",
+                            "tags": [
+                                "Career Journey",
+                                "Self-Discovery",
+                                "Python",
+                                "Career Change",
+                                "Personal Growth",
+                                "Life Experience"
+                            ]
+                        }
+                    }
+                },
                 {
                     "img": "images/pictures/logos/mts.png",
                     "dateStart": {
@@ -322,13 +449,13 @@
                         "en": {
                             "title": "GCSE - 10 A* - C",
                             "info": "Merchant Taylors Boys School",
-                            "text": "Achieved 10 GCSEs including Maths, Sciences, English Literature, and Computer Science. This was where my love for technology really started - especially enjoyed the programming modules in Computer Science!",
+                            "text": "Achieved 10 GCSEs including Maths, Sciences, and English Literature. There weren't many tech opportunities at school back then. By GCSE time, I was actually using tech the least I ever had - was more focused on pursuing professional cricket! Didn't take IT as a subject, but looking back, the tech passion was always there, just waiting. A Levels weren't for me, so I left school at 17 to explore different paths.",
                             "tags": [
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
                         "es": {
@@ -339,8 +466,8 @@
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
                         "fr": {
@@ -351,8 +478,8 @@
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
                         "ko": {
@@ -363,8 +490,8 @@
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         }
                     }
@@ -382,7 +509,7 @@
                         "en": {
                             "title": "Lifelong Passion for Technology",
                             "info": "Self-Directed Learning",
-                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch (iOS 1.1.4) with Cydia, messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen.",
+                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch and playing with Cydia (iOS 1.1. - pre App Store days), messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen.",
                             "tags": [
                                 "Self-Learning",
                                 "Technology",
