@@ -114,7 +114,8 @@
                     },
                     "link": {
                         "href": "https://aitomatic.io/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -295,7 +296,8 @@
                     },
                     "link": {
                         "href": "https://dotnet-react-calendar.vercel.app/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -344,7 +346,8 @@
                     },
                     "link": {
                         "href": "https://thomasjbutler.github.io/ThomasJButler",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -393,7 +396,8 @@
                     },
                     "link": {
                         "href": "https://thomasjbutler.github.io/version-timetravel/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -442,7 +446,8 @@
                     },
                     "link": {
                         "href": "https://thomasjbutler.github.io/css-showcase/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -535,7 +540,8 @@
                     },
                     "link": {
                         "href": "https://the-matrix-arcade.vercel.app/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
