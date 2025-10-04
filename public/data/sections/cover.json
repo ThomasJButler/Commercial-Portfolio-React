@@ -141,9 +141,10 @@
                         "fill": "#282C34"
                     },
                     "locales": {
-                        "en": {
-                            "title": "React"
-                        }
+                        "en": {"title": "React"},
+                        "ru": {"title": "React"},
+                        "fr": {"title": "React"},
+                        "ja": {"title": "React"}
                     }
                 },
                 {
@@ -154,9 +155,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Node.js"
-                        }
+                        "en": {"title": "Node.js"},
+                        "ru": {"title": "Node.js"},
+                        "fr": {"title": "Node.js"},
+                        "ja": {"title": "Node.js"}
                     }
                 },
                 {
@@ -167,9 +169,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Python"
-                        }
+                        "en": {"title": "Python"},
+                        "ru": {"title": "Python"},
+                        "fr": {"title": "Python"},
+                        "ja": {"title": "Python"}
                     }
                 },
                 {
@@ -180,9 +183,10 @@
                         "fill": "#000000"
                     },
                     "locales": {
-                        "en": {
-                            "title": "TypeScript"
-                        }
+                        "en": {"title": "TypeScript"},
+                        "ru": {"title": "TypeScript"},
+                        "fr": {"title": "TypeScript"},
+                        "ja": {"title": "TypeScript"}
                     }
                 },
                 {
@@ -193,9 +197,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": ".NET/C#"
-                        }
+                        "en": {"title": ".NET/C#"},
+                        "ru": {"title": ".NET/C#"},
+                        "fr": {"title": ".NET/C#"},
+                        "ja": {"title": ".NET/C#"}
                     }
                 },
                 {
@@ -206,9 +211,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Azure"
-                        }
+                        "en": {"title": "Azure"},
+                        "ru": {"title": "Azure"},
+                        "fr": {"title": "Azure"},
+                        "ja": {"title": "Azure"}
                     }
                 },
                 {
@@ -219,9 +225,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Docker"
-                        }
+                        "en": {"title": "Docker"},
+                        "ru": {"title": "Docker"},
+                        "fr": {"title": "Docker"},
+                        "ja": {"title": "Docker"}
                     }
                 },
                 {
@@ -232,9 +239,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "CSS3/SCSS"
-                        }
+                        "en": {"title": "CSS3/SCSS"},
+                        "ru": {"title": "CSS3/SCSS"},
+                        "fr": {"title": "CSS3/SCSS"},
+                        "ja": {"title": "CSS3/SCSS"}
                     }
                 },
                 {
@@ -245,9 +253,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "SQL/MongoDB"
-                        }
+                        "en": {"title": "SQL/MongoDB"},
+                        "ru": {"title": "SQL/MongoDB"},
+                        "fr": {"title": "SQL/MongoDB"},
+                        "ja": {"title": "SQL/MongoDB"}
                     }
                 },
                 {
@@ -258,9 +267,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "LangChain"
-                        }
+                        "en": {"title": "LangChain"},
+                        "ru": {"title": "LangChain"},
+                        "fr": {"title": "LangChain"},
+                        "ja": {"title": "LangChain"}
                     }
                 },
                 {
@@ -271,9 +281,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "TensorFlow"
-                        }
+                        "en": {"title": "TensorFlow"},
+                        "ru": {"title": "TensorFlow"},
+                        "fr": {"title": "TensorFlow"},
+                        "ja": {"title": "TensorFlow"}
                     }
                 },
                 {
@@ -284,9 +295,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "PyTorch"
-                        }
+                        "en": {"title": "PyTorch"},
+                        "ru": {"title": "PyTorch"},
+                        "fr": {"title": "PyTorch"},
+                        "ja": {"title": "PyTorch"}
                     }
                 },
                 {
