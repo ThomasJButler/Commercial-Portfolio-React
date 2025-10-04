@@ -83,16 +83,16 @@
             "component": "ArticleCards",
             "locales": {
                 "en": {
-                    "title": "Deployed Projects"
+                    "title": "🚀 <span style='color: #10B981;'>Deployed Projects</span>"
                 },
                 "ru": {
-                    "title": "Развернутые проекты"
+                    "title": "🚀 <span style='color: #10B981;'>Развернутые проекты</span>"
                 },
                 "fr": {
-                    "title": "Projets Déployés"
+                    "title": "🚀 <span style='color: #10B981;'>Projets Déployés</span>"
                 },
                 "ja": {
-                    "title": "デプロイ済みプロジェクト"
+                    "title": "🚀 <span style='color: #10B981;'>デプロイ済みプロジェクト</span>"
                 }
             },
             "settings": {
