@@ -95,22 +95,22 @@ ul.list-mobile-small-padding {
 .cta-button-primary {
     display: inline-block;
     padding: 12px 24px;
-    background-color: var(--theme-links);
+    background-color: #3B82F6;
     color: #FFFFFF !important;
     border-radius: 8px;
     font-weight: 600;
     text-decoration: none !important;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(54, 173, 89, 0.3);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 
     i {
         margin-right: 8px;
     }
 
     &:hover {
-        background-color: var(--theme-links-hover) !important;
+        background-color: #2563EB !important;
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(54, 173, 89, 0.4);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
     }
 }
 
