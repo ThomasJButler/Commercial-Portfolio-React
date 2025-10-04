@@ -83,16 +83,16 @@
             "component": "ArticleCards",
             "locales": {
                 "en": {
-                    "title": "🚀 <span style='color: #10B981;'>Deployed Projects</span>"
+                    "title": "<span style='color: #10B981;'>Deployed Projects</span>"
                 },
                 "ru": {
-                    "title": "🚀 <span style='color: #10B981;'>Развернутые проекты</span>"
+                    "title": "<span style='color: #10B981;'>Развернутые проекты</span>"
                 },
                 "fr": {
-                    "title": "🚀 <span style='color: #10B981;'>Projets Déployés</span>"
+                    "title": "<span style='color: #10B981;'>Projets Déployés</span>"
                 },
                 "ja": {
-                    "title": "🚀 <span style='color: #10B981;'>デプロイ済みプロジェクト</span>"
+                    "title": "<span style='color: #10B981;'>デプロイ済みプロジェクト</span>"
                 }
             },
             "settings": {
@@ -144,7 +144,7 @@
                             {
                                 "href": "https://aitomatic.io/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -325,7 +325,7 @@
                             {
                                 "href": "https://dotnet-react-calendar.vercel.app/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -374,7 +374,7 @@
                             {
                                 "href": "https://thomasjbutler.github.io/ThomasJButler",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -423,7 +423,7 @@
                             {
                                 "href": "https://thomasjbutler.github.io/version-timetravel/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -472,7 +472,7 @@
                             {
                                 "href": "https://thomasjbutler.github.io/css-showcase/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -565,7 +565,7 @@
                             {
                                 "href": "https://the-matrix-arcade.vercel.app/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
