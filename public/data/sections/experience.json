@@ -2,110 +2,1095 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Experience",
-                "title_short_nav": "Experience",
-                "title_long": "**Work** Experience",
+                "title": "Qualifications",
+                "title_short_nav": "Qualifications",
+                "title_long": "**Professional** Qualifications",
                 "title_long_prefix": "Summary of my"
             },
-            "es": {
-                "title": "Experiencia",
-                "title_long": "Experiencia **Laboral**",
-                "title_long_prefix": "Resumen de mi"
+            "ru": {
+                "title": "Квалификации",
+                "title_short_nav": "Квалификации",
+                "title_long": "**Профессиональные** квалификации",
+                "title_long_prefix": "Сводка моих"
             },
             "fr": {
-                "title": "Expérience",
-                "title_long": "Parcours **Professionel**",
-                "title_long_prefix": "Résumé de mon",
-                "title_short_nav": "Expérience"
+                "title": "Qualifications",
+                "title_long": "Qualifications **Professionnelles**",
+                "title_long_prefix": "Résumé de mes"
             },
-            "ko": {
-                "title": "경험",
-                "title_long": "**직업적** 경험",
-                "title_long_prefix": "이것은 내"
+            "ja": {
+                "title": "資格",
+                "title_short_nav": "資格",
+                "title_long": "**専門**資格",
+                "title_long_prefix": "私の資格の概要"
             }
         }
     },
     "articles": [
         {
-            "id": "work",
+            "id": "qualifications",
             "component": "ArticleTimeline",
             "config": {},
             "locales": {},
             "items": [
                 {
-                    "id": 1,
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mastering Generative AI & Agents for Developers Bootcamp",
+                            "info": "CodeCademy",
+                            "text": "Completed intensive 6-week AI bootcamp with 12+ frameworks mastered and 6 production-ready applications built.\n\n<a href=\"https://www.codecademy.com/bootcamps/ai-1/certificates/61bbd81425580b633fee49f6\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "tags": [
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Буткемп по освоению генеративного ИИ и агентов для разработчиков",
+                            "info": "CodeCademy",
+                            "text": "Завершил интенсивный 6-недельный буткемп по ИИ, освоив более 12 фреймворков и создав 6 готовых к продакшену приложений.\n\n<a href=\"https://www.codecademy.com/bootcamps/ai-1/certificates/61bbd81425580b633fee49f6\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "tags": [
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Bootcamp Maîtriser l'IA Générative et les Agents pour Développeurs",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé un bootcamp IA intensif de 6 semaines avec plus de 12 frameworks maîtrisés et 6 applications prêtes pour la production construites.\n\n<a href=\"https://www.codecademy.com/bootcamps/ai-1/certificates/61bbd81425580b633fee49f6\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "tags": [
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "開発者向け生成AIとエージェントのマスタリングブートキャンプ",
+                            "info": "CodeCademy",
+                            "text": "12以上のフレームワークをマスターし、6つのプロダクション対応アプリケーションを構築した集中的な6週間のAIブートキャンプを修了しました。\n\n<a href=\"https://www.codecademy.com/bootcamps/ai-1/certificates/61bbd81425580b633fee49f6\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "tags": [
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
                     "img": "images/pictures/logos/jbc.png",
-                    "faIcon": "",
-                    "faIconColors": {
-                        "bg": null,
-                        "fill": null
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 4
                     },
-                    "dateStart": {"year": 2025, "month": 4},
-                    "dateEnd": {"year": 2025, "month": 7},
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 7
+                    },
                     "locales": {
                         "en": {
-                            "title": "ICT System Support Bootcamp Participant",
-                            "info": "JCB Academy - Staffordshire, UK",
-                            "text": "Intensive bootcamp focused on IT system support, networking, and infrastructure management.\n\n■ Gained hands-on experience with network configuration, system administration, and IT troubleshooting.\n■ Developed skills in Windows Server, Active Directory, and enterprise IT support.\n■ Completed practical projects in system deployment and user support scenarios.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>"
+                            "title": "City & Guilds Level 2 ICT System Support Diploma",
+                            "info": "JCB Training",
+                            "text": "Completed 8-week intensive bootcamp covering IT infrastructure, networking, and system administration.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate</a>",
+                            "tags": [
+                                "Azure",
+                                "AWS",
+                                "IT Support",
+                                "Infrastructure",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Диплом City & Guilds Level 2 по поддержке ИКТ систем",
+                            "info": "JCB Training",
+                            "text": "Завершил 8-недельный интенсивный буткемп по ИТ-инфраструктуре, сетевым технологиям и системному администрированию.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
+                            "tags": [
+                                "Azure",
+                                "AWS",
+                                "IT Support",
+                                "Infrastructure",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Diplôme City & Guilds Level 2 en Support des Systèmes TIC",
+                            "info": "JCB Training",
+                            "text": "J'ai terminé un bootcamp intensif de 8 semaines couvrant l'infrastructure informatique, les réseaux et l'administration système.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "tags": [
+                                "Azure",
+                                "AWS",
+                                "IT Support",
+                                "Infrastructure",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "City & Guilds Level 2 ICTシステムサポートディプロマ",
+                            "info": "JCB Training",
+                            "text": "ITインフラストラクチャ、ネットワーキング、システム管理をカバーする8週間の集中ブートキャンプを修了しました。\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
+                            "tags": [
+                                "Azure",
+                                "AWS",
+                                "IT Support",
+                                "Infrastructure",
+                                "Certificate"
+                            ]
                         }
                     }
                 },
                 {
-                    "id": 2,
-                    "img": "images/pictures/fuelius.jpg",
-                    "faIcon": "",
-                    "faIconColors": {
-                        "bg": null,
-                        "fill": null
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 1
                     },
-                    "dateStart": {"year": 2023, "month": 8},
-                    "dateEnd": {"year": 2024, "month": 12},
+                    "dateEnd": {
+                        "now": true
+                    },
                     "locales": {
                         "en": {
-                            "title": "Apprentice Full-Stack Software Developer",
-                            "info": "Fuelius - Chester, UK",
-                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\n■ Gained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience.\n■ Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n■ Stepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability.\n■ Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration."
+                            "title": "AI/ML Engineer Career Path",
+                            "info": "CodeCademy",
+                            "text": "Currently enrolled in comprehensive AI/ML engineering program covering neural networks, deep learning, and production ML systems.",
+                            "tags": [
+                                "Machine Learning",
+                                "Python",
+                                "TensorFlow",
+                                "Neural Networks",
+                                "AI"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Карьерный путь инженера по ИИ/МО",
+                            "info": "CodeCademy",
+                            "text": "В настоящее время обучаюсь на комплексной программе инженерии ИИ/МО, охватывающей нейронные сети, глубокое обучение и промышленные системы МО.",
+                            "tags": [
+                                "Machine Learning",
+                                "Python",
+                                "TensorFlow",
+                                "Neural Networks",
+                                "AI"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours Ingénieur IA/ML",
+                            "info": "CodeCademy",
+                            "text": "Actuellement inscrit dans un programme complet d'ingénierie IA/ML couvrant les réseaux de neurones, l'apprentissage profond et les systèmes ML de production.",
+                            "tags": [
+                                "Machine Learning",
+                                "Python",
+                                "TensorFlow",
+                                "Neural Networks",
+                                "AI"
+                            ]
+                        },
+                        "ja": {
+                            "title": "AI/MLエンジニアキャリアパス",
+                            "info": "CodeCademy",
+                            "text": "ニューラルネットワーク、ディープラーニング、プロダクションMLシステムをカバーする包括的なAI/MLエンジニアリングプログラムに現在在籍中です。",
+                            "tags": [
+                                "Machine Learning",
+                                "Python",
+                                "TensorFlow",
+                                "Neural Networks",
+                                "AI"
+                            ]
                         }
                     }
                 },
                 {
-                    "id": 3,
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Engineer Career Path",
+                            "info": "CodeCademy",
+                            "text": "Completed comprehensive full-stack development program covering React, Node.js, TypeScript, SQL, and modern deployment practices.",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "TypeScript",
+                                "SQL",
+                                "Full Stack",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Карьерный путь Full Stack инженера",
+                            "info": "CodeCademy",
+                            "text": "Завершил комплексную программу full-stack разработки, охватывающую React, Node.js, TypeScript, SQL и современные практики развертывания.",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "TypeScript",
+                                "SQL",
+                                "Full Stack",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours Ingénieur Full Stack",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé un programme complet de développement full-stack couvrant React, Node.js, TypeScript, SQL et les pratiques modernes de déploiement.",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "TypeScript",
+                                "SQL",
+                                "Full Stack",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "フルスタックエンジニアキャリアパス",
+                            "info": "CodeCademy",
+                            "text": "React、Node.js、TypeScript、SQL、最新のデプロイ手法をカバーする包括的なフルスタック開発プログラムを修了しました。",
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "TypeScript",
+                                "SQL",
+                                "Full Stack",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 12
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Front End Engineer Career Path",
+                            "info": "CodeCademy",
+                            "text": "Completed front-end specialization covering JavaScript, React, CSS, HTML, and modern UI/UX practices.",
+                            "tags": [
+                                "JavaScript",
+                                "React",
+                                "CSS",
+                                "HTML",
+                                "UI/UX",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Карьерный путь Front End инженера",
+                            "info": "CodeCademy",
+                            "text": "Завершил специализацию по front-end разработке, охватывающую JavaScript, React, CSS, HTML и современные практики UI/UX.",
+                            "tags": [
+                                "JavaScript",
+                                "React",
+                                "CSS",
+                                "HTML",
+                                "UI/UX",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Parcours Ingénieur Front End",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé une spécialisation front-end couvrant JavaScript, React, CSS, HTML et les pratiques modernes UI/UX.",
+                            "tags": [
+                                "JavaScript",
+                                "React",
+                                "CSS",
+                                "HTML",
+                                "UI/UX",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "フロントエンドエンジニアキャリアパス",
+                            "info": "CodeCademy",
+                            "text": "JavaScript、React、CSS、HTML、最新のUI/UXプラクティスをカバーするフロントエンド専門プログラムを修了しました。",
+                            "tags": [
+                                "JavaScript",
+                                "React",
+                                "CSS",
+                                "HTML",
+                                "UI/UX",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/estio.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Estio Level 4 Software Developer Apprenticeship",
+                            "info": "Estio",
+                            "text": "Completed Level 4 Software Developer Apprenticeship with professional software development certifications.",
+                            "tags": [
+                                "Software Development",
+                                "C#",
+                                ".NET",
+                                "Agile",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Программа стажировки Estio Level 4 по разработке ПО",
+                            "info": "Estio",
+                            "text": "Завершил программу стажировки Level 4 Software Developer с профессиональными сертификациями в разработке ПО.",
+                            "tags": [
+                                "Software Development",
+                                "C#",
+                                ".NET",
+                                "Agile",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Apprentissage Développeur Logiciel Estio Level 4",
+                            "info": "Estio",
+                            "text": "J'ai terminé l'apprentissage Développeur Logiciel Level 4 avec des certifications professionnelles en développement logiciel.",
+                            "tags": [
+                                "Software Development",
+                                "C#",
+                                ".NET",
+                                "Agile",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Estio Level 4ソフトウェア開発者見習いプログラム",
+                            "info": "Estio",
+                            "text": "プロフェッショナルなソフトウェア開発認定資格を取得してLevel 4 Software Developer Apprenticeshipを修了しました。",
+                            "tags": [
+                                "Software Development",
+                                "C#",
+                                ".NET",
+                                "Agile",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Data and Programming Foundations for AI",
+                            "info": "CodeCademy",
+                            "text": "Completed foundational AI programming course covering data structures, algorithms, and AI-specific programming concepts.",
+                            "tags": [
+                                "Python",
+                                "Data Structures",
+                                "Algorithms",
+                                "AI Foundations"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Основы данных и программирования для ИИ",
+                            "info": "CodeCademy",
+                            "text": "Завершил базовый курс программирования для ИИ, охватывающий структуры данных, алгоритмы и специфичные для ИИ концепции программирования.",
+                            "tags": [
+                                "Python",
+                                "Data Structures",
+                                "Algorithms",
+                                "AI Foundations"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Fondamentaux des Données et de la Programmation pour l'IA",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé un cours de programmation IA fondamental couvrant les structures de données, les algorithmes et les concepts de programmation spécifiques à l'IA.",
+                            "tags": [
+                                "Python",
+                                "Data Structures",
+                                "Algorithms",
+                                "AI Foundations"
+                            ]
+                        },
+                        "ja": {
+                            "title": "AIのためのデータとプログラミングの基礎",
+                            "info": "CodeCademy",
+                            "text": "データ構造、アルゴリズム、AI固有のプログラミング概念をカバーする基礎的なAIプログラミングコースを修了しました。",
+                            "tags": [
+                                "Python",
+                                "Data Structures",
+                                "Algorithms",
+                                "AI Foundations"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Build a Machine Learning Model",
+                            "info": "CodeCademy",
+                            "text": "Completed hands-on ML model building course with practical projects in model training and evaluation.",
+                            "tags": [
+                                "Machine Learning",
+                                "Model Training",
+                                "Python",
+                                "Data Science"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Создание модели машинного обучения",
+                            "info": "CodeCademy",
+                            "text": "Завершил практический курс по созданию моделей МО с практическими проектами по обучению и оценке моделей.",
+                            "tags": [
+                                "Machine Learning",
+                                "Model Training",
+                                "Python",
+                                "Data Science"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Construire un Modèle de Machine Learning",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé un cours pratique de construction de modèles ML avec des projets pratiques en entraînement et évaluation de modèles.",
+                            "tags": [
+                                "Machine Learning",
+                                "Model Training",
+                                "Python",
+                                "Data Science"
+                            ]
+                        },
+                        "ja": {
+                            "title": "機械学習モデルの構築",
+                            "info": "CodeCademy",
+                            "text": "モデルトレーニングと評価の実践的なプロジェクトを含む、実践的なMLモデル構築コースを修了しました。",
+                            "tags": [
+                                "Machine Learning",
+                                "Model Training",
+                                "Python",
+                                "Data Science"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/fcc.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Free Code Camp Data Analysis with Python",
+                            "info": "Free Code Camp",
+                            "text": "Earned Data Analysis with Python certification covering pandas, NumPy, and data visualization.",
+                            "tags": [
+                                "Python",
+                                "Data Analysis",
+                                "Pandas",
+                                "NumPy",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Free Code Camp Анализ данных с Python",
+                            "info": "Free Code Camp",
+                            "text": "Получил сертификацию по анализу данных с Python, охватывающую pandas, NumPy и визуализацию данных.",
+                            "tags": [
+                                "Python",
+                                "Data Analysis",
+                                "Pandas",
+                                "NumPy",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Free Code Camp Analyse de Données avec Python",
+                            "info": "Free Code Camp",
+                            "text": "J'ai obtenu la certification Analyse de Données avec Python couvrant pandas, NumPy et la visualisation de données.",
+                            "tags": [
+                                "Python",
+                                "Data Analysis",
+                                "Pandas",
+                                "NumPy",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Free Code Camp Pythonによるデータ分析",
+                            "info": "Free Code Camp",
+                            "text": "pandas、NumPy、データビジュアライゼーションをカバーするPythonによるデータ分析認定資格を取得しました。",
+                            "tags": [
+                                "Python",
+                                "Data Analysis",
+                                "Pandas",
+                                "NumPy",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/hubspot.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HubSpot CMS for Developers 1 and 2",
+                            "info": "HubSpot",
+                            "text": "Completed both HubSpot developer certifications for CMS development and customization.",
+                            "tags": [
+                                "CMS Development",
+                                "HubSpot",
+                                "Web Development",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "HubSpot CMS для разработчиков 1 и 2",
+                            "info": "HubSpot",
+                            "text": "Завершил обе сертификации HubSpot для разработчиков по разработке и настройке CMS.",
+                            "tags": [
+                                "CMS Development",
+                                "HubSpot",
+                                "Web Development",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "HubSpot CMS pour Développeurs 1 et 2",
+                            "info": "HubSpot",
+                            "text": "J'ai terminé les deux certifications développeur HubSpot pour le développement et la personnalisation CMS.",
+                            "tags": [
+                                "CMS Development",
+                                "HubSpot",
+                                "Web Development",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "HubSpot CMS for Developers 1および2",
+                            "info": "HubSpot",
+                            "text": "CMS開発とカスタマイゼーションのためのHubSpot開発者認定資格の両方を修了しました。",
+                            "tags": [
+                                "CMS Development",
+                                "HubSpot",
+                                "Web Development",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/aws.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AWS Cloud Quest",
+                            "info": "AWS",
+                            "text": "Completed AWS Cloud Quest certification covering cloud architecture and AWS services deployment.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Architecture",
+                                "EC2",
+                                "S3",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "AWS Cloud Quest",
+                            "info": "AWS",
+                            "text": "Завершил сертификацию AWS Cloud Quest, охватывающую облачную архитектуру и развертывание сервисов AWS.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Architecture",
+                                "EC2",
+                                "S3",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "AWS Cloud Quest",
+                            "info": "AWS",
+                            "text": "J'ai terminé la certification AWS Cloud Quest couvrant l'architecture cloud et le déploiement des services AWS.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Architecture",
+                                "EC2",
+                                "S3",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "AWS Cloud Quest",
+                            "info": "AWS",
+                            "text": "クラウドアーキテクチャとAWSサービスのデプロイメントをカバーするAWS Cloud Quest認定資格を修了しました。",
+                            "tags": [
+                                "AWS",
+                                "Cloud Architecture",
+                                "EC2",
+                                "S3",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/aws.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 4
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AWS Skill Builder",
+                            "info": "AWS",
+                            "text": "Completed AWS Skill Builder training covering core AWS services and cloud fundamentals.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Computing",
+                                "DevOps"
+                            ]
+                        },
+                        "ru": {
+                            "title": "AWS Skill Builder",
+                            "info": "AWS",
+                            "text": "Завершил обучение AWS Skill Builder, охватывающее основные сервисы AWS и основы облачных технологий.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Computing",
+                                "DevOps"
+                            ]
+                        },
+                        "fr": {
+                            "title": "AWS Skill Builder",
+                            "info": "AWS",
+                            "text": "J'ai terminé la formation AWS Skill Builder couvrant les services AWS de base et les fondamentaux du cloud.",
+                            "tags": [
+                                "AWS",
+                                "Cloud Computing",
+                                "DevOps"
+                            ]
+                        },
+                        "ja": {
+                            "title": "AWS Skill Builder",
+                            "info": "AWS",
+                            "text": "コアAWSサービスとクラウドの基礎をカバーするAWS Skill Builderトレーニングを修了しました。",
+                            "tags": [
+                                "AWS",
+                                "Cloud Computing",
+                                "DevOps"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/cisco.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco Introduction to Cybersecurity",
+                            "info": "Cisco",
+                            "text": "Completed Cisco cybersecurity fundamentals certification covering security principles and threat protection.",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Cisco",
+                                "Certificate"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Cisco Введение в кибербезопасность",
+                            "info": "Cisco",
+                            "text": "Завершил сертификацию по основам кибербезопасности Cisco, охватывающую принципы безопасности и защиту от угроз.",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Cisco",
+                                "Certificate"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Cisco Introduction à la Cybersécurité",
+                            "info": "Cisco",
+                            "text": "J'ai terminé la certification fondamentaux de la cybersécurité Cisco couvrant les principes de sécurité et la protection contre les menaces.",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Cisco",
+                                "Certificate"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Ciscoサイバーセキュリティ入門",
+                            "info": "Cisco",
+                            "text": "セキュリティ原則と脅威保護をカバーするCiscoサイバーセキュリティ基礎認定資格を修了しました。",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Cisco",
+                                "Certificate"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/cisco.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco Data Analytics Essentials",
+                            "info": "Cisco",
+                            "text": "Completed data analytics fundamentals certification covering analysis techniques and visualization.",
+                            "tags": [
+                                "Data Analytics",
+                                "Data Visualization",
+                                "Cisco"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Cisco Основы аналитики данных",
+                            "info": "Cisco",
+                            "text": "Завершил сертификацию по основам аналитики данных, охватывающую техники анализа и визуализацию.",
+                            "tags": [
+                                "Data Analytics",
+                                "Data Visualization",
+                                "Cisco"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Cisco Essentiels de l'Analytique des Données",
+                            "info": "Cisco",
+                            "text": "J'ai terminé la certification fondamentaux de l'analytique des données couvrant les techniques d'analyse et la visualisation.",
+                            "tags": [
+                                "Data Analytics",
+                                "Data Visualization",
+                                "Cisco"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Ciscoデータ分析の基礎",
+                            "info": "Cisco",
+                            "text": "分析技術とビジュアライゼーションをカバーするデータ分析基礎認定資格を修了しました。",
+                            "tags": [
+                                "Data Analytics",
+                                "Data Visualization",
+                                "Cisco"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/cisco.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 3
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cisco Packet Tracer",
+                            "info": "Cisco",
+                            "text": "Completed network simulation certification using Cisco Packet Tracer for hands-on networking practice.",
+                            "tags": [
+                                "Networking",
+                                "Network Simulation",
+                                "Cisco"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Cisco Packet Tracer",
+                            "info": "Cisco",
+                            "text": "Завершил сертификацию по сетевому моделированию с использованием Cisco Packet Tracer для практической работы с сетями.",
+                            "tags": [
+                                "Networking",
+                                "Network Simulation",
+                                "Cisco"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Cisco Packet Tracer",
+                            "info": "Cisco",
+                            "text": "J'ai terminé la certification simulation réseau utilisant Cisco Packet Tracer pour la pratique réseau pratique.",
+                            "tags": [
+                                "Networking",
+                                "Network Simulation",
+                                "Cisco"
+                            ]
+                        },
+                        "ja": {
+                            "title": "Cisco Packet Tracer",
+                            "info": "Cisco",
+                            "text": "実践的なネットワーキング練習のためのCisco Packet Tracerを使用したネットワークシミュレーション認定資格を修了しました。",
+                            "tags": [
+                                "Networking",
+                                "Network Simulation",
+                                "Cisco"
+                            ]
+                        }
+                    }
+                },
+                {
                     "img": "images/pictures/logos/gc.png",
-                    "faIcon": "",
-                    "faIconColors": {
-                        "bg": null,
-                        "fill": null
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 2
                     },
-                    "dateStart": {"year": 2023, "month": 2},
-                    "dateEnd": {"year": 2023, "month": 6},
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 5
+                    },
                     "locales": {
                         "en": {
-                            "title": "Cloud Engineering and Data Science Bootcamp Participant",
-                            "info": "The Growth Company - Manchester, UK",
-                            "text": "Completed an intensive bootcamp focused on cloud platforms (AWS, Azure), Python programming, data analysis, and foundational AI.\n\n■ Built practical skills in Python for data analysis and gained familiarity with APIs and data models.\n■ Strengthened core knowledge in high‑availability infrastructure and networking through collaborative projects."
+                            "title": "Cloud Engineering and Data Science Bootcamp",
+                            "info": "The Growth Company",
+                            "text": "Completed intensive bootcamp covering cloud platforms (AWS, Azure), Python programming, and data science fundamentals.",
+                            "tags": [
+                                "Cloud Architecture",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Буткемп по облачной инженерии и Data Science",
+                            "info": "The Growth Company",
+                            "text": "Завершил интенсивный буткемп, охватывающий облачные платформы (AWS, Azure), программирование на Python и основы data science.",
+                            "tags": [
+                                "Cloud Architecture",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Bootcamp d'Ingénierie Cloud et Data Science",
+                            "info": "The Growth Company",
+                            "text": "J'ai terminé un bootcamp intensif couvrant les plateformes cloud (AWS, Azure), la programmation Python et les fondamentaux de la data science.",
+                            "tags": [
+                                "Cloud Architecture",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
+                            ]
+                        },
+                        "ja": {
+                            "title": "クラウドエンジニアリングとデータサイエンスブートキャンプ",
+                            "info": "The Growth Company",
+                            "text": "クラウドプラットフォーム（AWS、Azure）、Pythonプログラミング、データサイエンスの基礎をカバーする集中ブートキャンプを修了しました。",
+                            "tags": [
+                                "Cloud Architecture",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
+                            ]
                         }
                     }
                 },
                 {
-                    "id": 4,
-                    "img": "images/svg/logo.svg",
-                    "faIcon": "",
-                    "faIconColors": {
-                        "bg": null,
-                        "fill": null
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 1
                     },
-                    "dateStart": {"year": 2000, "month": 1},
-                    "dateEnd": {"now": true},
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 1
+                    },
                     "locales": {
                         "en": {
-                            "title": "Lifelong Passion for Technology",
-                            "info": "Self-Directed Learning",
-                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch (iOS 1.1.4) with Cydia, messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen."
+                            "title": "Prompt Engineering Practices",
+                            "info": "CodeCademy",
+                            "text": "Completed prompt engineering certification for effective AI model communication and optimization.",
+                            "tags": [
+                                "AI",
+                                "LLMs",
+                                "Prompt Design",
+                                "Best Practices"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Практики инженерии промптов",
+                            "info": "CodeCademy",
+                            "text": "Завершил сертификацию по инженерии промптов для эффективной коммуникации с ИИ-моделями и оптимизации.",
+                            "tags": [
+                                "AI",
+                                "LLMs",
+                                "Prompt Design",
+                                "Best Practices"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Pratiques d'Ingénierie des Prompts",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé la certification ingénierie des prompts pour une communication et une optimisation efficaces des modèles IA.",
+                            "tags": [
+                                "AI",
+                                "LLMs",
+                                "Prompt Design",
+                                "Best Practices"
+                            ]
+                        },
+                        "ja": {
+                            "title": "プロンプトエンジニアリングプラクティス",
+                            "info": "CodeCademy",
+                            "text": "効果的なAIモデルコミュニケーションと最適化のためのプロンプトエンジニアリング認定資格を修了しました。",
+                            "tags": [
+                                "AI",
+                                "LLMs",
+                                "Prompt Design",
+                                "Best Practices"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/codecademy.png",
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2022,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intro to LLMs",
+                            "info": "CodeCademy",
+                            "text": "Completed introduction to Large Language Models covering fundamentals, RAG, and zero-shot learning.",
+                            "tags": [
+                                "AI Fundamentals",
+                                "LLMs",
+                                "Language Models"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Введение в большие языковые модели",
+                            "info": "CodeCademy",
+                            "text": "Завершил введение в большие языковые модели, охватывающее основы, RAG и zero-shot обучение.",
+                            "tags": [
+                                "AI Fundamentals",
+                                "LLMs",
+                                "Language Models"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Introduction aux LLMs",
+                            "info": "CodeCademy",
+                            "text": "J'ai terminé l'introduction aux grands modèles de langage couvrant les fondamentaux, RAG et l'apprentissage zero-shot.",
+                            "tags": [
+                                "AI Fundamentals",
+                                "LLMs",
+                                "Language Models"
+                            ]
+                        },
+                        "ja": {
+                            "title": "LLM入門",
+                            "info": "CodeCademy",
+                            "text": "基礎、RAG、ゼロショット学習をカバーする大規模言語モデル入門を修了しました。",
+                            "tags": [
+                                "AI Fundamentals",
+                                "LLMs",
+                                "Language Models"
+                            ]
                         }
                     }
                 }
             ]
         }
-    ],
-    "note": "For additional education details, please refer to the [education tab](public/data/sections/education.json)."
+    ]
 }

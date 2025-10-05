@@ -25,9 +25,9 @@
 
         "locales": {
             "en": {"role": "Full-Stack Web Developer"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "ru": {"role": "Полный стек веб-разработчик"},
+            "fr": {"role": "Développeur Web Full-Stack"},
+            "ja": {"role": "フルスタックWeb開発者"}
         }
     },
 
@@ -37,9 +37,9 @@
 
         "locales": {
             "en": {"message": "Available for full time work!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
-            "ko": {"message": "프리랜스 가능합니다!"}
+            "ru": {"message": "Доступен для полной занятости!"},
+            "fr": {"message": "Disponible pour un emploi à temps plein !"},
+            "ja": {"message": "フルタイム勤務可能です！"}
         }
     },
 
@@ -67,12 +67,12 @@
         {
             "name": "Русский",
             "id": "ru",
-            "flagUrl": "images/flags/ru.png"
+            "flagUrl": "images/flags/russia.png"
         },
         {
             "name": "日本語",
             "id": "ja",
-            "flagUrl": "images/flags/ja.png"
+            "flagUrl": "images/flags/jp.png"
         }
     ],
 

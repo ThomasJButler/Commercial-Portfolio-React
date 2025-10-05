@@ -51,44 +51,28 @@
                     "link": {
                         "href": null
                     },
-                    "faIcon": "fa-solid fa-city",
-                    "faIconColors": {
-                        "bg": "#6B7280",
-                        "fill": "#36ad59"
-                    }
+                    "faIcon": "fa-solid fa-city"
                 },
                 {
                     "label": "LinkedIn",
                     "link": {
                         "href": "https://www.linkedin.com/in/thomasbutleruk/"
                     },
-                    "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": {
-                        "bg": "#6B7280",
-                        "fill": "#36ad59"
-                    }
+                    "faIcon": "fa-brands fa-linkedin"
                 },
                 {
                     "label": "GitHub",
                     "link": {
                         "href": "https://github.com/thomasjbutler"
                     },
-                    "faIcon": "fa-brands fa-github",
-                    "faIconColors": {
-                        "bg": "#6B7280",
-                        "fill": "#36ad59"
-                    }
+                    "faIcon": "fa-brands fa-github"
                 },
                 {
-                    "label": "Agency Work",
+                    "label": "Personal",
                     "link": {
-                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de"
+                        "href": "https://thomasjbutler.github.io/ThomasJButler/"
                     },
-                    "faIcon": "fa-solid fa-briefcase",
-                    "faIconColors": {
-                        "bg": "#6B7280",
-                        "fill": "#36ad59"
-                    }
+                    "faIcon": "fa-solid fa-user"
                 }
             ]
         },
@@ -115,16 +99,16 @@
                     "img": "images/pictures/matrix.png",
                     "locales": {
                         "en": {
-                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development.<br>I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p>"
+                            "text": "<p>I'm a web developer with <b>over 3 years</b> experience, specialising in full-stack development.<br>I also have hands-on experience with .NET, Azure, Node.js, C#, SCSS, Python and HubSpot/Umbraco CMS in production environments.</p><p>This diverse background enables me to adapt to a wide range of project needs.</p><p>Thank you for visiting and I look forward to the possibility of collaborating with you.</p><p>Kind regards, Thomas</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View My Commercial Work</a></p></div>"
                         },
                         "ru": {
-                            "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке.<br>Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть мою коммерческую работу</a></p>"
+                            "text": "<p>Я веб-разработчик с <b>более чем 3-летним</b> опытом, специализирующийся на full-stack разработке.<br>Также имею практический опыт работы с .NET, Azure, Node.js, C#, SCSS, Python и HubSpot/Umbraco CMS в производственных средах.</p><p>Этот разнообразный опыт позволяет мне адаптироваться к широкому спектру проектных потребностей.</p><p>Спасибо за посещение, и я с нетерпением жду возможности сотрудничать с вами.</p><p>С уважением, Томас</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть мою коммерческую работу</a></p></div>"
                         },
                         "fr": {
-                            "text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack.<br>J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir Mon Travail Commercial</a></p>"
+                            "text": "<p>Je suis un développeur web avec <b>plus de 3 ans</b> d'expérience, spécialisé dans le développement full-stack.<br>J'ai également une expérience pratique avec .NET, Azure, Node.js, C#, SCSS, Python et HubSpot/Umbraco CMS dans des environnements de production.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir Mon Travail Commercial</a></p></div>"
                         },
                         "ja": {
-                            "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。<br>また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>私の商業作品を見る</a></p>"
+                            "text": "<p>私は<b>3年以上</b>の経験を持つウェブ開発者で、フルスタック開発を専門としています。<br>また、プロダクション環境で.NET、Azure、Node.js、C#、SCSS、Python、HubSpot/Umbraco CMSの実務経験があります。</p><p>この多様な背景により、幅広いプロジェクトのニーズに適応できます。</p><p>ご訪問いただきありがとうございます。皆様と協力できる機会を楽しみにしています。</p><p>よろしくお願いします、トーマス</p><div class='mobile-only-cta'><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>私の商業作品を見る</a></p></div>"
                         }
                     }
                 }
@@ -157,9 +141,10 @@
                         "fill": "#282C34"
                     },
                     "locales": {
-                        "en": {
-                            "title": "React"
-                        }
+                        "en": {"title": "React"},
+                        "ru": {"title": "React"},
+                        "fr": {"title": "React"},
+                        "ja": {"title": "React"}
                     }
                 },
                 {
@@ -170,9 +155,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Node.js"
-                        }
+                        "en": {"title": "Node.js"},
+                        "ru": {"title": "Node.js"},
+                        "fr": {"title": "Node.js"},
+                        "ja": {"title": "Node.js"}
                     }
                 },
                 {
@@ -183,9 +169,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Python"
-                        }
+                        "en": {"title": "Python"},
+                        "ru": {"title": "Python"},
+                        "fr": {"title": "Python"},
+                        "ja": {"title": "Python"}
                     }
                 },
                 {
@@ -196,9 +183,10 @@
                         "fill": "#000000"
                     },
                     "locales": {
-                        "en": {
-                            "title": "TypeScript"
-                        }
+                        "en": {"title": "TypeScript"},
+                        "ru": {"title": "TypeScript"},
+                        "fr": {"title": "TypeScript"},
+                        "ja": {"title": "TypeScript"}
                     }
                 },
                 {
@@ -209,9 +197,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": ".NET/C#"
-                        }
+                        "en": {"title": ".NET/C#"},
+                        "ru": {"title": ".NET/C#"},
+                        "fr": {"title": ".NET/C#"},
+                        "ja": {"title": ".NET/C#"}
                     }
                 },
                 {
@@ -222,9 +211,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Azure"
-                        }
+                        "en": {"title": "Azure"},
+                        "ru": {"title": "Azure"},
+                        "fr": {"title": "Azure"},
+                        "ja": {"title": "Azure"}
                     }
                 },
                 {
@@ -235,268 +225,122 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Docker"
-                        }
+                        "en": {"title": "Docker"},
+                        "ru": {"title": "Docker"},
+                        "fr": {"title": "Docker"},
+                        "ja": {"title": "Docker"}
                     }
                 },
                 {
                     "id": 8,
-                    "faIcon": "fa-brands fa-html5",
-                    "faIconColors": {
-                        "bg": "#E34F26",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HTML5"
-                        }
-                    }
-                },
-                {
-                    "id": 9,
                     "faIcon": "fa-brands fa-css3-alt",
                     "faIconColors": {
                         "bg": "#1572B6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "CSS3/SCSS"
-                        }
+                        "en": {"title": "CSS3/SCSS"},
+                        "ru": {"title": "CSS3/SCSS"},
+                        "fr": {"title": "CSS3/SCSS"},
+                        "ja": {"title": "CSS3/SCSS"}
                     }
                 },
                 {
-                    "id": 10,
+                    "id": 9,
                     "faIcon": "fa-solid fa-database",
                     "faIconColors": {
                         "bg": "#336791",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "SQL/MongoDB"
-                        }
+                        "en": {"title": "SQL/MongoDB"},
+                        "ru": {"title": "SQL/MongoDB"},
+                        "fr": {"title": "SQL/MongoDB"},
+                        "ja": {"title": "SQL/MongoDB"}
                     }
-                }
-            ]
-        },
-        {
-            "id": "testimonials",
-            "component": "ArticleTestimonials",
-            "config": {},
-            "locales": {
-                "en": {
-                    "title": "What clients **might say**"
                 },
-                "ru": {
-                    "title": "Отзывы **клиентов**"
-                },
-                "fr": {
-                    "title": "Témoignages de **clients**"
-                },
-                "ja": {
-                    "title": "**お客様**の声"
-                }
-            },
-            "items": [
                 {
-                    "label": "Keith Cridland",
-                    "img": "images/pictures/testimonial-person-male-1.png",
-                    "faIcon": "fa-solid fa-user",
-                    "link": {
-                        "href": "https://kcroofingandbuilding.co.uk/"
+                    "id": 10,
+                    "faIcon": "fa-solid fa-link",
+                    "faIconColors": {
+                        "bg": "#7C3AED",
+                        "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Owner at <b>KC Roofing and Building</b>",
-                            "text": "Before working with Thomas, our roofing business relied on word-of-mouth. Now, we have a professional website where customers can see our work, request quotes, and book services. It's completely transformed the way we operate!"
-                        },
-                        "es": {
-                            "title": "Propietario de <b>KC Roofing and Building</b>",
-                            "text": "Antes de trabajar con Thomas, nuestro negocio de techado dependía del boca a boca. Ahora, tenemos un sitio web profesional donde los clientes pueden ver nuestro trabajo, solicitar presupuestos y reservar servicios. ¡Ha transformado completamente nuestra forma de operar!"
-                        },
-                        "fr": {
-                            "title": "Propriétaire de <b>KC Roofing and Building</b>",
-                            "text": "Avant de travailler avec Thomas, notre entreprise de toiture dépendait du bouche à oreille. Maintenant, nous avons un site web professionnel où les clients peuvent voir notre travail, demander des devis et réserver des services. Cela a complètement transformé notre façon de travailler !"
-                        },
-                        "ko": {
-                            "title": "<b>KC Roofing and Building</b> 대표",
-                            "text": "Thomas와 일하기 전에는 우리 지붕 공사 사업이 입소문에만 의존했습니다. 이제는 고객이 우리의 작업을 볼 수 있고, 견적을 요청하고, 서비스를 예약할 수 있는 전문적인 웹사이트가 있습니다. 우리의 운영 방식을 완전히 변화시켰습니다!"
-                        }
+                        "en": {"title": "LangChain"},
+                        "ru": {"title": "LangChain"},
+                        "fr": {"title": "LangChain"},
+                        "ja": {"title": "LangChain"}
                     }
                 },
                 {
-                    "label": "Annabel Butler",
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "link": {
-                        "href": "https://annabelbutlerdesigns.com/"
+                    "id": 11,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#FF6F00",
+                        "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "CEO at <b>Annabel Butler Designs</b>",
-                            "text": "Thomas is building me a cool web shop to get my designs and prints out into the world for free. Safe to say, he won't have to buy me a Christmas present for at least the next two years. Best bro ever!"
-                        },
-                        "es": {
-                            "title": "CEO de <b>Annabel Butler Designs</b>",
-                            "text": "Thomas me está construyendo una tienda web genial para mostrar mis diseños e impresiones al mundo de forma gratuita. Se puede decir que no tendrá que comprarme un regalo de Navidad durante al menos los próximos dos años. ¡El mejor hermano del mundo!"
-                        },
-                        "fr": {
-                            "title": "PDG chez <b>Annabel Butler Designs</b>",
-                            "text": "Thomas me construit une super boutique en ligne pour diffuser mes designs et impressions dans le monde gratuitement. Autant dire qu'il n'aura pas à m'acheter de cadeau de Noël pendant au moins les deux prochaines années. Le meilleur frère au monde !"
-                        },
-                        "ko": {
-                            "title": "<b>Annabel Butler Designs</b> CEO",
-                            "text": "Thomas는 제 디자인과 프린트를 전 세계에 무료로 선보일 수 있는 멋진 웹 샵을 만들어주고 있어요. 앞으로 최소 2년 동안은 크리스마스 선물을 살 필요가 없을 거예요. 최고의 오빠예요!"
-                        }
+                        "en": {"title": "TensorFlow"},
+                        "ru": {"title": "TensorFlow"},
+                        "fr": {"title": "TensorFlow"},
+                        "ja": {"title": "TensorFlow"}
                     }
                 },
                 {
-                    "label": "Mark Johnson",
-                    "img": "images/pictures/testimonial-person-male-2.png",
-                    "link": {
-                        "href": "https://dribbble.com"
+                    "id": 12,
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {
+                        "bg": "#EE4C2C",
+                        "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Creative Director at <b>Dribbble</b>",
-                            "text": "Thomas's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
-                        },
-                        "es": {
-                            "title": "Directora Creativa en <b>Dribbble</b>",
-                            "text": "La atención al detalle de Thomas y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
-                        },
-                        "fr": {
-                            "title": "Directrice Créative chez <b>Dribbble</b>",
-                            "text": "L'attention aux détails de Thomas et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
-                        },
-                        "ko": {
-                            "title": "<b>Dribbble</b> 크리에이티브 디렉터",
-                            "text": "Thomas의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
-                        }
+                        "en": {"title": "PyTorch"},
+                        "ru": {"title": "PyTorch"},
+                        "fr": {"title": "PyTorch"},
+                        "ja": {"title": "PyTorch"}
                     }
                 },
                 {
-                    "label": "Sophie Smith",
-                    "img": "images/pictures/testimonial-person-female-2.png",
-                    "locales": {
-                        "en": {
-                            "title": "Managing Director at <b>Dingga</b>",
-                            "text": "Collaborating with Thomas was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
-                        },
-                        "es": {
-                            "title": "Directora General en <b>Dingga</b>",
-                            "text": "Colaborar con Thomas fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
-                        },
-                        "fr": {
-                            "title": "Directrice Générale chez <b>Dingga</b>",
-                            "text": "Collaborer avec Thomas a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
-                        },
-                        "ko": {
-                            "title": "딩가 전무이사",
-                            "text": "Thomas와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
-                        }
-                    }
-                },
-                {
-                    "label": "Sarah Mitchell",
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "link": {
-                        "href": "https://techstartup.com"
+                    "id": 13,
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {
+                        "bg": "#FF9900",
+                        "fill": "#232F3E"
                     },
                     "locales": {
-                        "en": {
-                            "title": "CTO at <b>TechStartup Inc</b>",
-                            "text": "Thomas delivered exceptional results on our e-commerce platform rebuild. His expertise in React and Node.js, combined with his eye for user experience, helped us increase conversions by 40%. Highly recommend!"
-                        },
-                        "es": {
-                            "title": "CTO en <b>TechStartup Inc</b>",
-                            "text": "Thomas entregó resultados excepcionales en la reconstrucción de nuestra plataforma de comercio electrónico. Su experiencia en React y Node.js, combinada con su ojo para la experiencia del usuario, nos ayudó a aumentar las conversiones en un 40%. ¡Muy recomendable!"
-                        },
-                        "fr": {
-                            "title": "CTO chez <b>TechStartup Inc</b>",
-                            "text": "Thomas a livré des résultats exceptionnels pour la refonte de notre plateforme e-commerce. Son expertise en React et Node.js, combinée à son sens de l'expérience utilisateur, nous a aidés à augmenter les conversions de 40%. Je le recommande vivement !"
-                        },
-                        "ko": {
-                            "title": "<b>TechStartup Inc</b> CTO",
-                            "text": "Thomas는 우리 전자상거래 플랫폼 재구축에서 뛰어난 결과를 제공했습니다. React와 Node.js에 대한 그의 전문성과 사용자 경험에 대한 안목이 결합되어 전환율을 40% 증가시키는 데 도움이 되었습니다. 강력 추천합니다!"
-                        }
+                        "en": {"title": "AWS"},
+                        "ru": {"title": "AWS"},
+                        "fr": {"title": "AWS"},
+                        "ja": {"title": "AWS"}
                     }
                 },
                 {
-                    "label": "David Chen",
-                    "img": "images/pictures/testimonial-person-male-1.png",
-                    "faIcon": "fa-solid fa-user",
-                    "link": {
-                        "href": "https://digitalagency.com"
+                    "id": 14,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": {
+                        "bg": "#000000",
+                        "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Lead Developer at <b>Digital Solutions Agency</b>",
-                            "text": "Working with Thomas was a pleasure. He quickly integrated with our team and contributed innovative solutions to complex problems. His code is clean, well-documented, and built to scale."
-                        },
-                        "es": {
-                            "title": "Desarrollador Principal en <b>Digital Solutions Agency</b>",
-                            "text": "Trabajar con Thomas fue un placer. Se integró rápidamente con nuestro equipo y contribuyó con soluciones innovadoras a problemas complejos. Su código es limpio, bien documentado y construido para escalar."
-                        },
-                        "fr": {
-                            "title": "Développeur Principal chez <b>Digital Solutions Agency</b>",
-                            "text": "Travailler avec Thomas a été un plaisir. Il s'est rapidement intégré à notre équipe et a apporté des solutions innovantes à des problèmes complexes. Son code est propre, bien documenté et conçu pour évoluer."
-                        },
-                        "ko": {
-                            "title": "<b>Digital Solutions Agency</b> 수석 개발자",
-                            "text": "Thomas와 함께 일하는 것은 즐거운 경험이었습니다. 그는 우리 팀에 빠르게 통합되었고 복잡한 문제에 혁신적인 솔루션을 제공했습니다. 그의 코드는 깨끗하고 잘 문서화되어 있으며 확장 가능하도록 구축되었습니다."
-                        }
+                        "en": {"title": "Vercel"},
+                        "ru": {"title": "Vercel"},
+                        "fr": {"title": "Vercel"},
+                        "ja": {"title": "Vercel"}
                     }
                 },
                 {
-                    "label": "Emma Rodriguez",
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "link": {
-                        "href": null
+                    "id": 15,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#3ECF8E",
+                        "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Product Manager at <b>FinTech Solutions</b>",
-                            "text": "Thomas was instrumental in bringing our mobile banking app vision to life. His technical skills are matched only by his ability to understand business requirements and deliver user-centric solutions."
-                        },
-                        "es": {
-                            "title": "Gerente de Producto en <b>FinTech Solutions</b>",
-                            "text": "Thomas fue fundamental para dar vida a nuestra visión de aplicación de banca móvil. Sus habilidades técnicas solo son igualadas por su capacidad para comprender los requisitos del negocio y ofrecer soluciones centradas en el usuario."
-                        },
-                        "fr": {
-                            "title": "Chef de Produit chez <b>FinTech Solutions</b>",
-                            "text": "Thomas a joué un rôle déterminant dans la concrétisation de notre vision d'application bancaire mobile. Ses compétences techniques n'ont d'égal que sa capacité à comprendre les exigences commerciales et à fournir des solutions centrées sur l'utilisateur."
-                        },
-                        "ko": {
-                            "title": "<b>FinTech Solutions</b> 제품 관리자",
-                            "text": "Thomas는 우리의 모바일 뱅킹 앱 비전을 실현하는 데 중요한 역할을 했습니다. 그의 기술적 능력은 비즈니스 요구사항을 이해하고 사용자 중심 솔루션을 제공하는 능력과 견줄 만합니다."
-                        }
-                    }
-                },
-                {
-                    "label": "James Wilson",
-                    "img": "images/pictures/testimonial-person-male-2.png",
-                    "link": {
-                        "href": "https://innovativetech.co"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Founder at <b>Innovative Tech Co</b>",
-                            "text": "As a startup founder, I needed someone who could wear multiple hats. Thomas exceeded expectations, handling everything from architecture design to deployment. He's a true full-stack developer."
-                        },
-                        "es": {
-                            "title": "Fundador de <b>Innovative Tech Co</b>",
-                            "text": "Como fundador de una startup, necesitaba a alguien que pudiera desempeñar múltiples roles. Thomas superó las expectativas, manejando todo desde el diseño de arquitectura hasta el despliegue. Es un verdadero desarrollador full-stack."
-                        },
-                        "fr": {
-                            "title": "Fondateur chez <b>Innovative Tech Co</b>",
-                            "text": "En tant que fondateur de startup, j'avais besoin de quelqu'un capable de porter plusieurs casquettes. Thomas a dépassé les attentes, gérant tout de la conception de l'architecture au déploiement. C'est un véritable développeur full-stack."
-                        },
-                        "ko": {
-                            "title": "<b>Innovative Tech Co</b> 설립자",
-                            "text": "스타트업 창업자로서 여러 역할을 수행할 수 있는 사람이 필요했습니다. Thomas는 아키텍처 설계부터 배포까지 모든 것을 처리하며 기대를 뛰어넘었습니다. 그는 진정한 풀스택 개발자입니다."
-                        }
+                        "en": {"title": "Supabase"},
+                        "ru": {"title": "Supabase"},
+                        "fr": {"title": "Supabase"},
+                        "ja": {"title": "Supabase"}
                     }
                 }
             ]
@@ -511,14 +355,14 @@
                 "en": {
                     "title": "Personal **interests**"
                 },
-                "es": {
-                    "title": "Intereses **personales**"
+                "ru": {
+                    "title": "Личные **интересы**"
                 },
                 "fr": {
                     "title": "Intérêts **personnels** "
                 },
-                "ko": {
-                    "title": "개인 **관심사**"
+                "ja": {
+                    "title": "個人的な**興味**"
                 }
             },
             "items": [
@@ -534,17 +378,17 @@
                             "title": "Playing guitar and creating music",
                             "info": "Exploring different genres and improving my skills."
                         },
-                        "es": {
-                            "title": "Tocar la guitarra",
-                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        "ru": {
+                            "title": "Игра на гитаре и создание музыки",
+                            "info": "Изучаю различные жанры и совершенствую свои навыки."
                         },
                         "fr": {
-                            "title": "Jouer de la guitare",
+                            "title": "Jouer de la guitare et créer de la musique",
                             "info": "Explorer différents genres et améliorer mes compétences."
                         },
-                        "ko": {
-                            "title": "기타 연주",
-                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        "ja": {
+                            "title": "ギター演奏と音楽制作",
+                            "info": "さまざまなジャンルを探求し、スキルを向上させています。"
                         }
                     }
                 },
@@ -560,17 +404,17 @@
                             "title": "AI Image and Model Creation",
                             "info": "Learning to use new and existing AI tools."
                         },
-                        "es": {
-                            "title": "Creación de imágenes y modelos con IA",
-                            "info": "Aprendiendo a usar herramientas de IA nuevas y existentes."
+                        "ru": {
+                            "title": "Создание изображений и моделей с помощью ИИ",
+                            "info": "Изучаю использование новых и существующих инструментов ИИ."
                         },
                         "fr": {
                             "title": "Création d'images et de modèles IA",
                             "info": "Apprendre à utiliser des outils d'IA nouveaux et existants."
                         },
-                        "ko": {
-                            "title": "AI 이미지 및 모델 제작",
-                            "info": "새로운 AI 도구와 기존 AI 도구 사용법 배우기."
+                        "ja": {
+                            "title": "AI画像とモデルの作成",
+                            "info": "新しいAIツールと既存のAIツールの使用方法を学んでいます。"
                         }
                     }
                 },
@@ -586,17 +430,17 @@
                             "title": "Cricket",
                             "info": "Loved to play ever since childhood."
                         },
-                        "es": {
-                            "title": "Cricket",
-                            "info": "Me encantó jugar desde la infancia."
+                        "ru": {
+                            "title": "Крикет",
+                            "info": "Люблю играть с детства."
                         },
                         "fr": {
                             "title": "Cricket",
                             "info": "J'ai adoré jouer depuis l'enfance."
                         },
-                        "ko": {
-                            "title": "크리켓",
-                            "info": "어린 시절부터 즐겨온 운동입니다."
+                        "ja": {
+                            "title": "クリケット",
+                            "info": "子供の頃からプレーするのが好きでした。"
                         }
                     }
                 },
@@ -612,17 +456,17 @@
                             "title": "Skiing",
                             "info": "Enjoying the slopes and the fresh mountain air."
                         },
-                        "es": {
-                            "title": "Esquí",
-                            "info": "Disfrutando de las pistas y el aire fresco de la montaña."
+                        "ru": {
+                            "title": "Горные лыжи",
+                            "info": "Наслаждаюсь склонами и свежим горным воздухом."
                         },
                         "fr": {
                             "title": "Ski",
                             "info": "Profiter des pistes et de l'air frais de la montagne."
                         },
-                        "ko": {
-                            "title": "스키",
-                            "info": "슬로프와 신선한 산악 공기를 즐기기."
+                        "ja": {
+                            "title": "スキー",
+                            "info": "ゲレンデと新鮮な山の空気を楽しんでいます。"
                         }
                     }
                 },
@@ -638,17 +482,17 @@
                             "title": "Casual Gaming",
                             "info": "Playing the odd game here and there, to relax and unwind."
                         },
-                        "es": {
-                            "title": "Juegos casuales",
-                            "info": "Jugando algún juego de vez en cuando, para relajarme y desconectar."
+                        "ru": {
+                            "title": "Казуальные игры",
+                            "info": "Играю время от времени, чтобы расслабиться и отдохнуть."
                         },
                         "fr": {
                             "title": "Jeux occasionnels",
                             "info": "Jouer à quelques jeux ici et là, pour se détendre et décompresser."
                         },
-                        "ko": {
-                            "title": "캐주얼 게임",
-                            "info": "긴장을 풀고 휴식을 취하기 위해 가끔 게임을 즐깁니다."
+                        "ja": {
+                            "title": "カジュアルゲーム",
+                            "info": "リラックスして気分転換するために、たまにゲームをプレイします。"
                         }
                     }
                 },
@@ -664,17 +508,17 @@
                             "title": "Hiking and Camping",
                             "info": "Exploring the great outdoors and immersing in nature."
                         },
-                        "es": {
-                            "title": "Senderismo y Camping",
-                            "info": "Explorando la naturaleza e inmersos en ella."
+                        "ru": {
+                            "title": "Походы и кемпинг",
+                            "info": "Исследую природу и погружаюсь в её красоту."
                         },
                         "fr": {
                             "title": "Randonnée et Camping",
                             "info": "Explorer le plein air et s'immerger dans la nature."
                         },
-                        "ko": {
-                            "title": "등산과 캠핑",
-                            "info": "아웃도어 활동과 자연을 탐험하기."
+                        "ja": {
+                            "title": "ハイキングとキャンプ",
+                            "info": "アウトドアを探索し、自然に浸っています。"
                         }
                     }
                 }

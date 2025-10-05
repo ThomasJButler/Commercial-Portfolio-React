@@ -2,8 +2,8 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Portfolio",
-                "title_short_nav": "Portfolio",
+                "title": "Commercial Work",
+                "title_short_nav": "Commercial Work",
                 "title_long": "My **Commercial Portfolio**",
                 "title_long_prefix": "Take a look at"
             },
@@ -64,21 +64,18 @@
                     "id": 1,
                     "img": "",
                     "faIcon":"fa-solid fa-briefcase",
-                    "faIconColors": {
-                        "fill": "#FFFFFF"
-                    },
                     "locales": {
                         "en": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>All commercial work below was completed while working at [[Fuelius]] in Chester, UK from {{August 2023 - December 2024}}. Projects developed for major clients including event venues, technology companies, healthcare providers, and more.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>View Detailed Agency Showcase</a></p>"
                         },
                         "ru": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Вся коммерческая работа ниже была выполнена во время работы в [[Fuelius]] в Честере, Великобритания с {{августа 2023 по декабрь 2024}}. Проекты разработаны для крупных клиентов, включая площадки для мероприятий, технологические компании, поставщиков медицинских услуг и многое другое.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Вся коммерческая работа ниже была выполнена во время работы в [[Fuelius]] в Честере, Великобритания с {{августа 2023 по декабрь 2024}}. Проекты разработаны для крупных клиентов, включая площадки для мероприятий, технологические компании, поставщиков медицинских услуг и многое другое.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Посмотреть подробную витрину агентства</a></p>"
                         },
                         "fr": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Tous les travaux commerciaux ci-dessous ont été réalisés en travaillant chez [[Fuelius]] à Chester, Royaume-Uni de {{août 2023 à décembre 2024}}. Projets développés pour des clients majeurs incluant des lieux événementiels, des entreprises technologiques, des prestataires de santé et plus.</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>Tous les travaux commerciaux ci-dessous ont été réalisés en travaillant chez [[Fuelius]] à Chester, Royaume-Uni de {{août 2023 à décembre 2024}}. Projets développés pour des clients majeurs incluant des lieux événementiels, des entreprises technologiques, des prestataires de santé et plus.</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>Voir la vitrine détaillée de l'agence</a></p>"
                         },
                         "ja": {
-                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p>"
+                            "text": "<p style='text-align: center; color: #6B7280; margin-bottom: 2rem;'>以下のすべての商業作品は、{{2023年8月から2024年12月}}まで英国チェスターの[[Fuelius]]で働いている間に完成しました。イベント会場、テクノロジー企業、医療提供者などの主要なクライアント向けに開発されたプロジェクトです。</p><p class='cta-wrapper'><a href='https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-briefcase'></i>詳細な代理店ショーケースを見る</a></p>"
                         }
                     }
                 }
@@ -104,7 +101,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/M-S-Bank-Arena-Feature-Release-1a11b94bcaea81e29c7efc78ce5e59e9",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -140,7 +137,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/CDW-1a11b94bcaea8199aeb7e715d1d60486",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -176,7 +173,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/ACC-Liverpool-1a11b94bcaea81908f68d3626cde882f",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -212,7 +209,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/InfoTrack-1a11b94bcaea8140920cf7aaa38de8b0",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -248,7 +245,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/MasterMover-1a11b94bcaea8196a483c127e16882c9",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -284,7 +281,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Merseyrail-1a11b94bcaea81c2928fda255906fe60",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -320,7 +317,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/PvCase-1a11b94bcaea8188b91ef82a754d1a25",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -356,7 +353,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Premex-1a11b94bcaea812995b5e9595e71748b",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -378,21 +375,21 @@
                     }
                 },
                 {
-                    "id": "fueliusinternal",
-                    "title": "Fuelius Internal",
+                    "id": "fusion21",
+                    "title": "Fusion21",
                     "subtitle": "",
                     "tags": [],
                     "preview": {
                         "links": [
                             {
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square",
-                                "href": "https://www.fuelius.com/",
+                                "href": "https://www.fusion21.co.uk/",
                                 "label": "Visit Site",
                                 "tooltip": "Visit Site"
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Fusion21-23b1b94bcaea80bfa976c3c3ee96fa9a",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -403,11 +400,11 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Fuelius Internal",
-                            "text": "Website development for Fuelius Internal."
+                            "title": "Fusion21",
+                            "text": "Website development for Fusion21."
                         }
                     },
-                    "faIcon": "fa-solid fa-cloud",
+                    "faIcon": "fa-solid fa-building",
                     "faIconColors": {
                         "bg": "#06B6D4",
                         "fill": "#FFFFFF"
@@ -428,7 +425,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Lancashire-Cricket-Club-1a11b94bcaea81759de7d4c76505f294",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -464,7 +461,7 @@
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Orega-1a11b94bcaea814eacf7dea44ad01c04",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -486,21 +483,21 @@
                     }
                 },
                 {
-                    "id": "hewittfertility",
-                    "title": "Hewitt Fertility Center",
+                    "id": "liverpoolwomensnhs",
+                    "title": "Liverpool Women's NHS",
                     "subtitle": "",
                     "tags": [],
                     "preview": {
                         "links": [
                             {
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square",
-                                "href": "https://www.thehewittfertilitycentre.org.uk/",
+                                "href": "https://www.liverpoolwomens.nhs.uk/",
                                 "label": "Visit Site",
                                 "tooltip": "Visit Site"
                             },
                             {
                                 "faIcon": "fa-solid fa-file-lines",
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
+                                "href": "https://tombutler.notion.site/Liverpool-Women-s-NHS-Foundation-Trust-1a31b94bcaea80aa99d6e09920a94668",
                                 "label": "Notion Write-Up",
                                 "tooltip": "Notion Write-Up"
                             }
@@ -511,8 +508,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Hewitt Fertility Center",
-                            "text": "Website development for Hewitt Fertility Center."
+                            "title": "Liverpool Women's NHS",
+                            "text": "Website development for Liverpool Women's NHS Foundation Trust."
                         }
                     },
                     "faIcon": "fa-solid fa-stethoscope",

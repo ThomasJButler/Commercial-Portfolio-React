@@ -2,26 +2,28 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Education",
-                "title_short_nav": "Education",
-                "title_long": "**Educational** Background",
+                "title": "Tech Timeline",
+                "title_short_nav": "Tech Timeline",
+                "title_long": "**Tech** Timeline",
                 "title_long_prefix": "This is my"
             },
-            "es": {
-                "title": "Educación",
-                "title_long": "**Formación** Educativa",
-                "title_long_prefix": "Esta es mi"
+            "ru": {
+                "title": "Технологическая хронология",
+                "title_short_nav": "Тех хронология",
+                "title_long": "**Технологическая** хронология",
+                "title_long_prefix": "Это моя"
             },
             "fr": {
-                "title": "Éducation",
-                "title_long": "**Contexte** Éducatif",
-                "title_long_prefix": "C'est mon",
-                "title_short_nav": "Formation"
+                "title": "Chronologie Technologique",
+                "title_long": "**Chronologie** Technologique",
+                "title_long_prefix": "C'est ma",
+                "title_short_nav": "Chronologie Tech"
             },
-            "ko": {
-                "title": "교육",
-                "title_long": "**교육적** 배경",
-                "title_long_prefix": "이것은 내"
+            "ja": {
+                "title": "テクノロジータイムライン",
+                "title_short_nav": "テックタイムライン",
+                "title_long": "**テクノロジー**タイムライン",
+                "title_long_prefix": "これは私の"
             }
         }
     },
@@ -46,49 +48,73 @@
                         "en": {
                             "title": "Mastering Generative AI & Agents for Developers",
                             "info": "CodeCademy",
-                            "text": "Really excited about this upcoming 5-week weekend course! It's packed with live presentations and hands-on projects that'll help me level up into an AI-powered developer. Can't wait to dive deep into Large Language Models, AI agents, and Generative AI tech. Perfect timing as I'm looking to integrate these cutting-edge capabilities into my development workflow. The fact it's designed for developers like me makes it even better!",
+                            "text": "Just completed this incredible 6-week AI bootcamp - absolutely transformative! Built 6 production-ready AI applications using cutting-edge tech like LangChain, RAG pipelines, and multi-agent systems. The hands-on approach was brilliant - worked extensively with GPT-4, Claude 3.5, vector databases (Pinecone, ChromaDB), and Azure AI Foundry. Mastered 12+ AI/ML frameworks and tools, which has completely leveled me up into a true AI-powered developer. The weekly projects gave me real-world experience in building and deploying AI agents - couldn't have asked for better timing!\n\n<a href=\"https://aitomatic.io\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view portfolio & certificate</a>",
                             "tags": [
-                                "LLMs",
-                                "AI Agents",
-                                "Generative AI",
-                                "Machine Learning",
-                                "Weekend Course"
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Vector Databases",
+                                "Azure AI",
+                                "Python",
+                                "TypeScript",
+                                "Production AI",
+                                "LLMs"
                             ]
                         },
-                        "es": {
-                            "title": "Dominando IA Generativa y Agentes para Desarrolladores",
+                        "ru": {
+                            "title": "Мастерство генеративного ИИ и агентов для разработчиков",
                             "info": "CodeCademy",
-                            "text": "Próximo curso de 5 semanas solo los fines de semana con presentaciones en vivo y proyectos prácticos. Este programa avanzado está diseñado para convertir a los desarrolladores en ingenieros potenciados por IA, proporcionando experiencia especializada con Modelos de Lenguaje Grande (LLMs), agentes de IA y tecnologías de IA Generativa.",
+                            "text": "Только что завершил этот невероятный 6-недельный буткемп по ИИ - абсолютно преобразующий опыт! Создал 6 готовых к продакшену ИИ-приложений, используя передовые технологии, такие как LangChain, RAG-конвейеры и мультиагентные системы. Практический подход был великолепен - работал интенсивно с GPT-4, Claude 3.5, векторными базами данных (Pinecone, ChromaDB) и Azure AI Foundry. Освоил более 12 фреймворков и инструментов ИИ/МО, что полностью вывело меня на новый уровень как ИИ-разработчика. Еженедельные проекты дали мне реальный опыт создания и развертывания ИИ-агентов - лучшего времени и желать было нельзя!\n\n<a href=\"https://aitomatic.io\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть портфолио и сертификат</a>",
                             "tags": [
-                                "LLMs",
-                                "AI Agents",
-                                "Generative AI",
-                                "Machine Learning",
-                                "Weekend Course"
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Vector Databases",
+                                "Azure AI",
+                                "Python",
+                                "TypeScript",
+                                "Production AI",
+                                "LLMs"
                             ]
                         },
                         "fr": {
                             "title": "Maîtriser l'IA Générative et les Agents pour Développeurs",
                             "info": "CodeCademy",
-                            "text": "Cours à venir de 5 semaines en week-end uniquement avec des présentations en direct et des projets pratiques. Ce programme avancé est conçu pour transformer les développeurs en ingénieurs alimentés par l'IA, fournissant une expertise spécialisée avec les grands modèles de langage (LLMs), les agents IA et les technologies d'IA générative.",
+                            "text": "Je viens de terminer ce bootcamp IA incroyable de 6 semaines - absolument transformateur! J'ai construit 6 applications IA prêtes pour la production en utilisant des technologies de pointe comme LangChain, les pipelines RAG et les systèmes multi-agents. L'approche pratique était brillante - j'ai travaillé intensivement avec GPT-4, Claude 3.5, les bases de données vectorielles (Pinecone, ChromaDB) et Azure AI Foundry. J'ai maîtrisé plus de 12 frameworks et outils IA/ML, ce qui m'a complètement élevé au niveau de véritable développeur dopé à l'IA. Les projets hebdomadaires m'ont donné une expérience du monde réel dans la construction et le déploiement d'agents IA - je n'aurais pas pu demander un meilleur timing!\n\n<a href=\"https://aitomatic.io\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le portfolio et le certificat</a>",
                             "tags": [
-                                "LLMs",
-                                "AI Agents",
-                                "Generative AI",
-                                "Machine Learning",
-                                "Weekend Course"
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Vector Databases",
+                                "Azure AI",
+                                "Python",
+                                "TypeScript",
+                                "Production AI",
+                                "LLMs"
                             ]
                         },
-                        "ko": {
-                            "title": "개발자를 위한 생성형 AI 및 에이전트 마스터링",
+                        "ja": {
+                            "title": "開発者向け生成AIとエージェントのマスタリング",
                             "info": "CodeCademy",
-                            "text": "라이브 프레젠테이션과 실습 프로젝트가 포함된 5주 주말 전용 과정입니다. 이 고급 프로그램은 개발자를 AI 기반 엔지니어로 레벨업시키도록 설계되었으며, 대규모 언어 모델(LLM), AI 에이전트 및 생성형 AI 기술에 대한 전문 지식을 제공합니다.",
+                            "text": "この素晴らしい6週間のAIブートキャンプを修了しました - 本当に変革的な体験でした！LangChain、RAGパイプライン、マルチエージェントシステムなどの最先端技術を使用して、6つのプロダクション対応AIアプリケーションを構築しました。実践的なアプローチが素晴らしく、GPT-4、Claude 3.5、ベクターデータベース（Pinecone、ChromaDB）、Azure AI Foundryで広範囲に作業しました。12以上のAI/MLフレームワークとツールをマスターし、真のAI駆動型開発者として完全にレベルアップしました。週次プロジェクトで、AIエージェントの構築とデプロイに関する実世界の経験を得られました - これ以上のタイミングは望めませんでした！\n\n<a href=\"https://aitomatic.io\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">ポートフォリオと証明書を表示するにはこちらをクリック</a>",
                             "tags": [
-                                "LLMs",
-                                "AI Agents",
-                                "Generative AI",
-                                "Machine Learning",
-                                "Weekend Course"
+                                "LangChain",
+                                "RAG Pipelines",
+                                "Multi-Agent Systems",
+                                "GPT-4",
+                                "Claude 3.5",
+                                "Vector Databases",
+                                "Azure AI",
+                                "Python",
+                                "TypeScript",
+                                "Production AI",
+                                "LLMs"
                             ]
                         }
                     }
@@ -119,11 +145,11 @@
                                 "Cloud Computing"
                             ]
                         },
-                        "es": {
-                            "title": "Bootcamp de Soporte de Sistemas TIC",
+                        "ru": {
+                            "title": "Буткемп по поддержке ИКТ систем",
                             "info": "JCB Training",
-                            "province": "Virtual",
-                            "text": "Completé un bootcamp intensivo de 8 semanas enfocado en el soporte de sistemas TI del mundo real e infraestructura. El programa incluyó experiencia práctica con instalación y solución de problemas de hardware de PC, configuración de entornos Windows Cliente/Servidor y conceptos básicos de redes. Trabajé extensamente con Microsoft Azure, exploré Amazon Web Services (AWS) y adquirí conocimiento práctico de plataformas en la nube, provisión de servicios TI y mejores prácticas de soporte.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Haga clic aquí para ver el certificado</a>",
+                            "province": "Виртуально",
+                            "text": "Только что завершил этот великолепный 8-недельный буткемп, который действительно укрепил моё понимание ИТ-инфраструктуры! Получил практический опыт работы с аппаратным обеспечением ПК, средами Windows Server и основами сетевых технологий. Модули по Azure и AWS были особенно впечатляющими - провёл много времени, настраивая виртуальные машины и изучая облачные сервисы. Это было бесценно для понимания инфраструктурной стороны вещей, что уже помогло мне стать лучшим разработчиком. Очень рад, что потратил время на расширение своих навыков, и в процессе получил диплом City & Guilds Level 2 ICT System Support!\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат</a>",
                             "tags": [
                                 "Azure",
                                 "AWS",
@@ -138,7 +164,7 @@
                             "title": "Bootcamp de Support des Systèmes TIC",
                             "info": "JCB Training",
                             "province": "Virtuel",
-                            "text": "J'ai complété un bootcamp intensif de 8 semaines axé sur le support des systèmes informatiques et l'infrastructure du monde réel. Le programme comprenait une expérience pratique avec l'installation et le dépannage du matériel PC, la configuration des environnements Windows Client/Serveur et les concepts de base du réseau. J'ai travaillé de manière approfondie avec Microsoft Azure, exploré Amazon Web Services (AWS) et acquis des connaissances pratiques des plateformes cloud.\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
+                            "text": "Je viens de terminer ce bootcamp brillant de 8 semaines qui a vraiment renforcé ma compréhension de l'infrastructure informatique! J'ai acquis une expérience pratique avec le matériel PC, les environnements Windows Server et les fondamentaux du réseau. Les modules Azure et AWS ont été particulièrement révélateurs - j'ai passé beaucoup de temps à configurer des machines virtuelles et à explorer les services cloud. Cela a été inestimable pour comprendre l'aspect infrastructure des choses, ce qui m'a déjà aidé à devenir un meilleur développeur. Vraiment content d'avoir pris le temps de compléter mes compétences, et j'ai obtenu un diplôme City & Guilds Level 2 ICT System Support dans le processus!\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat</a>",
                             "tags": [
                                 "Azure",
                                 "AWS",
@@ -149,11 +175,11 @@
                                 "Cloud Computing"
                             ]
                         },
-                        "ko": {
-                            "title": "ICT 시스템 지원 부트캠프",
+                        "ja": {
+                            "title": "ICTシステムサポートブートキャンプ",
                             "info": "JCB Training",
-                            "province": "온라인",
-                            "text": "실제 IT 시스템 지원 및 인프라에 중점을 둔 8주 집중 부트캠프를 완료했습니다. PC 하드웨어 설치 및 문제 해결, Windows 클라이언트/서버 환경 구성, 핵심 네트워킹 개념에 대한 실습 경험을 포함했습니다. Microsoft Azure와 AWS를 광범위하게 다루었고 클라우드 플랫폼, IT 서비스 제공 및 지원 모범 사례에 대한 실용적인 지식을 얻었습니다.",
+                            "province": "バーチャル",
+                            "text": "この素晴らしい8週間のブートキャンプを修了しました。ITインフラストラクチャの理解が本当に深まりました！PCハードウェア、Windows Server環境、ネットワーキングの基礎について実践的な経験を積みました。AzureとAWSのモジュールは特に目を見張るものがあり、仮想マシンのセットアップとクラウドサービスの探索に多くの時間を費やしました。インフラストラクチャ側の理解は非常に貴重で、すでにより良い開発者になるのに役立っています。スキルを充実させる時間を取って本当に良かったです。そしてその過程でCity & Guilds Level 2 ICT System Supportのディプロマを取得しました！\n\n<a href=\"https://digitalcredentials.cityandguilds.com/46a4d6de-63e8-4e80-9949-50e4ed5b91c4#acc.zg4Nn07P\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">証明書を表示するにはこちらをクリック</a>",
                             "tags": [
                                 "Azure",
                                 "AWS",
@@ -167,258 +193,70 @@
                     }
                 },
                 {
-                    "img": "images/pictures/logos/codecademy.png",
-                    "dateStart": {
-                        "year": 2024,
-                        "month": 11
-                    },
-                    "dateEnd": {
-                        "now": true
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AI /Machine Learning Engineer Career Path",
-                            "info": "CodeCademy",
-                            "text": "Currently working through this comprehensive AI/ML career path - it's been absolutely fascinating! Learning how modern AI actually works under the hood, from neural networks to model training. The hands-on projects are brilliant - I've built my own models and really enjoyed getting to grips with the maths behind it all. Still loads to learn but getting more confident with each module!",
-                            "tags": [
-                                "Machine Learning",
-                                "Python",
-                                "TensorFlow",
-                                "Neural Networks",
-                                "Data Science",
-                                "AI",
-                                "Deep Learning"
-                            ]
-                        },
-                        "es": {
-                            "title": "Ruta Profesional de Ingeniero de IA / Aprendizaje Automático",
-                            "info": "CodeCademy",
-                            "text": "Actualmente inscrito en la Ruta Profesional de Ingeniero de IA / Aprendizaje Automático, centrado en tecnologías de IA y aprendizaje automático.",
-                            "tags": [
-                                "Machine Learning",
-                                "Python",
-                                "TensorFlow",
-                                "Neural Networks",
-                                "Data Science",
-                                "AI",
-                                "Deep Learning"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Parcours de Carrière d'Ingénieur en IA / Apprentissage Automatique",
-                            "info": "CodeCademy",
-                            "text": "Actuellement inscrit au Parcours de Carrière d'Ingénieur en IA / Apprentissage Automatique, axé sur les technologies d'IA et d'apprentissage automatique.",
-                            "tags": [
-                                "Machine Learning",
-                                "Python",
-                                "TensorFlow",
-                                "Neural Networks",
-                                "Data Science",
-                                "AI",
-                                "Deep Learning"
-                            ]
-                        },
-                        "ko": {
-                            "title": "AI / 머신러닝 엔지니어 커리어 패스",
-                            "info": "CodeCademy",
-                            "text": "AI 및 머신러닝 기술에 중점을 둔 AI / 머신러닝 엔지니어 커리어 패스에 등록되어 있습니다.",
-                            "tags": [
-                                "Machine Learning",
-                                "Python",
-                                "TensorFlow",
-                                "Neural Networks",
-                                "Data Science",
-                                "AI",
-                                "Deep Learning"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/codecademy.png",
-                    "dateStart": {
-                        "year": 2024,
-                        "month": 11
-                    },
-                    "dateEnd": {
-                        "now": true
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Data and Programming Foundations for AI",
-                            "info": "CodeCademy",
-                            "text": "Currently working through the foundations - it's been brilliant for solidifying my understanding! Covering essential data structures, algorithms, and programming concepts specifically for AI applications. The Python focus is perfect as it's the go-to language for AI/ML work.",
-                            "tags": [
-                                "Python",
-                                "Data Structures",
-                                "Algorithms",
-                                "AI Foundations",
-                                "Programming"
-                            ]
-                        },
-                        "es": {
-                            "title": "Fundamentos de Datos y Programación para IA",
-                            "info": "CodeCademy",
-                            "text": "Actualmente inscrito en el curso de Fundamentos de Datos y Programación para IA, enfocado en los conceptos básicos de análisis de datos y programación.",
-                            "tags": [
-                                "Python",
-                                "Data Structures",
-                                "Algorithms",
-                                "AI Foundations",
-                                "Programming"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Fondements de la Programmation et des Données pour l'IA",
-                            "info": "CodeCademy",
-                            "text": "Actuellement inscrit au cours de Fondements de la Programmation et des Données pour l'IA, axé sur les bases de l'analyse de données et de la programmation.",
-                            "tags": [
-                                "Python",
-                                "Data Structures",
-                                "Algorithms",
-                                "AI Foundations",
-                                "Programming"
-                            ]
-                        },
-                        "ko": {
-                            "title": "AI를 위한 데이터 및 프로그래밍 기초",
-                            "info": "CodeCademy",
-                            "text": "데이터 분석과 프로그래밍의 기초에 중점을 둔 AI를 위한 데이터 및 프로그래밍 기초 과정을 현재 수강 중입니다.",
-                            "tags": [
-                                "Python",
-                                "Data Structures",
-                                "Algorithms",
-                                "AI Foundations",
-                                "Programming"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/codecademy.png",
-                    "dateStart": {
-                        "year": 2024,
-                        "month": 11
-                    },
-                    "dateEnd": {
-                        "now": true
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Build a Machine Learning Model",
-                            "info": "CodeCademy",
-                            "text": "Deep diving into ML model building right now! Working with large datasets and learning about feature engineering, model selection, and training techniques. The hands-on approach with real data is fantastic - nothing beats actually building and training your own models!",
-                            "tags": [
-                                "Machine Learning",
-                                "Model Training",
-                                "Python",
-                                "Data Science",
-                                "Feature Engineering"
-                            ]
-                        },
-                        "es": {
-                            "title": "Ruta Profesional de Ingeniero de IA / Aprendizaje Automático",
-                            "info": "CodeCademy",
-                            "text": "Actualmente inscrito en la Ruta Profesional de Ingeniero de IA / Aprendizaje Automático, centrado en tecnologías de IA y aprendizaje automático.",
-                            "tags": [
-                                "Machine Learning",
-                                "Model Training",
-                                "Python",
-                                "Data Science",
-                                "Feature Engineering"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Parcours de Carrière d'Ingénieur en IA / Apprentissage Automatique",
-                            "info": "CodeCademy",
-                            "text": "Actuellement inscrit au Parcours de Carrière d'Ingénieur en IA / Apprentissage Automatique, axé sur les technologies d'IA et d'apprentissage automatique.",
-                            "tags": [
-                                "Machine Learning",
-                                "Model Training",
-                                "Python",
-                                "Data Science",
-                                "Feature Engineering"
-                            ]
-                        },
-                        "ko": {
-                            "title": "AI / 머신러닝 엔지니어 커리어 패스",
-                            "info": "CodeCademy",
-                            "text": "AI 및 머신러닝 기술에 중점을 둔 AI / 머신러닝 엔지니어 커리어 패스에 등록되어 있습니다.",
-                            "tags": [
-                                "Machine Learning",
-                                "Model Training",
-                                "Python",
-                                "Data Science",
-                                "Feature Engineering"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "images/pictures/fuelius.jpg",
                     "dateStart": {
                         "year": 2023,
-                        "month": 12
+                        "month": 8
                     },
                     "dateEnd": {
                         "year": 2024,
-                        "month": 11
+                        "month": 12
                     },
                     "locales": {
                         "en": {
-                            "title": "Front End Engineer Career Path",
-                            "info": "CodeCademy",
-                            "text": "Initially started this to keep up with agency work demands, but ended up absolutely loving it! The visual and interactive aspects were brilliant - spent hours perfecting UI components and animations. With tight deadlines at work, I had to learn fast and practise loads. Managed to complete it alongside the Full Stack path, which was intense but so rewarding!",
+                            "title": "Apprentice Full-Stack Software Developer",
+                            "info": "Fuelius - Chester, UK",
+                            "text": "Developed full‑stack solutions for prominent clients like Merseyrail and M&S Bank Arena using robust tech stacks including .NET, Razor, C#, React, JavaScript, and CSS/SCSS.\n\nGained hands‑on experience from backend setups to frontend styling, specialising in HubSpot and Umbraco CMS to create responsive, content‑driven websites with a polished user experience. Frequently interacted with clients, managed JIRA tickets, and ensured projects stayed on track.\n\nStepped up to cover senior responsibilities during team members' leave, demonstrating adaptability and reliability. Committed to writing clean, maintainable code and enhancing site features with AI integrations, including chatbots and blog narration. I also completed the CodeCademy Front-End Engineer Career Path whilst working at Fuelius, to help me learn the tricks of the trade!",
                             "tags": [
-                                "JavaScript",
+                                ".NET",
                                 "React",
-                                "CSS",
-                                "HTML",
-                                "UI/UX",
-                                "Responsive Design",
-                                "Web Development"
+                                "C#",
+                                "JavaScript",
+                                "HubSpot",
+                                "Umbraco",
+                                "Full Stack"
                             ]
                         },
-                        "es": {
-                            "title": "Ruta Profesional de Ingeniero Front End",
-                            "info": "CodeCademy",
-                            "text": "Completé la Ruta Profesional de Ingeniero Front End, especializándome en tecnologías de desarrollo front-end.",
+                        "ru": {
+                            "title": "Стажёр Full-Stack разработчик программного обеспечения",
+                            "info": "Fuelius - Честер, Великобритания",
+                            "text": "Разрабатывал полнофункциональные решения для известных клиентов, таких как Merseyrail и M&S Bank Arena, используя надёжные технологические стеки, включая .NET, Razor, C#, React, JavaScript и CSS/SCSS.\n\nПриобрёл практический опыт от настройки backend до стилизации frontend, специализируясь на HubSpot и Umbraco CMS для создания адаптивных, контент-ориентированных веб-сайтов с качественным пользовательским опытом. Часто взаимодействовал с клиентами, управлял задачами в JIRA и обеспечивал своевременное выполнение проектов.\n\nВзял на себя обязанности старших сотрудников во время их отпусков, демонстрируя адаптивность и надёжность. Привержен написанию чистого, поддерживаемого кода и улучшению функций сайта с интеграциями ИИ, включая чат-боты и озвучивание блогов. Также завершил программу CodeCademy Front-End Engineer Career Path во время работы в Fuelius, чтобы освоить все тонкости профессии!",
                             "tags": [
-                                "JavaScript",
+                                ".NET",
                                 "React",
-                                "CSS",
-                                "HTML",
-                                "UI/UX",
-                                "Responsive Design",
-                                "Web Development"
+                                "C#",
+                                "JavaScript",
+                                "HubSpot",
+                                "Umbraco",
+                                "Full Stack"
                             ]
                         },
                         "fr": {
-                            "title": "Parcours de Carrière d'Ingénieur Front End",
-                            "info": "CodeCademy",
-                            "text": "J'ai terminé le Parcours de Carrière d'Ingénieur Front End, spécialisé dans les technologies de développement front-end.",
+                            "title": "Apprenti Développeur Logiciel Full-Stack",
+                            "info": "Fuelius - Chester, Royaume-Uni",
+                            "text": "J'ai développé des solutions full-stack pour des clients importants comme Merseyrail et M&S Bank Arena en utilisant des piles technologiques robustes incluant .NET, Razor, C#, React, JavaScript et CSS/SCSS.\n\nJ'ai acquis une expérience pratique de la configuration backend au styling frontend, me spécialisant dans HubSpot et Umbraco CMS pour créer des sites web réactifs et orientés contenu avec une expérience utilisateur soignée. J'ai fréquemment interagi avec les clients, géré des tickets JIRA et veillé à ce que les projets restent sur la bonne voie.\n\nJ'ai assumé des responsabilités de niveau senior pendant les congés des membres de l'équipe, démontrant adaptabilité et fiabilité. Engagé à écrire du code propre et maintenable et à améliorer les fonctionnalités du site avec des intégrations IA, y compris des chatbots et la narration de blogs. J'ai également terminé le parcours Front-End Engineer Career Path de CodeCademy tout en travaillant chez Fuelius, pour m'aider à apprendre les ficelles du métier!",
                             "tags": [
-                                "JavaScript",
+                                ".NET",
                                 "React",
-                                "CSS",
-                                "HTML",
-                                "UI/UX",
-                                "Responsive Design",
-                                "Web Development"
+                                "C#",
+                                "JavaScript",
+                                "HubSpot",
+                                "Umbraco",
+                                "Full Stack"
                             ]
                         },
-                        "ko": {
-                            "title": "프론트 엔드 엔지니어 커리어 패스",
-                            "info": "CodeCademy",
-                            "text": "프론트 엔드 엔지니어 커리어 패스를 완료하여 프론트 엔드 개발 기술을 전문적으로 습득했습니다.",
+                        "ja": {
+                            "title": "見習いフルスタックソフトウェア開発者",
+                            "info": "Fuelius - チェスター、イギリス",
+                            "text": "MerseyrailやM&S Bank Arenaなどの著名なクライアント向けに、.NET、Razor、C#、React、JavaScript、CSS/SCSSを含む堅牢な技術スタックを使用してフルスタックソリューションを開発しました。\n\nバックエンドのセットアップからフロントエンドのスタイリングまで実践的な経験を積み、HubSpotとUmbraco CMSに特化して、洗練されたユーザーエクスペリエンスを持つレスポンシブでコンテンツ駆動型のウェブサイトを作成しました。頻繁にクライアントと対話し、JIRAチケットを管理し、プロジェクトが予定通り進むよう確保しました。\n\nチームメンバーの休暇中に上級者の責任を引き受け、適応力と信頼性を示しました。クリーンで保守可能なコードを書くことに専念し、チャットボットやブログナレーションを含むAI統合でサイト機能を強化しました。また、Fueliusで働きながらCodeCademyのFront-End Engineer Career Pathを修了し、業界のコツを学びました！",
                             "tags": [
-                                "JavaScript",
+                                ".NET",
                                 "React",
-                                "CSS",
-                                "HTML",
-                                "UI/UX",
-                                "Responsive Design",
-                                "Web Development"
+                                "C#",
+                                "JavaScript",
+                                "HubSpot",
+                                "Umbraco",
+                                "Full Stack"
                             ]
                         }
                     }
@@ -447,10 +285,10 @@
                                 "Apprenticeship"
                             ]
                         },
-                        "es": {
-                            "title": "Aprendizaje de Desarrollador de Software Estio Lv4",
+                        "ru": {
+                            "title": "Программа стажировки Estio Lv4 по разработке ПО",
                             "info": "Estio",
-                            "text": "Completé un aprendizaje de Desarrollador de Software de Nivel 4, adquiriendo experiencia en los principios y prácticas del desarrollo de software.",
+                            "text": "Завершил программу стажировки Level 4 Software Developer в Estio - именно здесь началась моя профессиональная карьера! Получил прочную основу в принципах разработки программного обеспечения, гибких методологиях и лучших практиках. Программа великолепно сочетала реальный рабочий опыт со структурированным обучением. Это действительно помогло укрепить мою уверенность как разработчика!",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -463,7 +301,7 @@
                         "fr": {
                             "title": "Apprentissage de Développeur Logiciel Estio Lv4",
                             "info": "Estio",
-                            "text": "J'ai terminé un apprentissage de Développeur Logiciel de Niveau 4, acquérant de l'expérience dans les principes et pratiques du développement logiciel.",
+                            "text": "J'ai terminé mon apprentissage de Développeur Logiciel de Niveau 4 avec Estio - c'est là que mon parcours professionnel a vraiment commencé! J'ai acquis des bases solides dans les principes du développement logiciel, les méthodologies agiles et les meilleures pratiques. Le programme combinait brillamment l'expérience de travail du monde réel avec un apprentissage structuré. Cela a vraiment aidé à renforcer ma confiance en tant que développeur!",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -473,10 +311,10 @@
                                 "Apprenticeship"
                             ]
                         },
-                        "ko": {
-                            "title": "Estio Lv4 소프트웨어 개발자 견습 과정",
+                        "ja": {
+                            "title": "Estio Lv4ソフトウェア開発者見習いプログラム",
                             "info": "Estio",
-                            "text": "레벨 4 소프트웨어 개발자 견습 과정을 이수하여 소프트웨어 개발 원칙과 실무 경험을 쌓았습니다.",
+                            "text": "EstioでLevel 4 Software Developer Apprenticeshipを修了しました - ここで私のプロフェッショナルな旅が本当に始まりました！ソフトウェア開発の原則、アジャイル方法論、ベストプラクティスにおいて確固たる基盤を得ました。このプログラムは、実世界の業務経験と構造化された学習を見事に組み合わせていました。開発者としての自信を築くのに本当に役立ちました！",
                             "tags": [
                                 "Software Development",
                                 "C#",
@@ -484,6 +322,67 @@
                                 "Agile",
                                 "Professional Skills",
                                 "Apprenticeship"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/pictures/logos/cisco.png",
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Introduction to Cybersecurity Certificate",
+                            "info": "Cisco",
+                            "text": "Completed Cisco's comprehensive cybersecurity fundamentals course, covering network security, threat analysis, and security best practices. Really valuable for understanding the security side of development - helps me write more secure code and understand potential vulnerabilities. The course covered everything from basic cryptography to incident response.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Click here to view certificate on Credly</a>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Threat Analysis",
+                                "Security Best Practices",
+                                "Cisco"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Сертификат введения в кибербезопасность",
+                            "info": "Cisco",
+                            "text": "Завершил комплексный курс по основам кибербезопасности от Cisco, охватывающий сетевую безопасность, анализ угроз и лучшие практики безопасности. Действительно ценно для понимания аспектов безопасности в разработке - помогает мне писать более безопасный код и понимать потенциальные уязвимости. Курс охватывал всё от базовой криптографии до реагирования на инциденты.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Нажмите здесь, чтобы просмотреть сертификат на Credly</a>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Threat Analysis",
+                                "Security Best Practices",
+                                "Cisco"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Certificat d'Introduction à la Cybersécurité",
+                            "info": "Cisco",
+                            "text": "J'ai terminé le cours complet de Cisco sur les fondamentaux de la cybersécurité, couvrant la sécurité réseau, l'analyse des menaces et les meilleures pratiques de sécurité. Vraiment précieux pour comprendre l'aspect sécurité du développement - m'aide à écrire du code plus sécurisé et à comprendre les vulnérabilités potentielles. Le cours couvrait tout, de la cryptographie de base à la réponse aux incidents.\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Cliquez ici pour voir le certificat sur Credly</a>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Threat Analysis",
+                                "Security Best Practices",
+                                "Cisco"
+                            ]
+                        },
+                        "ja": {
+                            "title": "サイバーセキュリティ入門証明書",
+                            "info": "Cisco",
+                            "text": "Ciscoの包括的なサイバーセキュリティ基礎コースを修了しました。ネットワークセキュリティ、脅威分析、セキュリティのベストプラクティスをカバーしています。開発におけるセキュリティ側面を理解するのに本当に価値があります - より安全なコードを書き、潜在的な脆弱性を理解するのに役立ちます。このコースは、基本的な暗号化からインシデント対応まですべてをカバーしていました。\n\n<a href=\"https://www.credly.com/badges/4167931a-2128-4e5a-b6a8-c2c0493325f6/linked_in_profile\" target=\"_blank\" style=\"color: #36ad59; text-decoration: underline;\">Credlyで証明書を表示するにはこちらをクリック</a>",
+                            "tags": [
+                                "Cybersecurity",
+                                "Network Security",
+                                "Threat Analysis",
+                                "Security Best Practices",
+                                "Cisco"
                             ]
                         }
                     }
@@ -491,381 +390,125 @@
                 {
                     "img": "images/pictures/logos/codecademy.png",
                     "dateStart": {
-                        "year": 2023,
-                        "month": 9
+                        "year": 2024,
+                        "month": 5
                     },
                     "dateEnd": {
-                        "year": 2025,
-                        "month": 1
+                        "year": 2024,
+                        "month": 5
                     },
                     "locales": {
                         "en": {
-                            "title": "Full Stack Engineer Career Path",
-                            "info": "CodeCademy",
-                            "text": "Finished this massive career path in January 2025 - what a journey! It filled so many gaps from my apprenticeship and introduced me to modern tech like React, TypeScript, and Node.js. The full-stack approach was perfect as I got to see how everything connects. Building complete applications from scratch really boosted my confidence. Loved every minute of it!",
+                            "title": "Learn How to Use AI for Coding Course",
+                            "info": "Codecademy",
+                            "text": "Mastered using AI tools like GitHub Copilot and ChatGPT to accelerate development workflows. Learned best practices for prompt engineering, code generation, and leveraging AI for debugging and optimization. This course really transformed how I approach problem-solving and made me a much more efficient developer!",
                             "tags": [
-                                "React",
-                                "Node.js",
-                                "TypeScript",
-                                "SQL",
-                                "Full Stack",
-                                "JavaScript",
-                                "Python",
-                                "Svelte",
-                                "Vite"
+                                "AI Tools",
+                                "GitHub Copilot",
+                                "ChatGPT",
+                                "Prompt Engineering",
+                                "Code Generation",
+                                "AI-Assisted Development"
                             ]
                         },
-                        "es": {
-                            "title": "Ruta Profesional de Ingeniero Full Stack",
-                            "info": "CodeCademy",
-                            "text": "Completé la Ruta Profesional de Ingeniero Full Stack, adquiriendo habilidades tanto en el desarrollo front-end como en el back-end.",
+                        "ru": {
+                            "title": "Курс по использованию ИИ для программирования",
+                            "info": "Codecademy",
+                            "text": "Освоил использование инструментов ИИ, таких как GitHub Copilot и ChatGPT, для ускорения рабочих процессов разработки. Изучил лучшие практики для инженерии промптов, генерации кода и использования ИИ для отладки и оптимизации. Этот курс действительно изменил мой подход к решению проблем и сделал меня гораздо более эффективным разработчиком!",
                             "tags": [
-                                "React",
-                                "Node.js",
-                                "TypeScript",
-                                "SQL",
-                                "Full Stack",
-                                "JavaScript",
-                                "Python",
-                                "Svelte",
-                                "Vite"
+                                "AI Tools",
+                                "GitHub Copilot",
+                                "ChatGPT",
+                                "Prompt Engineering",
+                                "Code Generation",
+                                "AI-Assisted Development"
                             ]
                         },
                         "fr": {
-                            "title": "Parcours de Carrière d'Ingénieur Full Stack",
-                            "info": "CodeCademy",
-                            "text": "J'ai terminé le Parcours de Carrière d'Ingénieur Full Stack, acquérant des compétences en développement front-end et back-end.",
+                            "title": "Cours Apprendre à Utiliser l'IA pour le Codage",
+                            "info": "Codecademy",
+                            "text": "J'ai maîtrisé l'utilisation d'outils IA comme GitHub Copilot et ChatGPT pour accélérer les flux de travail de développement. J'ai appris les meilleures pratiques pour l'ingénierie des prompts, la génération de code et l'utilisation de l'IA pour le débogage et l'optimisation. Ce cours a vraiment transformé ma façon d'aborder la résolution de problèmes et m'a rendu un développeur beaucoup plus efficace!",
                             "tags": [
-                                "React",
-                                "Node.js",
-                                "TypeScript",
-                                "SQL",
-                                "Full Stack",
-                                "JavaScript",
-                                "Python",
-                                "Svelte",
-                                "Vite"
+                                "AI Tools",
+                                "GitHub Copilot",
+                                "ChatGPT",
+                                "Prompt Engineering",
+                                "Code Generation",
+                                "AI-Assisted Development"
                             ]
                         },
-                        "ko": {
-                            "title": "풀 스택 엔지니어 커리어 패스",
-                            "info": "CodeCademy",
-                            "text": "풀 스택 엔지니어 커리어 패스를 완료하여 프론트엔드 및 백엔드 개발 기술을 습득했습니다.",
+                        "ja": {
+                            "title": "コーディングのためのAI使用法を学ぶコース",
+                            "info": "Codecademy",
+                            "text": "GitHub CopilotやChatGPTなどのAIツールを使用して開発ワークフローを加速する方法をマスターしました。プロンプトエンジニアリング、コード生成、デバッグと最適化のためのAI活用のベストプラクティスを学びました。このコースは問題解決へのアプローチを本当に変革し、私をはるかに効率的な開発者にしてくれました！",
                             "tags": [
-                                "React",
-                                "Node.js",
-                                "TypeScript",
-                                "SQL",
-                                "Full Stack",
-                                "JavaScript",
-                                "Python",
-                                "Svelte",
-                                "Vite"
+                                "AI Tools",
+                                "GitHub Copilot",
+                                "ChatGPT",
+                                "Prompt Engineering",
+                                "Code Generation",
+                                "AI-Assisted Development"
                             ]
                         }
                     }
                 },
                 {
-                    "img": "images/pictures/logos/hubspot.png",
+                    "img": "images/pictures/logos/codecademy.png",
                     "dateStart": {
-                        "year": 2023,
-                        "month": 9
+                        "year": 2024,
+                        "month": 2
                     },
                     "dateEnd": {
-                        "year": 2023,
-                        "month": 9
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HubSpot CMS for Developers 1 and 2",
-                            "info": "HubSpot",
-                            "text": "Completed both HubSpot developer courses back-to-back! Learnt how to build custom modules, templates, and integrations on the HubSpot platform. The HubL templating language was interesting to work with. Great for understanding CMS development beyond traditional approaches!",
-                            "tags": [
-                                "CMS Development",
-                                "HubSpot",
-                                "Web Development",
-                                "HubL",
-                                "Templates"
-                            ]
-                        },
-                        "es": {
-                            "title": "HubSpot CMS para Desarrolladores",
-                            "info": "HubSpot",
-                            "text": "Completé un curso sobre HubSpot CMS para Desarrolladores, aprendiendo cómo construir soluciones personalizadas en la plataforma de HubSpot.",
-                            "tags": [
-                                "CMS Development",
-                                "HubSpot",
-                                "Web Development",
-                                "HubL",
-                                "Templates"
-                            ]
-                        },
-                        "fr": {
-                            "title": "HubSpot CMS pour Développeurs",
-                            "info": "HubSpot",
-                            "text": "J'ai suivi un cours sur HubSpot CMS pour Développeurs, apprenant à créer des solutions personnalisées sur la plateforme HubSpot.",
-                            "tags": [
-                                "CMS Development",
-                                "HubSpot",
-                                "Web Development",
-                                "HubL",
-                                "Templates"
-                            ]
-                        },
-                        "ko": {
-                            "title": "개발자를 위한 HubSpot CMS",
-                            "info": "HubSpot",
-                            "text": "HubSpot 플랫폼에서 사용자 정의 솔루션을 구축하는 방법을 배우는 개발자를 위한 HubSpot CMS 과정을 완료했습니다.",
-                            "tags": [
-                                "CMS Development",
-                                "HubSpot",
-                                "Web Development",
-                                "HubL",
-                                "Templates"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/fcc.png",
-                    "dateStart": {
-                        "year": 2023,
-                        "month": 4
-                    },
-                    "dateEnd": {
-                        "year": 2023,
+                        "year": 2024,
                         "month": 2
                     },
                     "locales": {
                         "en": {
-                            "title": "Free Code Camp Data Analysis with Python",
-                            "info": "Free Code Camp",
-                            "text": "Earned my Data Analysis certification from FreeCodeCamp! Worked extensively with pandas, NumPy, and data visualisation libraries. The projects were challenging but really practical. Analysing real datasets was the best way to learn!",
+                            "title": "Prompt Engineering for Software Engineers Course",
+                            "info": "Codecademy",
+                            "text": "Deep dive into advanced prompt engineering techniques specifically for software development. Learned how to craft effective prompts for code generation, debugging, documentation, and testing. This course gave me the skills to get the most out of AI assistants in my daily work.",
                             "tags": [
-                                "Python",
-                                "Data Analysis",
-                                "Pandas",
-                                "NumPy",
-                                "Data Visualisation",
-                                "Matplotlib"
+                                "Prompt Engineering",
+                                "AI Development",
+                                "Code Generation",
+                                "Software Engineering",
+                                "AI Best Practices"
                             ]
                         },
-                        "es": {
-                            "title": "Análisis de Datos con Python de Free Code Camp",
-                            "info": "Free Code Camp",
-                            "text": "Completé la certificación de Análisis de Datos con Python, centrándome en la manipulación y el análisis de datos utilizando Python.",
+                        "ru": {
+                            "title": "Курс по инженерии промптов для разработчиков ПО",
+                            "info": "Codecademy",
+                            "text": "Глубокое погружение в продвинутые техники инженерии промптов специально для разработки программного обеспечения. Научился создавать эффективные промпты для генерации кода, отладки, документирования и тестирования. Этот курс дал мне навыки для максимального использования ИИ-ассистентов в моей ежедневной работе.",
                             "tags": [
-                                "Python",
-                                "Data Analysis",
-                                "Pandas",
-                                "NumPy",
-                                "Data Visualisation",
-                                "Matplotlib"
+                                "Prompt Engineering",
+                                "AI Development",
+                                "Code Generation",
+                                "Software Engineering",
+                                "AI Best Practices"
                             ]
                         },
                         "fr": {
-                            "title": "Analyse de Données avec Python de Free Code Camp",
-                            "info": "Free Code Camp",
-                            "text": "J'ai obtenu la certification d'Analyse de Données avec Python, en me concentrant sur la manipulation et l'analyse de données à l'aide de Python.",
+                            "title": "Cours d'Ingénierie des Prompts pour Ingénieurs Logiciels",
+                            "info": "Codecademy",
+                            "text": "Plongée profonde dans les techniques avancées d'ingénierie des prompts spécifiquement pour le développement logiciel. J'ai appris à créer des prompts efficaces pour la génération de code, le débogage, la documentation et les tests. Ce cours m'a donné les compétences pour tirer le meilleur parti des assistants IA dans mon travail quotidien.",
                             "tags": [
-                                "Python",
-                                "Data Analysis",
-                                "Pandas",
-                                "NumPy",
-                                "Data Visualisation",
-                                "Matplotlib"
+                                "Prompt Engineering",
+                                "AI Development",
+                                "Code Generation",
+                                "Software Engineering",
+                                "AI Best Practices"
                             ]
                         },
-                        "ko": {
-                            "title": "Free Code Camp의 Python을 이용한 데이터 분석",
-                            "info": "Free Code Camp",
-                            "text": "Python을 사용한 데이터 조작 및 분석에 중점을 둔 Python을 사용한 데이터 분석 인증을 완료했습니다.",
+                        "ja": {
+                            "title": "ソフトウェアエンジニアのためのプロンプトエンジニアリングコース",
+                            "info": "Codecademy",
+                            "text": "ソフトウェア開発に特化した高度なプロンプトエンジニアリング技術への深い探求。コード生成、デバッグ、ドキュメント作成、テストのための効果的なプロンプトを作成する方法を学びました。このコースにより、日々の業務でAIアシスタントを最大限に活用するスキルを得ました。",
                             "tags": [
-                                "Python",
-                                "Data Analysis",
-                                "Pandas",
-                                "NumPy",
-                                "Data Visualisation",
-                                "Matplotlib"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/cisco.png",
-                    "dateStart": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "dateEnd": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Cisco Data Analytics Essentials",
-                            "info": "Cisco",
-                            "text": "Solid introduction to data analytics from Cisco's perspective. Covered the fundamentals of data analysis, visualisation, and basic statistics. The practical exercises helped cement the concepts. Good foundation for my later data science learning!",
-                            "tags": [
-                                "Data Analytics",
-                                "Data Visualisation",
-                                "Statistics",
-                                "Cisco"
-                            ]
-                        },
-                        "es": {
-                            "title": "Fundamentos de Análisis de Datos de Cisco",
-                            "info": "Cisco",
-                            "text": "Completé un curso sobre Fundamentos de Análisis de Datos de Cisco, adquiriendo conocimientos básicos en análisis de datos.",
-                            "tags": [
-                                "Data Analytics",
-                                "Data Visualisation",
-                                "Statistics",
-                                "Cisco"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Essentiels de l'Analyse de Données Cisco",
-                            "info": "Cisco",
-                            "text": "J'ai suivi un cours sur les Essentiels de l'Analyse de Données Cisco, acquérant des connaissances de base en analyse de données.",
-                            "tags": [
-                                "Data Analytics",
-                                "Data Visualisation",
-                                "Statistics",
-                                "Cisco"
-                            ]
-                        },
-                        "ko": {
-                            "title": "Cisco 데이터 분석 필수 사항",
-                            "info": "Cisco",
-                            "text": "Cisco 데이터 분석 필수 사항 과정을 완료하여 데이터 분석에 대한 기본적인 지식을 습득했습니다.",
-                            "tags": [
-                                "Data Analytics",
-                                "Data Visualisation",
-                                "Statistics",
-                                "Cisco"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/cisco.png",
-                    "dateStart": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "dateEnd": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Cisco Packet Tracer",
-                            "info": "Cisco",
-                            "text": "Learnt network simulation using Cisco's Packet Tracer! Built virtual networks, configured routers and switches, and tested different network topologies. Really helped visualise how networks actually work. The hands-on simulation was way better than just theory!",
-                            "tags": [
-                                "Networking",
-                                "Network Simulation",
-                                "Cisco",
-                                "Routing",
-                                "Infrastructure"
-                            ]
-                        },
-                        "es": {
-                            "title": "Cisco Packet Tracer",
-                            "info": "Cisco",
-                            "text": "Completé un curso sobre Cisco Packet Tracer, aprendiendo cómo simular configuraciones de red.",
-                            "tags": [
-                                "Networking",
-                                "Network Simulation",
-                                "Cisco",
-                                "Routing",
-                                "Infrastructure"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Cisco Packet Tracer",
-                            "info": "Cisco",
-                            "text": "J'ai suivi un cours sur Cisco Packet Tracer, apprenant à simuler des configurations réseau.",
-                            "tags": [
-                                "Networking",
-                                "Network Simulation",
-                                "Cisco",
-                                "Routing",
-                                "Infrastructure"
-                            ]
-                        },
-                        "ko": {
-                            "title": "Cisco Packet Tracer",
-                            "info": "Cisco",
-                            "text": "Cisco Packet Tracer 과정을 완료하여 네트워크 구성을 시뮬레이션하는 방법을 배웠습니다.",
-                            "tags": [
-                                "Networking",
-                                "Network Simulation",
-                                "Cisco",
-                                "Routing",
-                                "Infrastructure"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/aws.png",
-                    "dateStart": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "dateEnd": {
-                        "year": 2023,
-                        "month": 3
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AWS Skill Builder",
-                            "info": "AWS",
-                            "text": "Explored AWS services through their Skill Builder platform. Got hands-on with EC2, S3, and various other services. The practical labs were brilliant for understanding cloud concepts. Really complemented my Azure knowledge!",
-                            "tags": [
-                                "AWS",
-                                "Cloud Computing",
-                                "EC2",
-                                "S3",
-                                "DevOps"
-                            ]
-                        },
-                        "es": {
-                            "title": "AWS Skill Builder",
-                            "info": "AWS",
-                            "text": "Participé en AWS Skill Builder para mejorar las habilidades y el conocimiento en computación en la nube.",
-                            "tags": [
-                                "AWS",
-                                "Cloud Computing",
-                                "EC2",
-                                "S3",
-                                "DevOps"
-                            ]
-                        },
-                        "fr": {
-                            "title": "AWS Skill Builder",
-                            "info": "AWS",
-                            "text": "J'ai participé à AWS Skill Builder pour améliorer mes compétences et connaissances en informatique cloud.",
-                            "tags": [
-                                "AWS",
-                                "Cloud Computing",
-                                "EC2",
-                                "S3",
-                                "DevOps"
-                            ]
-                        },
-                        "ko": {
-                            "title": "AWS Skill Builder",
-                            "info": "AWS",
-                            "text": "클라우드 컴퓨팅 기술과 지식을 향상시키기 위해 AWS Skill Builder에 참여했습니다.",
-                            "tags": [
-                                "AWS",
-                                "Cloud Computing",
-                                "EC2",
-                                "S3",
-                                "DevOps"
+                                "Prompt Engineering",
+                                "AI Development",
+                                "Code Generation",
+                                "Software Engineering",
+                                "AI Best Practices"
                             ]
                         }
                     }
@@ -873,60 +516,60 @@
                 {
                     "img": "images/pictures/logos/codecademy.png",
                     "dateStart": {
-                        "year": 2023,
-                        "month": 1
+                        "year": 2024,
+                        "month": 2
                     },
                     "dateEnd": {
-                        "year": 2023,
-                        "month": 1
+                        "year": 2024,
+                        "month": 2
                     },
                     "locales": {
                         "en": {
-                            "title": "Build Chatbots with Python",
-                            "info": "CodeCademy",
-                            "text": "Built my first chatbot from scratch in this course! Got hands-on with natural language processing and understood how chatbots actually work. The Python implementation was straightforward and the NLP concepts were explained brilliantly. Really enjoyed seeing my bot come to life!",
+                            "title": "Intro to AI Strategy Course",
+                            "info": "Codecademy",
+                            "text": "Comprehensive introduction to AI strategy and implementation in business contexts. Covered AI fundamentals, use case identification, implementation planning, and ethical considerations. Really helped me understand the bigger picture of AI transformation beyond just the technical aspects.",
                             "tags": [
-                                "Python",
-                                "NLP",
-                                "Chatbots",
-                                "AI",
-                                "Natural Language Processing"
+                                "AI Strategy",
+                                "Business AI",
+                                "AI Implementation",
+                                "Digital Transformation",
+                                "Strategic Planning"
                             ]
                         },
-                        "es": {
-                            "title": "Construye Chatbots con Python",
-                            "info": "CodeCademy",
-                            "text": "Completé un curso sobre la construcción de chatbots con Python, adquiriendo habilidades en el procesamiento del lenguaje natural y el desarrollo de chatbots.",
+                        "ru": {
+                            "title": "Курс введения в стратегию ИИ",
+                            "info": "Codecademy",
+                            "text": "Комплексное введение в стратегию и внедрение ИИ в бизнес-контекстах. Охватывал основы ИИ, определение вариантов использования, планирование внедрения и этические соображения. Действительно помог мне понять общую картину трансформации ИИ за пределами только технических аспектов.",
                             "tags": [
-                                "Python",
-                                "NLP",
-                                "Chatbots",
-                                "AI",
-                                "Natural Language Processing"
+                                "AI Strategy",
+                                "Business AI",
+                                "AI Implementation",
+                                "Digital Transformation",
+                                "Strategic Planning"
                             ]
                         },
                         "fr": {
-                            "title": "Construire des Chatbots avec Python",
-                            "info": "CodeCademy",
-                            "text": "J'ai suivi un cours sur la construction de chatbots avec Python, acquérant des compétences en traitement du langage naturel et en développement de chatbots.",
+                            "title": "Cours d'Introduction à la Stratégie IA",
+                            "info": "Codecademy",
+                            "text": "Introduction complète à la stratégie et à l'implémentation de l'IA dans les contextes d'affaires. Couvert les fondamentaux de l'IA, l'identification des cas d'utilisation, la planification de l'implémentation et les considérations éthiques. M'a vraiment aidé à comprendre la vue d'ensemble de la transformation IA au-delà des aspects purement techniques.",
                             "tags": [
-                                "Python",
-                                "NLP",
-                                "Chatbots",
-                                "AI",
-                                "Natural Language Processing"
+                                "AI Strategy",
+                                "Business AI",
+                                "AI Implementation",
+                                "Digital Transformation",
+                                "Strategic Planning"
                             ]
                         },
-                        "ko": {
-                            "title": "Python으로 챗봇 만들기",
-                            "info": "CodeCademy",
-                            "text": "Python으로 챗봇을 만드는 과정을 완료하여 자연어 처리 및 챗봇 개발 기술을 습득했습니다.",
+                        "ja": {
+                            "title": "AI戦略入門コース",
+                            "info": "Codecademy",
+                            "text": "ビジネスコンテキストにおけるAI戦略と実装への包括的な入門。AI基礎、ユースケースの特定、実装計画、倫理的考慮事項をカバーしました。技術的側面だけでなく、AI変革の全体像を理解するのに本当に役立ちました。",
                             "tags": [
-                                "Python",
-                                "NLP",
-                                "Chatbots",
-                                "AI",
-                                "Natural Language Processing"
+                                "AI Strategy",
+                                "Business AI",
+                                "AI Implementation",
+                                "Digital Transformation",
+                                "Strategic Planning"
                             ]
                         }
                     }
@@ -935,181 +578,128 @@
                     "img": "images/pictures/logos/gc.png",
                     "dateStart": {
                         "year": 2023,
-                        "month": 1
-                    },
-                    "dateEnd": {
-                        "year": 2023,
-                        "month": 1
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Cloud Engineering and Data Science Bootcamp",
-                            "info": "The Growth Company",
-                            "text": "Intensive bootcamp that covered both cloud engineering and data science - quite the combination! Got exposure to cloud architecture, DevOps practices, and data science fundamentals. The pace was fast but it gave me a great overview of both fields!",
-                            "tags": [
-                                "Cloud Architecture",
-                                "DevOps",
-                                "Data Science",
-                                "Python",
-                                "Cloud Engineering"
-                            ]
-                        },
-                        "es": {
-                            "title": "Bootcamp de Ingeniería en la Nube y Ciencia de Datos",
-                            "info": "The Growth Company",
-                            "text": "Completé un bootcamp intensivo centrado en la ingeniería en la nube y la ciencia de datos.",
-                            "tags": [
-                                "Cloud Architecture",
-                                "DevOps",
-                                "Data Science",
-                                "Python",
-                                "Cloud Engineering"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Bootcamp d'Ingénierie Cloud et Science des Données",
-                            "info": "The Growth Company",
-                            "text": "J'ai suivi un bootcamp intensif axé sur l'ingénierie cloud et la science des données.",
-                            "tags": [
-                                "Cloud Architecture",
-                                "DevOps",
-                                "Data Science",
-                                "Python",
-                                "Cloud Engineering"
-                            ]
-                        },
-                        "ko": {
-                            "title": "클라우드 엔지니어링 및 데이터 과학 부트캠프",
-                            "info": "The Growth Company",
-                            "text": "클라우드 엔지니어링 및 데이터 과학에 중점을 둔 집중 부트캠프를 완료했습니다.",
-                            "tags": [
-                                "Cloud Architecture",
-                                "DevOps",
-                                "Data Science",
-                                "Python",
-                                "Cloud Engineering"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "img": "images/pictures/logos/codecademy.png",
-                    "dateStart": {
-                        "year": 2022,
                         "month": 2
                     },
                     "dateEnd": {
-                        "year": 2022,
-                        "month": 4
+                        "year": 2023,
+                        "month": 6
                     },
                     "locales": {
                         "en": {
-                            "title": "Prompt Engineering Practices",
-                            "info": "CodeCademy",
-                            "text": "This course was a real eye-opener! Learnt how to effectively communicate with AI models to get the best responses efficiently. The techniques for crafting prompts have been incredibly useful in my daily work. It's amazing how much difference the right prompt structure makes!",
+                            "title": "Cloud Engineering and Data Science Bootcamp Participant",
+                            "info": "The Growth Company - Manchester, UK",
+                            "text": "Completed an intensive bootcamp focused on cloud platforms (AWS, Azure), Python programming, data analysis, and foundational AI.\n\n■ Built practical skills in Python for data analysis and gained familiarity with APIs and data models.\n■ Strengthened core knowledge in high‑availability infrastructure and networking through collaborative projects.",
                             "tags": [
-                                "AI",
-                                "LLMs",
-                                "Prompt Design",
-                                "Best Practices",
-                                "Communication"
+                                "Cloud Architecture",
+                                "DevOps",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
                             ]
                         },
-                        "es": {
-                            "title": "Prácticas de Ingeniería de Prompts",
-                            "info": "CodeCademy",
-                            "text": "Completé un curso sobre Prácticas de Ingeniería de Prompts, aprendiendo cómo comunicarme eficazmente con modelos de IA.",
+                        "ru": {
+                            "title": "Участник буткемпа по облачной инженерии и Data Science",
+                            "info": "The Growth Company - Манчестер, Великобритания",
+                            "text": "Завершил интенсивный буткемп, сосредоточенный на облачных платформах (AWS, Azure), программировании на Python, анализе данных и основах ИИ.\n\n■ Построил практические навыки в Python для анализа данных и получил знакомство с API и моделями данных.\n■ Укрепил базовые знания в высокодоступной инфраструктуре и сетевых технологиях через совместные проекты.",
                             "tags": [
-                                "AI",
-                                "LLMs",
-                                "Prompt Design",
-                                "Best Practices",
-                                "Communication"
+                                "Cloud Architecture",
+                                "DevOps",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
                             ]
                         },
                         "fr": {
-                            "title": "Pratiques d'Ingénierie des Prompts",
-                            "info": "CodeCademy",
-                            "text": "J'ai suivi un cours sur les Pratiques d'Ingénierie des Prompts, apprenant à communiquer efficacement avec les modèles d'IA.",
+                            "title": "Participant au Bootcamp d'Ingénierie Cloud et Data Science",
+                            "info": "The Growth Company - Manchester, Royaume-Uni",
+                            "text": "J'ai terminé un bootcamp intensif axé sur les plateformes cloud (AWS, Azure), la programmation Python, l'analyse de données et les fondamentaux de l'IA.\n\n■ J'ai développé des compétences pratiques en Python pour l'analyse de données et acquis une familiarité avec les API et les modèles de données.\n■ J'ai renforcé mes connaissances de base en infrastructure haute disponibilité et en réseau à travers des projets collaboratifs.",
                             "tags": [
-                                "AI",
-                                "LLMs",
-                                "Prompt Design",
-                                "Best Practices",
-                                "Communication"
+                                "Cloud Architecture",
+                                "DevOps",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
                             ]
                         },
-                        "ko": {
-                            "title": "프롬프트 엔지니어링 실습",
-                            "info": "CodeCademy",
-                            "text": "프롬프트 엔지니어링 실습 과정을 완료하여 AI 모델과 효과적으로 소통하는 방법을 배웠습니다.",
+                        "ja": {
+                            "title": "クラウドエンジニアリングとデータサイエンスブートキャンプ参加者",
+                            "info": "The Growth Company - マンチェスター、イギリス",
+                            "text": "クラウドプラットフォーム（AWS、Azure）、Pythonプログラミング、データ分析、基礎的なAIに焦点を当てた集中ブートキャンプを修了しました。\n\n■ データ分析のためのPythonで実践的なスキルを構築し、APIとデータモデルに精通しました。\n■ 共同プロジェクトを通じて高可用性インフラストラクチャとネットワーキングにおける核心知識を強化しました。",
                             "tags": [
-                                "AI",
-                                "LLMs",
-                                "Prompt Design",
-                                "Best Practices",
-                                "Communication"
+                                "Cloud Architecture",
+                                "DevOps",
+                                "Data Science",
+                                "Python",
+                                "AWS",
+                                "Azure"
                             ]
                         }
                     }
                 },
                 {
-                    "img": "images/pictures/logos/codecademy.png",
+                    "img": "images/svg/logo.svg",
                     "dateStart": {
-                        "year": 2022,
+                        "year": 2013,
                         "month": 1
                     },
                     "dateEnd": {
                         "year": 2022,
-                        "month": 1
+                        "month": 12
                     },
                     "locales": {
                         "en": {
-                            "title": "Intro to LLM's",
-                            "info": "CodeCademy",
-                            "text": "Great introduction to Large Language Models! Learnt about different types like RAG and Zero-shot, and how these models are trained. The course demystified a lot of the 'magic' behind AI. Really helped me understand the fundamentals before diving deeper!",
+                            "title": "The Long Road to Tech",
+                            "info": "Career Exploration - UK & Australia",
+                            "text": "After school, I tried a few different paths - commercial diving, semi-pro cricket in Australia, financial services, conveyancing, and eventually became a work coach at DWP. Each experience taught me something valuable, but something was always missing.\n\nWhile helping others find their careers at DWP, I had a lightbulb moment - I'd been using tech my whole life but never considered it as a career. Growing up, I was a bit self-conscious about being 'the tech guy', so I'd hidden that side of myself.\n\nIn winter 2021, I took the leap - bought an M1 Max MBP the night it launched, taught myself Python, and dove into AI over 2022 as ChatGPT was taking off. February 2023, after leaving DWP, I enrolled in my first code bootcamp. It felt like coming home, finally turning my lifelong passion into my career.",
                             "tags": [
-                                "AI Fundamentals",
-                                "Machine Learning",
-                                "Language Models",
-                                "LLMs",
-                                "Theory"
+                                "Career Journey",
+                                "Self-Discovery",
+                                "Python",
+                                "Career Change",
+                                "Personal Growth",
+                                "Life Experience"
                             ]
                         },
-                        "es": {
-                            "title": "Introducción a LLM's",
-                            "info": "CodeCademy",
-                            "text": "Completé un curso de introducción a los modelos de lenguaje grande",
+                        "ru": {
+                            "title": "Долгий путь к технологиям",
+                            "info": "Исследование карьеры - Великобритания и Австралия",
+                            "text": "После школы я попробовал несколько разных путей - коммерческий дайвинг, полупрофессиональный крикет в Австралии, финансовые услуги, конвейансинг и в конечном итоге стал карьерным консультантом в DWP. Каждый опыт научил меня чему-то ценному, но чего-то всегда не хватало.\n\nПомогая другим найти свою карьеру в DWP, у меня случился момент озарения - я использовал технологии всю свою жизнь, но никогда не рассматривал это как карьеру. Взрослея, я немного стеснялся быть 'техническим парнем', поэтому скрывал эту сторону себя.\n\nЗимой 2021 года я сделал решительный шаг - купил M1 Max MBP в ночь его запуска, самостоятельно изучил Python и погрузился в ИИ в течение 2022 года, когда ChatGPT набирал популярность. В феврале 2023 года, после ухода из DWP, я записался на свой первый буткемп по программированию. Это было похоже на возвращение домой, наконец превращая мою страсть всей жизни в карьеру.",
                             "tags": [
-                                "AI Fundamentals",
-                                "Machine Learning",
-                                "Language Models",
-                                "LLMs",
-                                "Theory"
+                                "Career Journey",
+                                "Self-Discovery",
+                                "Python",
+                                "Career Change",
+                                "Personal Growth",
+                                "Life Experience"
                             ]
                         },
                         "fr": {
-                            "title": "Introduction aux LLM",
-                            "info": "CodeCademy",
-                            "text": "J'ai suivi un cours d'introduction aux grands modèles linguistiques",
+                            "title": "Le Long Chemin vers la Tech",
+                            "info": "Exploration de Carrière - Royaume-Uni et Australie",
+                            "text": "Après l'école, j'ai essayé quelques chemins différents - plongée commerciale, cricket semi-professionnel en Australie, services financiers, conveyancing, et finalement je suis devenu coach de carrière au DWP. Chaque expérience m'a appris quelque chose de précieux, mais il manquait toujours quelque chose.\n\nEn aidant les autres à trouver leur carrière au DWP, j'ai eu un déclic - j'avais utilisé la technologie toute ma vie mais je ne l'avais jamais considérée comme une carrière. En grandissant, j'étais un peu gêné d'être 'le gars de la tech', alors j'avais caché cette facette de moi-même.\n\nEn hiver 2021, j'ai franchi le pas - j'ai acheté un M1 Max MBP la nuit de son lancement, je me suis enseigné Python, et je me suis plongé dans l'IA en 2022 alors que ChatGPT décollait. En février 2023, après avoir quitté le DWP, je me suis inscrit à mon premier bootcamp de code. C'était comme rentrer à la maison, transformant enfin ma passion de toute une vie en carrière.",
                             "tags": [
-                                "AI Fundamentals",
-                                "Machine Learning",
-                                "Language Models",
-                                "LLMs",
-                                "Theory"
+                                "Career Journey",
+                                "Self-Discovery",
+                                "Python",
+                                "Career Change",
+                                "Personal Growth",
+                                "Life Experience"
                             ]
                         },
-                        "ko": {
-                            "title": "LLM 소개",
-                            "info": "CodeCademy",
-                            "text": "대규모 언어 모델을 소개하는 과정을 완료했습니다.",
+                        "ja": {
+                            "title": "テクノロジーへの長い道のり",
+                            "info": "キャリア探索 - イギリスとオーストラリア",
+                            "text": "学校を卒業後、いくつかの異なる道を試しました - 商業ダイビング、オーストラリアでのセミプロクリケット、金融サービス、不動産登記業務、そして最終的にDWPでキャリアコーチになりました。それぞれの経験は貴重なことを教えてくれましたが、何かが常に欠けていました。\n\nDWPで他の人々がキャリアを見つけるのを手伝っているうちに、ひらめきの瞬間がありました - 私は生涯テクノロジーを使ってきたのに、それをキャリアとして考えたことがありませんでした。成長する中で、「テクノロジーの人」であることを少し恥ずかしく思っていたので、自分のその側面を隠していました。\n\n2021年の冬、私は一歩を踏み出しました - 発売の夜にM1 Max MBPを購入し、独学でPythonを学び、ChatGPTが注目される2022年にAIに飛び込みました。2023年2月、DWPを退職した後、最初のコードブートキャンプに入学しました。それはまるで家に帰ったようで、ついに生涯の情熱をキャリアに変えたのです。",
                             "tags": [
-                                "AI Fundamentals",
-                                "Machine Learning",
-                                "Language Models",
-                                "LLMs",
-                                "Theory"
+                                "Career Journey",
+                                "Self-Discovery",
+                                "Python",
+                                "Career Change",
+                                "Personal Growth",
+                                "Life Experience"
                             ]
                         }
                     }
@@ -1128,49 +718,109 @@
                         "en": {
                             "title": "GCSE - 10 A* - C",
                             "info": "Merchant Taylors Boys School",
-                            "text": "Achieved 10 GCSEs including Maths, Sciences, English Literature, and Computer Science. This was where my love for technology really started - especially enjoyed the programming modules in Computer Science!",
+                            "text": "Achieved 10 GCSEs including Maths, Sciences, and English Literature. There weren't many tech opportunities at school back then. By GCSE time, I was actually using tech the least I ever had - was more focused on pursuing professional cricket! Didn't take IT as a subject, but looking back, the tech passion was always there, just waiting. A Levels weren't for me, so I left school at 17 to explore different paths.",
                             "tags": [
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
-                        "es": {
+                        "ru": {
                             "title": "GCSE - 10 A* - C",
                             "info": "Merchant Taylors Boys School",
-                            "text": "Obtuve 10 GCSE con calificaciones de A* - C.",
+                            "text": "Получил 10 GCSE, включая математику, естественные науки и английскую литературу. В то время в школе не было много технологических возможностей. К моменту GCSE я фактически использовал технологии меньше всего - был больше сосредоточен на профессиональном крикете! Не изучал ИТ как предмет, но оглядываясь назад, страсть к технологиям всегда была там, просто ждала своего часа. A Levels были не для меня, поэтому я покинул школу в 17 лет, чтобы исследовать разные пути.",
                             "tags": [
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
                         "fr": {
                             "title": "GCSE - 10 A* - C",
                             "info": "Merchant Taylors Boys School",
-                            "text": "J'ai obtenu 10 GCSE avec des notes de A* - C.",
+                            "text": "J'ai obtenu 10 GCSE incluant les mathématiques, les sciences et la littérature anglaise. Il n'y avait pas beaucoup d'opportunités technologiques à l'école à l'époque. Au moment des GCSE, j'utilisais en fait la technologie le moins que jamais - j'étais plus concentré sur la poursuite du cricket professionnel! Je n'ai pas pris l'informatique comme matière, mais rétrospectivement, la passion pour la technologie était toujours là, attendant simplement. Les A Levels n'étaient pas pour moi, donc j'ai quitté l'école à 17 ans pour explorer différents chemins.",
                             "tags": [
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
                             ]
                         },
-                        "ko": {
+                        "ja": {
                             "title": "GCSE - 10 A* - C",
                             "info": "Merchant Taylors Boys School",
-                            "text": "A* - C 등급으로 10개의 GCSE를 취득했습니다.",
+                            "text": "数学、科学、英文学を含む10のGCSEを取得しました。当時、学校にはあまり技術的な機会がありませんでした。GCSE の頃には、実際にテクノロジーを最も使わなくなっていました - プロのクリケットを追求することに集中していたからです！ITを科目として取りませんでしたが、振り返ってみると、テクノロジーへの情熱は常にそこにあり、ただ待っていただけでした。Aレベルは私には合わなかったので、17歳で学校を離れ、さまざまな道を探索しました。",
                             "tags": [
                                 "Mathematics",
                                 "Sciences",
                                 "English Literature",
-                                "Computer Science",
-                                "Foundation"
+                                "Foundation",
+                                "Education"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "img": "images/svg/logo.svg",
+                    "dateStart": {
+                        "year": 2000,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Lifelong Passion for Technology",
+                            "info": "Self-Directed Learning",
+                            "text": "I have been obsessed with technology for as long as I can remember—computers, game consoles, mobile phones, and anything new and exciting. I've always had a passion for learning and figuring things out. Some of my best early tech memories involve jailbreaking an original iPod Touch and playing with Cydia (iOS 1.1. - pre App Store days), messing around with custom repos, apps, and themes. It opened up a whole new world for me, and if I have one regret, it's not diving deeper into development sooner. Luckily, my interest in tech never faded. Over time, I got a clearer sense of what I wanted to do and finally committed to software development. Now, I have got the background knowledge, the mindset, and the drive to make it happen.",
+                            "tags": [
+                                "Self-Learning",
+                                "Technology",
+                                "Passion",
+                                "Innovation",
+                                "Growth Mindset"
+                            ]
+                        },
+                        "ru": {
+                            "title": "Страсть к технологиям на всю жизнь",
+                            "info": "Самостоятельное обучение",
+                            "text": "Я был одержим технологиями с тех пор, как себя помню - компьютеры, игровые консоли, мобильные телефоны и всё новое и захватывающее. У меня всегда была страсть к обучению и разбирательству в вещах. Некоторые из моих лучших ранних технологических воспоминаний включают джейлбрейк оригинального iPod Touch и игру с Cydia (iOS 1.1 - до эпохи App Store), возню с пользовательскими репозиториями, приложениями и темами. Это открыло для меня совершенно новый мир, и если у меня есть одно сожаление, то это то, что не погрузился глубже в разработку раньше. К счастью, мой интерес к технологиям никогда не угасал. Со временем я получил более чёткое представление о том, чем хочу заниматься, и наконец посвятил себя разработке программного обеспечения. Теперь у меня есть базовые знания, мышление и стремление это реализовать.",
+                            "tags": [
+                                "Self-Learning",
+                                "Technology",
+                                "Passion",
+                                "Innovation",
+                                "Growth Mindset"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Passion de Toute une Vie pour la Technologie",
+                            "info": "Apprentissage Autodirigé",
+                            "text": "J'ai été obsédé par la technologie aussi loin que je me souvienne - ordinateurs, consoles de jeux, téléphones mobiles, et tout ce qui est nouveau et passionnant. J'ai toujours eu une passion pour l'apprentissage et la compréhension des choses. Certains de mes meilleurs souvenirs technologiques précoces impliquent le jailbreak d'un iPod Touch original et le jeu avec Cydia (iOS 1.1 - avant l'ère App Store), bricolant avec des repos personnalisés, des applications et des thèmes. Cela a ouvert un tout nouveau monde pour moi, et si j'ai un regret, c'est de ne pas m'être plongé plus profondément dans le développement plus tôt. Heureusement, mon intérêt pour la technologie ne s'est jamais estompé. Avec le temps, j'ai eu une idée plus claire de ce que je voulais faire et je me suis finalement engagé dans le développement logiciel. Maintenant, j'ai les connaissances de base, l'état d'esprit et la motivation pour le réaliser.",
+                            "tags": [
+                                "Self-Learning",
+                                "Technology",
+                                "Passion",
+                                "Innovation",
+                                "Growth Mindset"
+                            ]
+                        },
+                        "ja": {
+                            "title": "テクノロジーへの生涯の情熱",
+                            "info": "自主的な学習",
+                            "text": "私は記憶にある限りテクノロジーに夢中でした - コンピューター、ゲームコンソール、携帯電話、そして新しくてエキサイティングなもの全て。常に学習と物事を理解することへの情熱を持っていました。私の最高の初期のテクノロジーの思い出には、オリジナルのiPod Touchのジェイルブレイクとアプリストア以前のCydia（iOS 1.1）で遊ぶこと、カスタムリポジトリ、アプリ、テーマをいじることが含まれます。それは私にまったく新しい世界を開いてくれました。もし後悔があるとすれば、もっと早く開発に深く飛び込まなかったことです。幸いなことに、テクノロジーへの興味は決して薄れませんでした。時間が経つにつれて、自分が何をしたいのかがより明確になり、ついにソフトウェア開発に専念しました。今、私には基礎知識、マインドセット、そしてそれを実現する意欲があります。",
+                            "tags": [
+                                "Self-Learning",
+                                "Technology",
+                                "Passion",
+                                "Innovation",
+                                "Growth Mindset"
                             ]
                         }
                     }
