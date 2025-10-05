@@ -7,26 +7,16 @@
                 "title_long": "My **Skill Set**",
                 "title_long_prefix": "Explore"
             },
-            "es": {
-                "title": "Habilidades",
-                "title_long": "Mis **Habilidades**",
-                "title_long_prefix": "Explora"
-            },
-            "fr": {
-                "title": "Capacités",
-                "title_long": "Mes **Compétences**",
-                "title_long_prefix": "Explorez"
-            },
-            "ko": {
-                "title": "스킬",
-                "title_long": "**스킬**입니다",
-                "title_long_prefix": "이것은 내"
-            },
             "ru": {
                 "title": "Навыки",
                 "title_short_nav": "Навыки",
                 "title_long": "Мои **навыки**",
                 "title_long_prefix": "Изучите"
+            },
+            "fr": {
+                "title": "Capacités",
+                "title_long": "Mes **Compétences**",
+                "title_long_prefix": "Explorez"
             },
             "ja": {
                 "title": "スキル",
@@ -171,18 +161,18 @@
                             "level": "2 years experience"
                         },
                         "ru": {
-                            "title": "AI & Machine Learning",
-                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "title": "AI и машинное обучение",
+                            "text": "Знание алгоритмов машинного обучения, нейронных сетей и инженерии промптов для ИИ для инновационных решений. Экспертиза в создании пользовательских GPT, создании моделей и пользовательских реализациях RAG.",
                             "level": "2 года опыта"
                         },
                         "fr": {
-                            "title": "AI & Machine Learning",
-                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "title": "IA et Machine Learning",
+                            "text": "Connaissance des algorithmes de machine learning, des réseaux neuronaux et de l'ingénierie des prompts IA pour des solutions innovantes. Expertise dans la création de GPT personnalisés, la création de modèles et les implémentations RAG personnalisées.",
                             "level": "2 ans d'expérience"
                         },
                         "ja": {
-                            "title": "AI & Machine Learning",
-                            "text": "Knowledgeable in machine learning algorithms, neural networks, and AI prompt engineering for innovative solutions. Expertise in building custom GPTs, model creation and custom RAG implementations.",
+                            "title": "AIと機械学習",
+                            "text": "革新的なソリューションのための機械学習アルゴリズム、ニューラルネットワーク、AIプロンプトエンジニアリングの知識。カスタムGPTの構築、モデル作成、カスタムRAG実装の専門知識。",
                             "level": "2年の経験"
                         }
                     },
@@ -204,18 +194,18 @@
                             "level": "3 years experience"
                         },
                         "ru": {
-                            "title": "Database Management",
-                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "title": "Управление базами данных",
+                            "text": "Экспертиза в SQL, проектировании баз данных и техниках оптимизации для безопасного и эффективного управления данными. Владение PostgreSQL, MySQL, MongoDB, Supabase и облачными решениями для баз данных.",
                             "level": "3 года опыта"
                         },
                         "fr": {
-                            "title": "Database Management",
-                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "title": "Gestion de bases de données",
+                            "text": "Expertise en SQL, conception de bases de données et techniques d'optimisation pour une gestion des données sécurisée et efficace. Maîtrise de PostgreSQL, MySQL, MongoDB, Supabase et solutions de bases de données cloud.",
                             "level": "3 ans d'expérience"
                         },
                         "ja": {
-                            "title": "Database Management",
-                            "text": "Expertise in SQL, database design, and optimisation techniques for secure and efficient data management. Proficient with PostgreSQL, MySQL, MongoDB, Supabase, and cloud-based database solutions.",
+                            "title": "データベース管理",
+                            "text": "安全で効率的なデータ管理のためのSQL、データベース設計、最適化技術の専門知識。PostgreSQL、MySQL、MongoDB、Supabase、クラウドベースのデータベースソリューションに精通。",
                             "level": "3年の経験"
                         }
                     },
@@ -237,18 +227,18 @@
                             "level": "2 years experience"
                         },
                         "ru": {
-                            "title": "AI Visuals",
-                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "title": "AI-визуализация",
+                            "text": "Навыки использования инструментов AI-визуализации, включая MidJourney и Runway ML, для создания убедительных визуальных активов.",
                             "level": "2 года опыта"
                         },
                         "fr": {
-                            "title": "AI Visuals",
-                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "title": "Visuels IA",
+                            "text": "Compétent dans l'utilisation d'outils visuels IA, notamment MidJourney et Runway ML, pour générer des visuels convaincants.",
                             "level": "2 ans d'expérience"
                         },
                         "ja": {
-                            "title": "AI Visuals",
-                            "text": "Skilled in leveraging AI visual tools including MidJourney and Runway ML to generate compelling visual assets.",
+                            "title": "AIビジュアル",
+                            "text": "MidJourneyやRunway MLなどのAIビジュアルツールを活用して、魅力的なビジュアルアセットを生成するスキル。",
                             "level": "2年の経験"
                         }
                     },
@@ -271,17 +261,17 @@
                         },
                         "ru": {
                             "title": "Web3",
-                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "text": "Владение разработкой Web3 и блокчейн, специализация на смарт-контрактах, децентрализованных приложениях (dApps) и интеграциях блокчейна. Опыт работы с Ethereum, Solidity, Web3.js, интеграцией MetaMask и экосистемами NFT.",
                             "level": "2 года опыта"
                         },
                         "fr": {
                             "title": "Web3",
-                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "text": "Maîtrise du développement Web3 et blockchain, spécialisé dans les contrats intelligents, les applications décentralisées (dApps) et les intégrations blockchain. Expérience avec Ethereum, Solidity, Web3.js, l'intégration MetaMask et les écosystèmes NFT.",
                             "level": "2 ans d'expérience"
                         },
                         "ja": {
                             "title": "Web3",
-                            "text": "Proficient in Web3 and blockchain development, specialising in smart contracts, decentralised applications (dApps), and blockchain integrations. Experienced with Ethereum, Solidity, Web3.js, MetaMask integration, and NFT ecosystems.",
+                            "text": "スマートコントラクト、分散型アプリケーション（dApps）、ブロックチェーン統合を専門とするWeb3とブロックチェーン開発に精通。Ethereum、Solidity、Web3.js、MetaMask統合、NFTエコシステムの経験。",
                             "level": "2年の経験"
                         }
                     },
@@ -303,18 +293,18 @@
                             "level": "3 years experience"
                         },
                         "ru": {
-                            "title": "Deployment",
-                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "title": "Развертывание",
+                            "text": "Опыт работы с IIS, Vercel и Hostinger для развертывания веб-приложений. Владение Docker, GitHub Actions, Netlify, Azure App Service и конвейерами CI/CD для автоматизированного развертывания.",
                             "level": "3 года опыта"
                         },
                         "fr": {
-                            "title": "Deployment",
-                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "title": "Déploiement",
+                            "text": "Expérience avec IIS, Vercel et Hostinger pour le déploiement d'applications web. Maîtrise de Docker, GitHub Actions, Netlify, Azure App Service et pipelines CI/CD pour les déploiements automatisés.",
                             "level": "3 ans d'expérience"
                         },
                         "ja": {
-                            "title": "Deployment",
-                            "text": "Experience with IIS, Vercel, and Hostinger for deploying web applications. Proficient with Docker, GitHub Actions, Netlify, Azure App Service, and CI/CD pipelines for automated deployments.",
+                            "title": "デプロイメント",
+                            "text": "Webアプリケーションのデプロイのための IIS、Vercel、Hostingerの経験。自動デプロイのためのDocker、GitHub Actions、Netlify、Azure App Service、CI/CDパイプラインに精通。",
                             "level": "3年の経験"
                         }
                     },
@@ -361,16 +351,16 @@
                             "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
                         },
                         "ru": {
-                            "title": "Website Development",
-                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "title": "Разработка веб-сайтов",
+                            "text": "Адаптивные, быстро загружающиеся веб-сайты, созданные с использованием современных технологий. Я гарантирую, что ваш сайт не только визуально привлекателен, но и работает исключительно хорошо."
                         },
                         "fr": {
-                            "title": "Website Development",
-                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "title": "Développement de sites Web",
+                            "text": "Sites Web réactifs et à chargement rapide construits avec des technologies modernes. Je m'assure que votre site Web est non seulement visuellement attrayant mais performe également exceptionnellement bien."
                         },
                         "ja": {
-                            "title": "Website Development",
-                            "text": "Responsive, fast-loading websites built with modern technologies. I ensure your website is not only visually appealing but also performs exceptionally well."
+                            "title": "ウェブサイト開発",
+                            "text": "最新技術で構築されたレスポンシブで高速読み込みのウェブサイト。ウェブサイトが視覚的に魅力的であるだけでなく、優れたパフォーマンスを発揮することを保証します。"
                         }
                     },
                     "value": null,
@@ -390,16 +380,16 @@
                             "text": "Custom web applications tailored to your business needs. From e-commerce platforms to complex enterprise solutions, I deliver robust and scalable applications."
                         },
                         "ru": {
-                            "title": "Web Application Development",
-                            "text": "Custom web applications tailored to your business needs. From e-commerce platforms to complex enterprise solutions, I deliver robust and scalable applications."
+                            "title": "Разработка веб-приложений",
+                            "text": "Пользовательские веб-приложения, адаптированные к потребностям вашего бизнеса. От платформ электронной коммерции до сложных корпоративных решений, я создаю надёжные и масштабируемые приложения."
                         },
                         "fr": {
-                            "title": "Web Application Development",
-                            "text": "Custom web applications tailored to your business needs. From e-commerce platforms to complex enterprise solutions, I deliver robust and scalable applications."
+                            "title": "Développement d'applications Web",
+                            "text": "Applications Web personnalisées adaptées aux besoins de votre entreprise. Des plateformes e-commerce aux solutions d'entreprise complexes, je fournis des applications robustes et évolutives."
                         },
                         "ja": {
-                            "title": "Web Application Development",
-                            "text": "Custom web applications tailored to your business needs. From e-commerce platforms to complex enterprise solutions, I deliver robust and scalable applications."
+                            "title": "Webアプリケーション開発",
+                            "text": "ビジネスニーズに合わせたカスタムWebアプリケーション。Eコマースプラットフォームから複雑なエンタープライズソリューションまで、堅牢でスケーラブルなアプリケーションを提供します。"
                         }
                     },
                     "value": null,
@@ -419,16 +409,16 @@
                             "text": "Integrate cutting-edge AI solutions into your business processes. From chatbots to automated workflows, I help you leverage AI to improve efficiency and customer experience."
                         },
                         "ru": {
-                            "title": "AI Integration & Automation",
-                            "text": "Integrate cutting-edge AI solutions into your business processes. From chatbots to automated workflows, I help you leverage AI to improve efficiency and customer experience."
+                            "title": "Интеграция и автоматизация ИИ",
+                            "text": "Интеграция передовых решений ИИ в ваши бизнес-процессы. От чат-ботов до автоматизированных рабочих процессов, я помогаю вам использовать ИИ для повышения эффективности и улучшения клиентского опыта."
                         },
                         "fr": {
-                            "title": "AI Integration & Automation",
-                            "text": "Integrate cutting-edge AI solutions into your business processes. From chatbots to automated workflows, I help you leverage AI to improve efficiency and customer experience."
+                            "title": "Intégration et automatisation IA",
+                            "text": "Intégrez des solutions IA de pointe dans vos processus métier. Des chatbots aux flux de travail automatisés, je vous aide à exploiter l'IA pour améliorer l'efficacité et l'expérience client."
                         },
                         "ja": {
-                            "title": "AI Integration & Automation",
-                            "text": "Integrate cutting-edge AI solutions into your business processes. From chatbots to automated workflows, I help you leverage AI to improve efficiency and customer experience."
+                            "title": "AI統合と自動化",
+                            "text": "最先端のAIソリューションをビジネスプロセスに統合します。チャットボットから自動化されたワークフローまで、効率と顧客体験の向上のためにAIを活用するお手伝いをします。"
                         }
                     },
                     "value": null,
@@ -448,16 +438,16 @@
                             "text": "Build decentralised applications and implement blockchain solutions. From smart contracts to NFT marketplaces, I bring your Web3 vision to life."
                         },
                         "ru": {
-                            "title": "Blockchain & Web3 Solutions",
-                            "text": "Build decentralised applications and implement blockchain solutions. From smart contracts to NFT marketplaces, I bring your Web3 vision to life."
+                            "title": "Блокчейн и Web3 решения",
+                            "text": "Создание децентрализованных приложений и внедрение блокчейн-решений. От смарт-контрактов до NFT-маркетплейсов, я воплощаю в жизнь ваше видение Web3."
                         },
                         "fr": {
-                            "title": "Blockchain & Web3 Solutions",
-                            "text": "Build decentralised applications and implement blockchain solutions. From smart contracts to NFT marketplaces, I bring your Web3 vision to life."
+                            "title": "Solutions Blockchain et Web3",
+                            "text": "Construisez des applications décentralisées et implémentez des solutions blockchain. Des contrats intelligents aux marketplaces NFT, je donne vie à votre vision Web3."
                         },
                         "ja": {
-                            "title": "Blockchain & Web3 Solutions",
-                            "text": "Build decentralised applications and implement blockchain solutions. From smart contracts to NFT marketplaces, I bring your Web3 vision to life."
+                            "title": "ブロックチェーンとWeb3ソリューション",
+                            "text": "分散型アプリケーションを構築し、ブロックチェーンソリューションを実装します。スマートコントラクトからNFTマーケットプレイスまで、あなたのWeb3ビジョンを実現します。"
                         }
                     },
                     "value": null,
@@ -477,16 +467,16 @@
                             "text": "Improve your website's visibility and ranking in search engines. I implement best practices to ensure your content reaches your target audience effectively."
                         },
                         "ru": {
-                            "title": "SEO Optimisation",
-                            "text": "Improve your website's visibility and ranking in search engines. I implement best practices to ensure your content reaches your target audience effectively."
+                            "title": "SEO-оптимизация",
+                            "text": "Повышение видимости и рейтинга вашего сайта в поисковых системах. Я внедряю лучшие практики, чтобы ваш контент эффективно достигал целевой аудитории."
                         },
                         "fr": {
-                            "title": "SEO Optimisation",
-                            "text": "Improve your website's visibility and ranking in search engines. I implement best practices to ensure your content reaches your target audience effectively."
+                            "title": "Optimisation SEO",
+                            "text": "Améliorez la visibilité et le classement de votre site Web dans les moteurs de recherche. Je mets en œuvre les meilleures pratiques pour garantir que votre contenu atteigne efficacement votre public cible."
                         },
                         "ja": {
-                            "title": "SEO Optimisation",
-                            "text": "Improve your website's visibility and ranking in search engines. I implement best practices to ensure your content reaches your target audience effectively."
+                            "title": "SEO最適化",
+                            "text": "検索エンジンでのウェブサイトの可視性とランキングを向上させます。コンテンツがターゲットオーディエンスに効果的に届くよう、ベストプラクティスを実装します。"
                         }
                     },
                     "value": null,
@@ -506,16 +496,16 @@
                             "text": "Get expert advice on your technical challenges and digital strategy. I provide guidance on technology choices, architecture decisions, and implementation approaches."
                         },
                         "ru": {
-                            "title": "Technical Consultation",
-                            "text": "Get expert advice on your technical challenges and digital strategy. I provide guidance on technology choices, architecture decisions, and implementation approaches."
+                            "title": "Техническая консультация",
+                            "text": "Получите экспертный совет по вашим техническим вызовам и цифровой стратегии. Я предоставляю руководство по выбору технологий, архитектурным решениям и подходам к реализации."
                         },
                         "fr": {
-                            "title": "Technical Consultation",
-                            "text": "Get expert advice on your technical challenges and digital strategy. I provide guidance on technology choices, architecture decisions, and implementation approaches."
+                            "title": "Consultation technique",
+                            "text": "Obtenez des conseils d'experts sur vos défis techniques et votre stratégie numérique. Je fournis des conseils sur les choix technologiques, les décisions d'architecture et les approches d'implémentation."
                         },
                         "ja": {
-                            "title": "Technical Consultation",
-                            "text": "Get expert advice on your technical challenges and digital strategy. I provide guidance on technology choices, architecture decisions, and implementation approaches."
+                            "title": "技術コンサルテーション",
+                            "text": "技術的な課題やデジタル戦略について専門家のアドバイスを受けられます。テクノロジーの選択、アーキテクチャの決定、実装アプローチについてのガイダンスを提供します。"
                         }
                     },
                     "value": null,
