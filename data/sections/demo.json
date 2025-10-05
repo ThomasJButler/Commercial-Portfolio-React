@@ -2,32 +2,32 @@
     "title": {
         "locales": {
             "en": {
-                "title": "Demo",
-                "title_short": "Live Demos",
-                "title_short_nav": "Demo",
+                "title": "Personal Projects",
+                "title_short": "Personal Projects",
+                "title_short_nav": "Personal Projects",
                 "title_long_prefix": "Check out my",
-                "title_long": "Live {{Demo}} Projects"
+                "title_long": "**Personal** Projects"
             },
             "ru": {
-                "title": "Демо",
-                "title_short": "Живые демо",
-                "title_short_nav": "Демо",
+                "title": "Личные Проекты",
+                "title_short": "Личные Проекты",
+                "title_short_nav": "Личные Проекты",
                 "title_long_prefix": "Посмотрите мои",
-                "title_long": "{{Демо}} проекты в реальном времени"
+                "title_long": "**Личные** Проекты"
             },
             "fr": {
-                "title": "Démo",
-                "title_short": "Démos Live",
-                "title_short_nav": "Démo",
+                "title": "Projets Personnels",
+                "title_short": "Projets Personnels",
+                "title_short_nav": "Projets Personnels",
                 "title_long_prefix": "Découvrez mes",
-                "title_long": "Projets {{Démo}} en Direct"
+                "title_long": "**Projets** Personnels"
             },
             "ja": {
-                "title": "デモ",
-                "title_short": "ライブデモ",
-                "title_short_nav": "デモ",
+                "title": "個人プロジェクト",
+                "title_short": "個人プロジェクト",
+                "title_short_nav": "個人プロジェクト",
                 "title_long_prefix": "私の",
-                "title_long": "ライブ{{デモ}}プロジェクトをご覧ください"
+                "title_long": "**個人**プロジェクト"
             }
         }
     },
@@ -63,7 +63,7 @@
                     },
                     "locales": {
                         "en": {
-                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Explore My Passion Projects}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Before diving into the demos below, I invite you to visit my personal portfolio - a creative playground where I showcase passion projects and experimental work. Built with an interactive Matrix-themed design, it represents my journey in web development beyond commercial projects.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Visit Personal Portfolio</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> View on GitHub</a></div></div>"
+                            "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Explore My Passion Projects}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Before diving into the projects below, I invite you to visit my personal portfolio - a creative playground where I showcase passion projects and experimental work. Built with an interactive Matrix-themed design, it represents my journey in web development beyond commercial projects.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Visit Personal Portfolio</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> View on GitHub</a></div></div>"
                         },
                         "ru": {
                             "text": "<div style='text-align: center; padding: 2rem 0;'><style>.portfolio-title { color: #3B82F6 !important; } .portfolio-btn-primary { background-color: #3B82F6 !important; border-color: #3B82F6 !important; color: #FFFFFF !important; } .portfolio-btn-primary:hover { background-color: #2563EB !important; border-color: #2563EB !important; } .portfolio-btn-outline { border-color: #3B82F6 !important; color: #3B82F6 !important; } .portfolio-btn-outline:hover { background-color: #3B82F6 !important; color: #FFFFFF !important; } @media (prefers-color-scheme: dark) { .portfolio-title { color: #00FF41 !important; } .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; } } [data-theme='dark'] .portfolio-title { color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-primary { background-color: #00FF41 !important; border-color: #00FF41 !important; color: #000000 !important; } [data-theme='dark'] .portfolio-btn-primary:hover { background-color: #00CC33 !important; border-color: #00CC33 !important; } [data-theme='dark'] .portfolio-btn-outline { border-color: #00FF41 !important; color: #00FF41 !important; } [data-theme='dark'] .portfolio-btn-outline:hover { background-color: #00FF41 !important; color: #000000 !important; }</style><h3 class='portfolio-title' style='margin-bottom: 1rem;'>{{Исследуйте мои страстные проекты}}</h3><p style='color: #6B7280; margin-bottom: 1.5rem;'>Прежде чем погрузиться в демонстрации ниже, я приглашаю вас посетить мое личное портфолио - творческую площадку, где я демонстрирую страстные проекты и экспериментальные работы. Созданный с интерактивным дизайном в стиле Матрицы, он представляет мой путь в веб-разработке за пределами коммерческих проектов.</p><div style='display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;'><a href='https://thomasjbutler.github.io/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-primary portfolio-btn-primary'><i class='fa-solid fa-arrow-up-right-from-square'></i> Посетить личное портфолио</a><a href='https://github.com/ThomasJButler/ThomasJButler/' target='_blank' rel='noopener noreferrer' class='btn btn-outline-primary portfolio-btn-outline'><i class='fa-brands fa-github'></i> Посмотреть на GitHub</a></div></div>"
@@ -83,16 +83,16 @@
             "component": "ArticleCards",
             "locales": {
                 "en": {
-                    "title": "Live Demos"
+                    "title": "<span style='color: #10B981;'>Deployed Projects</span>"
                 },
                 "ru": {
-                    "title": "Живые демо"
+                    "title": "<span style='color: #10B981;'>Развернутые проекты</span>"
                 },
                 "fr": {
-                    "title": "Démos en Direct"
+                    "title": "<span style='color: #10B981;'>Projets Déployés</span>"
                 },
                 "ja": {
-                    "title": "ライブデモ"
+                    "title": "<span style='color: #10B981;'>デプロイ済みプロジェクト</span>"
                 }
             },
             "settings": {
@@ -100,6 +100,191 @@
                 "order_items_sort": "desc"
             },
             "items": [
+                {
+                    "id": 15,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#8B5CF6",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 9
+                    },
+                    "link": {
+                        "href": "https://aitomatic.io/",
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Mastering AI Course Portfolio}}",
+                            "text": "Comprehensive portfolio from the 6-week Codecademy AI bootcamp. Features multiple production-ready AI applications including SQL-Ball (football analytics), AI Code Generator, and AI Comparison Showcase. Built with Next.js, TypeScript, LangChain, and integrated with GPT-4, Claude 3.5, and vector databases."
+                        },
+                        "ru": {
+                            "title": "{{Портфолио курса Mastering AI}}",
+                            "text": "Комплексное портфолио из 6-недельного буткемпа Codecademy AI. Включает несколько готовых к продакшену AI-приложений, включая SQL-Ball (футбольная аналитика), генератор AI-кода и витрину сравнения AI. Построено с Next.js, TypeScript, LangChain и интегрировано с GPT-4, Claude 3.5 и векторными базами данных."
+                        },
+                        "fr": {
+                            "title": "{{Portfolio du cours Mastering AI}}",
+                            "text": "Portfolio complet du bootcamp AI Codecademy de 6 semaines. Comprend plusieurs applications AI prêtes pour la production, y compris SQL-Ball (analyse de football), générateur de code AI et vitrine de comparaison AI. Construit avec Next.js, TypeScript, LangChain et intégré avec GPT-4, Claude 3.5 et bases de données vectorielles."
+                        },
+                        "ja": {
+                            "title": "{{AI マスタリングコースポートフォリオ}}",
+                            "text": "6週間のCodecademy AIブートキャンプからの包括的なポートフォリオ。SQL-Ball（サッカー分析）、AIコードジェネレーター、AI比較ショーケースを含む複数の本番対応AIアプリケーションを特徴としています。Next.js、TypeScript、LangChainで構築され、GPT-4、Claude 3.5、ベクターデータベースと統合されています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/MasteringAICoursePortfolio",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://aitomatic.io/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-play"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 14,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#10B981",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/SQL-Ball",
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{SQL-Ball}}",
+                            "text": "AI-powered football data analytics platform that converts natural language queries into SQL. Features real-time match insights, interactive data visualizations, and comprehensive Premier League statistics. Built with advanced NLP and database optimization techniques."
+                        },
+                        "ru": {
+                            "title": "{{SQL-Ball}}",
+                            "text": "Платформа футбольной аналитики на основе ИИ, которая преобразует запросы на естественном языке в SQL. Включает инсайты матчей в реальном времени, интерактивные визуализации данных и комплексную статистику Премьер-лиги."
+                        },
+                        "fr": {
+                            "title": "{{SQL-Ball}}",
+                            "text": "Plateforme d'analyse de données de football alimentée par l'IA qui convertit les requêtes en langage naturel en SQL. Comprend des informations sur les matchs en temps réel, des visualisations de données interactives et des statistiques complètes de la Premier League."
+                        },
+                        "ja": {
+                            "title": "{{SQL-Ball}}",
+                            "text": "自然言語クエリをSQLに変換するAI搭載のサッカーデータ分析プラットフォーム。リアルタイムの試合インサイト、インタラクティブなデータ視覚化、包括的なプレミアリーグ統計を特徴としています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/SQL-Ball",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 13,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/AICodeGenerator",
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{AI Code Generator}}",
+                            "text": "Advanced natural language to code conversion tool supporting multiple programming languages. Features automated test case generation, code documentation, and optimization suggestions. Powered by state-of-the-art LLMs with custom fine-tuning for code generation."
+                        },
+                        "ru": {
+                            "title": "{{Генератор кода ИИ}}",
+                            "text": "Продвинутый инструмент преобразования естественного языка в код, поддерживающий несколько языков программирования. Включает автоматическую генерацию тестовых случаев, документацию кода и предложения по оптимизации."
+                        },
+                        "fr": {
+                            "title": "{{Générateur de code IA}}",
+                            "text": "Outil avancé de conversion du langage naturel en code prenant en charge plusieurs langages de programmation. Comprend la génération automatique de cas de test, la documentation du code et des suggestions d'optimisation."
+                        },
+                        "ja": {
+                            "title": "{{AIコードジェネレーター}}",
+                            "text": "複数のプログラミング言語をサポートする高度な自然言語からコードへの変換ツール。自動テストケース生成、コードドキュメント、最適化提案を特徴としています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/AICodeGenerator",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 12,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#EC4899",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://github.com/ThomasJButler/AI-Comparison-Showcase",
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{AI Comparison Showcase}}",
+                            "text": "Side-by-side comparison tool for multiple AI models including GPT-4, Claude 3.5, and Gemini. Features real-time response streaming, interactive visualizations, and performance metrics. Perfect for evaluating different AI models for specific use cases."
+                        },
+                        "ru": {
+                            "title": "{{Витрина сравнения ИИ}}",
+                            "text": "Инструмент для параллельного сравнения нескольких моделей ИИ, включая GPT-4, Claude 3.5 и Gemini. Включает потоковую передачу ответов в реальном времени, интерактивные визуализации и метрики производительности."
+                        },
+                        "fr": {
+                            "title": "{{Vitrine de comparaison IA}}",
+                            "text": "Outil de comparaison côte à côte pour plusieurs modèles d'IA, y compris GPT-4, Claude 3.5 et Gemini. Comprend le streaming de réponses en temps réel, des visualisations interactives et des métriques de performance."
+                        },
+                        "ja": {
+                            "title": "{{AI比較ショーケース}}",
+                            "text": "GPT-4、Claude 3.5、Geminiを含む複数のAIモデルのサイドバイサイド比較ツール。リアルタイム応答ストリーミング、インタラクティブな視覚化、パフォーマンスメトリクスを特徴としています。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/AI-Comparison-Showcase",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ]
+                    }
+                },
                 {
                     "id": 11,
                     "img": "",
@@ -114,7 +299,8 @@
                     },
                     "link": {
                         "href": "https://dotnet-react-calendar.vercel.app/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -144,193 +330,7 @@
                             {
                                 "href": "https://dotnet-react-calendar.vercel.app/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 9,
-                    "img": "",
-                    "faIcon": "fa-solid fa-briefcase",
-                    "faIconColors": {
-                        "bg": "#10B981",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 7
-                    },
-                    "link": {
-                        "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Web Agency Showcase}}",
-                            "text": "A key feature of the v2.0 portfolio upgrade - comprehensive documentation of all commercial web development work designed specifically for employers and recruiters. Includes detailed write-ups with step-by-step processes, technical decisions, and outcomes for 10+ projects."
-                        },
-                        "ru": {
-                            "title": "{{Веб-портфель агентства}}",
-                            "text": "Ключевая особенность обновления портфолио v2.0 - комплексная документация всех коммерческих работ по веб-разработке, специально разработанная для работодателей и рекрутеров. Включает подробные описания с пошаговыми процессами, техническими решениями и результатами для более чем 10 проектов."
-                        },
-                        "fr": {
-                            "title": "{{Vitrine d'Agence Web}}",
-                            "text": "Une caractéristique clé de la mise à niveau du portfolio v2.0 - documentation complète de tous les travaux de développement web commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Comprend des comptes rendus détaillés avec des processus étape par étape, des décisions techniques et des résultats pour plus de 10 projets."
-                        },
-                        "ja": {
-                            "title": "{{ウェブエージェンシーショーケース}}",
-                            "text": "v2.0ポートフォリオアップグレードの主要機能 - 雇用主とリクルーター向けに特別に設計された、すべての商業ウェブ開発作業の包括的なドキュメント。10以上のプロジェクトのステップバイステップのプロセス、技術的な決定、結果を含む詳細な記述が含まれています。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://tombutler.notion.site/Web-Agency-Showcase-1a11b94bcaea80ffa87ae2fb8994e4de",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 8,
-                    "img": "",
-                    "faIcon": "fa-solid fa-burst",
-                    "faIconColors": {
-                        "bg": "#9333EA",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 6
-                    },
-                    "link": {
-                        "href": "https://thomasjbutler.github.io/bigbang-gallery/",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Big Bang Gallery}}",
-                            "text": "Showcase of AI art and CSS in an interactive canvas. Features generative artwork, animated effects, and cutting-edge CSS techniques combined with AI-generated visuals."
-                        },
-                        "ru": {
-                            "title": "{{Галерея Большого Взрыва}}",
-                            "text": "Витрина AI-искусства и CSS в интерактивном холсте. Включает генеративные произведения искусства, анимированные эффекты и передовые техники CSS в сочетании с визуальными эффектами, созданными ИИ."
-                        },
-                        "fr": {
-                            "title": "{{Galerie Big Bang}}",
-                            "text": "Vitrine d'art IA et CSS dans un canvas interactif. Comprend des œuvres d'art génératives, des effets animés et des techniques CSS de pointe combinées avec des visuels générés par l'IA."
-                        },
-                        "ja": {
-                            "title": "{{ビッグバンギャラリー}}",
-                            "text": "インタラクティブなキャンバスでのAIアートとCSSのショーケース。生成アートワーク、アニメーション効果、AI生成ビジュアルと組み合わせた最先端のCSS技術を特徴としています。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/bigbang-gallery",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            },
-                            {
-                                "href": "https://thomasjbutler.github.io/bigbang-gallery/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 7,
-                    "img": "",
-                    "faIcon": "fa-solid fa-clock-rotate-left",
-                    "faIconColors": {
-                        "bg": "#3B82F6",
-                        "fill": "#FFFFFF"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 6
-                    },
-                    "link": {
-                        "href": "https://thomasjbutler.github.io/version-timetravel/",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Version TimeTravel}}",
-                            "text": "Showcase of different website versions of personal portfolio, from static HTML, CSS, JS, to full React and Vite build it is today. Travel through time to see the evolution of web development practices."
-                        },
-                        "ru": {
-                            "title": "{{Путешествие во времени версий}}",
-                            "text": "Витрина различных версий веб-сайта личного портфолио, от статических HTML, CSS, JS до полной сборки React и Vite, какой она является сегодня. Путешествуйте во времени, чтобы увидеть эволюцию практик веб-разработки."
-                        },
-                        "fr": {
-                            "title": "{{Voyage dans le Temps des Versions}}",
-                            "text": "Vitrine de différentes versions du site Web du portfolio personnel, du HTML statique, CSS, JS, à la construction complète React et Vite qu'il est aujourd'hui. Voyagez dans le temps pour voir l'évolution des pratiques de développement web."
-                        },
-                        "ja": {
-                            "title": "{{バージョンタイムトラベル}}",
-                            "text": "静的なHTML、CSS、JSから、今日のような完全なReactとViteビルドまで、個人ポートフォリオのさまざまなウェブサイトバージョンのショーケース。時間を旅して、ウェブ開発の実践の進化を見てください。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/version-timetravel",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            },
-                            {
-                                "href": "https://thomasjbutler.github.io/version-timetravel/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": 6,
-                    "img": "",
-                    "faIcon": "fa-solid fa-futbol",
-                    "faIconColors": {
-                        "bg": "#38003C",
-                        "fill": "#00FF87"
-                    },
-                    "date": {
-                        "year": 2025,
-                        "month": 3
-                    },
-                    "link": {
-                        "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
-                        "tooltipString": "see_on_github"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Premier League Oracle}}",
-                            "text": "Data-driven football prediction platform using ML and statistical analysis. Built with Python, Svelte, and PostgreSQL."
-                        },
-                        "ru": {
-                            "title": "{{Оракул Премьер-лиги}}",
-                            "text": "Платформа прогнозирования футбола на основе данных с использованием ML и статистического анализа. Создано с Python, Svelte и PostgreSQL."
-                        },
-                        "fr": {
-                            "title": "{{Oracle de Premier League}}",
-                            "text": "Plateforme de prédiction de football basée sur les données utilisant ML et analyse statistique. Construit avec Python, Svelte et PostgreSQL."
-                        },
-                        "ja": {
-                            "title": "{{プレミアリーグオラクル}}",
-                            "text": "MLと統計分析を使用したデータ駆動型のサッカー予測プラットフォーム。Python、Svelte、PostgreSQLで構築。"
-                        }
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler/The-Premier-League-Oracle",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -349,7 +349,8 @@
                     },
                     "link": {
                         "href": "https://thomasjbutler.github.io/ThomasJButler",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -379,7 +380,57 @@
                             {
                                 "href": "https://thomasjbutler.github.io/ThomasJButler",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-clock-rotate-left",
+                    "faIconColors": {
+                        "bg": "#3B82F6",
+                        "fill": "#FFFFFF"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "https://thomasjbutler.github.io/version-timetravel/",
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Personal Portfolio TimeTravel}}",
+                            "text": "Showcase of different website versions of personal portfolio, from static HTML, CSS, JS, to full React and Vite build it is today. Travel through time to see the evolution of web development practices."
+                        },
+                        "ru": {
+                            "title": "{{Путешествие во времени личного портфолио}}",
+                            "text": "Витрина различных версий веб-сайта личного портфолио, от статических HTML, CSS, JS до полной сборки React и Vite, какой она является сегодня. Путешествуйте во времени, чтобы увидеть эволюцию практик веб-разработки."
+                        },
+                        "fr": {
+                            "title": "{{Voyage dans le Temps du Portfolio Personnel}}",
+                            "text": "Vitrine de différentes versions du site Web du portfolio personnel, du HTML statique, CSS, JS, à la construction complète React et Vite qu'il est aujourd'hui. Voyagez dans le temps pour voir l'évolution des pratiques de développement web."
+                        },
+                        "ja": {
+                            "title": "{{個人ポートフォリオタイムトラベル}}",
+                            "text": "静的なHTML、CSS、JSから、今日のような完全なReactとViteビルドまで、個人ポートフォリオのさまざまなウェブサイトバージョンのショーケース。時間を旅して、ウェブ開発の実践の進化を見てください。"
+                        }
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/ThomasJButler/version-timetravel",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://thomasjbutler.github.io/version-timetravel/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -398,7 +449,8 @@
                     },
                     "link": {
                         "href": "https://thomasjbutler.github.io/css-showcase/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -428,7 +480,7 @@
                             {
                                 "href": "https://thomasjbutler.github.io/css-showcase/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -447,7 +499,8 @@
                     },
                     "link": {
                         "href": "https://github.com/ThomasJButler/PythonProjects",
-                        "tooltipString": "see_on_github"
+                        "tooltipString": "see_on_github",
+                        "faIcon": "fa-brands fa-github"
                     },
                     "locales": {
                         "en": {
@@ -491,7 +544,8 @@
                     },
                     "link": {
                         "href": "https://the-matrix-arcade.vercel.app/",
-                        "tooltipString": "open_website"
+                        "tooltipString": "open_website",
+                        "faIcon": "fa-solid fa-play"
                     },
                     "locales": {
                         "en": {
@@ -521,7 +575,7 @@
                             {
                                 "href": "https://the-matrix-arcade.vercel.app/",
                                 "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
+                                "faIcon": "fa-solid fa-play"
                             }
                         ]
                     }
@@ -530,391 +584,19 @@
         },
         {
             "id": 3,
-            "component": "ArticleThread",
-            "locales": {
-                "en": {
-                    "title": "Recent Updates"
-                },
-                "ru": {
-                    "title": "Actualizaciones Recientes"
-                },
-                "fr": {
-                    "title": "Mises à Jour Récentes"
-                },
-                "ja": {
-                    "title": "최근 업데이트"
-                }
-            },
-            "settings": {
-                "max_rows_collapse_threshold": 4,
-                "order_items_by": "date",
-                "order_items_sort": "desc"
-            },
-            "items": [
-                {
-                    "id": 7,
-                    "date": {
-                        "year": 2025,
-                        "month": 7
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://dotnet-react-calendar.vercel.app/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            },
-                            {
-                                "href": "https://github.com/ThomasJButler/Dotnet-React-Calendar",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Dotnet React Calculator}} Project Launch",
-                            "province": "Liverpool",
-                            "country": "UK",
-                            "institution": "Personal Project",
-                            "text": "Launched a full-stack calculator application that started as a code assessment and evolved into a comprehensive learning project. This responsive application showcases modern development practices with .NET backend and React frontend integration.",
-                            "list": [
-                                "Built with .NET Core backend API and React TypeScript frontend",
-                                "Implements responsive design for desktop and mobile experiences",
-                                "Features comprehensive calculation history and memory functions",
-                                "Deployed on Vercel with continuous integration"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Запуск проекта {{Dotnet React Калькулятор}}",
-                            "province": "Ливерпуль",
-                            "country": "Великобритания",
-                            "institution": "Личный проект",
-                            "text": "Запущено полнофункциональное приложение-калькулятор, которое началось как оценка кода и превратилось в комплексный учебный проект. Это адаптивное приложение демонстрирует современные практики разработки с интеграцией .NET бэкенда и React фронтенда.",
-                            "list": [
-                                "Создано с использованием .NET Core backend API и React TypeScript frontend",
-                                "Реализует адаптивный дизайн для настольных и мобильных устройств",
-                                "Включает полную историю вычислений и функции памяти",
-                                "Развернуто на Vercel с непрерывной интеграцией"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Lancement du projet {{Calculatrice Dotnet React}}",
-                            "province": "Liverpool",
-                            "country": "Royaume-Uni",
-                            "institution": "Projet Personnel",
-                            "text": "Lancement d'une application de calculatrice full-stack qui a commencé comme une évaluation de code et a évolué en un projet d'apprentissage complet. Cette application réactive présente des pratiques de développement modernes avec intégration backend .NET et frontend React.",
-                            "list": [
-                                "Construit avec .NET Core backend API et React TypeScript frontend",
-                                "Implémente un design réactif pour les expériences desktop et mobile",
-                                "Comprend un historique complet des calculs et des fonctions de mémoire",
-                                "Déployé sur Vercel avec intégration continue"
-                            ]
-                        },
-                        "ja": {
-                            "title": "{{Dotnet React 電卓}}プロジェクトの開始",
-                            "province": "リバプール",
-                            "country": "イギリス",
-                            "institution": "個人プロジェクト",
-                            "text": "コード評価として始まり、包括的な学習プロジェクトに進化したフルスタック電卓アプリケーションを開始しました。このレスポンシブアプリケーションは、.NETバックエンドとReactフロントエンドの統合による最新の開発プラクティスを示しています。",
-                            "list": [
-                                ".NET Core バックエンドAPIとReact TypeScriptフロントエンドで構築",
-                                "デスクトップとモバイル体験のためのレスポンシブデザインを実装",
-                                "包括的な計算履歴とメモリ機能を備える",
-                                "継続的インテグレーションでVercelにデプロイ"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "date": {
-                        "year": 2025,
-                        "month": 7
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Portfolio v2.0}} Launch with Web Agency Showcase",
-                            "province": "Liverpool",
-                            "country": "UK",
-                            "institution": "Personal Project",
-                            "text": "Successfully migrated portfolio to React v2.0 with improved performance, modern design, and enhanced user experience. Key feature: Web Agency Showcase - comprehensive documentation of all commercial work designed specifically for employers and recruiters. Key improvements include:",
-                            "list": [
-                                "Complete UI/UX redesign with dark mode support",
-                                "Performance optimizations achieving 95+ Lighthouse scores",
-                                "Enhanced accessibility features and SEO improvements",
-                                "Web Agency Showcase featuring 10+ commercial projects with detailed case studies"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Запуск {{Портфолио v2.0}} с веб-портфелем агентства",
-                            "province": "Liverpool",
-                            "country": "Reino Unido",
-                            "institution": "Proyecto Personal",
-                            "text": "Успешная миграция портфолио на React v2.0 с улучшенной производительностью, современным дизайном и улучшенным пользовательским опытом. Ключевая особенность: Веб-портфель агентства - комплексная документация всех коммерческих работ, специально разработанная для работодателей и рекрутеров. Ключевые улучшения включают:",
-                            "list": [
-                                "Rediseño completo de UI/UX con soporte para modo oscuro",
-                                "Optimizaciones de rendimiento logrando puntuaciones de Lighthouse de 95+",
-                                "Funciones de accesibilidad mejoradas y mejoras de SEO",
-                                "Веб-портфель агентства с более чем 10 коммерческими проектами с подробными кейсами"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Lancement du {{Portfolio v2.0}} avec Vitrine d'Agence Web",
-                            "province": "Liverpool",
-                            "country": "Royaume-Uni",
-                            "institution": "Projet Personnel",
-                            "text": "Migration réussie du portfolio vers React v2.0 avec des performances améliorées, un design moderne et une expérience utilisateur améliorée. Caractéristique clé : Vitrine d'Agence Web - documentation complète de tous les travaux commerciaux conçue spécifiquement pour les employeurs et les recruteurs. Les principales améliorations comprennent :",
-                            "list": [
-                                "Refonte complète de l'UI/UX avec support du mode sombre",
-                                "Optimisations des performances atteignant des scores Lighthouse de 95+",
-                                "Fonctionnalités d'accessibilité améliorées et améliorations SEO",
-                                "Vitrine d'Agence Web présentant plus de 10 projets commerciaux avec des études de cas détaillées"
-                            ]
-                        },
-                        "ja": {
-                            "title": "ウェブエージェンシーショーケース付き{{ポートフォリオ v2.0}}リリース",
-                            "province": "리버풀",
-                            "country": "영국",
-                            "institution": "개인 프로젝트",
-                            "text": "改善されたパフォーマンス、モダンなデザイン、強化されたユーザーエクスペリエンスでReact v2.0へのポートフォリオの移行に成功しました。主要機能：ウェブエージェンシーショーケース - 雇用主とリクルーター向けに特別に設計されたすべての商業作品の包括的なドキュメント。主な改善点：",
-                            "list": [
-                                "다크 모드 지원을 갖춘 완전한 UI/UX 재설계",
-                                "95+ Lighthouse 점수를 달성하는 성능 최적화",
-                                "향상된 접근성 기능 및 SEO 개선",
-                                "詳細なケーススタディを含む10以上の商業プロジェクトを特徴とするウェブエージェンシーショーケース"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "date": {
-                        "year": 2025,
-                        "month": 6
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://thomasjbutler.github.io/ThomasJButler/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            },
-                            {
-                                "href": "https://github.com/ThomasJButler/ThomasJButler",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Personal Portfolio v3.0}} Migration",
-                            "province": "Liverpool",
-                            "country": "UK",
-                            "institution": "Personal Project",
-                            "text": "Successfully migrated personal portfolio from static HTML/CSS/JS to modern React/Vite build. This major upgrade brings component-based architecture, better performance, and modern development tooling while maintaining the Matrix-themed design.",
-                            "list": [
-                                "Migrated from static site to React components",
-                                "Implemented Vite for fast development and optimized builds",
-                                "Maintained all original features while improving performance",
-                                "Added hot module replacement for better development experience"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Миграция {{Личного Портфолио v3.0}}",
-                            "province": "Liverpool",
-                            "country": "Великобритания",
-                            "institution": "Личный проект",
-                            "text": "Успешно перенес личное портфолио со статического HTML/CSS/JS на современную сборку React/Vite. Это крупное обновление привносит компонентную архитектуру, лучшую производительность и современные инструменты разработки, сохраняя при этом дизайн в стиле Матрицы.",
-                            "list": [
-                                "Миграция со статического сайта на компоненты React",
-                                "Внедрен Vite для быстрой разработки и оптимизированных сборок",
-                                "Сохранены все оригинальные функции при улучшении производительности",
-                                "Добавлена горячая замена модулей для лучшего опыта разработки"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Migration du {{Portfolio Personnel v3.0}}",
-                            "province": "Liverpool",
-                            "country": "Royaume-Uni",
-                            "institution": "Projet Personnel",
-                            "text": "Migration réussie du portfolio personnel de HTML/CSS/JS statique vers une construction React/Vite moderne. Cette mise à niveau majeure apporte une architecture basée sur des composants, de meilleures performances et des outils de développement modernes tout en conservant le design sur le thème Matrix.",
-                            "list": [
-                                "Migration du site statique vers les composants React",
-                                "Implémentation de Vite pour un développement rapide et des builds optimisées",
-                                "Maintien de toutes les fonctionnalités originales tout en améliorant les performances",
-                                "Ajout du remplacement de module à chaud pour une meilleure expérience de développement"
-                            ]
-                        },
-                        "ja": {
-                            "title": "{{個人ポートフォリオ v3.0}}移行",
-                            "province": "リバプール",
-                            "country": "イギリス",
-                            "institution": "個人プロジェクト",
-                            "text": "個人ポートフォリオを静的なHTML/CSS/JSから最新のReact/Viteビルドに正常に移行しました。このメジャーアップグレードは、マトリックステーマのデザインを維持しながら、コンポーネントベースのアーキテクチャ、より良いパフォーマンス、最新の開発ツールをもたらします。",
-                            "list": [
-                                "静的サイトからReactコンポーネントへの移行",
-                                "高速開発と最適化されたビルドのためのViteの実装",
-                                "パフォーマンスを向上させながら、すべての元の機能を維持",
-                                "より良い開発体験のためのホットモジュール置換の追加"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "date": {
-                        "year": 2025,
-                        "month": 1
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://the-matrix-arcade.vercel.app/",
-                                "tooltipString": "open_website",
-                                "faIcon": "fa-solid fa-arrow-up-right-from-square"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Matrix Arcade}} New Games",
-                            "province": "",
-                            "country": "",
-                            "institution": "Personal Project",
-                            "text": "Added 5 new retro-style games to Matrix Arcade, bringing the total collection to 12 playable games. Each game showcases different programming concepts and game mechanics learned through various tutorials and courses."
-                        },
-                        "ru": {
-                            "title": "Nuevos Juegos en {{Matrix Arcade}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Proyecto Personal",
-                            "text": "Se agregaron 5 nuevos juegos de estilo retro a Matrix Arcade, llevando la colección total a 12 juegos jugables. Cada juego muestra diferentes conceptos de programación y mecánicas de juego aprendidas a través de varios tutoriales y cursos."
-                        },
-                        "fr": {
-                            "title": "Nouveaux Jeux {{Matrix Arcade}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Projet Personnel",
-                            "text": "Ajout de 5 nouveaux jeux de style rétro à Matrix Arcade, portant la collection totale à 12 jeux jouables. Chaque jeu présente différents concepts de programmation et mécaniques de jeu appris à travers divers tutoriels et cours."
-                        },
-                        "ja": {
-                            "title": "{{매트릭스 아케이드}} 새 게임",
-                            "province": "",
-                            "country": "",
-                            "institution": "개인 프로젝트",
-                            "text": "매트릭스 아케이드에 5개의 새로운 레트로 스타일 게임을 추가하여 총 12개의 플레이 가능한 게임 컬렉션을 만들었습니다. 각 게임은 다양한 튜토리얼과 과정을 통해 배운 다양한 프로그래밍 개념과 게임 메커니즘을 보여줍니다."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "date": {
-                        "year": 2024,
-                        "month": 12
-                    },
-                    "preview": {
-                        "links": [
-                            {
-                                "href": "https://github.com/ThomasJButler",
-                                "tooltipString": "see_on_github",
-                                "faIcon": "fa-brands fa-github"
-                            }
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Open Source}} Contributions",
-                            "province": "",
-                            "country": "",
-                            "institution": "GitHub Community",
-                            "text": "Made significant contributions to several open source projects, including bug fixes, feature implementations, and documentation improvements. Notable contributions include:",
-                            "list": [
-                                "Implemented new features for a popular React component library",
-                                "Fixed critical security vulnerabilities in a Node.js framework",
-                                "Improved documentation for multiple TypeScript projects"
-                            ]
-                        },
-                        "ru": {
-                            "title": "Contribuciones de {{Código Abierto}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Comunidad GitHub",
-                            "text": "Realicé contribuciones significativas a varios proyectos de código abierto, incluyendo correcciones de errores, implementaciones de características y mejoras de documentación. Las contribuciones notables incluyen:",
-                            "list": [
-                                "Implementación de nuevas características para una biblioteca de componentes React popular",
-                                "Corrección de vulnerabilidades de seguridad críticas en un framework de Node.js",
-                                "Mejora de la documentación para múltiples proyectos de TypeScript"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Contributions {{Open Source}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Communauté GitHub",
-                            "text": "J'ai apporté des contributions significatives à plusieurs projets open source, notamment des corrections de bugs, des implémentations de fonctionnalités et des améliorations de documentation. Les contributions notables comprennent :",
-                            "list": [
-                                "Implémentation de nouvelles fonctionnalités pour une bibliothèque de composants React populaire",
-                                "Correction de vulnérabilités de sécurité critiques dans un framework Node.js",
-                                "Amélioration de la documentation pour plusieurs projets TypeScript"
-                            ]
-                        },
-                        "ja": {
-                            "title": "{{오픈 소스}} 기여",
-                            "province": "",
-                            "country": "",
-                            "institution": "GitHub 커뮤니티",
-                            "text": "버그 수정, 기능 구현 및 문서 개선을 포함하여 여러 오픈 소스 프로젝트에 중요한 기여를 했습니다. 주목할 만한 기여:",
-                            "list": [
-                                "인기 있는 React 컴포넌트 라이브러리에 새로운 기능 구현",
-                                "Node.js 프레임워크의 중요한 보안 취약점 수정",
-                                "여러 TypeScript 프로젝트의 문서 개선"
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": 4,
             "component": "ArticleFacts",
             "locales": {
                 "en": {
-                    "title": "Demo {{Statistics}}"
+                    "title": "Project {{Statistics}}"
                 },
                 "ru": {
-                    "title": "{{Статистика}} демо"
+                    "title": "{{Статистика}} проектов"
                 },
                 "fr": {
-                    "title": "{{Statistiques}} des Démos"
+                    "title": "{{Statistiques}} des Projets"
                 },
                 "ja": {
-                    "title": "デモ{{統計}}"
+                    "title": "プロジェクト{{統計}}"
                 }
             },
             "settings": {
@@ -932,19 +614,19 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "6+",
+                            "title": "10+",
                             "text": "Live Projects"
                         },
                         "ru": {
-                            "title": "6+",
+                            "title": "10+",
                             "text": "Активных проектов"
                         },
                         "fr": {
-                            "title": "6+",
+                            "title": "10+",
                             "text": "Projets en Direct"
                         },
                         "ja": {
-                            "title": "6+",
+                            "title": "10+",
                             "text": "ライブプロジェクト"
                         }
                     }
@@ -952,80 +634,80 @@
                 {
                     "id": 2,
                     "img": null,
-                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIcon": "fa-solid fa-code-commit",
                     "faIconColors": {
                         "bg": "#3B82F6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "15+",
-                            "text": "Technologies Used"
+                            "title": "1.1k",
+                            "text": "GitHub Commits"
                         },
                         "ru": {
-                            "title": "15+",
-                            "text": "Используемых технологий"
+                            "title": "1.1k",
+                            "text": "Коммитов GitHub"
                         },
                         "fr": {
-                            "title": "15+",
-                            "text": "Technologies Utilisées"
+                            "title": "1.1k",
+                            "text": "Commits GitHub"
                         },
                         "ja": {
-                            "title": "15+",
-                            "text": "使用技術"
+                            "title": "1.1k",
+                            "text": "GitHubコミット"
                         }
                     }
                 },
                 {
                     "id": 3,
                     "img": null,
-                    "faIcon": "fa-brands fa-github",
-                    "faIconColors": {
-                        "bg": "#171515",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "100%",
-                            "text": "Open Source"
-                        },
-                        "ru": {
-                            "title": "100%",
-                            "text": "Открытый исходный код"
-                        },
-                        "fr": {
-                            "title": "100%",
-                            "text": "Open Source"
-                        },
-                        "ja": {
-                            "title": "100%",
-                            "text": "オープンソース"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": null,
-                    "faIcon": "fa-solid fa-rocket",
+                    "faIcon": "fa-solid fa-code-pull-request",
                     "faIconColors": {
                         "bg": "#8B5CF6",
                         "fill": "#FFFFFF"
                     },
                     "locales": {
                         "en": {
-                            "title": "4",
+                            "title": "151",
+                            "text": "Pull Requests"
+                        },
+                        "ru": {
+                            "title": "151",
+                            "text": "Запросов на слияние"
+                        },
+                        "fr": {
+                            "title": "151",
+                            "text": "Pull Requests"
+                        },
+                        "ja": {
+                            "title": "151",
+                            "text": "プルリクエスト"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#EC4899",
+                        "fill": "#FFFFFF"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "6+",
                             "text": "AI-Powered Projects"
                         },
                         "ru": {
-                            "title": "4",
+                            "title": "6+",
                             "text": "Проектов с ИИ"
                         },
                         "fr": {
-                            "title": "4",
+                            "title": "6+",
                             "text": "Projets Alimentés par l'IA"
                         },
                         "ja": {
-                            "title": "4",
+                            "title": "6+",
                             "text": "AI搭載プロジェクト"
                         }
                     }
@@ -1033,7 +715,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 4,
             "component": "ArticleTestimonials",
             "locales": {
                 "en": {
@@ -1056,207 +738,79 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
-                    "locales": {
-                        "en": {
-                            "name": "Matrix Arcade Achievement",
-                            "title": "Interactive Gaming Experience",
-                            "text": "The Matrix Arcade showcases my ability to create engaging, interactive web experiences. Built with TypeScript and React, it features multiple retro-style games with smooth animations and responsive controls, demonstrating both technical skill and creative design."
-                        },
-                        "ru": {
-                            "name": "Достижение Matrix Arcade",
-                            "title": "Интерактивный игровой опыт",
-                            "text": "Matrix Arcade демонстрирует мою способность создавать увлекательные интерактивные веб-приложения. Созданный с использованием TypeScript и React, он включает несколько игр в стиле ретро с плавной анимацией и отзывчивым управлением."
-                        },
-                        "fr": {
-                            "name": "Réalisation Matrix Arcade",
-                            "title": "Expérience de Jeu Interactive",
-                            "text": "Matrix Arcade démontre ma capacité à créer des expériences web interactives engageantes. Construit avec TypeScript et React, il propose plusieurs jeux de style rétro avec des animations fluides et des contrôles réactifs."
-                        },
-                        "ja": {
-                            "name": "Matrix Arcadeの成果",
-                            "title": "インタラクティブなゲーム体験",
-                            "text": "Matrix Arcadeは、魅力的でインタラクティブなWeb体験を作成する私の能力を示しています。TypeScriptとReactで構築され、スムーズなアニメーションとレスポンシブなコントロールを備えた複数のレトロスタイルのゲームを特徴としています。"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
-                    "locales": {
-                        "en": {
-                            "name": "Python Backend Excellence",
-                            "title": "Scalable API Development",
-                            "text": "My Python Backend Collection demonstrates proficiency in building robust, scalable APIs. From RESTful services to machine learning integrations, these projects showcase clean architecture, efficient data processing, and best practices in backend development."
-                        },
-                        "ru": {
-                            "name": "Превосходство Python Backend",
-                            "title": "Масштабируемая разработка API",
-                            "text": "Моя коллекция Python Backend демонстрирует мастерство в создании надежных, масштабируемых API. От RESTful сервисов до интеграций машинного обучения, эти проекты демонстрируют чистую архитектуру и эффективную обработку данных."
-                        },
-                        "fr": {
-                            "name": "Excellence Backend Python",
-                            "title": "Développement d'API Évolutif",
-                            "text": "Ma Collection Backend Python démontre ma maîtrise dans la construction d'API robustes et évolutives. Des services RESTful aux intégrations d'apprentissage automatique, ces projets mettent en valeur une architecture propre et un traitement efficace des données."
-                        },
-                        "ja": {
-                            "name": "Pythonバックエンドの卓越性",
-                            "title": "スケーラブルなAPI開発",
-                            "text": "私のPythonバックエンドコレクションは、堅牢でスケーラブルなAPIを構築する熟練度を示しています。RESTfulサービスから機械学習の統合まで、これらのプロジェクトはクリーンなアーキテクチャと効率的なデータ処理を示しています。"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
                     "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
                     "locales": {
                         "en": {
-                            "name": "AI Innovation",
-                            "title": "Practical AI Implementation",
-                            "text": "Through AI-powered features in various demos, I've demonstrated the ability to integrate cutting-edge AI technologies into practical applications, making complex technology accessible and useful for end users."
+                            "name": "AI Mastery Achievement",
+                            "title": "Production-Ready AI Applications",
+                            "text": "The Mastering AI Course Portfolio demonstrates my ability to build enterprise-grade AI solutions. From natural language SQL generation to multi-model comparisons, these projects showcase practical AI implementation with modern frameworks like LangChain, vector databases, and state-of-the-art LLMs."
                         },
                         "ru": {
-                            "name": "Инновации в ИИ",
-                            "title": "Практическая реализация ИИ",
-                            "text": "Через функции на основе ИИ в различных демо, я продемонстрировал способность интегрировать передовые технологии ИИ в практические приложения, делая сложные технологии доступными для конечных пользователей."
+                            "name": "Достижение мастерства ИИ",
+                            "title": "Приложения ИИ, готовые к продакшену",
+                            "text": "Портфолио курса Mastering AI демонстрирует мою способность создавать корпоративные решения ИИ. От генерации SQL на естественном языке до сравнения нескольких моделей, эти проекты демонстрируют практическую реализацию ИИ с современными фреймворками."
                         },
                         "fr": {
-                            "name": "Innovation IA",
-                            "title": "Implémentation Pratique de l'IA",
-                            "text": "À travers des fonctionnalités alimentées par l'IA dans diverses démos, j'ai démontré la capacité d'intégrer des technologies d'IA de pointe dans des applications pratiques, rendant la technologie complexe accessible aux utilisateurs finaux."
+                            "name": "Réalisation de Maîtrise IA",
+                            "title": "Applications IA Prêtes pour la Production",
+                            "text": "Le portfolio du cours Mastering AI démontre ma capacité à créer des solutions IA de niveau entreprise. De la génération SQL en langage naturel aux comparaisons multi-modèles, ces projets présentent une implémentation IA pratique avec des frameworks modernes."
                         },
                         "ja": {
-                            "name": "AIイノベーション",
-                            "title": "実用的なAI実装",
-                            "text": "さまざまなデモのAI搭載機能を通じて、最先端のAI技術を実用的なアプリケーションに統合し、複雑な技術をエンドユーザーにとってアクセスしやすく有用なものにする能力を実証しました."
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "component": "ArticleInfoList",
-            "locales": {
-                "en": {
-                    "title": "Coming {{Soon}}"
-                },
-                "ru": {
-                    "title": "{{Скоро}} появится"
-                },
-                "fr": {
-                    "title": "À {{Venir}}"
-                },
-                "ja": {
-                    "title": "{{近日}}公開"
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "desc"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-newspaper",
-                    "faIconColors": {
-                        "bg": "#DC2626",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "NewsPerspective",
-                            "text": "AI-powered news analysis tool that combats misinformation by analyzing articles and generating accurate headlines based on actual content. Built with Azure Cognitive Services and OpenAI."
-                        },
-                        "ru": {
-                            "title": "NewsPerspective",
-                            "text": "Инструмент анализа новостей на основе ИИ, который борется с дезинформацией, анализируя статьи и генерируя точные заголовки на основе фактического содержания. Создан с Azure Cognitive Services и OpenAI."
-                        },
-                        "fr": {
-                            "title": "NewsPerspective",
-                            "text": "Outil d'analyse de nouvelles alimenté par l'IA qui combat la désinformation en analysant les articles et en générant des titres précis basés sur le contenu réel. Construit avec Azure Cognitive Services et OpenAI."
-                        },
-                        "ja": {
-                            "title": "NewsPerspective",
-                            "text": "記事を分析し、実際のコンテンツに基づいて正確な見出しを生成することで誤情報と戦うAI搭載のニュース分析ツール。Azure Cognitive ServicesとOpenAIで構築。"
+                            "name": "AI習得の成果",
+                            "title": "本番対応のAIアプリケーション",
+                            "text": "Mastering AIコースポートフォリオは、エンタープライズグレードのAIソリューションを構築する私の能力を示しています。自然言語SQL生成から複数モデルの比較まで、これらのプロジェクトは最新のフレームワークを使用した実用的なAI実装を示しています。"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-brain",
-                    "faIconColors": {
-                        "bg": "#7C3AED",
-                        "fill": "#FFFFFF"
-                    },
+                    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
                     "locales": {
                         "en": {
-                            "title": "AI Consulting Toolkit",
-                            "text": "Comprehensive suite of AI tools for business automation and optimization. Features custom model training, prompt engineering interfaces, and integration capabilities with popular business platforms."
+                            "name": "Full-Stack Excellence",
+                            "title": "End-to-End Development",
+                            "text": "Projects like the Dotnet React Calculator and LFC News App showcase my full-stack capabilities. From backend APIs to responsive frontends, I deliver complete solutions with attention to performance, user experience, and maintainable code architecture."
                         },
                         "ru": {
-                            "title": "Набор инструментов для ИИ-консалтинга",
-                            "text": "Комплексный набор инструментов ИИ для автоматизации и оптимизации бизнеса. Включает обучение пользовательских моделей, интерфейсы для инженерии промптов и возможности интеграции с популярными бизнес-платформами."
+                            "name": "Превосходство полного стека",
+                            "title": "Разработка от начала до конца",
+                            "text": "Проекты, такие как Dotnet React Calculator и LFC News App, демонстрируют мои возможности полного стека. От backend API до адаптивных фронтендов, я предоставляю полные решения с вниманием к производительности и пользовательскому опыту."
                         },
                         "fr": {
-                            "title": "Boîte à Outils de Conseil IA",
-                            "text": "Suite complète d'outils IA pour l'automatisation et l'optimisation des entreprises. Comprend la formation de modèles personnalisés, des interfaces d'ingénierie de prompts et des capacités d'intégration avec des plateformes d'entreprise populaires."
+                            "name": "Excellence Full-Stack",
+                            "title": "Développement de Bout en Bout",
+                            "text": "Des projets comme Dotnet React Calculator et LFC News App mettent en valeur mes capacités full-stack. Des API backend aux frontends réactifs, je livre des solutions complètes avec une attention à la performance et à l'expérience utilisateur."
                         },
                         "ja": {
-                            "title": "AIコンサルティングツールキット",
-                            "text": "ビジネスの自動化と最適化のためのAIツールの包括的なスイート。カスタムモデルトレーニング、プロンプトエンジニアリングインターフェース、人気のビジネスプラットフォームとの統合機能を備えています。"
+                            "name": "フルスタックの卓越性",
+                            "title": "エンドツーエンド開発",
+                            "text": "Dotnet React CalculatorやLFC News Appのようなプロジェクトは、私のフルスタック能力を示しています。バックエンドAPIからレスポンシブフロントエンドまで、パフォーマンスとユーザーエクスペリエンスに注意を払いながら完全なソリューションを提供します。"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-solid fa-gamepad",
-                    "faIconColors": {
-                        "bg": "#00FF41",
-                        "fill": "#000000"
-                    },
+                    "img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
                     "locales": {
                         "en": {
-                            "title": "Matrix Arcade Expansion",
-                            "text": "New games coming to the Matrix Arcade including multiplayer capabilities, leaderboards, and achievement systems. Planning to add puzzle games, racing games, and AI-powered opponents."
+                            "name": "Creative Innovation",
+                            "title": "Unique User Experiences",
+                            "text": "The Matrix Arcade and Big Bang Gallery highlight my creative side, combining technical skills with artistic vision. These projects demonstrate that I can build not just functional applications, but engaging, memorable experiences that users love."
                         },
                         "ru": {
-                            "title": "Расширение Matrix Arcade",
-                            "text": "Новые игры появятся в Matrix Arcade, включая многопользовательские возможности, таблицы лидеров и системы достижений. Планируется добавить головоломки, гоночные игры и противников на основе ИИ."
+                            "name": "Творческие инновации",
+                            "title": "Уникальный пользовательский опыт",
+                            "text": "Matrix Arcade и Big Bang Gallery подчеркивают мою творческую сторону, сочетая технические навыки с художественным видением. Эти проекты демонстрируют, что я могу создавать не только функциональные приложения, но и увлекательный опыт."
                         },
                         "fr": {
-                            "title": "Expansion Matrix Arcade",
-                            "text": "De nouveaux jeux arrivent dans Matrix Arcade, y compris des capacités multijoueurs, des classements et des systèmes de réalisations. Prévoit d'ajouter des jeux de puzzle, des jeux de course et des adversaires alimentés par l'IA."
+                            "name": "Innovation Créative",
+                            "title": "Expériences Utilisateur Uniques",
+                            "text": "Matrix Arcade et Big Bang Gallery mettent en valeur mon côté créatif, combinant compétences techniques et vision artistique. Ces projets démontrent que je peux créer non seulement des applications fonctionnelles, mais des expériences engageantes."
                         },
                         "ja": {
-                            "title": "Matrix Arcadeの拡張",
-                            "text": "マルチプレイヤー機能、リーダーボード、アチーブメントシステムを含むMatrix Arcadeに新しいゲームが登場。パズルゲーム、レーシングゲーム、AI搭載の対戦相手を追加する予定。"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-solid fa-chart-line",
-                    "faIconColors": {
-                        "bg": "#0EA5E9",
-                        "fill": "#FFFFFF"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Advanced ML Dashboard",
-                            "text": "Interactive dashboard for visualizing machine learning models, training progress, and predictions. Will feature real-time data processing, model comparison tools, and export capabilities for reports."
-                        },
-                        "ru": {
-                            "title": "Продвинутая панель ML",
-                            "text": "Интерактивная панель для визуализации моделей машинного обучения, прогресса обучения и прогнозов. Будет включать обработку данных в реальном времени, инструменты сравнения моделей и возможности экспорта отчетов."
-                        },
-                        "fr": {
-                            "title": "Tableau de Bord ML Avancé",
-                            "text": "Tableau de bord interactif pour visualiser les modèles d'apprentissage automatique, les progrès de formation et les prédictions. Comprendra le traitement de données en temps réel, des outils de comparaison de modèles et des capacités d'exportation de rapports."
-                        },
-                        "ja": {
-                            "title": "高度なMLダッシュボード",
-                            "text": "機械学習モデル、トレーニングの進行状況、予測を視覚化するためのインタラクティブなダッシュボード。リアルタイムデータ処理、モデル比較ツール、レポートのエクスポート機能を備える予定。"
+                            "name": "創造的イノベーション",
+                            "title": "ユニークなユーザー体験",
+                            "text": "Matrix ArcadeとBig Bang Galleryは私の創造的な側面を強調し、技術的スキルと芸術的ビジョンを組み合わせています。これらのプロジェクトは、機能的なアプリケーションだけでなく、魅力的で記憶に残る体験を構築できることを示しています。"
                         }
                     }
                 }

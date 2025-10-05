@@ -7,10 +7,11 @@
                 "title_long": "**Contact** Me",
                 "title_long_prefix": "Don't hesitate to"
             },
-            "es": {
-                "title": "Contacto",
-                "title_long": "**Contácta**me",
-                "title_long_prefix": "No dudes en"
+            "ru": {
+                "title": "Контакт",
+                "title_short_nav": "Контакт",
+                "title_long": "**Свяжитесь** со мной",
+                "title_long_prefix": "Не стесняйтесь"
             },
             "fr": {
                 "title": "Contact",
@@ -18,10 +19,11 @@
                 "title_long_prefix": "N'hésitez pas à",
                 "title_short_nav": "Contact"
             },
-            "ko": {
-                "title": "연락처",
-                "title_long": "**연락** 주세요",
-                "title_long_prefix": "주저하지 말고"
+            "ja": {
+                "title": "お問い合わせ",
+                "title_short_nav": "お問い合わせ",
+                "title_long": "**お問い合わせ**ください",
+                "title_long_prefix": "お気軽に"
             }
         }
     },
@@ -55,11 +57,13 @@
                     "title": "**메시지를** 보내주세요"
                 },
                 "ru": {
+                    "title": "Отправьте мне **сообщение**",
                     "contact_thank_you_title": "Сообщение успешно отправлено!",
                     "contact_thank_you_body": "Спасибо за обращение! Я получил ваше сообщение и отвечу вам как можно скорее.",
                     "contact_thank_you_footer": "Я отвечу на ваше сообщение по адресу $email"
                 },
                 "ja": {
+                    "title": "**メッセージ**を送る",
                     "contact_thank_you_title": "メッセージが正常に送信されました！",
                     "contact_thank_you_body": "お問い合わせいただきありがとうございます！メッセージを受信いたしましたので、できるだけ早くご返信いたします。",
                     "contact_thank_you_footer": "$email にご返信いたします"
@@ -77,14 +81,14 @@
                 "en": {
                     "title": "Or if you **prefer**..."
                 },
-                "es": {
-                    "title": "O si **prefieres**..."
+                "ru": {
+                    "title": "Или если вы **предпочитаете**..."
                 },
                 "fr": {
                     "title": "Ou si vous **préférez**..."
                 },
-                "ko": {
-                    "title": "또는 **원하시면**..."
+                "ja": {
+                    "title": "または**お好みであれば**..."
                 }
             },
             "items": [
