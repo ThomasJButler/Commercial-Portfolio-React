@@ -309,9 +309,10 @@
                         "fill": "#232F3E"
                     },
                     "locales": {
-                        "en": {
-                            "title": "AWS"
-                        }
+                        "en": {"title": "AWS"},
+                        "ru": {"title": "AWS"},
+                        "fr": {"title": "AWS"},
+                        "ja": {"title": "AWS"}
                     }
                 },
                 {
@@ -322,9 +323,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Vercel"
-                        }
+                        "en": {"title": "Vercel"},
+                        "ru": {"title": "Vercel"},
+                        "fr": {"title": "Vercel"},
+                        "ja": {"title": "Vercel"}
                     }
                 },
                 {
@@ -335,9 +337,10 @@
                         "fill": "#FFFFFF"
                     },
                     "locales": {
-                        "en": {
-                            "title": "Supabase"
-                        }
+                        "en": {"title": "Supabase"},
+                        "ru": {"title": "Supabase"},
+                        "fr": {"title": "Supabase"},
+                        "ja": {"title": "Supabase"}
                     }
                 }
             ]
@@ -352,14 +355,14 @@
                 "en": {
                     "title": "Personal **interests**"
                 },
-                "es": {
-                    "title": "Intereses **personales**"
+                "ru": {
+                    "title": "Личные **интересы**"
                 },
                 "fr": {
                     "title": "Intérêts **personnels** "
                 },
-                "ko": {
-                    "title": "개인 **관심사**"
+                "ja": {
+                    "title": "個人的な**興味**"
                 }
             },
             "items": [
@@ -375,17 +378,17 @@
                             "title": "Playing guitar and creating music",
                             "info": "Exploring different genres and improving my skills."
                         },
-                        "es": {
-                            "title": "Tocar la guitarra",
-                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        "ru": {
+                            "title": "Игра на гитаре и создание музыки",
+                            "info": "Изучаю различные жанры и совершенствую свои навыки."
                         },
                         "fr": {
-                            "title": "Jouer de la guitare",
+                            "title": "Jouer de la guitare et créer de la musique",
                             "info": "Explorer différents genres et améliorer mes compétences."
                         },
-                        "ko": {
-                            "title": "기타 연주",
-                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        "ja": {
+                            "title": "ギター演奏と音楽制作",
+                            "info": "さまざまなジャンルを探求し、スキルを向上させています。"
                         }
                     }
                 },
@@ -401,17 +404,17 @@
                             "title": "AI Image and Model Creation",
                             "info": "Learning to use new and existing AI tools."
                         },
-                        "es": {
-                            "title": "Creación de imágenes y modelos con IA",
-                            "info": "Aprendiendo a usar herramientas de IA nuevas y existentes."
+                        "ru": {
+                            "title": "Создание изображений и моделей с помощью ИИ",
+                            "info": "Изучаю использование новых и существующих инструментов ИИ."
                         },
                         "fr": {
                             "title": "Création d'images et de modèles IA",
                             "info": "Apprendre à utiliser des outils d'IA nouveaux et existants."
                         },
-                        "ko": {
-                            "title": "AI 이미지 및 모델 제작",
-                            "info": "새로운 AI 도구와 기존 AI 도구 사용법 배우기."
+                        "ja": {
+                            "title": "AI画像とモデルの作成",
+                            "info": "新しいAIツールと既存のAIツールの使用方法を学んでいます。"
                         }
                     }
                 },
@@ -427,17 +430,17 @@
                             "title": "Cricket",
                             "info": "Loved to play ever since childhood."
                         },
-                        "es": {
-                            "title": "Cricket",
-                            "info": "Me encantó jugar desde la infancia."
+                        "ru": {
+                            "title": "Крикет",
+                            "info": "Люблю играть с детства."
                         },
                         "fr": {
                             "title": "Cricket",
                             "info": "J'ai adoré jouer depuis l'enfance."
                         },
-                        "ko": {
-                            "title": "크리켓",
-                            "info": "어린 시절부터 즐겨온 운동입니다."
+                        "ja": {
+                            "title": "クリケット",
+                            "info": "子供の頃からプレーするのが好きでした。"
                         }
                     }
                 },
@@ -453,17 +456,17 @@
                             "title": "Skiing",
                             "info": "Enjoying the slopes and the fresh mountain air."
                         },
-                        "es": {
-                            "title": "Esquí",
-                            "info": "Disfrutando de las pistas y el aire fresco de la montaña."
+                        "ru": {
+                            "title": "Горные лыжи",
+                            "info": "Наслаждаюсь склонами и свежим горным воздухом."
                         },
                         "fr": {
                             "title": "Ski",
                             "info": "Profiter des pistes et de l'air frais de la montagne."
                         },
-                        "ko": {
-                            "title": "스키",
-                            "info": "슬로프와 신선한 산악 공기를 즐기기."
+                        "ja": {
+                            "title": "スキー",
+                            "info": "ゲレンデと新鮮な山の空気を楽しんでいます。"
                         }
                     }
                 },
@@ -479,17 +482,17 @@
                             "title": "Casual Gaming",
                             "info": "Playing the odd game here and there, to relax and unwind."
                         },
-                        "es": {
-                            "title": "Juegos casuales",
-                            "info": "Jugando algún juego de vez en cuando, para relajarme y desconectar."
+                        "ru": {
+                            "title": "Казуальные игры",
+                            "info": "Играю время от времени, чтобы расслабиться и отдохнуть."
                         },
                         "fr": {
                             "title": "Jeux occasionnels",
                             "info": "Jouer à quelques jeux ici et là, pour se détendre et décompresser."
                         },
-                        "ko": {
-                            "title": "캐주얼 게임",
-                            "info": "긴장을 풀고 휴식을 취하기 위해 가끔 게임을 즐깁니다."
+                        "ja": {
+                            "title": "カジュアルゲーム",
+                            "info": "リラックスして気分転換するために、たまにゲームをプレイします。"
                         }
                     }
                 },
@@ -505,17 +508,17 @@
                             "title": "Hiking and Camping",
                             "info": "Exploring the great outdoors and immersing in nature."
                         },
-                        "es": {
-                            "title": "Senderismo y Camping",
-                            "info": "Explorando la naturaleza e inmersos en ella."
+                        "ru": {
+                            "title": "Походы и кемпинг",
+                            "info": "Исследую природу и погружаюсь в её красоту."
                         },
                         "fr": {
                             "title": "Randonnée et Camping",
                             "info": "Explorer le plein air et s'immerger dans la nature."
                         },
-                        "ko": {
-                            "title": "등산과 캠핑",
-                            "info": "아웃도어 활동과 자연을 탐험하기."
+                        "ja": {
+                            "title": "ハイキングとキャンプ",
+                            "info": "アウトドアを探索し、自然に浸っています。"
                         }
                     }
                 }
