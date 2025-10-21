@@ -1,5 +1,5 @@
 
-## 📊 Repository Statistics
+## Repository Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -13,7 +13,7 @@
 | **Total Comments** | 2,476 |
 | **Total Blank Lines** | 2,806 |
 
-## 🔧 Technology Breakdown
+## Technology Breakdown
 
 | Technology | Count | Lines of Code |
 |------------|-------|---------------|
@@ -24,14 +24,14 @@
 | **CSS Files** | 1 | 5 |
 | **Markdown Documentation** | 25 | N/A |
 
-## 📦 Dependencies
+## Dependencies
 
 | Type | Count |
 |------|-------|
 | **Production Dependencies** | 9 |
 | **Development Dependencies** | 11 |
 
-## 🔍 Code Analysis
+## Code Analysis
 
 | Pattern | Occurrences |
 |---------|-------------|
@@ -40,13 +40,13 @@
 | **TODO Comments** | 2 |
 | **FIXME Comments** | 0 |
 
-## 🏆 Largest Files
+## Largest Files
 
 1. `package-lock.json` - 5,457 lines
 2. `public/data/sections/updates.json` - 1,553 lines
 3. `public/data/sections/demo.json` - 1,210 lines
 
-## 📈 Language Distribution
+## Language Distribution
 
 ```mermaid
 pie title Language Distribution by Lines of Code
@@ -59,7 +59,7 @@ pie title Language Distribution by Lines of Code
     "SVG" : 6
 ```
 
-## 🎯 Key Insights
+## Key Insights
 
 - **Data-Driven Portfolio**: With 13,067 lines of JSON (52.7% of codebase), this is a highly data-driven portfolio application
 - **React-Heavy**: 97 JSX components totaling 6,424 lines show extensive React component architecture
