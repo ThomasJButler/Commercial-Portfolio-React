@@ -476,7 +476,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io/ThomasJButler",
+                                "href": "https://thomasjbutler.github.io",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             }
@@ -1309,7 +1309,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://thomasjbutler.github.io/ThomasJButler",
+                                "href": "https://thomasjbutler.github.io",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-arrow-up-right-from-square"
                             },
